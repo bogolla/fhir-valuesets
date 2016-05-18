@@ -77,3 +77,8 @@ class NameUse(ValuesetBase):
 class QuantityComparator(ValuesetBase):
     """quantity-comparator"""
     pass
+
+
+class AgeUnits(ValuesetBase):
+    """quantity-comparator"""
+    pass

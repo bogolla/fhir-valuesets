@@ -13,7 +13,8 @@ from .models import (
     AddressType,
     SignatureType,
     NameUse,
-    QuantityComparator
+    QuantityComparator,
+    AgeUnits
 )
 
 from .serializers import (
@@ -28,7 +29,8 @@ from .serializers import (
     AddressTypeSerializer,
     SignatureTypeSerializer,
     NameUseSerializer,
-    QuantityComparatorSerializer
+    QuantityComparatorSerializer,
+    AgeUnitsSerializer
 
 )
 
@@ -103,3 +105,9 @@ class QuantityComparatorViewSet(viewsets.ModelViewSet):
     serializer_class = QuantityComparatorSerializer
     queryset = QuantityComparator.objects.all()
     filter_fields = QuantityComparator._meta.get_all_field_names()
+
+
+class AgeUnitsViewSet(viewsets.ModelViewSet):
+    serializer_class = AgeUnitsSerializer
+    queryset = AgeUnits.objects.all()
+    filter_fields = AgeUnits._meta.get_all_field_names()

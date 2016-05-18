@@ -12,7 +12,8 @@ from .models import (
     AddressType,
     SignatureType,
     NameUse,
-    QuantityComparator
+    QuantityComparator,
+    AgeUnits
 )
 
 
@@ -98,3 +99,10 @@ class QuantityComparatorSerializer(serializers.ModelSerializer):
     class Meta:
         """meta class"""
         model = QuantityComparator
+
+
+class AgeUnitsSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        """meta class"""
+        model = AgeUnits

@@ -12,7 +12,8 @@ from .views import (
     AddressTypeViewSet,
     SignatureTypeViewSet,
     NameUseViewSet,
-    QuantityComparatorViewSet
+    QuantityComparatorViewSet,
+    AgeUnitsViewSet
 )
 
 router = routers.SimpleRouter()
@@ -28,5 +29,6 @@ router.register(r'address_type', AddressTypeViewSet)
 router.register(r'signature_type', SignatureTypeViewSet)
 router.register(r'name_use', NameUseViewSet)
 router.register(r'quantity_comparator', QuantityComparatorViewSet)
+router.register(r'age_unit', AgeUnitsViewSet)
 
 urlpatterns = router.urls
