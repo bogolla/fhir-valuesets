@@ -14,7 +14,8 @@ from .models import (
     SignatureType,
     NameUse,
     QuantityComparator,
-    AgeUnits
+    AgeUnits,
+    NarrativeStatus
 )
 
 from .serializers import (
@@ -30,7 +31,8 @@ from .serializers import (
     SignatureTypeSerializer,
     NameUseSerializer,
     QuantityComparatorSerializer,
-    AgeUnitsSerializer
+    AgeUnitsSerializer,
+    NarrativeStatusSerializer
 
 )
 
@@ -111,3 +113,9 @@ class AgeUnitsViewSet(viewsets.ModelViewSet):
     serializer_class = AgeUnitsSerializer
     queryset = AgeUnits.objects.all()
     filter_fields = AgeUnits._meta.get_all_field_names()
+
+
+class NarrativeStatusViewSet(viewsets.ModelViewSet):
+    serializer_class = NarrativeStatusSerializer
+    queryset = NarrativeStatus.objects.all()
+    filter_fields = NarrativeStatus._meta.get_all_field_names()

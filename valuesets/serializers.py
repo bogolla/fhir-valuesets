@@ -13,7 +13,8 @@ from .models import (
     SignatureType,
     NameUse,
     QuantityComparator,
-    AgeUnits
+    AgeUnits,
+    NarrativeStatus
 )
 
 
@@ -106,3 +107,9 @@ class AgeUnitsSerializer(serializers.ModelSerializer):
     class Meta:
         """meta class"""
         model = AgeUnits
+
+class NarrativeStatusSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        """meta class"""
+        model = NarrativeStatus

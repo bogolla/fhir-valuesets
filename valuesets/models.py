@@ -80,5 +80,10 @@ class QuantityComparator(ValuesetBase):
 
 
 class AgeUnits(ValuesetBase):
-    """quantity-comparator"""
+    """age-units"""
+    pass
+
+
+class NarrativeStatus(ValuesetBase):
+    """narrative-status."""
     pass
