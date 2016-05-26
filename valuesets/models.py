@@ -87,3 +87,13 @@ class AgeUnits(ValuesetBase):
 class NarrativeStatus(ValuesetBase):
     """narrative-status."""
     pass
+
+
+class OrganizationType(ValuesetBase):
+    """organization-type"""
+    pass
+
+
+class ContactentityType(ValuesetBase):
+    """contactentity-type"""
+    pass

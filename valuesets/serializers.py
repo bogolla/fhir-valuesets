@@ -14,7 +14,9 @@ from .models import (
     NameUse,
     QuantityComparator,
     AgeUnits,
-    NarrativeStatus
+    NarrativeStatus,
+    OrganizationType,
+    ContactentityType
 )
 
 
@@ -108,8 +110,23 @@ class AgeUnitsSerializer(serializers.ModelSerializer):
         """meta class"""
         model = AgeUnits
 
+
 class NarrativeStatusSerializer(serializers.ModelSerializer):
 
     class Meta:
         """meta class"""
         model = NarrativeStatus
+
+
+class OrganizationTypeSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        """meta class"""
+        model = OrganizationType
+
+
+class ContactentityTypeSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        """meta class"""
+        model = ContactentityType

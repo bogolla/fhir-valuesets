@@ -15,7 +15,9 @@ from .models import (
     NameUse,
     QuantityComparator,
     AgeUnits,
-    NarrativeStatus
+    NarrativeStatus,
+    OrganizationType,
+    ContactentityType
 )
 
 from .serializers import (
@@ -32,8 +34,9 @@ from .serializers import (
     NameUseSerializer,
     QuantityComparatorSerializer,
     AgeUnitsSerializer,
-    NarrativeStatusSerializer
-
+    NarrativeStatusSerializer,
+    OrganizationTypeSerializer,
+    ContactentityTypeSerializer
 )
 
 
@@ -119,3 +122,15 @@ class NarrativeStatusViewSet(viewsets.ModelViewSet):
     serializer_class = NarrativeStatusSerializer
     queryset = NarrativeStatus.objects.all()
     filter_fields = NarrativeStatus._meta.get_all_field_names()
+
+
+class OrganizationTypeViewSet(viewsets.ModelViewSet):
+    serializer_class = OrganizationTypeSerializer
+    queryset = OrganizationType.objects.all()
+    filter_fields = OrganizationType._meta.get_all_field_names()
+
+
+class ContactentityTypeViewSet(viewsets.ModelViewSet):
+    serializer_class = ContactentityTypeSerializer
+    queryset = ContactentityType.objects.all()
+    filter_fields = ContactentityType._meta.get_all_field_names()
