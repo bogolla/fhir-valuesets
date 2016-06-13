@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.AdministrativeGender",
+        "records": [
+            {
+                "code": "male",
+                "definition": "Male",
+                "display": "Male",
+                "id": "d1042f43-8c3c-4095-a113-f513bb4db970"
+            },
+            {
+                "code": "female",
+                "definition": "Female",
+                "display": "Female",
+                "id": "10fee9a9-3906-40c4-af90-eeaf2bc5a083"
+            },
+            {
+                "code": "other",
+                "definition": "Other",
+                "display": "Other",
+                "id": "ce248033-2d23-41cf-bd6e-872bcfba023e"
+            },
+            {
+                "code": "unknown",
+                "definition": "Unknown",
+                "display": "Unknown",
+                "id": "83f162d3-2fd8-4c94-bff9-ee60e5b1e3d0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

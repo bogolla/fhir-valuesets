@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Contextcontrol",
+        "records": [
+            {
+                "code": "_ContextControlAdditive",
+                "definition": "The association adds to the existing context associated with the Act.  Both this association and any associations propagated from ancestor Acts are interpreted as being related to this Act.",
+                "display": "ContextControlAdditive",
+                "id": "c6f0617e-9300-49a5-8f6e-8d73efd4ee89"
+            },
+            {
+                "code": "_ContextControlNonPropagating",
+                "definition": "The association applies only to the current Act and will not propagate to any child Acts that are related via a conducting ActRelationship (refer to contextConductionInd).",
+                "display": "ContextControlNonPropagating",
+                "id": "73d2778d-4f78-428a-80eb-eeeeb70d1afd"
+            },
+            {
+                "code": "_ContextControlOverriding",
+                "definition": "The association adds to the existing context associated with the Act, but replaces associations propagated from ancestor Acts whose typeCodes are the same or more specific.",
+                "display": "ContextControlOverriding",
+                "id": "92218525-1bf6-4fad-bdb4-d19874fe17a5"
+            },
+            {
+                "code": "_ContextControlPropagating",
+                "definition": "The association propagates to any child Acts that are related via a conducting ActRelationship (refer to contextConductionInd).",
+                "display": "ContextControlPropagating",
+                "id": "82c27831-28a5-47c5-858d-ae12c5e51bf2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

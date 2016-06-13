@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Paymentterms",
+        "records": [
+            {
+                "code": "COD",
+                "definition": "Payment in full for products and/or services is required as soon as the service is performed or goods delivered.",
+                "display": "Cash on Delivery",
+                "id": "f3227a80-445c-4f5d-962b-4006b5b20e4c"
+            },
+            {
+                "code": "N30",
+                "definition": "Payment in full for products and/or services is required 30 days from the time the service is performed or goods delivered.",
+                "display": "Net 30 days",
+                "id": "aef9f267-e51b-4180-8a82-1d0a0d47703e"
+            },
+            {
+                "code": "N60",
+                "definition": "Payment in full for products and/or services is required 60 days from the time the service is performed or goods delivered.",
+                "display": "Net 60 days",
+                "id": "c88fadee-1a75-469a-b1bb-6442481c5dc4"
+            },
+            {
+                "code": "N90",
+                "definition": "Payment in full for products and/or services is required 90 days from the time the service is performed or goods delivered.",
+                "display": "Net 90 days",
+                "id": "a05d0933-2f95-4a8c-8c4b-802f1b13294e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

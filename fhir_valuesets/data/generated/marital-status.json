@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.MaritalStatus",
+        "records": [
+            {
+                "code": "U",
+                "definition": "The person is not presently married. The marital history is not known or stated.",
+                "display": "Unmarried",
+                "id": "6cacfd50-cd53-42bc-bc7b-1dbb7baada26"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.IdentifierType",
+        "records": [
+            {
+                "code": "UDI",
+                "definition": "A identifier assigned to a device using the Universal Device Identifier framework as defined by FDA (http://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/UniqueDeviceIdentification/).",
+                "display": "Universal Device Identifier",
+                "id": "9250a3c2-50ab-445c-9d80-02b8f368b570"
+            },
+            {
+                "code": "SNO",
+                "definition": "An identifier affixed to an item by the manufacturer when it is first made, where each item has a different identifier.",
+                "display": "Serial Number",
+                "id": "e95b5295-7465-4c7c-9af8-051cff6d92f6"
+            },
+            {
+                "code": "SB",
+                "definition": "An identifier issued by a governmental organization to an individual for the purpose of the receipt of social services and benefits.",
+                "display": "Social Beneficiary Identifier",
+                "id": "2caf6a9a-a9ca-4f8f-b568-5b00f6d77577"
+            },
+            {
+                "code": "PLAC",
+                "definition": "The identifier associated with the person or service that requests or places an order.",
+                "display": "Placer Identifier",
+                "id": "f93fee94-de8c-4985-ad6a-4f5cd26d704b"
+            },
+            {
+                "code": "FILL",
+                "definition": "The Identifier associated with the person, or service, who produces the observations or fulfills the order requested by the requestor.",
+                "display": "Filler Identifier",
+                "id": "8672c361-09dd-4a27-8fd7-b87249584653"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

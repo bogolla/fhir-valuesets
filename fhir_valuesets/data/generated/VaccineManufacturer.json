@@ -1,0 +1,251 @@
+[
+    {
+        "model": "valuesets.Vaccinemanufacturer",
+        "records": [
+            {
+                "code": "AB",
+                "definition": "Abbott Laboratories (includes Ross Products Division)",
+                "display": "Abbott Laboratories (includes Ross Products Division)",
+                "id": "edb6d56f-cee1-45c2-a341-ba1f408e4517"
+            },
+            {
+                "code": "AD",
+                "definition": "Adams Laboratories",
+                "display": "Adams Laboratories",
+                "id": "6e025cdd-b4fd-4bea-ab84-9b99e484fce0"
+            },
+            {
+                "code": "ALP",
+                "definition": "Alpha Therapeutic Corporation",
+                "display": "Alpha Therapeutic Corporation",
+                "id": "2e501777-ace8-4f2c-ba99-777fd385fff7"
+            },
+            {
+                "code": "AR",
+                "definition": "Armour [Inactive-use CEN]",
+                "display": "Armour [Inactive - use CEN]",
+                "id": "29a0e5f3-35c5-4909-8ae6-2b7136b61bf0"
+            },
+            {
+                "code": "AVI",
+                "definition": "Aviron",
+                "display": "Aviron",
+                "id": "06a28329-445f-4652-96d3-79d458f5e157"
+            },
+            {
+                "code": "BA",
+                "definition": "Baxter Healthcare Corporation",
+                "display": "Baxter Healthcare Corporation",
+                "id": "97f9f175-a70b-4bce-a24a-1c38076b7ec7"
+            },
+            {
+                "code": "BAY",
+                "definition": "Bayer Corporation (includes Miles, Inc. and Cutter Laboratories)",
+                "display": "Bayer Corporation (includes Miles, Inc. and Cutter Laboratories)",
+                "id": "6f9bbb12-b874-4e0c-8a5f-3c42f2b7cd91"
+            },
+            {
+                "code": "BP",
+                "definition": "Berna Products [Inactive-use BPC]",
+                "display": "Berna Products [Inactive - use BPC]",
+                "id": "d0963704-d4f0-49bc-b262-6293a7241853"
+            },
+            {
+                "code": "BPC",
+                "definition": "Berna Products Corporation (includes Swiss Serum and Vaccine Institute Berne)",
+                "display": "Berna Products Corporation (includes Swiss Serum and Vaccine Institute Berne)",
+                "id": "897bdd6e-60a8-402d-a84b-9c6a30205fa4"
+            },
+            {
+                "code": "CEN",
+                "definition": "Centeon L.L.C. (includes Armour Pharmaceutical Company)",
+                "display": "Centeon L.L.C. (includes Armour Pharmaceutical Company)",
+                "id": "f3dc3543-8293-4328-8564-cd593178f37e"
+            },
+            {
+                "code": "CHI",
+                "definition": "Chiron Corporation",
+                "display": "Chiron Corporation",
+                "id": "99b3dbf0-b648-4c0f-8685-b0379371452f"
+            },
+            {
+                "code": "CON",
+                "definition": "Connaught [Inactive-use PMC]",
+                "display": "Connaught [Inactive - use PMC]",
+                "id": "a41cd7e5-8d4e-4607-9478-58b621d3bf7d"
+            },
+            {
+                "code": "EVN",
+                "definition": "Evans Medical Limited (an affiliate of Medeva Pharmaceuticals, Inc.)",
+                "display": "Evans Medical Limited (an affiliate of Medeva Pharmaceuticals, Inc.)",
+                "id": "bc57cc0b-bd35-4770-95ed-42e1248d2976"
+            },
+            {
+                "code": "GRE",
+                "definition": "Greer Laboratories, Inc.",
+                "display": "Greer Laboratories, Inc.",
+                "id": "df133973-d8ff-404d-8ad9-035c523e41c1"
+            },
+            {
+                "code": "IAG",
+                "definition": "Immuno International AG",
+                "display": "Immuno International AG",
+                "id": "a939c3c3-da0c-4c96-8934-0bb740d6b080"
+            },
+            {
+                "code": "IM",
+                "definition": "Merieux [Inactive-use PMC]",
+                "display": "Merieux [Inactive - use PMC]",
+                "id": "3da86960-817f-4ce1-8cb5-e98eb58baa25"
+            },
+            {
+                "code": "IUS",
+                "definition": "Immuno-U.S., Inc.",
+                "display": "Immuno-U.S., Inc.",
+                "id": "af4cddd3-6ddc-45fc-8f8d-5620a1526115"
+            },
+            {
+                "code": "JPN",
+                "definition": "The Research Foundation for Microbial Diseases of Osaka University (BIKEN)",
+                "display": "The Research Foundation for Microbial Diseases of Osaka University (BIKEN)",
+                "id": "064c2fd0-5c5c-4b50-8d53-90b2bac7aaf4"
+            },
+            {
+                "code": "KGC",
+                "definition": "Korea Green Cross Corporation",
+                "display": "Korea Green Cross Corporation",
+                "id": "27c60ebd-9cdd-43a1-8f9b-6398d7adb271"
+            },
+            {
+                "code": "LED",
+                "definition": "Lederle [Inactive-use WAL]",
+                "display": "Lederle [Inactive - use WAL]",
+                "id": "56eedac3-c28c-4687-91de-926b36409846"
+            },
+            {
+                "code": "MA",
+                "definition": "Massachusetts Public Health Biologic Laboratories",
+                "display": "Massachusetts Public Health Biologic Laboratories",
+                "id": "c18250ae-14bf-4699-b7cf-da35ee1b1837"
+            },
+            {
+                "code": "MED",
+                "definition": "MedImmune, Inc.",
+                "display": "MedImmune, Inc.",
+                "id": "0320ea31-991f-4b4b-8fb2-3f992f765a93"
+            },
+            {
+                "code": "MIL",
+                "definition": "Miles [Inactive-use BAY]",
+                "display": "Miles [Inactive - use BAY]",
+                "id": "2cacbfaa-22af-4b72-bf21-9a45b9d7d5f9"
+            },
+            {
+                "code": "MIP",
+                "definition": "Bioport Corporation (formerly Michigan Biologic Products Institute)",
+                "display": "Bioport Corporation (formerly Michigan Biologic Products Institute)",
+                "id": "a98ca164-7f0f-493c-955f-da1efadbaf8c"
+            },
+            {
+                "code": "MSD",
+                "definition": "Merck & Co., Inc.",
+                "display": "Merck and Co., Inc.",
+                "id": "ccdb8a69-517e-46bb-8373-40db1f7b398c"
+            },
+            {
+                "code": "NAB",
+                "definition": "NABI (formerly North American Biologicals, Inc.)",
+                "display": "NABI (formerly North American Biologicals, Inc.)",
+                "id": "e69ca48b-81f3-4aab-a71b-6b09ccc9c89c"
+            },
+            {
+                "code": "NAV",
+                "definition": "North American Vaccine, Inc.",
+                "display": "North American Vaccine, Inc.",
+                "id": "ef7fc55d-8511-408d-9078-195b393b461e"
+            },
+            {
+                "code": "NOV",
+                "definition": "Novartis Pharmaceutical Corporation (includes Ciba-Geigy Limited and Sandoz Limited)",
+                "display": "Novartis Pharmaceutical Corporation (includes Ciba-Geigy Limited and Sandoz Limited)",
+                "id": "cf9843a3-4a81-4ef8-a621-3ffc3afb960d"
+            },
+            {
+                "code": "NYB",
+                "definition": "New York Blood Center",
+                "display": "New York Blood Center",
+                "id": "f8418f51-cfeb-4ab3-b685-540437c9cd30"
+            },
+            {
+                "code": "ORT",
+                "definition": "Ortho Diagnostic Systems, Inc.",
+                "display": "Ortho Diagnostic Systems, Inc.",
+                "id": "9366ba27-5abe-497f-9207-a9e16df5ff05"
+            },
+            {
+                "code": "OTC",
+                "definition": "Organon Teknika Corporation",
+                "display": "Organon Teknika Corporation",
+                "id": "4a313eaa-5fd3-4cb9-aa52-59424ec343e0"
+            },
+            {
+                "code": "PD",
+                "definition": "Parkedale Pharmaceuticals (formerly Parke-Davis)",
+                "display": "Parkedale Pharmaceuticals (formerly Parke-Davis)",
+                "id": "daa6ead9-74c9-47ed-8ea9-3558a9389e3f"
+            },
+            {
+                "code": "PMC",
+                "definition": "Aventis Pasteur Inc. (formerly Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux)",
+                "display": "Aventis Pasteur Inc. (formerly Pasteur Merieux Connaught; includes Connaught Laboratories and Pasteur Merieux)",
+                "id": "5b003686-9052-442f-b99e-cfcbc9c7acc8"
+            },
+            {
+                "code": "PRX",
+                "definition": "Praxis Biologics [Inactive-use WAL]",
+                "display": "Praxis Biologics [Inactive - use WAL]",
+                "id": "201d1efc-5246-4a55-a93c-4d403c9b1102"
+            },
+            {
+                "code": "SCL",
+                "definition": "Sclavo, Inc.",
+                "display": "Sclavo, Inc.",
+                "id": "096b6bea-78e0-4f45-9e4e-4828d9677141"
+            },
+            {
+                "code": "SI",
+                "definition": "Swiss Serum and Vaccine Inst. [Inactive-use BPC]",
+                "display": "Swiss Serum and Vaccine Inst. [Inactive - use BPC]",
+                "id": "e0ef4042-789f-4e35-9c15-7e2024c6ee3d"
+            },
+            {
+                "code": "SKB",
+                "definition": "SmithKline Beecham",
+                "display": "SmithKline Beecham",
+                "id": "e8286580-1578-4ccc-8d79-34cdc7fe8d16"
+            },
+            {
+                "code": "USA",
+                "definition": "United States Army Medical Research and Materiel Command",
+                "display": "United States Army Medical Research and Materiel Command",
+                "id": "a7e8676f-d1fd-47c8-9884-d2e99e687264"
+            },
+            {
+                "code": "WA",
+                "definition": "Wyeth-Ayerst [Inactive-use WAL]",
+                "display": "Wyeth-Ayerst [Inactive - use WAL]",
+                "id": "d316ff55-0b98-4ff5-885b-223bf395b6bb"
+            },
+            {
+                "code": "WAL",
+                "definition": "Wyeth-Ayerst (includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics)",
+                "display": "Wyeth-Ayerst (includes Wyeth-Lederle Vaccines and Pediatrics, Wyeth Laboratories, Lederle Laboratories, and Praxis Biologics)",
+                "id": "a45ac58c-c956-4f9b-8fda-9449c3ed1cff"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

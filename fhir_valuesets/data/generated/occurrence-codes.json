@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.OccurrenceCodes",
+        "records": [
+            {
+                "code": "1001",
+                "definition": "Occurrance 1001 description.",
+                "display": "Occurrance 1001",
+                "id": "40333f5f-94c0-463c-afe2-1421a4b0f3ed"
+            },
+            {
+                "code": "1002",
+                "definition": "Occurrance 1002 description.",
+                "display": "Occurrance 1002",
+                "id": "03f1f8bc-5373-41c8-b89e-323153b019ec"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

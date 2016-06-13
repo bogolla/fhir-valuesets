@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.RiskProbability",
+        "records": [
+            {
+                "code": "negligible",
+                "definition": "The specified outcome is exceptionally unlikely.",
+                "display": "Negligible likelihood",
+                "id": "b9558225-b294-4e7e-bada-d4329ffbee9a"
+            },
+            {
+                "code": "low",
+                "definition": "The specified outcome is possible but unlikely.",
+                "display": "Low likelihood",
+                "id": "f0310136-95a4-42db-9ed8-13f53a7d9e5f"
+            },
+            {
+                "code": "moderate",
+                "definition": "The specified outcome has a reasonable likelihood of occurrence.",
+                "display": "Moderate likelihood",
+                "id": "566404f1-106c-4e7c-9056-167fc30f5db0"
+            },
+            {
+                "code": "high",
+                "definition": "The specified outcome is more likely to occur than not.",
+                "display": "High likelihood",
+                "id": "eca04108-d3c6-4de5-b0e1-f7ac05cd4473"
+            },
+            {
+                "code": "certain",
+                "definition": "The specified outcome is effectively guaranteed.",
+                "display": "Certain",
+                "id": "8f0f99da-65e9-4c50-9b9d-3ecb59b1ba9d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

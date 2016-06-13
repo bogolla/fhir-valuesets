@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.Educationlevel",
+        "records": [
+            {
+                "code": "ASSOC",
+                "definition": "Associate's or technical degree complete",
+                "display": "Associate's or technical degree complete",
+                "id": "9a949384-f0d1-4fc1-9769-85dd0ab8febd"
+            },
+            {
+                "code": "BD",
+                "definition": "College or baccalaureate degree complete",
+                "display": "College or baccalaureate degree complete",
+                "id": "eee62f85-7a57-4e14-83eb-259c2908b345"
+            },
+            {
+                "code": "ELEM",
+                "definition": "Elementary School",
+                "display": "Elementary School",
+                "id": "e7ebc0e9-11f7-40fe-b70b-93fab8803666"
+            },
+            {
+                "code": "GD",
+                "definition": "Graduate or professional Degree complete",
+                "display": "Graduate or professional Degree complete",
+                "id": "011a57de-77f4-4b92-a632-ae8617224dde"
+            },
+            {
+                "code": "HS",
+                "definition": "High School or secondary school degree complete",
+                "display": "High School or secondary school degree complete",
+                "id": "9e7c12b0-91a5-4bae-829b-a9c071fbb081"
+            },
+            {
+                "code": "PB",
+                "definition": "Some post-baccalaureate education",
+                "display": "Some post-baccalaureate education",
+                "id": "1e0e5e8a-d7fd-4454-9a4b-0f13fa09b046"
+            },
+            {
+                "code": "POSTG",
+                "definition": "Doctoral or post graduate education",
+                "display": "Doctoral or post graduate education",
+                "id": "42154117-a288-4c4e-a088-058434a0f1d1"
+            },
+            {
+                "code": "SCOL",
+                "definition": "Some College education",
+                "display": "Some College education",
+                "id": "3c1e4332-564f-4aa4-9377-ecfbf40d5f18"
+            },
+            {
+                "code": "SEC",
+                "definition": "Some secondary or high school education",
+                "display": "Some secondary or high school education",
+                "id": "be11ae52-e0b1-423d-b6d6-51fc5e7f3b6f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

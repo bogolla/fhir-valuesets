@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.AssertDirectionCodes",
+        "records": [
+            {
+                "code": "response",
+                "definition": "The assertion is evaluated on the response. This is the default value.",
+                "display": "response",
+                "id": "18d79def-d9b6-471d-ade4-b4ca422363df"
+            },
+            {
+                "code": "request",
+                "definition": "The assertion is evaluated on the request.",
+                "display": "request",
+                "id": "bd743a8b-bfcc-4531-9006-a72ae1b2148f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

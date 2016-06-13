@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ItemType",
+        "records": [
+            {
+                "code": "group",
+                "definition": "An item with no direct answer but which has descendant items that are questions",
+                "display": "Group",
+                "id": "216909b0-49dd-4fc5-8b39-e8b7cbc56595"
+            },
+            {
+                "code": "display",
+                "definition": "Text for display that will not capture an answer or have descendants",
+                "display": "Display",
+                "id": "183875cb-f1cb-4aa3-ac6d-cefb48cc715c"
+            },
+            {
+                "code": "question",
+                "definition": "An item that defines a specific answer to be captured (and may have descendant items)",
+                "display": "Question",
+                "id": "209227b4-7291-4518-b13e-1676a5cbe507"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

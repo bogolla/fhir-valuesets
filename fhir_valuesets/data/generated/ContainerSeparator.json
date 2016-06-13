@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Containerseparator",
+        "records": [
+            {
+                "code": "GEL",
+                "definition": "A gelatinous type of separator material.",
+                "display": "Gel",
+                "id": "7a1add96-4d05-42ae-932c-97d9be948a49"
+            },
+            {
+                "code": "NONE",
+                "definition": "No separator material is present in the container.",
+                "display": "None",
+                "id": "ec5ab9d7-bc91-48cb-9a3d-4d5990818526"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

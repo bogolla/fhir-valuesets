@@ -1,0 +1,34 @@
+[
+  {
+    "model": "valuesets.TimingAbbreviation",
+    "unique_fields": [
+        "id"
+    ],
+    "records": [
+      {
+        "id": "efdafc44-cf30-4967-a3e4-91e3767ef643",
+        "code": "QD",
+        "display": "QD",
+        "definition": "Every Day at institution specified times"
+      },
+      {
+        "id": "b864b19b-8f30-4316-8924-12683f685c0d",
+        "code": "QOD",
+        "display": "QOD",
+        "definition": "Every Other Day at institution specified times"
+      },
+      {
+        "id": "0d82359d-ea33-46d7-b4ec-3e41ac9e1575",
+        "code": "Q4H",
+        "display": "Q4H",
+        "definition": "Every 4 hours at institution specified times"
+      },
+      {
+        "id": "f6b89ded-2c04-4c44-ab7a-4a8db88acccc",
+        "code": "Q6H",
+        "display": "Q6H",
+        "definition": "Every 6 Hours  at institution specified times"
+      }
+    ]
+  }
+]

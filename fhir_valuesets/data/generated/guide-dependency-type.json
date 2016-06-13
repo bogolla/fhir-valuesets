@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.GuideDependencyType",
+        "records": [
+            {
+                "code": "reference",
+                "definition": "The guide is referred to by URL.",
+                "display": "Reference",
+                "id": "480f3741-806d-4e43-b922-df4a14cd9849"
+            },
+            {
+                "code": "inclusion",
+                "definition": "The guide is embedded in this guide when published.",
+                "display": "Inclusion",
+                "id": "e16beabd-2b18-4ee4-ad51-0466b0a12e7f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

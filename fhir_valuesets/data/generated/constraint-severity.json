@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ConstraintSeverity",
+        "records": [
+            {
+                "code": "error",
+                "definition": "If the constraint is violated, the resource is not conformant.",
+                "display": "Error",
+                "id": "2c63d431-2fe7-4f1c-8374-679cc49cfe78"
+            },
+            {
+                "code": "warning",
+                "definition": "If the constraint is violated, the resource is conformant, but it is not necessarily following best practice.",
+                "display": "Warning",
+                "id": "8f562681-183e-4d11-ab88-9d6b4c56987b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

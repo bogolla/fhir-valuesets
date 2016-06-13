@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.SearchParamType",
+        "records": [
+            {
+                "code": "number",
+                "definition": "Search parameter SHALL be a number (a whole number, or a decimal).",
+                "display": "Number",
+                "id": "4e0308b1-325e-4298-a231-d0cf5af6dfb2"
+            },
+            {
+                "code": "date",
+                "definition": "Search parameter is on a date/time. The date format is the standard XML format, though other formats may be supported.",
+                "display": "Date/DateTime",
+                "id": "f5edf551-94b2-4236-9220-f9c53c48f2aa"
+            },
+            {
+                "code": "string",
+                "definition": "Search parameter is a simple string, like a name part. Search is case-insensitive and accent-insensitive. May match just the start of a string. String parameters may contain spaces.",
+                "display": "String",
+                "id": "1f200761-5f9a-4495-b362-66c73ebbae68"
+            },
+            {
+                "code": "token",
+                "definition": "Search parameter on a coded element or identifier. May be used to search through the text, displayname, code and code/codesystem (for codes) and label, system and key (for identifier). Its value is either a string or a pair of namespace and value, separated by a \"|\", depending on the modifier used.",
+                "display": "Token",
+                "id": "d1a2a0ff-a879-4ffe-820a-398947c26cbb"
+            },
+            {
+                "code": "reference",
+                "definition": "A reference to another resource.",
+                "display": "Reference",
+                "id": "4f18642d-b278-4e18-9a4b-0550d5f0ecf5"
+            },
+            {
+                "code": "composite",
+                "definition": "A composite search parameter that combines a search on two values together.",
+                "display": "Composite",
+                "id": "524d4b84-b605-43a2-addd-065c8a297c42"
+            },
+            {
+                "code": "quantity",
+                "definition": "A search parameter that searches on a quantity.",
+                "display": "Quantity",
+                "id": "3f547e7d-5f31-4e3d-81a7-7b6934cd2dba"
+            },
+            {
+                "code": "uri",
+                "definition": "A search parameter that searches on a URI (RFC 3986).",
+                "display": "URI",
+                "id": "22051926-a914-4d03-90dd-0cf82ee2e222"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

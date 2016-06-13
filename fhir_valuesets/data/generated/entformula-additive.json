@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.EntformulaAdditive",
+        "records": [
+            {
+                "code": "lipid",
+                "definition": null,
+                "display": "Modular lipid enteral formula component",
+                "id": "80eb2d68-385e-47b1-a040-1ee62471d887"
+            },
+            {
+                "code": "protein",
+                "definition": null,
+                "display": "Modular protein enteral formula component",
+                "id": "608177d4-75b1-482b-a2df-d021275589e5"
+            },
+            {
+                "code": "carbohydrate",
+                "definition": null,
+                "display": "Modular carbohydrate enteral formula component",
+                "id": "75b8cba0-32d6-4dc4-b828-61ad74331d1e"
+            },
+            {
+                "code": "fiber",
+                "definition": null,
+                "display": "Modular fiber enteral formula component",
+                "id": "f59ab952-9be1-4873-97e5-21c739010033"
+            },
+            {
+                "code": "water",
+                "definition": null,
+                "display": "Added water",
+                "id": "7ddaa22e-da2f-4235-b138-1c5324b4410b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

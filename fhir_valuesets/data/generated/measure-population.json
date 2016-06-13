@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.MeasurePopulation",
+        "records": [
+            {
+                "code": "initial-population",
+                "definition": "The initial population for the measure",
+                "display": "Initial Population",
+                "id": "e6504aee-c386-441a-8ea6-e5fc4eb27d7f"
+            },
+            {
+                "code": "numerator",
+                "definition": "The numerator for the measure",
+                "display": "Numerator",
+                "id": "fecf3af2-bf48-42a1-9be9-8d6ff620249c"
+            },
+            {
+                "code": "numerator-exclusion",
+                "definition": "The numerator exclusion for the measure",
+                "display": "Numerator Exclusion",
+                "id": "42369467-647f-447f-9331-10093fdae2c9"
+            },
+            {
+                "code": "denominator",
+                "definition": "The denominator for the measure",
+                "display": "Denominator",
+                "id": "59b3ae77-bef7-4997-9486-dcc6e8c613ce"
+            },
+            {
+                "code": "denominator-exclusion",
+                "definition": "The denominator exclusion for the measure",
+                "display": "Denominator Exclusion",
+                "id": "84779676-f308-411d-94f7-c576561bd845"
+            },
+            {
+                "code": "denominator-exception",
+                "definition": "The denominator exception for the measure",
+                "display": "Denominator Exception",
+                "id": "826f9a5f-6979-44d8-8645-a8bf97256f51"
+            },
+            {
+                "code": "measure-population",
+                "definition": "The measure population for the measure",
+                "display": "Measure Population",
+                "id": "b4668d8f-4e28-476c-80a8-f8877115f4f4"
+            },
+            {
+                "code": "measure-population-exclusion",
+                "definition": "The measure population exclusion for the measure",
+                "display": "Measure Population Exclusion",
+                "id": "02fa4e98-3cba-44b7-9821-f7d3f7c1766b"
+            },
+            {
+                "code": "measure-score",
+                "definition": "The measure score for the measure",
+                "display": "Measure Score",
+                "id": "db3e92d8-fb94-40bb-90d2-d8fb209e93db"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

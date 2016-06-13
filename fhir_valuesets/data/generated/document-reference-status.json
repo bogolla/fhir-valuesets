@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.DocumentReferenceStatus",
+        "records": [
+            {
+                "code": "current",
+                "definition": "This is the current reference for this document.",
+                "display": "Current",
+                "id": "e18bbeb5-f809-4e12-9d07-b3bcef002c48"
+            },
+            {
+                "code": "superseded",
+                "definition": "This reference has been superseded by another reference.",
+                "display": "Superseded",
+                "id": "73074964-25b1-41c4-93ad-ee85b542315a"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "This reference was created in error.",
+                "display": "Entered in Error",
+                "id": "1cfe4a5b-8881-448a-baf6-31ec3a4e6a07"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

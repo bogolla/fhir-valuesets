@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ConditionCategory",
+        "records": [
+            {
+                "code": "complaint",
+                "definition": "The patient considers the condition an issue to be addressed.",
+                "display": "Complaint",
+                "id": "f012038c-69e2-451d-ba6d-272ef090e769"
+            },
+            {
+                "code": "symptom",
+                "definition": "A symptom of a condition (as might be mentioned in a review of systems).",
+                "display": "Symptom",
+                "id": "0372de86-69b4-4432-81d0-909aa499463a"
+            },
+            {
+                "code": "finding",
+                "definition": "An observation made by a healthcare provider.",
+                "display": "Finding",
+                "id": "fe10451c-c477-40c9-aa00-8107568051ee"
+            },
+            {
+                "code": "diagnosis",
+                "definition": "This is a judgment made by a healthcare provider that the patient has a particular disease or condition.",
+                "display": "Diagnosis",
+                "id": "9bf5632a-40b0-40c2-a6f7-f03ee2e163c7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

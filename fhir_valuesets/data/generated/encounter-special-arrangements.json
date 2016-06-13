@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.EncounterSpecialArrangements",
+        "records": [
+            {
+                "code": "wheel",
+                "definition": null,
+                "display": "Wheelchair",
+                "id": "943fd409-5707-44b9-ac49-90e95ffb72b8"
+            },
+            {
+                "code": "stret",
+                "definition": null,
+                "display": "Stretcher",
+                "id": "8b1722ad-9a44-469d-ac1c-991d202db21d"
+            },
+            {
+                "code": "int",
+                "definition": null,
+                "display": "Interpreter",
+                "id": "ddfce260-301d-4c38-9371-383348362e1f"
+            },
+            {
+                "code": "att",
+                "definition": null,
+                "display": "Attendant",
+                "id": "cae2c222-77be-4b95-8861-3223565288d0"
+            },
+            {
+                "code": "dog",
+                "definition": null,
+                "display": "Guide dog",
+                "id": "960798c0-4472-47d2-9c40-d859a8988a4e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

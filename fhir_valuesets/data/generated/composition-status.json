@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.CompositionStatus",
+        "records": [
+            {
+                "code": "preliminary",
+                "definition": "This is a preliminary composition or document (also known as initial or interim). The content may be incomplete or unverified.",
+                "display": "Preliminary",
+                "id": "124aff4c-88e4-4e96-a902-045edf948195"
+            },
+            {
+                "code": "final",
+                "definition": "This version of the composition is complete and verified by an appropriate person and no further work is planned. Any subsequent updates would be on a new version of the composition.",
+                "display": "Final",
+                "id": "a8c940b6-1143-4444-88be-05a5edd7241c"
+            },
+            {
+                "code": "amended",
+                "definition": "The composition content or the referenced resources have been modified (edited or added to) subsequent to being released as \"final\" and the composition is complete and verified by an authorized person.",
+                "display": "Amended",
+                "id": "5839ee6b-acbb-4ee2-bcb3-724f92e1a593"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The composition or document was originally created/issued in error, and this is an amendment that marks that the entire series should not be considered as valid.",
+                "display": "Entered in Error",
+                "id": "a5b6c32d-3ab5-4306-868c-ea06f62aed7a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

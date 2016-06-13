@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Exposuremode",
+        "records": [
+            {
+                "code": "_ExposureMode",
+                "definition": "Code for the mechanism by which the exposure agent was exchanged or potentially exchanged by the participants involved in the exposure.",
+                "display": "ExposureMode",
+                "id": "cc2fa3a9-f6c3-45bf-9cfe-c70a0ff9e935"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

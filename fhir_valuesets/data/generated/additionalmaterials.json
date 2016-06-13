@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Additionalmaterials",
+        "records": [
+            {
+                "code": "xray",
+                "definition": "XRay",
+                "display": "XRay",
+                "id": "5392b6bb-7772-4047-acb8-979d59003814"
+            },
+            {
+                "code": "image",
+                "definition": "Image",
+                "display": "Image",
+                "id": "64205431-3218-4ca3-82f4-f22f096b5ecf"
+            },
+            {
+                "code": "email",
+                "definition": "Email",
+                "display": "Email",
+                "id": "6addf2b2-67ea-448c-8493-72ae39dfa8c0"
+            },
+            {
+                "code": "model",
+                "definition": "Model",
+                "display": "Model",
+                "id": "a42554da-2938-4f31-b6d1-830dc147deaf"
+            },
+            {
+                "code": "document",
+                "definition": "Document",
+                "display": "Document",
+                "id": "5e10eee2-5311-4ae0-b11e-4f8b73498c05"
+            },
+            {
+                "code": "other",
+                "definition": "Other",
+                "display": "Other",
+                "id": "bf4aaae5-6321-4621-bd49-936fabfbbd18"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

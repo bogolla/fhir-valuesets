@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Entitynamepartqualifier",
+        "records": [
+            {
+                "code": "_OrganizationNamePartQualifier",
+                "definition": "OrganizationNamePartQualifier",
+                "display": "OrganizationNamePartQualifier",
+                "id": "cdcdb147-dcdf-4c19-886c-be44e6498e46"
+            },
+            {
+                "code": "PharmaceuticalEntityNamePartQualifiers",
+                "definition": "Description: Medication Name Parts are a means of specifying a range of acceptable \"official\" forms of the name of a product.  They are used as patterns against which input name strings may be matched for automatic identification of products from input text reports.   While they cover the concepts held under \"doseForm\" or \"route\" or \"strength\" the name parts are not the same and do not fit into a controlled vocabulary in the same way. By specifying up to 8 name parts a much larger range of possible names can be generated.",
+                "display": "PharmaceuticalEntityNamePartQualifiers",
+                "id": "66a35065-c74a-4c78-a900-8ab1ba3d0452"
+            },
+            {
+                "code": "_PersonNamePartQualifier",
+                "definition": "PersonNamePartQualifier",
+                "display": "PersonNamePartQualifier",
+                "id": "d58222ce-e2c4-4c03-bc65-cdfefdec4f3b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

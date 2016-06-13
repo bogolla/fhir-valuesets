@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.Acknowledgementdetailcode",
+        "records": [
+            {
+                "code": "_AcknowledgementDetailNotSupportedCode",
+                "definition": "Refelects rejections because elements of the communication are not supported in the current context.",
+                "display": "AcknowledgementDetailNotSupportedCode",
+                "id": "76dc3f12-530b-4a66-9d6a-e5dae1547572"
+            },
+            {
+                "code": "INTERR",
+                "definition": "An internal software component (database, application, queue mechanism, etc.) has failed, leading to inability to process the message.",
+                "display": "Internal system error",
+                "id": "2ae56b37-c298-4449-8185-2278aef52c27"
+            },
+            {
+                "code": "NOSTORE",
+                "definition": "Rejection: The message can't be stored by the receiver due to an unspecified internal application issue. The message was neither processed nor stored by the receiving application.",
+                "display": "No storage space for message.",
+                "id": "2b376d0c-fa0d-46e3-90e5-cf60f98044e8"
+            },
+            {
+                "code": "RTEDEST",
+                "definition": "Error: The destination of this message is known to the receiving application. Messages have been successfully routed to that destination in the past. The link to the destination application or an intermediate application is unavailable.",
+                "display": "Message routing error, destination unreachable.",
+                "id": "21d4702c-e556-41f8-838d-644609e54fda"
+            },
+            {
+                "code": "RTUDEST",
+                "definition": "The destination of this message is unknown to the receiving application. The receiving application in the message does not match the application which received the message. The message was neither routed, processed nor stored by the receiving application.",
+                "display": "Error: Message routing error, unknown destination.",
+                "id": "3d47800f-aa84-407c-b633-e2e41a5e8693"
+            },
+            {
+                "code": "RTWDEST",
+                "definition": "Warning: The destination of this message is known to the receiving application. Messages have been successfully routed to that destination in the past. The link to the destination application or an intermediate application is (temporarily) unavailable. The receiving application will forward the message as soon as the destination can be reached again.",
+                "display": "Message routing warning, destination unreachable.",
+                "id": "c8d4f15b-b857-4357-a187-fa70f637d518"
+            },
+            {
+                "code": "SYN",
+                "definition": "Reflects errors in the syntax or structure of the communication.",
+                "display": "Syntax error",
+                "id": "f6ea81cb-c89a-43af-9fd6-e44d632c3be7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

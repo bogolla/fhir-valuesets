@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Example",
+        "records": [
+            {
+                "code": "chol-mmol",
+                "definition": "Serum Cholesterol, in mmol/L",
+                "display": "SChol (mmol/L)",
+                "id": "2ee5ad1a-e77a-4dc2-81b0-f419c8c13f13"
+            },
+            {
+                "code": "chol-mass",
+                "definition": "Serum Cholesterol, in mg/L",
+                "display": "SChol (mg/L)",
+                "id": "0b77049f-8929-4314-92ef-5d8a8f7ff0a8"
+            },
+            {
+                "code": "chol",
+                "definition": "Serum Cholesterol",
+                "display": "SChol",
+                "id": "4dacdfdd-7714-40b1-9275-96756f6fdbf4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

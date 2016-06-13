@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.PlanactionRelationshipAnchor",
+        "records": [
+            {
+                "code": "start",
+                "definition": "The action relationship is anchored to the start of the related action",
+                "display": "Start",
+                "id": "c3b34e03-b35c-4b4e-991f-cf8d61bbb5c2"
+            },
+            {
+                "code": "end",
+                "definition": "The action relationship is anchored to the end of the related action",
+                "display": "End",
+                "id": "090ec3f7-350c-4c17-b89a-7c50e019994a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

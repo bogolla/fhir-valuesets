@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Confidentiality",
+        "records": [
+            {
+                "code": "_Confidentiality",
+                "definition": "A specializable code and its leaf codes used in Confidentiality value sets to value the Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\".",
+                "display": "Confidentiality",
+                "id": "9a26a60e-be4d-4ee8-9238-9370b424a65d"
+            },
+            {
+                "code": "_ConfidentialityByAccessKind",
+                "definition": "Description: By accessing subject / role and relationship based  rights  (These concepts are mutually exclusive, one and only one is required for a valid confidentiality coding.)\r\n\n                        \n                           Deprecation Comment:Deprecated due to updated confidentiality codes under ActCode",
+                "display": "ConfidentialityByAccessKind",
+                "id": "26d2a018-398c-4561-88f4-adba5822b3a0"
+            },
+            {
+                "code": "_ConfidentialityByInfoType",
+                "definition": "Description: By information type, only for service catalog entries (multiples allowed). Not to be used with actual patient data!\r\n\n                        \n                           Deprecation Comment:Deprecated due to updated confidentiality codes under ActCode",
+                "display": "ConfidentialityByInfoType",
+                "id": "07c91af2-c746-4d05-9f94-43b6866bc883"
+            },
+            {
+                "code": "_ConfidentialityModifiers",
+                "definition": "Description: Modifiers of role based access rights  (multiple allowed)\r\n\n                        \n                           Deprecation Comment:Deprecated due to updated confidentiality codes under ActCode",
+                "display": "ConfidentialityModifiers",
+                "id": "086571b4-539c-4021-bfed-fa4da86f7f4b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

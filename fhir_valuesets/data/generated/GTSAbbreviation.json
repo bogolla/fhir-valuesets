@@ -1,0 +1,83 @@
+[
+    {
+        "model": "valuesets.Gtsabbreviation",
+        "records": [
+            {
+                "code": "AM",
+                "definition": "Every morning at institution specified times.",
+                "display": "AM",
+                "id": "a1ef1695-a932-4569-ac19-06b6d6a7f3bc"
+            },
+            {
+                "code": "BID",
+                "definition": "Two times a day at institution specified time",
+                "display": "BID",
+                "id": "fd3898d9-cf56-4530-a94c-7a0c4b1c2e29"
+            },
+            {
+                "code": "JB",
+                "definition": "Regular business days (Monday to Friday excluding holidays)",
+                "display": "JB",
+                "id": "bd68e42d-ff79-43ec-aaee-1d129db1c077"
+            },
+            {
+                "code": "JE",
+                "definition": "Regular weekends (Saturday and Sunday excluding holidays)",
+                "display": "JE",
+                "id": "db487647-3c23-42b0-b423-aa704d9c6bc6"
+            },
+            {
+                "code": "JH",
+                "definition": "Holidays",
+                "display": "GTSAbbreviationHolidays",
+                "id": "3935b322-f3f9-4a8c-ab20-fdd4887bf0a9"
+            },
+            {
+                "code": "PM",
+                "definition": "Every afternoon at institution specified times.",
+                "display": "PM",
+                "id": "d027d391-55c2-403f-b80f-338748b7101b"
+            },
+            {
+                "code": "Q4H",
+                "definition": "Every 4 hours at institution specified time",
+                "display": "Q4H",
+                "id": "81b8d835-497f-4b2a-90d9-5cbe190b16ff"
+            },
+            {
+                "code": "Q6H",
+                "definition": "Every 6 hours at institution specified time",
+                "display": "Q6H",
+                "id": "bcaf4dfc-8472-4595-aa1d-bfbb2ef0e72e"
+            },
+            {
+                "code": "QD",
+                "definition": "Every day at institution specified times.",
+                "display": "QD",
+                "id": "55a93552-0399-427a-b573-0da157ef9b73"
+            },
+            {
+                "code": "QID",
+                "definition": "Four times a day at institution specified time",
+                "display": "QID",
+                "id": "f2c05ffa-47ed-40dc-b16c-0e2af9b2668c"
+            },
+            {
+                "code": "QOD",
+                "definition": "Every other day at institution specified times.",
+                "display": "QOD",
+                "id": "d083a738-27f4-4f89-afa6-935edfeb5eb0"
+            },
+            {
+                "code": "TID",
+                "definition": "Three times a day at institution specified time",
+                "display": "TID",
+                "id": "84052bf4-fc3c-434e-8689-84607fb400d8"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

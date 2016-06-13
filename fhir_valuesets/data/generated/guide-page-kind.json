@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.GuidePageKind",
+        "records": [
+            {
+                "code": "page",
+                "definition": "This is a page of content that is included in the implementation guide. It has no particular function.",
+                "display": "Page",
+                "id": "c057d3e5-d478-4cec-b582-cc16c71c5a62"
+            },
+            {
+                "code": "example",
+                "definition": "This is a page that represents a human readable rendering of an example.",
+                "display": "Example",
+                "id": "69c31451-c1aa-4267-9cb4-850c3ef8b2a3"
+            },
+            {
+                "code": "list",
+                "definition": "This is a page that represents a list of resources of one or more types.",
+                "display": "List",
+                "id": "d9882baa-7d24-4bb4-a347-d359120b8b0c"
+            },
+            {
+                "code": "include",
+                "definition": "This is a page showing where an included guide is injected.",
+                "display": "Include",
+                "id": "db3da49a-4252-405a-a1f5-f1355101ef2e"
+            },
+            {
+                "code": "directory",
+                "definition": "This is a page that lists the resources of a given type, and also creates pages for all the listed types as other pages in the section.",
+                "display": "Directory",
+                "id": "25b907d9-75d8-4f11-be64-99f05350d378"
+            },
+            {
+                "code": "toc",
+                "definition": "This is a generated page that contains the table of contents.",
+                "display": "Table Of Contents",
+                "id": "d19bf7c5-9809-4e5f-8e1c-1f78e65ce573"
+            },
+            {
+                "code": "resource",
+                "definition": "This is a page that represents a presented resource. This is typically used for generated conformance resource presentations.",
+                "display": "Resource",
+                "id": "b3ede7fa-643e-49a3-b556-6b41f18638f2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

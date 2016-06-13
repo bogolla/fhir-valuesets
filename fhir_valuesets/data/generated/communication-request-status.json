@@ -1,0 +1,71 @@
+[
+    {
+        "model": "valuesets.CommunicationRequestStatus",
+        "records": [
+            {
+                "code": "proposed",
+                "definition": "The request has been proposed.",
+                "display": "Proposed",
+                "id": "739cd27d-a570-4a99-bdc3-afddf7772dcf"
+            },
+            {
+                "code": "planned",
+                "definition": "The request has been planned.",
+                "display": "Planned",
+                "id": "2822cee7-6f7c-4d97-9a9c-004c92a42a64"
+            },
+            {
+                "code": "requested",
+                "definition": "The request has been placed.",
+                "display": "Requested",
+                "id": "44cfacdc-e22b-48d2-8da7-e470d1091af8"
+            },
+            {
+                "code": "received",
+                "definition": "The receiving system has received the request but not yet decided whether it will be performed.",
+                "display": "Received",
+                "id": "6eefc7de-0067-4ab2-b6ee-bdc583b34879"
+            },
+            {
+                "code": "accepted",
+                "definition": "The receiving system has accepted the order, but work has not yet commenced.",
+                "display": "Accepted",
+                "id": "1a0826a6-a44c-41fd-a9ba-3c23a0f8bc79"
+            },
+            {
+                "code": "in-progress",
+                "definition": "The work to fulfill the order is happening.",
+                "display": "In Progress",
+                "id": "82782378-ecde-4438-a4ae-cf7cbf0c2b20"
+            },
+            {
+                "code": "completed",
+                "definition": "The work has been complete, the report(s) released, and no further work is planned.",
+                "display": "Completed",
+                "id": "04802113-a633-4826-8e63-ddc075cdb8ef"
+            },
+            {
+                "code": "suspended",
+                "definition": "The request has been held by originating system/user request.",
+                "display": "Suspended",
+                "id": "a04e787b-0eee-4ddc-83ac-694adb2bfb1d"
+            },
+            {
+                "code": "rejected",
+                "definition": "The receiving system has declined to fulfill the request",
+                "display": "Rejected",
+                "id": "f515e127-a71d-43d2-b9f5-502d273e2d6a"
+            },
+            {
+                "code": "failed",
+                "definition": "The communication was attempted, but due to some procedural error, it could not be completed.",
+                "display": "Failed",
+                "id": "791dd63e-60dd-40e4-b187-7d0132dde82e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Equipmentalertlevel",
+        "records": [
+            {
+                "code": "C",
+                "definition": "Shut Down, Fix Problem and Re-init",
+                "display": "Critical",
+                "id": "b173c5ff-958c-4f02-8449-750fd29cee3a"
+            },
+            {
+                "code": "N",
+                "definition": "No Corrective Action Needed",
+                "display": "Normal",
+                "id": "a60c9f08-803c-4833-ac69-5bd39250a6b8"
+            },
+            {
+                "code": "S",
+                "definition": "Corrective Action Required",
+                "display": "Serious",
+                "id": "726084cf-31f7-4252-ba05-f1b156803faf"
+            },
+            {
+                "code": "W",
+                "definition": "Corrective Action Anticipated",
+                "display": "Warning",
+                "id": "170b347f-e6d8-4db4-bbfb-b5eff5b63192"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

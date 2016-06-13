@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ClaimException",
+        "records": [
+            {
+                "code": "student",
+                "definition": "Fulltime Student",
+                "display": "Student (Fulltime)",
+                "id": "e248d912-f4bc-4ccd-85db-b2145037fe7f"
+            },
+            {
+                "code": "disabled",
+                "definition": "Disabled",
+                "display": "Disabled",
+                "id": "097f42f0-b405-4f25-9098-29dcd6520056"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

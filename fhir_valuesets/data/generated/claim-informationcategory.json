@@ -1,0 +1,77 @@
+[
+    {
+        "model": "valuesets.ClaimInformationcategory",
+        "records": [
+            {
+                "code": "info",
+                "definition": "Codes conveying additional situation and condition information.",
+                "display": "Information",
+                "id": "fbcbfdb1-6898-4a34-aaae-96558b50d9fb"
+            },
+            {
+                "code": "business",
+                "definition": "Insurance business arrangement identifier.",
+                "display": "Business Arrangement",
+                "id": "c71eb882-d2cf-434b-9307-6bdbc29d79c0"
+            },
+            {
+                "code": "school",
+                "definition": "Name of School.",
+                "display": "Name of School",
+                "id": "2ac96e5e-ea05-44d0-977d-9dd5c8a1e8ed"
+            },
+            {
+                "code": "accident",
+                "definition": "The type, date and place of an Accident.",
+                "display": "Accident Information",
+                "id": "60f59a2e-622c-4b53-ac4d-11b86c08a731"
+            },
+            {
+                "code": "onset",
+                "definition": "Period, start or end dates of aspects of the Condition.",
+                "display": "Onset",
+                "id": "bae28ef0-321f-458f-98c7-3c0d914c221d"
+            },
+            {
+                "code": "related",
+                "definition": "Nature and date of the related event eg. Last exam, service, Xray etc.",
+                "display": "Related Services",
+                "id": "5d141ddd-a355-42b5-88cf-19e2d80d41d2"
+            },
+            {
+                "code": "employment",
+                "definition": "The start and optional end dates of when the patient was precluded from working due to the treatable condition(s).",
+                "display": "Employment",
+                "id": "f54e77f1-7b84-4528-8bfc-bdba634bed76"
+            },
+            {
+                "code": "hospitalization",
+                "definition": "The start and optional end dates of when the patient was confined to a treatment center.",
+                "display": "Hospitalization",
+                "id": "4f92c8d7-06e2-49a1-8744-5faa2b20fb5b"
+            },
+            {
+                "code": "missingtooth",
+                "definition": "Missing tooth with tooth code, reason and extraction date.",
+                "display": "Missing Tooth",
+                "id": "0116a9db-ce78-4b9e-b4e7-e71f88c85682"
+            },
+            {
+                "code": "material",
+                "definition": "Materials being forwarded, eg. Models, molds, images, documents.",
+                "display": "Materials Forwarded",
+                "id": "6dc78aa1-cf32-498a-bef9-113979dcc191"
+            },
+            {
+                "code": "other",
+                "definition": "Other information identified by the type.system.",
+                "display": "Other",
+                "id": "f4b29de4-2308-4b1c-8502-4d68758f3e9b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.Loinc480020Answerlist",
+        "records": [
+            {
+                "code": "LA6683-2",
+                "definition": "Germline",
+                "display": "Germline",
+                "id": "e6a018c5-032e-4ea4-97c8-295845a43965"
+            },
+            {
+                "code": "LA6684-0",
+                "definition": "Somatic",
+                "display": "Somatic",
+                "id": "6c86d81f-10a4-463d-b012-ba6e6db7bbeb"
+            },
+            {
+                "code": "LA10429-1",
+                "definition": "Prenatal",
+                "display": "Prenatal",
+                "id": "441961e5-700b-45bb-b149-d0e405e3d512"
+            },
+            {
+                "code": "LA18194-3",
+                "definition": "Likely Germline",
+                "display": "Likely Germline",
+                "id": "dfdbcea1-fc4e-4e58-971c-cc13eab6fbef"
+            },
+            {
+                "code": "LA18195-0",
+                "definition": "Likely Somatic",
+                "display": "Likely Somatic",
+                "id": "676a8b36-adc2-4855-b80f-8157fd14d6b4"
+            },
+            {
+                "code": "LA18196-8",
+                "definition": "Likely Prenatal",
+                "display": "Likely Prenatal",
+                "id": "cc4f5ac9-4fff-4586-86d3-2603c2fafec4"
+            },
+            {
+                "code": "LA18197-6",
+                "definition": "Unknown Genomic Origin",
+                "display": "Unknown Genomic Origin",
+                "id": "6bdd0e06-15ed-4441-b220-dcb5dcf1161d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

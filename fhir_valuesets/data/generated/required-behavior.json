@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.RequiredBehavior",
+        "records": [
+            {
+                "code": "must",
+                "definition": "An item with this behavior must be included in the items processed by the end user; the end user may not choose not to include this item",
+                "display": "Must",
+                "id": "3b3ffbc9-ba41-4965-b379-e20d9b4a4800"
+            },
+            {
+                "code": "could",
+                "definition": "An item with this behavior may be included in the set of items processed by the end user",
+                "display": "Could",
+                "id": "817bc1e8-e467-4627-b485-5ea8ac4a03e1"
+            },
+            {
+                "code": "must-unless-documented",
+                "definition": "An item with this behavior must be included in the set of items processed by the end user, unless the end user provides documentation as to why the item was not included",
+                "display": "Must Unless Documented",
+                "id": "b168047d-6de6-4ae2-bb51-53ab20a91b4c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

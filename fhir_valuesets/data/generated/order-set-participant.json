@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.OrderSetParticipant",
+        "records": [
+            {
+                "code": "patient",
+                "definition": "The participant is the patient under evaluation",
+                "display": "Patient",
+                "id": "067f4a7a-6ce7-41ba-ac8a-8cc3f0a92867"
+            },
+            {
+                "code": "person",
+                "definition": "The participant is a person",
+                "display": "Person",
+                "id": "c3f4fd78-b273-4846-a345-cb1d1fb95b59"
+            },
+            {
+                "code": "practitioner",
+                "definition": "The participant is a practitioner involved in the patient's care",
+                "display": "Practitioner",
+                "id": "e31fb7e5-a717-4e50-9103-aee422b44242"
+            },
+            {
+                "code": "related-person",
+                "definition": "The participant is a person related to the patient",
+                "display": "Related Person",
+                "id": "b5e04534-5494-4b1c-a086-69b7535b4432"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

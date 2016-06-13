@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ContactPointUse",
+        "records": [
+            {
+                "code": "home",
+                "definition": "A communication contact point at a home; attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call. Typically used with urgent cases, or if no other contacts are available.",
+                "display": "Home",
+                "id": "ef6bf9e4-b195-4c15-8f38-07b3c0c95506"
+            },
+            {
+                "code": "work",
+                "definition": "An office contact point. First choice for business related contacts during business hours.",
+                "display": "Work",
+                "id": "9954d848-93be-4f4d-a934-4f7ef21b3329"
+            },
+            {
+                "code": "temp",
+                "definition": "A temporary contact point. The period can provide more detailed information.",
+                "display": "Temp",
+                "id": "d274bc50-3238-4312-8676-825b9136e6be"
+            },
+            {
+                "code": "old",
+                "definition": "This contact point is no longer in use (or was never correct, but retained for records).",
+                "display": "Old",
+                "id": "64840507-ba2e-428e-bff9-e701d1cb677d"
+            },
+            {
+                "code": "mobile",
+                "definition": "A telecommunication device that moves and stays with its owner. May have characteristics of all other use codes, suitable for urgent matters, not the first choice for routine business.",
+                "display": "Mobile",
+                "id": "a75792f2-5ace-4bab-a59e-964727cc34bd"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

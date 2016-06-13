@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ServiceModifiers",
+        "records": [
+            {
+                "code": "sr",
+                "definition": "Services provided on the side of the raod or such other non-conventional setting.",
+                "display": "Side of the Road",
+                "id": "f1370632-f322-449b-b293-e50234cb0651"
+            },
+            {
+                "code": "ah",
+                "definition": "Services provided outside or normal business hours.",
+                "display": "After hours",
+                "id": "1bcf5189-fc0b-4e44-97cc-96068e2eda0d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

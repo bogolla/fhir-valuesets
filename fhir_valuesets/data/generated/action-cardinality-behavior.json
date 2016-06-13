@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ActionCardinalityBehavior",
+        "records": [
+            {
+                "code": "single",
+                "definition": "The action may only be selected one time",
+                "display": "Single",
+                "id": "585e54de-685d-441c-b021-030afe8b2b03"
+            },
+            {
+                "code": "multiple",
+                "definition": "The action may be selected multiple times",
+                "display": "Multiple",
+                "id": "41e19b3a-8c6c-472c-bb71-806b5491c1b1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

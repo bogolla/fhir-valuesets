@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.MedicationDispenseStatus",
+        "records": [
+            {
+                "code": "in-progress",
+                "definition": "The dispense has started but has not yet completed.",
+                "display": "In Progress",
+                "id": "3f0d3d63-10b1-4014-a5aa-af06830ab4ae"
+            },
+            {
+                "code": "on-hold",
+                "definition": "Actions implied by the administration have been temporarily halted, but are expected to continue later. May also be called \"suspended\"",
+                "display": "On Hold",
+                "id": "b3e8947b-9c4b-4fd5-927e-fcc131bca905"
+            },
+            {
+                "code": "completed",
+                "definition": "All actions that are implied by the dispense have occurred.",
+                "display": "Completed",
+                "id": "79287d6c-ac43-4889-a0c8-8c67fad6c0ba"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The dispense was entered in error and therefore nullified.",
+                "display": "Entered in-Error",
+                "id": "d5b259ff-ddbb-4712-a3bd-2498643e2bb8"
+            },
+            {
+                "code": "stopped",
+                "definition": "Actions implied by the dispense have been permanently halted, before all of them occurred.",
+                "display": "Stopped",
+                "id": "ddbd0fb0-8510-48d2-b478-b9173a027114"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

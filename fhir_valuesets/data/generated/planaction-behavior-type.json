@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.PlanactionBehaviorType",
+        "records": [
+            {
+                "code": "grouping",
+                "definition": "Specifies grouping behavior using the action-group-behavior valueset",
+                "display": "Grouping Behavior",
+                "id": "2167a766-e5e0-4167-8668-c366933688f9"
+            },
+            {
+                "code": "selection",
+                "definition": "Specifies selection behavior using the action-selection-behavior valueset",
+                "display": "Selection Behavior",
+                "id": "8b49c9e2-6627-4540-b3e0-f128fbf73b3f"
+            },
+            {
+                "code": "required",
+                "definition": "Specifies required behavior using the action-required-behavior valueset",
+                "display": "Required Behavior",
+                "id": "ba2f483c-5039-4bc0-8efa-e7fc6e1bbbab"
+            },
+            {
+                "code": "precheck",
+                "definition": "Specifies precheck behavior using the action-precheck-behavior valueset",
+                "display": "Precheck Behavior",
+                "id": "56293744-a4ba-415a-9749-ee5941195735"
+            },
+            {
+                "code": "cardinality",
+                "definition": "Specifies cardinality behavior using the action-cardinality behavior valueset",
+                "display": "Cardinality Behavior",
+                "id": "90bd4154-6cf3-4195-86d2-554e575c56a4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

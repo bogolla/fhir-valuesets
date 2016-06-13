@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.MeasureDataUsage",
+        "records": [
+            {
+                "code": "supplemental-data",
+                "definition": "The data is intended to be provided as additional information alongside the measure results",
+                "display": "Supplemental Data",
+                "id": "9d1480f1-fc0c-44e9-a765-a23e453a461a"
+            },
+            {
+                "code": "risk-adjustment-factor",
+                "definition": "The data is intended to be used to calculate and apply a risk adjustment model for the measure",
+                "display": "Risk Adjustment Factor",
+                "id": "77eead13-940e-491d-b578-36883c5439a4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

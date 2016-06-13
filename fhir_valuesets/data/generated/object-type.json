@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ObjectType",
+        "records": [
+            {
+                "code": "1",
+                "definition": "Person",
+                "display": "Person",
+                "id": "663e5afa-6c7c-436f-850b-4e2c7523b0b6"
+            },
+            {
+                "code": "2",
+                "definition": "System Object",
+                "display": "System Object",
+                "id": "f8af91d1-3e42-4fd7-b314-d6131eecfd78"
+            },
+            {
+                "code": "3",
+                "definition": "Organization",
+                "display": "Organization",
+                "id": "c62683ca-b610-4194-9682-4269efffb046"
+            },
+            {
+                "code": "4",
+                "definition": "Other",
+                "display": "Other",
+                "id": "97f729e2-f952-4c49-9a12-6cf8bd0c9e95"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.ActivityDefinitionCategory",
+        "records": [
+            {
+                "code": "communication",
+                "definition": "To communicate with a participant in some way",
+                "display": "Communication",
+                "id": "cfce42e1-f64c-4ce4-af83-8e2de13af26c"
+            },
+            {
+                "code": "diet",
+                "definition": "To consume food of a specified nature",
+                "display": "Diet",
+                "id": "b8fcddb8-d95a-4e9d-82f3-f4f52d05b4e6"
+            },
+            {
+                "code": "drug",
+                "definition": "To consume/receive a drug, vaccine or other product",
+                "display": "Drug",
+                "id": "91508d54-2606-4305-b239-de1a62c40e76"
+            },
+            {
+                "code": "encounter",
+                "definition": "To meet with the patient (in-patient, out-patient, etc.)",
+                "display": "Encounter",
+                "id": "314e4be5-a6bc-4bbf-9777-4fa043ba62c0"
+            },
+            {
+                "code": "observation",
+                "definition": "To capture information about a patient (vitals, labs, diagnostic images, etc.)",
+                "display": "Observation",
+                "id": "72618fd6-a292-4be0-8896-10109f762878"
+            },
+            {
+                "code": "procedure",
+                "definition": "To modify the patient in some way (surgery, physiotherapy, education, counseling, etc.)",
+                "display": "Procedure",
+                "id": "bc8c0a6f-5e2a-479c-98c7-adbd4e6e1fdd"
+            },
+            {
+                "code": "referral",
+                "definition": "To refer the patient to receive some service",
+                "display": "Referral",
+                "id": "3efebd29-7802-4742-815f-2c3497a1f01f"
+            },
+            {
+                "code": "supply",
+                "definition": "To provide something to the patient (medication, medical supply, etc.)",
+                "display": "Supply",
+                "id": "b21842ac-576b-476a-b826-2458ed93cd7a"
+            },
+            {
+                "code": "other",
+                "definition": "Some other form of action",
+                "display": "Other",
+                "id": "7e58a054-5638-4552-8265-9fb381d80f0f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

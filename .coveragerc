@@ -1,0 +1,11 @@
+[run]
+branch=True
+source=fhir_valuesets
+omit=*/configs/*, *tests*, */migrations/*, deployment/*
+
+[report]
+show_missing=True
+fail_under=100
+
+[html]
+directory=coverage

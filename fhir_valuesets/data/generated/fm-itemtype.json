@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.FmItemtype",
+        "records": [
+            {
+                "code": "group",
+                "definition": "A group of products and/or Services, amount ar the summary or detail level products and services.",
+                "display": "Group",
+                "id": "96f42c23-7cc3-4dfb-bea6-9f7a3ee427de"
+            },
+            {
+                "code": "product",
+                "definition": "A billed product line item.",
+                "display": "Product",
+                "id": "6418d79a-05f3-439e-822a-baed7970ee8a"
+            },
+            {
+                "code": "service",
+                "definition": "A billed service line item.",
+                "display": "Service",
+                "id": "0b4c4837-797d-4c95-a23d-6121d443198f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

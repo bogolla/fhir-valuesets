@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.PractitionerSpecialty",
+        "records": [
+            {
+                "code": "cardio",
+                "definition": null,
+                "display": "Cardiologist",
+                "id": "712ff56e-7c73-45f3-ab2c-c0e7f6eb278e"
+            },
+            {
+                "code": "dent",
+                "definition": null,
+                "display": "Dentist",
+                "id": "3e2b4e46-8222-4d10-b3b6-98941c20bf34"
+            },
+            {
+                "code": "dietary",
+                "definition": null,
+                "display": "Dietary consultant",
+                "id": "79186d1a-49d6-4e17-b7c5-c4267423487b"
+            },
+            {
+                "code": "midw",
+                "definition": null,
+                "display": "Midwife",
+                "id": "2d714bdb-befb-434f-b162-b69781013277"
+            },
+            {
+                "code": "sysarch",
+                "definition": null,
+                "display": "Systems architect",
+                "id": "c1ef91f7-aefe-4291-bcae-d4d8369a37e6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

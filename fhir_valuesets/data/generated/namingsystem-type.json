@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.NamingsystemType",
+        "records": [
+            {
+                "code": "codesystem",
+                "definition": "The naming system is used to define concepts and symbols to represent those concepts; e.g. UCUM, LOINC, NDC code, local lab codes, etc.",
+                "display": "Code System",
+                "id": "a8233fe3-a520-4ff3-9ad3-d7dea2b4d8ee"
+            },
+            {
+                "code": "identifier",
+                "definition": "The naming system is used to manage identifiers (e.g. license numbers, order numbers, etc.).",
+                "display": "Identifier",
+                "id": "ec21c289-4d71-4716-8310-94cad7a35b67"
+            },
+            {
+                "code": "root",
+                "definition": "The naming system is used as the root for other identifiers and naming systems.",
+                "display": "Root",
+                "id": "456cb3b2-4429-48a4-a338-43e729ce805a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

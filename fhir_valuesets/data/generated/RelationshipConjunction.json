@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Relationshipconjunction",
+        "records": [
+            {
+                "code": "AND",
+                "definition": "This condition must be true.",
+                "display": "and",
+                "id": "c82e663f-0176-4c72-9047-c8a16d267703"
+            },
+            {
+                "code": "OR",
+                "definition": "At least one of the condition among all OR conditions must be true.",
+                "display": "or",
+                "id": "0ba26a1b-ce04-469d-8569-df449573c303"
+            },
+            {
+                "code": "XOR",
+                "definition": "One and only one of the XOR conditions must be true.",
+                "display": "exclusive or",
+                "id": "d91a97cb-120c-4d3c-8797-8999686a09d5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

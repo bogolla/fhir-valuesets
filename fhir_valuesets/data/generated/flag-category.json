@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.FlagCategory",
+        "records": [
+            {
+                "code": "diet",
+                "definition": "Flags related to the subject's dietary needs.",
+                "display": "Diet",
+                "id": "7ec8dff0-e145-4b50-9d7b-56245707c743"
+            },
+            {
+                "code": "drug",
+                "definition": "Flags related to the patient's medications.",
+                "display": "Drug",
+                "id": "c445d398-2686-4e5b-8182-7035c9214f2e"
+            },
+            {
+                "code": "lab",
+                "definition": "Flags related to performing laboratory tests and related processes (e.g. phlebotomy).",
+                "display": "Lab",
+                "id": "4249d17d-4c83-4026-90da-680b1c04d6a3"
+            },
+            {
+                "code": "admin",
+                "definition": "Flags related to administrative and financial processes.",
+                "display": "Administrative",
+                "id": "03c5d077-99a5-477c-b47a-88243a2890c3"
+            },
+            {
+                "code": "contact",
+                "definition": "Flags related to coming into contact with the patient.",
+                "display": "Subject contact",
+                "id": "33ef11d0-dd99-4ccf-81a8-c52b33a5175b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

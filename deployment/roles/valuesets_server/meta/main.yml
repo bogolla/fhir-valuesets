@@ -1,0 +1,8 @@
+---
+dependencies:
+  - common
+  - python
+  - ufw
+  - supervisor
+  - nginx
+  - postgresql-server

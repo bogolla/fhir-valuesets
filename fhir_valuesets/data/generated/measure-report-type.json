@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.MeasureReportType",
+        "records": [
+            {
+                "code": "individual",
+                "definition": "An individual report that provides information on the performance for a given measure with respect to a single patient",
+                "display": "Individual",
+                "id": "7f0cbe50-115f-4d99-917a-4b8c2a27cf30"
+            },
+            {
+                "code": "patient-list",
+                "definition": "A patient list report that includes a listing of patients that satisfied each population criteria in the measure",
+                "display": "Patient List",
+                "id": "6ddf9b73-6997-4267-b13a-3d8dfa0bf39d"
+            },
+            {
+                "code": "summary",
+                "definition": "A summary report that returns the number of patients in each population criteria for the measure",
+                "display": "Summary",
+                "id": "f3e6cea5-9d47-49c7-bba4-c153a23d5ad4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

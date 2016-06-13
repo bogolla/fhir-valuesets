@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Entitynameparttype",
+        "records": [
+            {
+                "code": "DEL",
+                "definition": "A delimiter has no meaning other than being literally printed in this name representation.  A delimiter has no implicit leading and trailing white space.",
+                "display": "delimiter",
+                "id": "8f3b1183-dd58-4db0-8c19-b7d171416817"
+            },
+            {
+                "code": "FAM",
+                "definition": "Family name, this is the name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.",
+                "display": "family",
+                "id": "cad06cfb-0c10-4b9f-a78d-17a6575258e5"
+            },
+            {
+                "code": "GIV",
+                "definition": "Given name (don't call it \"first name\" since this given names do not always come first)",
+                "display": "given",
+                "id": "651038b6-adf6-4c50-bbb9-7fc71d0e443d"
+            },
+            {
+                "code": "PFX",
+                "definition": "A prefix has a strong association to the immediately following name part. A prefix has no implicit trailing white space (it has implicit leading white space though). Note that prefixes can be inverted.",
+                "display": "prefix",
+                "id": "0adaefa1-b185-4617-b4b1-68271b4535f8"
+            },
+            {
+                "code": "SFX",
+                "definition": "Description:A suffix has a strong association to the immediately preceding name part. A suffix has no implicit leading white space (it has implicit trailing white space though). Suffices cannot be inverted.",
+                "display": "suffix",
+                "id": "546f63ae-8299-44ae-af46-0fc557f276be"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

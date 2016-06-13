@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Rolelinkstatus",
+        "records": [
+            {
+                "code": "NORMAL",
+                "definition": "Description: The 'typical' state. Excludes \"nullified\" which represents the termination state of a RoleLink instance that was created in error.",
+                "display": "normal",
+                "id": "27abff1c-9a35-4ae3-b5b8-6a305b09aeb3"
+            },
+            {
+                "code": "NULLIFIED",
+                "definition": "Description: The state representing the termination of a RoleLink instance that was created in error.",
+                "display": "nullified",
+                "id": "af5aad35-6c55-448b-91a9-8d2c8081bb71"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

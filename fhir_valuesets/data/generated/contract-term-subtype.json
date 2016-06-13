@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ContractTermSubtype",
+        "records": [
+            {
+                "code": "OralHealth-Basic",
+                "definition": null,
+                "display": null,
+                "id": "1c5544b5-975e-4912-ae06-dfa2ffee47ca"
+            },
+            {
+                "code": "OralHealth-Major",
+                "definition": null,
+                "display": null,
+                "id": "8f199515-b819-4082-901e-bb191c740287"
+            },
+            {
+                "code": "OralHealth-Orthodontic",
+                "definition": null,
+                "display": null,
+                "id": "47bdac96-50b0-482c-8157-c970f3bddbee"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

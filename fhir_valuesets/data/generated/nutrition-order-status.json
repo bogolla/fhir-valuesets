@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.NutritionOrderStatus",
+        "records": [
+            {
+                "code": "proposed",
+                "definition": "The request has been proposed.",
+                "display": "Proposed",
+                "id": "115613ca-dcd4-4f94-95bd-b1a037bd6fd0"
+            },
+            {
+                "code": "draft",
+                "definition": "The request is in preliminary form prior to being sent.",
+                "display": "Draft",
+                "id": "61e1473c-5a09-49dd-bc00-477f5cbd69e4"
+            },
+            {
+                "code": "planned",
+                "definition": "The request has been planned.",
+                "display": "Planned",
+                "id": "35ce347a-a29a-403e-95e1-6af0446e741e"
+            },
+            {
+                "code": "requested",
+                "definition": "The request has been placed.",
+                "display": "Requested",
+                "id": "608505b7-4284-4b32-8eb5-3c4505ccecfa"
+            },
+            {
+                "code": "active",
+                "definition": "The request is 'actionable', but not all actions that are implied by it have occurred yet.",
+                "display": "Active",
+                "id": "5cd451d5-4892-463f-92de-e89e1daf4138"
+            },
+            {
+                "code": "on-hold",
+                "definition": "Actions implied by the request have been temporarily halted, but are expected to continue later. May also be called \"suspended\".",
+                "display": "On-Hold",
+                "id": "cc713541-5f4a-4065-8664-a90a2b889652"
+            },
+            {
+                "code": "completed",
+                "definition": "All actions that are implied by the order have occurred and no continuation is planned (this will rarely be made explicit).",
+                "display": "Completed",
+                "id": "aea7406e-610c-4b9a-9c66-6ed7e46aabdc"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The request has been withdrawn and is no longer actionable.",
+                "display": "Cancelled",
+                "id": "eb3cee6d-038d-406e-86dd-419a468b726a"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The request was entered in error and voided.",
+                "display": "Entered in Error",
+                "id": "69680881-2449-45da-bc1f-b70c2cff4ca1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

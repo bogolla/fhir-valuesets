@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ConditionVerStatus",
+        "records": [
+            {
+                "code": "provisional",
+                "definition": "This is a tentative diagnosis - still a candidate that is under consideration.",
+                "display": "Provisional",
+                "id": "2b396937-7320-46ec-8f4e-0a2d4d3d876c"
+            },
+            {
+                "code": "differential",
+                "definition": "One of a set of potential (and typically mutually exclusive) diagnosis asserted to further guide the diagnostic process and preliminary treatment.",
+                "display": "Differential",
+                "id": "580939e2-1cc0-4f17-a6b8-6904caa7344e"
+            },
+            {
+                "code": "confirmed",
+                "definition": "There is sufficient diagnostic and/or clinical evidence to treat this as a confirmed condition.",
+                "display": "Confirmed",
+                "id": "8991de6c-c30e-45ae-bb43-1e5c4dc6db30"
+            },
+            {
+                "code": "refuted",
+                "definition": "This condition has been ruled out by diagnostic and clinical evidence.",
+                "display": "Refuted",
+                "id": "d1447208-67bc-454a-ae0c-3ca6f67328e3"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The statement was entered in error and is not valid.",
+                "display": "Entered In Error",
+                "id": "9acc6c98-d3dc-42d7-825f-b269a74c4867"
+            },
+            {
+                "code": "unknown",
+                "definition": "The condition status is unknown.  Note that \"unknown\" is a value of last resort and every attempt should be made to provide a meaningful value other than \"unknown\".",
+                "display": "Unknown",
+                "id": "d443ab39-9826-47c2-8bee-a6946b4f10d7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

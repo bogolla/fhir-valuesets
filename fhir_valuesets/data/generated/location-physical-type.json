@@ -1,0 +1,83 @@
+[
+    {
+        "model": "valuesets.LocationPhysicalType",
+        "records": [
+            {
+                "code": "bu",
+                "definition": "Any Building or structure. This may contain rooms, corridors, wings, etc. It may not have walls, or a roof, but is considered a defined/allocated space.",
+                "display": "Building",
+                "id": "fe46f070-4667-40f8-b26a-4369a81e5c4a"
+            },
+            {
+                "code": "wi",
+                "definition": "A Wing within a Building, this often contains levels, rooms and corridors.",
+                "display": "Wing",
+                "id": "4c87b545-98f6-4a92-89b8-b84598c78682"
+            },
+            {
+                "code": "lvl",
+                "definition": "A Level in a multi-level Building/Structure.",
+                "display": "Level",
+                "id": "bfd1175d-0a6d-4ce3-9ad8-f9b420d63548"
+            },
+            {
+                "code": "co",
+                "definition": "Any corridor within a Building, that is not within.",
+                "display": "Corridor",
+                "id": "b8a76e6d-3d90-4e92-8cf9-a322526bf31b"
+            },
+            {
+                "code": "ro",
+                "definition": "A space that is allocated as a room, it may have walls/roof etc., but does not require these.",
+                "display": "Room",
+                "id": "3579142d-6477-4407-9472-fe047d4fbaaf"
+            },
+            {
+                "code": "bd",
+                "definition": "A space that is allocated for sleeping/laying on.",
+                "display": "Bed",
+                "id": "c987087f-741d-444e-bb97-3fc49c1147a4"
+            },
+            {
+                "code": "ve",
+                "definition": "A means of transportation.",
+                "display": "Vehicle",
+                "id": "26228048-2f6b-4a96-90e7-b62699574738"
+            },
+            {
+                "code": "ho",
+                "definition": "A residential dwelling. Usually used to reference a location that a person/patient may reside.",
+                "display": "House",
+                "id": "38915400-d694-4a39-94e5-fc61a7055525"
+            },
+            {
+                "code": "ca",
+                "definition": "A container that can store goods, equipment, medications or other items.",
+                "display": "Cabinet",
+                "id": "57eaa0b0-8917-4ab3-ac0a-6b2a4ca73e53"
+            },
+            {
+                "code": "rd",
+                "definition": "A defined path to travel between 2 points that has a known name.",
+                "display": "Road",
+                "id": "d3504e32-aa55-4102-9bb5-5eed055a2d3a"
+            },
+            {
+                "code": "jdn",
+                "definition": "A wide scope that covers a conceptual domain, such as a Nation (Country wide community or Federal Government - e.g. Ministry of Health),  Province or State (community or Government), Business (throughout the enterprise), Nation with a business scope of an agency (e.g. CDC, FDA etc.) or a Business segment (UK Pharmacy).",
+                "display": "Jurisdiction",
+                "id": "2c38074a-701e-4125-8d5f-f51903e9ab38"
+            },
+            {
+                "code": "area",
+                "definition": "A defined boundary, such as a state, region, country, county",
+                "display": "Area",
+                "id": "4893d0d4-8d8e-40cb-a53c-14892aec0717"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

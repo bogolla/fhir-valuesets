@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Acknowledgementdetailtype",
+        "records": [
+            {
+                "code": "E",
+                "definition": "Definition:An issue which has prevented, or will prevent (unless a management is provided for the issue by the sender), the successful processing of an interaction.  Response interactions which include an issue which is an Error are a 'rejection', indicating that the request was not successfully processed. \r\n\n                        \n                           Example:Unable to find specified patient.",
+                "display": "Error",
+                "id": "dc6418f8-8aa8-4805-aa56-2621aef96a6d"
+            },
+            {
+                "code": "I",
+                "definition": "Definition: The message relates to an issue which has no bearing on the successful processing of the request.  Information issues cannot be overridden by specifying a management.\r\n\n                        \n                           Example: A Patient's coverage will expire in 5 days.",
+                "display": "Information",
+                "id": "84063be9-1c50-4b16-8b3b-9a56320e2c4a"
+            },
+            {
+                "code": "W",
+                "definition": "Definition: The message relates to an issue which cannot prevent the successful processing of a request, but which could result in the processing not having the ideal or intended effect.  Managing a warning issue is not required for successful processing, but will suppress the warning from being raised. \r\n\n                        \n                           Example:\n                        \r\n\n                        Unexpected additional repetitions of phone number have been ignored.",
+                "display": "Warning",
+                "id": "fdb1b50f-836a-4be1-9ebc-40249d71751d"
+            },
+            {
+                "code": "ERR",
+                "definition": "ERR",
+                "display": "ERR",
+                "id": "c18d83eb-f45e-4b05-aa8a-bc692eb5e490"
+            },
+            {
+                "code": "INFO",
+                "definition": "INFO",
+                "display": "INFO",
+                "id": "256886c2-48b2-44f3-b2a3-71867e5b1037"
+            },
+            {
+                "code": "WARN",
+                "definition": "WARN",
+                "display": "WARN",
+                "id": "de80a093-ed41-4db5-96d6-7c78651ddc87"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

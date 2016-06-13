@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.BenefitNetwork",
+        "records": [
+            {
+                "code": "in",
+                "definition": "Services rendered by a Network provider",
+                "display": "In Network",
+                "id": "79641b48-fe2f-4155-bdc9-a14142cf09d8"
+            },
+            {
+                "code": "out",
+                "definition": "Services rendered by a provider who is not in the Network",
+                "display": "Out of Network",
+                "id": "7c3e29d4-dd97-48bd-9af9-de1602b2c5d4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

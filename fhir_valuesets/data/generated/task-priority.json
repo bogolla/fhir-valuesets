@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.TaskPriority",
+        "records": [
+            {
+                "code": "low",
+                "definition": "This task has low priority.",
+                "display": "Low",
+                "id": "3544c9c8-0f6c-48b0-a01a-1f857043e018"
+            },
+            {
+                "code": "normal",
+                "definition": "This task has normal priority.",
+                "display": "Normal",
+                "id": "6f1935a1-a2c6-4e7c-aa6b-144ef541b949"
+            },
+            {
+                "code": "high",
+                "definition": "This task has high priority.",
+                "display": "High",
+                "id": "b012152c-40d3-4e71-939f-a79f50a64229"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

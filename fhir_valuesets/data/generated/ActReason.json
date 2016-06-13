@@ -1,0 +1,251 @@
+[
+    {
+        "model": "valuesets.Actreason",
+        "records": [
+            {
+                "code": "_ActAccommodationReason",
+                "definition": "Identifies the reason the patient is assigned to this accommodation type",
+                "display": "ActAccommodationReason",
+                "id": "0a97bec2-3b9b-4c7f-acad-75b48f1f9d3f"
+            },
+            {
+                "code": "_ActCoverageReason",
+                "definition": "Description:Codes used to specify reasons or criteria relating to coverage provided under a policy or program.  May be used to convey reasons pertaining to coverage contractual provisions, including criteria for eligibility, coverage limitations, coverage maximums, or financial participation required of covered parties.",
+                "display": "ActCoverageReason",
+                "id": "c37ee8f5-4ff9-4d02-827a-d85db0222ce2"
+            },
+            {
+                "code": "_ActInformationManagementReason",
+                "definition": "Description:The rationale or purpose for an act relating to information management, such as archiving information for the purpose of complying with an enterprise data retention policy.",
+                "display": "ActInformationManagementReason",
+                "id": "90c43c27-1317-4690-b490-975282193780"
+            },
+            {
+                "code": "_ActInvalidReason",
+                "definition": "Description: Types of reasons why a substance is invalid for use.",
+                "display": "ActInvalidReason",
+                "id": "21a61e9b-0e81-4224-abfd-2c41a3f598eb"
+            },
+            {
+                "code": "_ActInvoiceCancelReason",
+                "definition": "Domain specifies the codes used to describe reasons why a Provider is cancelling an Invoice or Invoice Grouping.",
+                "display": "ActInvoiceCancelReason",
+                "id": "5dfa349c-f478-40e7-98af-47f903f4365d"
+            },
+            {
+                "code": "_ActNoImmunizationReason",
+                "definition": "A coded description of the reason for why a patient did not receive a scheduled immunization.\r\n\n                        (important for public health strategy",
+                "display": "ActNoImmunizationReason",
+                "id": "877dec33-324c-4530-8ef7-1c10ccf03b34"
+            },
+            {
+                "code": "_ActSupplyFulfillmentRefusalReason",
+                "definition": "Indicates why a fulfiller refused to fulfill a supply order, and considered it important to notify other providers of their decision.  E.g. \"Suspect fraud\", \"Possible abuse\", \"Contraindicated\".\r\n\n                        (used when capturing 'refusal to fill' annotations)",
+                "display": "ActSupplyFulfillmentRefusalReason",
+                "id": "446dae34-a072-4d66-b00f-03d4fc04f3b6"
+            },
+            {
+                "code": "_ClinicalResearchEventReason",
+                "definition": "Definition:Specifies the reason that an event occurred in a clinical research study.",
+                "display": "ClinicalResearchEventReason",
+                "id": "d0532fee-655a-4848-b4fe-65b193ed65ca"
+            },
+            {
+                "code": "_ClinicalResearchObservationReason",
+                "definition": "Definition:SSpecifies the reason that a test was performed or observation collected in a clinical research study.\r\n\n                        \n                           Note:This set of codes are not strictly reasons, but are used in the currently Normative standard.  Future revisions of the specification will model these as ActRelationships and thes codes may subsequently be retired.  Thus, these codes should not be used for new specifications.",
+                "display": "ClinicalResearchObservationReason",
+                "id": "c2f62ca1-e879-4249-82a2-15869a439ae4"
+            },
+            {
+                "code": "_CombinedPharmacyOrderSuspendReasonCode",
+                "definition": "Description:Indicates why the prescription should be suspended.",
+                "display": "CombinedPharmacyOrderSuspendReasonCode",
+                "id": "d068ef24-0896-4a53-8e12-d3fda10d4a4d"
+            },
+            {
+                "code": "_ControlActNullificationReasonCode",
+                "definition": "Description:Identifies reasons for nullifying (retracting) a particular control act.",
+                "display": "ControlActNullificationReasonCode",
+                "id": "804a79c6-a7d5-45f4-a7fd-889f1b19662d"
+            },
+            {
+                "code": "_ControlActNullificationRefusalReasonType",
+                "definition": "Description: Reasons to refuse a transaction to be undone.",
+                "display": "ControlActNullificationRefusalReasonType",
+                "id": "047897f3-1f69-41f9-b59a-4797bb2ba8df"
+            },
+            {
+                "code": "_ControlActReason",
+                "definition": "Identifies why a specific query, request, or other trigger event occurred.",
+                "display": "ControlActReason",
+                "id": "1e6c2138-eb69-4a23-8a41-0dea0b52267b"
+            },
+            {
+                "code": "_GenericUpdateReasonCode",
+                "definition": "Description:Identifies why a change is being made to a  record.",
+                "display": "GenericUpdateReasonCode",
+                "id": "8a6cc389-df49-40cc-967a-9fe3a0821438"
+            },
+            {
+                "code": "_PatientProfileQueryReasonCode",
+                "definition": "Definition:A collection of concepts identifying why the patient's profile is being queried.",
+                "display": "patient profile query reason",
+                "id": "8cf9e32c-1492-4d4d-9c36-9d3d77366665"
+            },
+            {
+                "code": "_PharmacySupplyRequestFulfillerRevisionRefusalReasonCode",
+                "definition": "Definition:Indicates why the request to transfer a prescription from one dispensing facility to another has been refused.",
+                "display": "PharmacySupplyRequestFulfillerRevisionRefusalReasonCode",
+                "id": "3d4c4a3f-39a9-4ff4-9ffb-913cfe8055ce"
+            },
+            {
+                "code": "_RefusalReasonCode",
+                "definition": "Description: Identifies why a request to add (or activate) a record is being refused.  Examples include the receiving system not able to match the identifier and find that record in the receiving system, having no permission, or a detected issue exists which precludes the requested action.",
+                "display": "RefusalReasonCode",
+                "id": "b94c386c-29f7-48c3-b56c-86ee1645728c"
+            },
+            {
+                "code": "_SchedulingActReason",
+                "definition": "Reasons for cancelling or rescheduling an Appointment",
+                "display": "SchedulingActReason",
+                "id": "52389e4a-a836-4e0e-a7a3-cf8b1445f1c0"
+            },
+            {
+                "code": "_StatusRevisionRefusalReasonCode",
+                "definition": "Indicates why the act revision (status update) is being refused.",
+                "display": "StatusRevisionRefusalReasonCode",
+                "id": "156a4a48-192f-4aa6-a8bc-0b7a545a1b25"
+            },
+            {
+                "code": "_SubstanceAdministrationPermissionRefusalReasonCode",
+                "definition": "Definition:Indicates why the requested authorization to prescribe or dispense a medication has been refused.",
+                "display": "SubstanceAdministrationPermissionRefusalReasonCode",
+                "id": "d4a7395c-6133-4587-b358-34a7294a6d80"
+            },
+            {
+                "code": "_SubstanceAdminSubstitutionNotAllowedReason",
+                "definition": "Reasons why substitution of a substance administration request is not permitted.",
+                "display": "SubstanceAdminSubstitutionNotAllowedReason",
+                "id": "f995d49f-4d35-41ed-bf71-6635ccf2d88e"
+            },
+            {
+                "code": "_SubstanceAdminSubstitutionReason",
+                "definition": "SubstanceAdminSubstitutionReason",
+                "display": "SubstanceAdminSubstitutionReason",
+                "id": "ed2d8994-dda7-4ada-a7e9-115d16c23dbb"
+            },
+            {
+                "code": "_TransferActReason",
+                "definition": "The explanation for why a patient is moved from one location to another within the organization",
+                "display": "TransferActReason",
+                "id": "c4258dd7-497f-41a6-8b2b-2fc069fa4587"
+            },
+            {
+                "code": "_ActBillableServiceReason",
+                "definition": "Definition: This domain is used to document reasons for providing a billable service; the billable services may include both clinical services and social services.",
+                "display": "ActBillableServiceReason",
+                "id": "5f1e70ac-caa3-499b-9a1b-6a6d072328b9"
+            },
+            {
+                "code": "BONUS",
+                "definition": "BONUS",
+                "display": "BONUS",
+                "id": "49b623cb-5903-40b0-9f73-9e0367c8b44a"
+            },
+            {
+                "code": "CHD",
+                "definition": "Description:The level of coverage under the policy or program is available only to children",
+                "display": "Children only",
+                "id": "4446e292-262a-4bd2-b24d-864ec0dffeb1"
+            },
+            {
+                "code": "DEP",
+                "definition": "Description:The level of coverage under the policy or program is available only to a subscriber's dependents.",
+                "display": "Dependents only",
+                "id": "7eef2379-eaab-4139-b402-baf056d6df69"
+            },
+            {
+                "code": "ECH",
+                "definition": "Description:The level of coverage under the policy or program is available to an employee and his or her children.",
+                "display": "Employee and children",
+                "id": "5ef23081-64d6-42f0-b9f6-24879c1bd0aa"
+            },
+            {
+                "code": "EDU",
+                "definition": "EDU",
+                "display": "EDU",
+                "id": "0acd5f0f-15b5-44c6-96d2-9770a07e96ed"
+            },
+            {
+                "code": "EMP",
+                "definition": "Description:The level of coverage under the policy or program is available only to an employee.",
+                "display": "Employee only",
+                "id": "f87290a9-4e62-47ff-90fa-38aebcb71048"
+            },
+            {
+                "code": "ESP",
+                "definition": "Description:The level of coverage under the policy or program is available to an employee and his or her spouse.",
+                "display": "Employee and spouse",
+                "id": "0167dd97-bacd-4ddc-8efc-d3c5317e7fbc"
+            },
+            {
+                "code": "FAM",
+                "definition": "Description:The level of coverage under the policy or program is available to a subscriber's family.",
+                "display": "Family",
+                "id": "06afbf58-8aea-425a-8c14-fb3e2d53b333"
+            },
+            {
+                "code": "IND",
+                "definition": "Description:The level of coverage under the policy or program is available to an individual.",
+                "display": "Individual",
+                "id": "19e7ab61-fc27-4c71-bafe-9606775b9169"
+            },
+            {
+                "code": "INVOICE",
+                "definition": "INVOICE",
+                "display": "INVOICE",
+                "id": "dee5dff4-88fe-4347-9fe6-78bff5eaf47a"
+            },
+            {
+                "code": "PROA",
+                "definition": "PROA",
+                "display": "PROA",
+                "id": "9d4aae01-7f07-4919-bc3f-6fbc73269c51"
+            },
+            {
+                "code": "RECOV",
+                "definition": "RECOV",
+                "display": "RECOV",
+                "id": "82ac41e0-2310-4185-ba07-ced3e2fd773a"
+            },
+            {
+                "code": "RETRO",
+                "definition": "RETRO",
+                "display": "RETRO",
+                "id": "392375ad-2b99-41d1-9b2a-d1283d5a2b25"
+            },
+            {
+                "code": "SPC",
+                "definition": "Description:The level of coverage under the policy or program is available to a subscriber's spouse and children",
+                "display": "Spouse and children",
+                "id": "9102fda1-e8ab-41b6-ba8f-fc648bd29503"
+            },
+            {
+                "code": "SPO",
+                "definition": "Description:The level of coverage under the policy or program is available only to a subscribers spouse",
+                "display": "Spouse only",
+                "id": "17ccbf39-9c68-4c4d-90d3-65548b8a5bc8"
+            },
+            {
+                "code": "TRAN",
+                "definition": "TRAN",
+                "display": "TRAN",
+                "id": "55658deb-8be9-4036-b707-b92a0554f6df"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

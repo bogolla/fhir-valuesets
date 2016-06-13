@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Tablecellverticalalign",
+        "records": [
+            {
+                "code": "baseline",
+                "definition": "baseline",
+                "display": "baseline",
+                "id": "848aa7e3-7c3e-4a5d-9ba8-504312386ad8"
+            },
+            {
+                "code": "bottom",
+                "definition": "bottom",
+                "display": "bottom",
+                "id": "5c0eef28-0c17-4a55-bfe9-0cc9c0d25739"
+            },
+            {
+                "code": "middle",
+                "definition": "middle",
+                "display": "middle",
+                "id": "7f838b90-7fc5-4a62-8d90-772cf3d483c9"
+            },
+            {
+                "code": "top",
+                "definition": "top",
+                "display": "top",
+                "id": "771b6e8b-e8df-46ab-a31c-604d6af11366"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

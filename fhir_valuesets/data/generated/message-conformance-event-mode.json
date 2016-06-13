@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.MessageConformanceEventMode",
+        "records": [
+            {
+                "code": "sender",
+                "definition": "The application sends requests and receives responses.",
+                "display": "Sender",
+                "id": "95d96b21-8e33-44e7-835b-2e5223d2742f"
+            },
+            {
+                "code": "receiver",
+                "definition": "The application receives requests and sends responses.",
+                "display": "Receiver",
+                "id": "4b53f160-0c7f-4374-9b9b-03323296ae82"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

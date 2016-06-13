@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.MedicationAdminStatus",
+        "records": [
+            {
+                "code": "in-progress",
+                "definition": "The administration has started but has not yet completed.",
+                "display": "In Progress",
+                "id": "93ddf313-24a4-4fec-baf0-26d80413e5a0"
+            },
+            {
+                "code": "on-hold",
+                "definition": "Actions implied by the administration have been temporarily halted, but are expected to continue later. May also be called \"suspended\".",
+                "display": "On Hold",
+                "id": "9ce283cd-af65-4148-88cf-6b45931114b8"
+            },
+            {
+                "code": "completed",
+                "definition": "All actions that are implied by the administration have occurred.",
+                "display": "Completed",
+                "id": "edfff94c-2553-4ebf-bfd6-710a7eb19b8d"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The administration was entered in error and therefore nullified.",
+                "display": "Entered in Error",
+                "id": "ab5453ae-2335-42c3-98b2-59bf67afde6e"
+            },
+            {
+                "code": "stopped",
+                "definition": "Actions implied by the administration have been permanently halted, before all of them occurred.",
+                "display": "Stopped",
+                "id": "269ace2f-14c4-4962-9f24-ae745423464a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

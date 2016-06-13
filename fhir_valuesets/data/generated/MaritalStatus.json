@@ -1,0 +1,71 @@
+[
+    {
+        "model": "valuesets.Maritalstatus",
+        "records": [
+            {
+                "code": "A",
+                "definition": "Marriage contract has been declared null and to not have existed",
+                "display": "Annulled",
+                "id": "4e397cf3-3696-4445-bb3d-42e64cf3a854"
+            },
+            {
+                "code": "D",
+                "definition": "Marriage contract has been declared dissolved and inactive",
+                "display": "Divorced",
+                "id": "2c674fd6-f7aa-4206-8045-1abd36c3baef"
+            },
+            {
+                "code": "I",
+                "definition": "Subject to an Interlocutory Decree.",
+                "display": "Interlocutory",
+                "id": "d63d4ed5-b05b-4c43-8604-1faf1a24fa26"
+            },
+            {
+                "code": "L",
+                "definition": "Legally Separated",
+                "display": "Legally Separated",
+                "id": "125c7a6c-2957-40a8-9828-5c1fa572178e"
+            },
+            {
+                "code": "M",
+                "definition": "A current marriage contract is active",
+                "display": "Married",
+                "id": "c995e23c-677f-4cda-827d-5d4789d2c5f0"
+            },
+            {
+                "code": "P",
+                "definition": "More than 1 current spouse",
+                "display": "Polygamous",
+                "id": "865fe587-63c8-422f-bb0b-9fabe5a6de2f"
+            },
+            {
+                "code": "S",
+                "definition": "No marriage contract has ever been entered",
+                "display": "Never Married",
+                "id": "5e3fa49b-e324-40ef-841d-194603c147a0"
+            },
+            {
+                "code": "T",
+                "definition": "Person declares that a domestic partner relationship exists.",
+                "display": "Domestic partner",
+                "id": "9cd5fd79-dbe4-4d90-a9bc-39a51d3fa47f"
+            },
+            {
+                "code": "U",
+                "definition": "Currently not in a marriage contract.",
+                "display": "unmarried",
+                "id": "19401310-2f0c-4398-9ea7-3c7c9d8b9895"
+            },
+            {
+                "code": "W",
+                "definition": "The spouse has died",
+                "display": "Widowed",
+                "id": "fccb8cf6-5a2d-40ec-a797-2dd2c2c4a688"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

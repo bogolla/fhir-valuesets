@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.PrecheckBehavior",
+        "records": [
+            {
+                "code": "yes",
+                "definition": "An item with this behavior is one of the most frequent items that is, or should be, included by an end user, for the particular context in which the item occurs. The system displaying the item to the end user should consider \"pre-checking\" such an item as a convenience for the user",
+                "display": "Yes",
+                "id": "2dd37190-df24-4370-b4e2-b898a17be02f"
+            },
+            {
+                "code": "no",
+                "definition": "An item with this behavior is one of the less frequent items included by the end user, for the particular context in which the item occurs. The system displaying the items to the end user would typically not \"pre-check\" such an item",
+                "display": "No",
+                "id": "65d3ce71-554a-421a-9f24-f6c418893394"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

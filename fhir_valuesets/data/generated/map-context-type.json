@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.MapContextType",
+        "records": [
+            {
+                "code": "type",
+                "definition": "The context specifies a type",
+                "display": "Type",
+                "id": "6a7c7df9-ef01-446f-b0df-f89045e63c01"
+            },
+            {
+                "code": "variable",
+                "definition": "The context specifies a variable",
+                "display": "Variable",
+                "id": "91cf52f0-ba9b-4f55-9e5b-79c92052a137"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

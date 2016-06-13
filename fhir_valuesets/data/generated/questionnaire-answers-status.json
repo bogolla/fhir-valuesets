@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.QuestionnaireAnswersStatus",
+        "records": [
+            {
+                "code": "in-progress",
+                "definition": "This QuestionnaireResponse has been partially filled out with answers, but changes or additions are still expected to be made to it.",
+                "display": "In Progress",
+                "id": "a70a7d60-2057-444f-9fc0-8d920df7260e"
+            },
+            {
+                "code": "completed",
+                "definition": "This QuestionnaireResponse has been filled out with answers, and the current content is regarded as definitive.",
+                "display": "Completed",
+                "id": "e3461912-74bc-4d5f-8ea1-09620e8518d8"
+            },
+            {
+                "code": "amended",
+                "definition": "This QuestionnaireResponse has been filled out with answers, then marked as complete, yet changes or additions have been made to it afterwards.",
+                "display": "Amended",
+                "id": "d13709f9-f68c-4ed7-8583-a5fb74193992"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

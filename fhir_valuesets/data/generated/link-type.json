@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.LinkType",
+        "records": [
+            {
+                "code": "replace",
+                "definition": "The patient resource containing this link must no longer be used. The link points forward to another patient resource that must be used in lieu of the patient resource that contains this link.",
+                "display": "Replace",
+                "id": "b9cd23a9-1ee3-4dc9-a79d-fa1df2123712"
+            },
+            {
+                "code": "refer",
+                "definition": "The patient resource containing this link is in use and valid but not considered the main source of information about a patient. The link points forward to another patient resource that should be consulted to retrieve additional patient information.",
+                "display": "Refer",
+                "id": "b405126a-50dd-4721-a980-17294d53ed89"
+            },
+            {
+                "code": "seealso",
+                "definition": "The patient resource containing this link is in use and valid, but points to another patient resource that is known to contain data about the same person. Data in this resource might overlap or contradict information found in the other patient resource. This link does not indicate any relative importance of the resources concerned, and both should be regarded as equally valid.",
+                "display": "See also",
+                "id": "d2b84514-cc0f-4126-8aba-4bd54e322cec"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

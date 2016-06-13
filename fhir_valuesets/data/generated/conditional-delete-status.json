@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ConditionalDeleteStatus",
+        "records": [
+            {
+                "code": "not-supported",
+                "definition": "No support for conditional deletes.",
+                "display": "Not Supported",
+                "id": "fb1d1fcb-af8b-4040-bc71-4ed4e396d2f6"
+            },
+            {
+                "code": "single",
+                "definition": "Conditional deletes are supported, but only single resources at a time.",
+                "display": "Single Deletes Supported",
+                "id": "cccb133f-ba7f-4522-bf25-1124cac2ffd2"
+            },
+            {
+                "code": "multiple",
+                "definition": "Conditional deletes are supported, and multiple resources can be deleted in a single interaction.",
+                "display": "Multiple Deletes Supported",
+                "id": "3d123668-3f77-4992-bc44-689a19d2e06e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

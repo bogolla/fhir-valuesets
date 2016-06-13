@@ -1,0 +1,179 @@
+[
+    {
+        "model": "valuesets.Addressparttype",
+        "records": [
+            {
+                "code": "ADL",
+                "definition": "This can be a unit designator, such as apartment number, suite number, or floor. There may be several unit designators in an address (e.g., \"3rd floor, Appt. 342\"). This can also be a designator pointing away from the location, rather than specifying a smaller location within some larger one (e.g., Dutch \"t.o.\" means \"opposite to\" for house boats located across the street facing houses).",
+                "display": "additional locator",
+                "id": "37f3433f-17d5-45a4-a2e0-18a313c30cbc"
+            },
+            {
+                "code": "AL",
+                "definition": "Description: An address line is for either an additional locator, a delivery address or a street address.",
+                "display": "address line",
+                "id": "9699d636-a0aa-4f38-864a-a81862b20579"
+            },
+            {
+                "code": "BNN",
+                "definition": "The numeric portion of a building number",
+                "display": "building number numeric",
+                "id": "e642f2cd-855d-4edb-8b6e-5f2100a468d5"
+            },
+            {
+                "code": "BNR",
+                "definition": "The number of a building, house or lot alongside the street.  Also known as \"primary street number\".  This does not number the street but rather the building.",
+                "display": "building number",
+                "id": "b0926946-5656-422d-bf49-2ea8f77ac107"
+            },
+            {
+                "code": "BNS",
+                "definition": "Any alphabetic character, fraction or other text that may appear after the numeric portion of a building number",
+                "display": "building number suffix",
+                "id": "99a85e0c-fda9-4074-be09-dfa8ffc6350c"
+            },
+            {
+                "code": "CAR",
+                "definition": "The name of the party who will take receipt at the specified address, and will take on responsibility for ensuring delivery to the target recipient",
+                "display": "care of",
+                "id": "70147fd3-482c-496f-9bb2-0e29ca581bb6"
+            },
+            {
+                "code": "CEN",
+                "definition": "A geographic sub-unit delineated for demographic purposes.",
+                "display": "census tract",
+                "id": "1654db40-2baf-4be1-8d2d-38562852f1ca"
+            },
+            {
+                "code": "CNT",
+                "definition": "Country",
+                "display": "country",
+                "id": "46b2048e-fd82-4b71-bd2a-563dd97da078"
+            },
+            {
+                "code": "CPA",
+                "definition": "A sub-unit of a state or province. (49 of the United States of America use the term \"county;\" Louisiana uses the term \"parish\".)",
+                "display": "county or parish",
+                "id": "4ba1c587-0e96-4408-bd34-d283410b10d5"
+            },
+            {
+                "code": "CTY",
+                "definition": "The name of the city, town, village, or other community or delivery center",
+                "display": "municipality",
+                "id": "18106d70-b471-4bac-a944-bd70d2235f9f"
+            },
+            {
+                "code": "DEL",
+                "definition": "Delimiters are printed without framing white space.  If no value component is provided, the delimiter appears as a line break.",
+                "display": "delimiter",
+                "id": "62403662-8173-4263-81c7-9ca9596eded6"
+            },
+            {
+                "code": "DINST",
+                "definition": "Indicates the type of delivery installation (the facility to which the mail will be delivered prior to final shipping via the delivery mode.) Example: post office, letter carrier depot, community mail center, station, etc.",
+                "display": "delivery installation type",
+                "id": "279ff0dd-5395-4ce1-b9da-21ee02540b56"
+            },
+            {
+                "code": "DINSTA",
+                "definition": "The location of the delivery installation, usually a town or city, and is only required if the area is different from the municipality. Area to which mail delivery service is provided from any postal facility or service such as an individual letter carrier, rural route, or postal route.",
+                "display": "delivery installation area",
+                "id": "b1455c82-1eaf-4d2c-9e34-5f783c2fa46c"
+            },
+            {
+                "code": "DINSTQ",
+                "definition": "A number, letter or name identifying a delivery installation.  E.g., for Station A, the delivery installation qualifier would be 'A'.",
+                "display": "delivery installation qualifier",
+                "id": "c82317c2-c310-47b7-8f77-3cde558a2e6b"
+            },
+            {
+                "code": "DIR",
+                "definition": "Direction (e.g., N, S, W, E)",
+                "display": "direction",
+                "id": "585d4ad3-7978-4f36-9477-80ce1498ddd6"
+            },
+            {
+                "code": "DMOD",
+                "definition": "Indicates the type of service offered, method of delivery.  For example: post office box, rural route, general delivery, etc.",
+                "display": "delivery mode",
+                "id": "b0c71dd1-003d-444d-937f-fbf2f9d637c6"
+            },
+            {
+                "code": "DMODID",
+                "definition": "Represents the routing information such as a letter carrier route number.  It is the identifying number of the designator (the box number or rural route number).",
+                "display": "delivery mode identifier",
+                "id": "6927dc95-d8f0-457d-a9da-a96d8e9916a0"
+            },
+            {
+                "code": "DPID",
+                "definition": "A value that uniquely identifies the postal address.",
+                "display": "delivery point identifier",
+                "id": "b869cb54-e724-42b3-9c62-639480e9f27b"
+            },
+            {
+                "code": "INT",
+                "definition": "Description:An intersection denotes that the actual address is located AT or CLOSE TO the intersection OF two or more streets.",
+                "display": "intersection",
+                "id": "9d2ef9f9-515d-4f3f-a105-2f218420f507"
+            },
+            {
+                "code": "POB",
+                "definition": "A numbered box located in a post station.",
+                "display": "post box",
+                "id": "a683ab18-661a-4334-a55a-e08ecf712700"
+            },
+            {
+                "code": "PRE",
+                "definition": "A subsection of a municipality",
+                "display": "precinct",
+                "id": "3c17068a-de93-480e-9c13-c32d79ee127d"
+            },
+            {
+                "code": "STA",
+                "definition": "A sub-unit of a country with limited sovereignty in a federally organized country.",
+                "display": "state or province",
+                "id": "c329376f-375e-4f58-b96d-30d73e6f3006"
+            },
+            {
+                "code": "STB",
+                "definition": "The base name of a roadway or artery recognized by a municipality (excluding street type and direction)",
+                "display": "street name base",
+                "id": "754b94bd-beed-46d1-833d-9fde9f9141b2"
+            },
+            {
+                "code": "STR",
+                "definition": "street name",
+                "display": "street name",
+                "id": "d9149a62-bd15-4621-84ca-b6f49d9f8748"
+            },
+            {
+                "code": "STTYP",
+                "definition": "The designation given to the street.  (e.g. Street, Avenue, Crescent, etc.)",
+                "display": "street type",
+                "id": "d633eb80-7187-4827-b6c2-9f4213053dd0"
+            },
+            {
+                "code": "UNID",
+                "definition": "The number or name of a specific unit contained within a building or complex, as assigned by that building or complex.",
+                "display": "unit identifier",
+                "id": "44690393-e3ba-46a2-9045-837f8a54de0f"
+            },
+            {
+                "code": "UNIT",
+                "definition": "Indicates the type of specific unit contained within a building or complex.  E.g. Appartment, Floor",
+                "display": "unit designator",
+                "id": "22d27dd5-ae92-430f-b3d4-052d4985a1dd"
+            },
+            {
+                "code": "ZIP",
+                "definition": "A postal code designating a region defined by the postal service.",
+                "display": "postal code",
+                "id": "51678f25-f109-4129-bdaf-bcd133ab6661"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

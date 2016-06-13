@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ActionRelationshipType",
+        "records": [
+            {
+                "code": "before",
+                "definition": "The action must be performed before the related action",
+                "display": "Before",
+                "id": "9893f46c-b036-4970-b431-57c94c98ec74"
+            },
+            {
+                "code": "after",
+                "definition": "The action must be performed after the related action",
+                "display": "After",
+                "id": "a5491233-72fd-46c9-a091-d78a9129a0c6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

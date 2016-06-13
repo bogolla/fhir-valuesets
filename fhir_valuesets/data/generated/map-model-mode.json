@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.MapModelMode",
+        "records": [
+            {
+                "code": "source",
+                "definition": "This structure describes an instance passed to the mapping engine that is used a source of data",
+                "display": "Source Structure Definition",
+                "id": "f441c42b-1853-4927-959e-2024bb7594be"
+            },
+            {
+                "code": "queried",
+                "definition": "This structure describes an instance that the mapping engine may ask for that is used a source of data",
+                "display": "Queried Structure Definition",
+                "id": "b1a04615-acb7-44d4-b327-a8b27a4d0131"
+            },
+            {
+                "code": "target",
+                "definition": "This structure describes an instance passed to the mapping engine that is used a target of data",
+                "display": "Target Structure Definition",
+                "id": "52783da6-acf4-4b8c-a48d-b223cad042db"
+            },
+            {
+                "code": "produced",
+                "definition": "This structure describes an instance that the mapping engine may ask to create that is used a target of data",
+                "display": "Produced Structure Definition",
+                "id": "9d16607b-da26-40c7-acf5-6b7eadeba3d6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

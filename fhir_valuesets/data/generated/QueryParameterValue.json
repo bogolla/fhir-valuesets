@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Queryparametervalue",
+        "records": [
+            {
+                "code": "_DispenseQueryFilterCode",
+                "definition": "Description:Filter codes used to manage volume of dispenses returned by  a parameter-based queries.",
+                "display": "dispense query filter code",
+                "id": "2708049b-ae30-4059-aabc-c36c3bf49e26"
+            },
+            {
+                "code": "_OrderFilterCode",
+                "definition": "Filter codes used to manage types of orders being returned by a parameter-based query.",
+                "display": "_OrderFilterCode",
+                "id": "bdb5a535-7b42-46cb-8092-f0b1492f11d3"
+            },
+            {
+                "code": "_PrescriptionDispenseFilterCode",
+                "definition": "A \"helper\" vocabulary used to construct complex query filters based on how and whether a prescription has been dispensed.",
+                "display": "Prescription Dispense Filter Code",
+                "id": "1bfc48b6-885f-45a2-8e44-0ac3b28c1748"
+            },
+            {
+                "code": "_QueryParameterValue",
+                "definition": "Description:Indicates how result sets should be filtered based on whether they have associated issues.",
+                "display": "QueryParameterValue",
+                "id": "f0ac4728-3745-41aa-8563-5aa593564d79"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

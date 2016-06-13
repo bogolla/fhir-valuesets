@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ClaimModifiers",
+        "records": [
+            {
+                "code": "a",
+                "definition": "Repair of prior service or installation.",
+                "display": "Repair of prior service or installation",
+                "id": "af30f0fe-237d-462f-9d85-7b5b981819e6"
+            },
+            {
+                "code": "b",
+                "definition": "Temporary service or installation.",
+                "display": "Temporary service or installation",
+                "id": "b1806d8b-3bf3-47db-a69b-ed23aa4549ad"
+            },
+            {
+                "code": "c",
+                "definition": "Treatment associated with TMJ.",
+                "display": "TMJ treatment",
+                "id": "93058abe-d9db-439d-b790-a4d5d753cf0b"
+            },
+            {
+                "code": "e",
+                "definition": "Implant or associated with an implant.",
+                "display": "Implant or associated with an implant",
+                "id": "46b85e8d-d92a-4c4b-bf54-244614126d60"
+            },
+            {
+                "code": "x",
+                "definition": "None.",
+                "display": "None",
+                "id": "f731ea6c-3e26-4aba-a4a9-0841395b0d19"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

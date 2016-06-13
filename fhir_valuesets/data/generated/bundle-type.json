@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.BundleType",
+        "records": [
+            {
+                "code": "document",
+                "definition": "The bundle is a document. The first resource is a Composition.",
+                "display": "Document",
+                "id": "ae0b19fa-fe32-4beb-811d-a2e1209ca3ac"
+            },
+            {
+                "code": "message",
+                "definition": "The bundle is a message. The first resource is a MessageHeader.",
+                "display": "Message",
+                "id": "763dc821-54de-4ba0-95cf-37cba7c3ed2d"
+            },
+            {
+                "code": "transaction",
+                "definition": "The bundle is a transaction - intended to be processed by a server as an atomic commit.",
+                "display": "Transaction",
+                "id": "981a2447-4bca-46fd-bebc-6268aa7f3173"
+            },
+            {
+                "code": "transaction-response",
+                "definition": "The bundle is a transaction response. Because the response is a transaction response, the transactionhas succeeded, and all responses are error free.",
+                "display": "Transaction Response",
+                "id": "8523a7ee-b631-487d-a2bf-2900ba663fec"
+            },
+            {
+                "code": "batch",
+                "definition": "The bundle is a transaction - intended to be processed by a server as a group of actions.",
+                "display": "Batch",
+                "id": "cf9801e2-8190-46cd-a8f7-5c10bf14f38e"
+            },
+            {
+                "code": "batch-response",
+                "definition": "The bundle is a batch response. Note that as a batch, some responses may indicate failure and others success.",
+                "display": "Batch Response",
+                "id": "c35e294a-e622-46f7-bad0-dc94db52d802"
+            },
+            {
+                "code": "history",
+                "definition": "The bundle is a list of resources from a history interaction on a server.",
+                "display": "History List",
+                "id": "69a3917f-af08-465d-8203-9b29ebc81bd7"
+            },
+            {
+                "code": "searchset",
+                "definition": "The bundle is a list of resources returned as a result of a search/query interaction, operation, or message.",
+                "display": "Search Results",
+                "id": "cd0150db-32b3-4304-a0cd-613b74165c52"
+            },
+            {
+                "code": "collection",
+                "definition": "The bundle is a set of resources collected into a single document for ease of distribution.",
+                "display": "Collection",
+                "id": "7a080a01-3b55-4a63-8fce-5328ed1b43b3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

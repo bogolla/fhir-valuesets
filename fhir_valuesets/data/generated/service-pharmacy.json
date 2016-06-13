@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ServicePharmacy",
+        "records": [
+            {
+                "code": "smokecess",
+                "definition": "Smoking cessation",
+                "display": "Smoking cessation",
+                "id": "41fe2e0a-867a-47f6-b654-e21a76517cf7"
+            },
+            {
+                "code": "flushot",
+                "definition": "Flu Shot",
+                "display": "Flu Shot",
+                "id": "945c8586-5b7c-45d9-9f89-aea78513b632"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

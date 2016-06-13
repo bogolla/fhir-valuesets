@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ProtocolType",
+        "records": [
+            {
+                "code": "condition",
+                "definition": "The protocol describes the steps to manage a particular health condition including monitoring, treatment, mitigation and/or follow-up",
+                "display": "Condition",
+                "id": "fa8f5404-5ba9-4f64-ac3e-e0b159c3898f"
+            },
+            {
+                "code": "device",
+                "definition": "The protocol describes the appropriate use of a particular device (medical device, software, etc.)",
+                "display": "Device",
+                "id": "0521a5cc-6e88-4589-98ba-4f4c14ef485a"
+            },
+            {
+                "code": "drug",
+                "definition": "The protocol describes the appropriate use of a particular medication including indications for use, dosages, treatment cycles, etc.",
+                "display": "Drug",
+                "id": "f3e0cb2f-9d74-4a22-9fb9-e1d2b40b9c14"
+            },
+            {
+                "code": "study",
+                "definition": "The protocol describes the set of steps to occur for study subjects enrolled in an interventional study",
+                "display": "Study",
+                "id": "183781c3-9845-4746-93c4-2f63438ff309"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

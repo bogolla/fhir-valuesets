@@ -1,0 +1,71 @@
+[
+    {
+        "model": "valuesets.AssertOperatorCodes",
+        "records": [
+            {
+                "code": "equals",
+                "definition": "Default value. Equals comparison.",
+                "display": "equals",
+                "id": "cb50f622-71ef-494b-83d4-c48a5b17646e"
+            },
+            {
+                "code": "notEquals",
+                "definition": "Not equals comparison.",
+                "display": "notEquals",
+                "id": "865d953a-ac33-4829-876e-b393020595fd"
+            },
+            {
+                "code": "in",
+                "definition": "Compare value within a known set of values.",
+                "display": "in",
+                "id": "b87226e8-91c2-4707-b165-b10702002b6a"
+            },
+            {
+                "code": "notIn",
+                "definition": "Compare value not within a known set of values.",
+                "display": "notIn",
+                "id": "d225d760-f88c-4c4e-854b-86a0348f13a4"
+            },
+            {
+                "code": "greaterThan",
+                "definition": "Compare value to be greater than a known value.",
+                "display": "greaterThan",
+                "id": "65144cab-54cd-477e-a16d-8eafdf46e147"
+            },
+            {
+                "code": "lessThan",
+                "definition": "Compare value to be less than a known value.",
+                "display": "lessThan",
+                "id": "96893b74-0e57-49b6-846e-54ba1383febe"
+            },
+            {
+                "code": "empty",
+                "definition": "Compare value is empty.",
+                "display": "empty",
+                "id": "ac7dfa82-6dcf-4a38-a6c1-1d70d135d087"
+            },
+            {
+                "code": "notEmpty",
+                "definition": "Compare value is not empty.",
+                "display": "notEmpty",
+                "id": "9fe5db3c-4ca6-44c7-b134-612a3fd76c16"
+            },
+            {
+                "code": "contains",
+                "definition": "Compare value string contains a known value.",
+                "display": "contains",
+                "id": "1cb3dd36-f033-43a2-9127-ca7949e1fa52"
+            },
+            {
+                "code": "notContains",
+                "definition": "Compare value string does not contain a known value.",
+                "display": "notContains",
+                "id": "bc0587b1-f5d7-4a29-b219-59bed2ea8352"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.EncounterPriority",
+        "records": [
+            {
+                "code": "imm",
+                "definition": "Within seconds.",
+                "display": "Immediate",
+                "id": "9789f5b1-b4e9-47ed-8842-9e09eb1ff056"
+            },
+            {
+                "code": "emg",
+                "definition": "Within 10 minutes.",
+                "display": "Emergency",
+                "id": "b9100bc7-9eca-498c-a501-4becf073a7b3"
+            },
+            {
+                "code": "urg",
+                "definition": "Within 30 minutes.",
+                "display": "Urgent",
+                "id": "fbfda745-9a71-450f-9403-ec1e33f90fd4"
+            },
+            {
+                "code": "s-urg",
+                "definition": "Within 60 minutes.",
+                "display": "Semi-urgent",
+                "id": "de7ea8c0-a331-4c50-94fd-c060db07483b"
+            },
+            {
+                "code": "no-urg",
+                "definition": "Within 120 minutes.",
+                "display": "Non-urgent",
+                "id": "25ad3e9c-37ba-4a3c-b115-67395f0513e1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

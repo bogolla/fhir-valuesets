@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ActionBehaviorType",
+        "records": [
+            {
+                "code": "grouping",
+                "definition": "Specifies grouping behavior using the action-group-behavior valueset",
+                "display": "Grouping Behavior",
+                "id": "2dd44353-b546-4621-b2d4-092cc1f8473b"
+            },
+            {
+                "code": "selection",
+                "definition": "Specifies selection behavior using the action-selection-behavior valueset",
+                "display": "Selection Behavior",
+                "id": "047bb311-0b4d-439b-9889-6bd42c011214"
+            },
+            {
+                "code": "required",
+                "definition": "Specifies required behavior using the action-required-behavior valueset",
+                "display": "Required Behavior",
+                "id": "70f65535-e083-484e-a8c6-7353dbee0541"
+            },
+            {
+                "code": "precheck",
+                "definition": "Specifies precheck behavior using the action-precheck-behavior valueset",
+                "display": "Precheck Behavior",
+                "id": "4fd63319-37d1-4ee7-b701-1c998e1db890"
+            },
+            {
+                "code": "cardinality",
+                "definition": "Specifies cardinality behavior using the action-cardinality behavior valueset",
+                "display": "Cardinality Behavior",
+                "id": "b39358a1-b4a1-430f-adb1-f04e1a7aa2d2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

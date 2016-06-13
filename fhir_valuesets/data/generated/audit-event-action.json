@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.AuditEventAction",
+        "records": [
+            {
+                "code": "C",
+                "definition": "Create a new database object, such as placing an order.",
+                "display": "Create",
+                "id": "c6673307-590d-48f4-9ee6-be11da199ca4"
+            },
+            {
+                "code": "R",
+                "definition": "Display or print data, such as a doctor census.",
+                "display": "Read/View/Print",
+                "id": "45f9d891-6fbb-4557-9362-a44d34a26509"
+            },
+            {
+                "code": "U",
+                "definition": "Update data, such as revise patient information.",
+                "display": "Update",
+                "id": "bf32f311-a615-4f1a-a5a3-f5fb892455f9"
+            },
+            {
+                "code": "D",
+                "definition": "Delete items, such as a doctor master file record.",
+                "display": "Delete",
+                "id": "6abf34ae-6ffd-463d-8546-b29b2331f6dc"
+            },
+            {
+                "code": "E",
+                "definition": "Perform a system or application function such as log-on, program execution or use of an object's method, or perform a query/search operation.",
+                "display": "Execute",
+                "id": "21ee1b84-bdf8-4bb6-888f-954278c565d2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

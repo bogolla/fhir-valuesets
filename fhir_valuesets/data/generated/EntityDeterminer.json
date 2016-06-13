@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Entitydeterminer",
+        "records": [
+            {
+                "code": "INSTANCE",
+                "definition": "Description:A determiner that specifies that the Entity object represents a particular physical thing (as opposed to a universal, kind, or class of physical thing).\r\n\n                        \n                           Discussion: It does not matter whether an INSTANCE still exists as a whole at the point in time (or process) when we mention it, for example, a drug product lot is an INSTANCE even though it has been portioned out for retail purpose.",
+                "display": "specific",
+                "id": "3b12921e-6c41-4f33-9886-a0503227cc6c"
+            },
+            {
+                "code": "KIND",
+                "definition": "Description:A determiner that specifies that the Entity object represents a universal, kind or class of physical thing (as opposed to a particular thing).",
+                "display": "described",
+                "id": "bfbe8979-33e2-47c7-a8c6-36b24d504814"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

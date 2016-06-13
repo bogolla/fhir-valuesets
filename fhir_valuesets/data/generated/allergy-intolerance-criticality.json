@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.AllergyIntoleranceCriticality",
+        "records": [
+            {
+                "code": "low",
+                "definition": "Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure.",
+                "display": "Low Risk",
+                "id": "3d9e4ef8-9a1c-4b09-a511-22c2aa76ea8c"
+            },
+            {
+                "code": "high",
+                "definition": "Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.",
+                "display": "High Risk",
+                "id": "c5387af9-1f23-49e6-9152-2caaa5221a05"
+            },
+            {
+                "code": "unable-to-assess",
+                "definition": "Unable to assess the worst case result of a future exposure.",
+                "display": "Unable to Assess Risk",
+                "id": "2db82253-0f59-4bbb-abd2-e1ca67f627c7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.OrderSetItemType",
+        "records": [
+            {
+                "code": "create",
+                "definition": "The action is to create a new resource",
+                "display": "Create",
+                "id": "d11381f0-13aa-4109-add8-79e54934ac10"
+            },
+            {
+                "code": "update",
+                "definition": "The action is to update an existing resource",
+                "display": "Update",
+                "id": "c8914bc0-4fa0-426d-9656-5ef715396755"
+            },
+            {
+                "code": "remove",
+                "definition": "The action is to remove an existing resource",
+                "display": "Remove",
+                "id": "07649142-434b-4d73-a9c9-5c73ffbdb05b"
+            },
+            {
+                "code": "fire-event",
+                "definition": "The action is to fire a specific event",
+                "display": "Fire Event",
+                "id": "8ca1c9ec-ea70-45a4-bff8-5b287f86ad1f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.MedicationOrderStatus",
+        "records": [
+            {
+                "code": "active",
+                "definition": "The prescription is 'actionable', but not all actions that are implied by it have occurred yet.",
+                "display": "Active",
+                "id": "f1002854-02e7-4112-9001-993396af9e4e"
+            },
+            {
+                "code": "on-hold",
+                "definition": "Actions implied by the prescription are to be temporarily halted, but are expected to continue later.  May also be called \"suspended\".",
+                "display": "On Hold",
+                "id": "0d2d257a-0960-4605-a711-470d8bac8c59"
+            },
+            {
+                "code": "completed",
+                "definition": "All actions that are implied by the prescription have occurred.",
+                "display": "Completed",
+                "id": "cf076f6c-7e04-4c89-b127-1663d7ce60fd"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The prescription was entered in error.",
+                "display": "Entered In Error",
+                "id": "2c3d5194-68c0-465f-b167-e2cb7e35b52d"
+            },
+            {
+                "code": "stopped",
+                "definition": "Actions implied by the prescription are to be permanently halted, before all of them occurred.",
+                "display": "Stopped",
+                "id": "21e834d7-9ffd-41cd-8c6d-457ca50b7caa"
+            },
+            {
+                "code": "draft",
+                "definition": "The prescription is not yet 'actionable', i.e. it is a work in progress, requires sign-off or verification, and needs to be run through decision support process.",
+                "display": "Draft",
+                "id": "821c7ed5-d4e4-4943-8e81-7bb6b186de56"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ModuleMetadataStatus",
+        "records": [
+            {
+                "code": "draft",
+                "definition": "The module is in draft state",
+                "display": "Draft",
+                "id": "af5ca4cf-88c0-4c7b-a412-96d2cf75b0db"
+            },
+            {
+                "code": "active",
+                "definition": "The module is active",
+                "display": "Active",
+                "id": "50be29a8-0e75-4d39-8594-e38ed74948e0"
+            },
+            {
+                "code": "inactive",
+                "definition": "The module is inactive, either rejected before publication, or retired after publication",
+                "display": "Inactive",
+                "id": "fb41234c-e05a-4f21-9557-83a1fd1c8754"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

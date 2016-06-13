@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.AllergyIntoleranceStatus",
+        "records": [
+            {
+                "code": "active",
+                "definition": "An active record of a reaction to the identified Substance.",
+                "display": "Active",
+                "id": "5138f021-1385-4a50-9c4b-be867812747e"
+            },
+            {
+                "code": "inactive",
+                "definition": "An inactive record of a reaction to the identified Substance.",
+                "display": "Inactive",
+                "id": "a1697976-b346-460d-bb03-e72a60270970"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

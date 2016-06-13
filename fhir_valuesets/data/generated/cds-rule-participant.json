@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.CdsRuleParticipant",
+        "records": [
+            {
+                "code": "patient",
+                "definition": "The participant is the patient under evaluation",
+                "display": "Patient",
+                "id": "ed494514-34e2-4da1-9299-b29733e92b6f"
+            },
+            {
+                "code": "person",
+                "definition": "The participant is a person",
+                "display": "Person",
+                "id": "042d3b8c-fb97-4636-96c1-5ad01e2172cb"
+            },
+            {
+                "code": "practitioner",
+                "definition": "The participant is a practitioner involved in the patient's care",
+                "display": "Practitioner",
+                "id": "76610f0e-2549-4824-bd40-aa820a4a1194"
+            },
+            {
+                "code": "related-person",
+                "definition": "The participant is a person related to the patient",
+                "display": "Related Person",
+                "id": "16917f19-1b74-4a5d-80c2-104ffa91fe57"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Udi",
+        "records": [
+            {
+                "code": "gudid",
+                "definition": "GUDID (FDA) US Repository",
+                "display": "GUDID (FDA)",
+                "id": "d830741d-5d98-493f-aede-56d29655a2ae"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.ListExampleCodes",
+        "records": [
+            {
+                "code": "alerts",
+                "definition": "A list of alerts for the patient.",
+                "display": "Alerts",
+                "id": "d6cc9146-88da-4b4b-82c7-719948de1c22"
+            },
+            {
+                "code": "adverserxns",
+                "definition": "A list of part adverse reactions.",
+                "display": "Adverse Reactions",
+                "id": "d816373b-2764-43da-90d2-1b793f263cd2"
+            },
+            {
+                "code": "allergies",
+                "definition": "A list of Allergies for the patient.",
+                "display": "Allergies",
+                "id": "c60a18ec-af4f-4b49-8e8f-13b228711180"
+            },
+            {
+                "code": "medications",
+                "definition": "A list of medication statements for the patient.",
+                "display": "Medication List",
+                "id": "252b2105-9c09-4d6b-9d84-97e5b3eb4e5f"
+            },
+            {
+                "code": "problems",
+                "definition": "A list of problems that the patient is known of have (or have had in the past).",
+                "display": "Problem List",
+                "id": "d9dc3482-cbff-465f-94a7-d3b28be2bd61"
+            },
+            {
+                "code": "worklist",
+                "definition": "A list of items that constitute a set of work to be performed (typically this code would be specialized for more specific uses, such as a ward round list).",
+                "display": "Worklist",
+                "id": "f99d6cb2-df6a-49e3-b905-ec2dfd6c0e2f"
+            },
+            {
+                "code": "waiting",
+                "definition": "A list of items waiting for an event (perhaps a surgical patient waiting list).",
+                "display": "Waiting List",
+                "id": "edaf1791-42f4-4b19-9676-0f82be8b2e18"
+            },
+            {
+                "code": "protocols",
+                "definition": "A set of protocols to be followed.",
+                "display": "Protocols",
+                "id": "00a21e26-44b4-48f7-be34-777c184c14b7"
+            },
+            {
+                "code": "plans",
+                "definition": "A set of care plans that apply in a particular context of care.",
+                "display": "Care Plans",
+                "id": "4c1b2b29-b93c-4069-a8a4-d3458a1862cc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

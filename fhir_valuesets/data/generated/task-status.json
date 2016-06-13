@@ -1,0 +1,71 @@
+[
+    {
+        "model": "valuesets.TaskStatus",
+        "records": [
+            {
+                "code": "draft",
+                "definition": "The task is not yet ready to be acted upon.",
+                "display": "Draft",
+                "id": "5aa264be-6f21-4888-a51d-50b57591c1d7"
+            },
+            {
+                "code": "requested",
+                "definition": "The task is ready to be acted upon",
+                "display": "Requested",
+                "id": "fd106180-e504-4203-b739-99a40f4c2d57"
+            },
+            {
+                "code": "received",
+                "definition": "A potential performer has claimed ownership of the task and is evaluating whether to perform it",
+                "display": "Received",
+                "id": "d0fecab2-9962-416d-8848-b6f2bd088b0b"
+            },
+            {
+                "code": "accepted",
+                "definition": "The potential performer has agreed to execute the task but has not yet started work",
+                "display": "Accepted",
+                "id": "4bc35150-9865-431f-920d-e6d581155c79"
+            },
+            {
+                "code": "rejected",
+                "definition": "The potential performer who claimed ownership of the task has decided not to execute it prior to performing any action.",
+                "display": "Rejected",
+                "id": "61e6089d-6170-473e-84c4-679ffdf5f7ac"
+            },
+            {
+                "code": "ready",
+                "definition": "Task is ready to be performed, but no action has yet been taken.  Used in place of requested/received/accepted/rejected when request assignment and acceptance is a given.",
+                "display": "Ready",
+                "id": "1f720e07-6707-41ce-83c7-7df50b452d7b"
+            },
+            {
+                "code": "in-progress",
+                "definition": "Task has been started but is not yet complete.",
+                "display": "In Progress",
+                "id": "5173fef3-2b33-43b8-91b9-93645936dd56"
+            },
+            {
+                "code": "on-hold",
+                "definition": "Task has been started but work has been paused",
+                "display": "On Hold",
+                "id": "218114d4-a6e8-4f97-a1e3-8a6cdd4988c7"
+            },
+            {
+                "code": "failed",
+                "definition": "The task was attempted but could not be completed due to some error.",
+                "display": "Failed",
+                "id": "a09bf363-6159-41eb-ae39-ed96861cfb3c"
+            },
+            {
+                "code": "completed",
+                "definition": "The task has been completed (more or less) as requested.",
+                "display": "Completed",
+                "id": "90dda471-5d95-4b61-8844-16faab7862bd"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

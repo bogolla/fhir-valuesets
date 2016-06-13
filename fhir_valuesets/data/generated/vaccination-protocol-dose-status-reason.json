@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.VaccinationProtocolDoseStatusReason",
+        "records": [
+            {
+                "code": "advstorage",
+                "definition": null,
+                "display": "Adverse storage condition",
+                "id": "399cef59-bbdc-49e5-a50e-264cd46db50c"
+            },
+            {
+                "code": "coldchbrk",
+                "definition": null,
+                "display": "Cold chain break",
+                "id": "e13e6654-e950-42ec-8591-f13a86c3cf21"
+            },
+            {
+                "code": "explot",
+                "definition": null,
+                "display": "Expired lot",
+                "id": "615d3a0e-aaea-4cda-a917-0dfef0046138"
+            },
+            {
+                "code": "outsidesched",
+                "definition": null,
+                "display": "Administered outside recommended schedule",
+                "id": "afbdb967-40e2-4fb5-b798-673741be3cce"
+            },
+            {
+                "code": "prodrecall",
+                "definition": null,
+                "display": "Product recall",
+                "id": "bb1d9305-e943-4a40-96b6-0e0ba02b9ecf"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

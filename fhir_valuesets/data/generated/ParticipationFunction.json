@@ -1,0 +1,125 @@
+[
+    {
+        "model": "valuesets.Participationfunction",
+        "records": [
+            {
+                "code": "_AuthorizedParticipationFunction",
+                "definition": "This code is used to specify the exact function an actor is authorized to have in a service in all necessary detail.",
+                "display": "AuthorizedParticipationFunction",
+                "id": "7b176dcc-75ef-427e-9fa0-7269b442d6a5"
+            },
+            {
+                "code": "_CoverageParticipationFunction",
+                "definition": "Definition: Set of codes indicating the manner in which sponsors, underwriters, and payers participate in a policy or program.",
+                "display": "CoverageParticipationFunction",
+                "id": "14575bcf-e28c-4a59-be51-dacf825d0e70"
+            },
+            {
+                "code": "ADMPHYS",
+                "definition": "A physician who admitted a patient to a hospital or other care unit that is the context of this service.",
+                "display": "admitting physician",
+                "id": "0cea6b12-86e4-432a-b3e5-35335659167a"
+            },
+            {
+                "code": "ANEST",
+                "definition": "In a typical anesthesia setting an anesthesiologist or anesthesia resident in charge of the anesthesia and life support, but only a witness to the surgical procedure itself.  To clarify responsibilities anesthesia should always be represented as a separate service related to the surgery.",
+                "display": "anesthesist",
+                "id": "e8d8f3a2-c18e-4444-acfc-4d27dc6fa5f1"
+            },
+            {
+                "code": "ANRS",
+                "definition": "In a typical anesthesia setting the nurse principally assisting the anesthesiologist during the critical periods.",
+                "display": "anesthesia nurse",
+                "id": "4ded7e0b-1e3a-4539-9e29-cde351607c32"
+            },
+            {
+                "code": "ASSEMBLER",
+                "definition": "A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact.\n                           UsageConstraint: ASSEMBLER ParticipationFunction should be used with DEV (device) ParticipationType.",
+                "display": "assembly software",
+                "id": "37da50db-2bc4-4db9-9851-c29eefc7f728"
+            },
+            {
+                "code": "ATTPHYS",
+                "definition": "A physician who is primarily responsible for a patient during the hospitalization, which is the context of the service.",
+                "display": "attending physician",
+                "id": "f16159de-f5ea-4c33-8260-7fb252fcd3f0"
+            },
+            {
+                "code": "COMPOSER",
+                "definition": "A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact.\n                           UsageConstraint: COMPOSER ParticipationFunction should be used with DEV (device) ParticipationType.\r\n\n                        \n                           Usage Note: This code will enable implementers to more specifically represent the manner in which a Device participated in and facilitated the generation of a CDA Clinical Document or a CDA Entry by the responsible Author, which is comprised of the Author's newly entered content, and may include the pre-existing content selected by the Author, for the purpose of establishing the provenance and accountability for these acts.",
+                "display": "composer software",
+                "id": "e2d95cd5-588b-42f1-93ac-a84ceb643f0f"
+            },
+            {
+                "code": "DISPHYS",
+                "definition": "A physician who discharged a patient from a hospital or other care unit that is the context of this service.",
+                "display": "discharging physician",
+                "id": "b955b63a-450b-46da-8060-0e56ba543f3c"
+            },
+            {
+                "code": "FASST",
+                "definition": "In a typical surgery setting the assistant facing the primary surgeon.  The first assistant performs parts of the operation and assists in others (e.g., incision, approach, electrocoutering, ligatures, sutures).",
+                "display": "first assistant surgeon",
+                "id": "ba4126a1-8ef6-47b4-bb7e-58f97122c689"
+            },
+            {
+                "code": "MDWF",
+                "definition": "A person (usually female) helping a woman deliver a baby. Responsibilities vary locally, ranging from a mere optional assistant to a full required participant, responsible for (normal) births and pre- and post-natal care for both mother and baby.",
+                "display": "midwife",
+                "id": "c4ab9bdb-064f-4ad8-acd6-5d5bfc6fea40"
+            },
+            {
+                "code": "NASST",
+                "definition": "In a typical surgery setting the non-sterile nurse handles material supply from the stock, forwards specimen to pathology, and helps with other non-sterile tasks (e.g., phone calls, etc.).",
+                "display": "nurse assistant",
+                "id": "21f91e3b-a1ca-4e04-9fc4-b9987ab7bd27"
+            },
+            {
+                "code": "PCP",
+                "definition": "The healthcare provider that holds primary responsibility for the overall care of a patient.",
+                "display": "primary care physician",
+                "id": "e16f6c37-53bb-49d3-8b4c-d9fa4414f4e8"
+            },
+            {
+                "code": "PRISURG",
+                "definition": "In a typical surgery setting the primary performing surgeon.",
+                "display": "primary surgeon",
+                "id": "cf82c058-7e11-4fd5-aaf3-c8f7685089b1"
+            },
+            {
+                "code": "REVIEWER",
+                "definition": "A verifier who is accountable for reviewing and asserting that the verification of an Act complies with jurisdictional or organizational policy.\r\n\n                        \n                           UsageConstraint: UsageConstraint:  Specifies the exact function that an actor is authorized to have as a verifier of an Act.  Connotes that a specialized verifier asserts compliance for veracity of the review per jurisdictional or organizational policy.  E.g., The Provider who takes responsibility for authenticity of a record submitted to a payer.\r\n\n                        REVIEW ParticipationFunction should be used with VFR (verifier)",
+                "display": "reviewer",
+                "id": "d9f51786-aead-4526-a85c-1429195c3780"
+            },
+            {
+                "code": "RNDPHYS",
+                "definition": "A physician who made rounds on a patient in a hospital or other care center.",
+                "display": "rounding physician",
+                "id": "61cc2557-ba18-4f38-a17f-dff1df48c966"
+            },
+            {
+                "code": "SASST",
+                "definition": "In a typical surgery setting the assistant who primarily holds the hooks.",
+                "display": "second assistant surgeon",
+                "id": "597f3766-7516-4e77-833c-9e3dcde682de"
+            },
+            {
+                "code": "SNRS",
+                "definition": "In a typical surgery setting the nurse in charge of the instrumentation.",
+                "display": "scrub nurse",
+                "id": "4dd4b604-65bb-4ea6-b58f-4e53e858bf8a"
+            },
+            {
+                "code": "TASST",
+                "definition": "In a typical surgery setting there is rarely a third assistant (e.g., in some Hip operations the third assistant postures the affected leg).",
+                "display": "third assistant",
+                "id": "34fcf579-8480-47ba-9af3-3f080d5cd377"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.Loinc480194Answerlist",
+        "records": [
+            {
+                "code": "LA9658-1",
+                "definition": "Wild type",
+                "display": "Wild type",
+                "id": "97ba84e4-83c9-4ca7-89fd-da9d834f8069"
+            },
+            {
+                "code": "LA6692-3",
+                "definition": "Deletion",
+                "display": "Deletion",
+                "id": "2b9528b2-a92f-4fc9-8018-8193d0f3d90e"
+            },
+            {
+                "code": "LA6686-5",
+                "definition": "Duplication",
+                "display": "Duplication",
+                "id": "47b44bf6-14ee-4d4d-80be-1f9ae78613bc"
+            },
+            {
+                "code": "LA6687-3",
+                "definition": "Insertion",
+                "display": "Insertion",
+                "id": "15165e13-3dd9-44ef-be0a-78908a0ac86e"
+            },
+            {
+                "code": "LA6688-1",
+                "definition": "Insertion/Deletion",
+                "display": "Insertion/Deletion",
+                "id": "d0a651d1-2cf1-4347-a56b-40910f770adc"
+            },
+            {
+                "code": "LA6689-9",
+                "definition": "Inversion",
+                "display": "Inversion",
+                "id": "b40e1f9b-3edc-4ae2-9db4-2557123c5d8d"
+            },
+            {
+                "code": "LA6690-7",
+                "definition": "Substitution",
+                "display": "Substitution",
+                "id": "ead8a012-50bf-40a2-a50b-38e824c5d14f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

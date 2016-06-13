@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ReferencerangeMeaning",
+        "records": [
+            {
+                "code": "type",
+                "definition": "General types of reference range.",
+                "display": "Type",
+                "id": "b688cdf3-3987-4fa9-a352-5279bb62baf1"
+            },
+            {
+                "code": "endocrine",
+                "definition": "Endocrine related states that change the expected value.",
+                "display": "Endocrine",
+                "id": "42133e99-8bbe-4aa3-9800-c02dabd9d0f3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "model": "valuesets.PatientContactRelationship",
+        "records": [
+            {
+                "code": "emergency",
+                "definition": "Contact for use in case of emergency.",
+                "display": "Emergency",
+                "id": "e96688b8-60ff-4bdc-99a2-38db97d64d19"
+            },
+            {
+                "code": "family",
+                "definition": null,
+                "display": "Family",
+                "id": "d8ba82da-82a6-4688-9362-1326c53b0179"
+            },
+            {
+                "code": "guardian",
+                "definition": null,
+                "display": "Guardian",
+                "id": "3313989c-4b65-4dd3-b264-b6b786ac1a07"
+            },
+            {
+                "code": "friend",
+                "definition": null,
+                "display": "Friend",
+                "id": "f16688f9-a94f-46c3-9b18-5888a8db2d23"
+            },
+            {
+                "code": "partner",
+                "definition": null,
+                "display": "Partner",
+                "id": "c3ba48b2-3059-48af-9016-2297b18e88c2"
+            },
+            {
+                "code": "work",
+                "definition": "Contact for matters related to the patients occupation/employment.",
+                "display": "Work",
+                "id": "58a78b63-b237-4e37-9824-3242b54e64e9"
+            },
+            {
+                "code": "caregiver",
+                "definition": "(Non)professional caregiver",
+                "display": "Caregiver",
+                "id": "4b541890-1ca4-46c1-8310-fcbb66bfa222"
+            },
+            {
+                "code": "agent",
+                "definition": "Contact that acts on behalf of the patient",
+                "display": "Agent",
+                "id": "f4e0f549-1787-41b9-a5d5-004901e4ee06"
+            },
+            {
+                "code": "guarantor",
+                "definition": "Contact for financial matters",
+                "display": "Guarantor",
+                "id": "3b36d660-76f8-4e22-9662-22f499a72c07"
+            },
+            {
+                "code": "owner",
+                "definition": "For animals, the owner of the animal",
+                "display": "Owner of animal",
+                "id": "bd746840-76f4-432e-81ab-649eecd17de6"
+            },
+            {
+                "code": "parent",
+                "definition": "Parent of the patient",
+                "display": "Parent",
+                "id": "e7f685f3-465b-423f-a3ef-6916249ade14"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

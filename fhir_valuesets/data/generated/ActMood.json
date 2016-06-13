@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Actmood",
+        "records": [
+            {
+                "code": "_ActMoodCompletionTrack",
+                "definition": "These are moods describing activities as they progress in the business cycle, from defined, through planned and ordered to completed.",
+                "display": "ActMoodCompletionTrack",
+                "id": "9851cd28-0a3c-4d40-80c8-0ed65eb17180"
+            },
+            {
+                "code": "_ActMoodPredicate",
+                "definition": "Definition: An act that expresses condition statements for other acts.",
+                "display": "ActMoodPredicate",
+                "id": "6048c627-faae-4f69-9d49-64e16fd4eca3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.Documentcompletion",
+        "records": [
+            {
+                "code": "AU",
+                "definition": "A completion status in which a document has been signed manually or electronically by one or more individuals who attest to its accuracy.  No explicit determination is made that the assigned individual has performed the authentication.  While the standard allows multiple instances of authentication, it would be typical to have a single instance of authentication, usually by the assigned individual.",
+                "display": "authenticated",
+                "id": "1658caee-e677-4cf8-ad10-637393990258"
+            },
+            {
+                "code": "DI",
+                "definition": "A completion status in which information has been orally recorded but not yet transcribed.",
+                "display": "dictated",
+                "id": "3b56fe59-6b0b-4a35-91ef-ed83bb81303d"
+            },
+            {
+                "code": "DO",
+                "definition": "A completion status in which document content, other than dictation, has been received but has not been translated into the final electronic format.  Examples include paper documents, whether hand-written or typewritten, and intermediate electronic forms, such as voice to text.",
+                "display": "documented",
+                "id": "5bac4562-58a9-4006-88a6-52a0af4e0db9"
+            },
+            {
+                "code": "IN",
+                "definition": "A completion status in which information is known to be missing from a transcribed document.",
+                "display": "incomplete",
+                "id": "64127abb-6e6f-4171-a537-e0e815158b09"
+            },
+            {
+                "code": "IP",
+                "definition": "A workflow status where the material has been assigned to personnel to perform the task of transcription. The document remains in this state until the document is transcribed.",
+                "display": "in progress",
+                "id": "be677a4c-dcdf-4144-8f9d-c2ca291cf994"
+            },
+            {
+                "code": "LA",
+                "definition": "A completion status in which a document has been signed manually or electronically by the individual who is legally responsible for that document. This is the most mature state in the workflow progression.",
+                "display": "legally authenticated",
+                "id": "3e5f734a-a4b7-4af3-a82e-ccef41927a96"
+            },
+            {
+                "code": "NU",
+                "definition": "A completion status in which a document was created in error or was placed in the wrong chart. The document is no longer available.",
+                "display": "nullified document",
+                "id": "5c2f6d93-145e-4feb-a97c-cc043c2dc035"
+            },
+            {
+                "code": "PA",
+                "definition": "A completion status in which a document is transcribed but not authenticated.",
+                "display": "pre-authenticated",
+                "id": "4b41fdd5-fc6d-42f3-a460-4c7f274bb154"
+            },
+            {
+                "code": "UC",
+                "definition": "A completion status where the document is complete and there is no expectation that the document will be signed.",
+                "display": "unsigned completed document",
+                "id": "017a0118-4c87-41bb-9060-caa3ec566f43"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

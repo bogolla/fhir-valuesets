@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ActionPrecheckBehavior",
+        "records": [
+            {
+                "code": "yes",
+                "definition": "An action with this behavior is one of the most frequent action that is, or should be, included by an end user, for the particular context in which the action occurs. The system displaying the action to the end user should consider \"pre-checking\" such an action as a convenience for the user",
+                "display": "Yes",
+                "id": "097423d6-4540-45c9-af93-61603f58faf1"
+            },
+            {
+                "code": "no",
+                "definition": "An action with this behavior is one of the less frequent actions included by the end user, for the particular context in which the action occurs. The system displaying the actions to the end user would typically not \"pre-check\" such an action",
+                "display": "No",
+                "id": "f694f018-7782-47c0-aa43-02a3fa5b40e0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

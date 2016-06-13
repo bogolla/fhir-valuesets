@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.QuestionnaireDisplayCategory",
+        "records": [
+            {
+                "code": "instructions",
+                "definition": "The text provides guidances on how to populate or use a portion of the questionnaire (or the questionnaire as a whole).",
+                "display": "Instructions",
+                "id": "e175d6aa-6472-4ce3-b0e9-11dc42022490"
+            },
+            {
+                "code": "security",
+                "definition": "The text provides guidance on how the information should be or will be handled from a security/confidentiality/access control perspective when completed",
+                "display": "Security",
+                "id": "f81cfb93-d27f-4466-a1e8-3b4c3070eb24"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

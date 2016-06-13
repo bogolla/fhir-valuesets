@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.RelatedClaimRelationship",
+        "records": [
+            {
+                "code": "prior",
+                "definition": "A prior claim instance for the same intended suite of services.",
+                "display": "Prior Claim",
+                "id": "4ad9f6db-46ab-43bb-acd7-293db6ff8e4f"
+            },
+            {
+                "code": "associated",
+                "definition": "A claim for a different suite of services which is related the the suite claimed here.",
+                "display": "Associated Claim",
+                "id": "e692d6fd-d5e5-4bcc-ad35-c8d8edaa5088"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

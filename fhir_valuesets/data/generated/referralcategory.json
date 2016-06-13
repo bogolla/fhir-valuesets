@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Referralcategory",
+        "records": [
+            {
+                "code": "proposal",
+                "definition": "The referral request represents a suggestion or recommendation that a referral be made.",
+                "display": "Proposal",
+                "id": "e8516fb9-7000-4e69-8297-a560e809b2a9"
+            },
+            {
+                "code": "plan",
+                "definition": "The referral request represents an intention by the author to make a referral, but no actual referral has yet been made/authorized.",
+                "display": "Plan",
+                "id": "cc5cf698-4c6b-4c15-91ab-f0e85bb6e19f"
+            },
+            {
+                "code": "request",
+                "definition": "This is an actual referral request which, when active, will have the authorizations needed to allow it to be actioned.",
+                "display": "Request",
+                "id": "9ed7eb31-1858-4fc5-88a5-a3f6862263e1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

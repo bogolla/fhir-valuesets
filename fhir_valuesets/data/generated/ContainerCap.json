@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Containercap",
+        "records": [
+            {
+                "code": "_MedicationCap",
+                "definition": "Cap types for medication containers",
+                "display": "MedicationCap",
+                "id": "f59e29db-de5b-4aaa-9f20-76997130293f"
+            },
+            {
+                "code": "FILM",
+                "definition": "A non-reactive plastic film covering over the opening of a container.",
+                "display": "Film",
+                "id": "76546028-cd8b-4b65-b9b4-0ca55a922b3e"
+            },
+            {
+                "code": "FOIL",
+                "definition": "A foil covering (type of foil not specified) over the opening of a container",
+                "display": "Foil",
+                "id": "895266c3-b1fe-47c1-b67d-d2982e37b0ed"
+            },
+            {
+                "code": "PUSH",
+                "definition": "A non-threaded cap that forms a tight-fitting closure on a container by pushing the fitted end into the conatiner opening",
+                "display": "Push Cap",
+                "id": "08e7c163-1470-4784-8092-919a70278d7f"
+            },
+            {
+                "code": "SCR",
+                "definition": "A threaded cap that is screwed onto the opening of a container",
+                "display": "Screw Cap",
+                "id": "2bbfdc2f-3501-4c7f-bf2f-eb3ad76fd4ef"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

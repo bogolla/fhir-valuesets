@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.ObservationStatus",
+        "records": [
+            {
+                "code": "registered",
+                "definition": "The existence of the observation is registered, but there is no result yet available.",
+                "display": "Registered",
+                "id": "98580768-dbb1-4c97-ab43-fdd6c2d8adf0"
+            },
+            {
+                "code": "preliminary",
+                "definition": "This is an initial or interim observation: data may be incomplete or unverified.",
+                "display": "Preliminary",
+                "id": "d621152c-be91-4e83-b21f-293ce33a394b"
+            },
+            {
+                "code": "final",
+                "definition": "The observation is complete.",
+                "display": "Final",
+                "id": "0d9755ce-1d10-46bf-af63-32f34f0456f2"
+            },
+            {
+                "code": "amended",
+                "definition": "The observation has been modified subsequent to being Final.",
+                "display": "Amended",
+                "id": "c60016f8-a415-4a78-925f-cf5d9ba73ee8"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The observation is unavailable because the measurement was not started or not completed (also sometimes called \"aborted\").",
+                "display": "cancelled",
+                "id": "997e1c70-d719-4766-9a2d-8f6acb291085"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The observation has been withdrawn following previous final release.",
+                "display": "Entered in Error",
+                "id": "06cfd324-e840-485a-bdbd-e8f05ed01f03"
+            },
+            {
+                "code": "unknown",
+                "definition": "The observation status is unknown.  Note that \"unknown\" is a value of last resort and every attempt should be made to provide a meaningful value other than \"unknown\".",
+                "display": "Unknown Status",
+                "id": "11634286-7c53-4641-8b73-7afce9ec4f66"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

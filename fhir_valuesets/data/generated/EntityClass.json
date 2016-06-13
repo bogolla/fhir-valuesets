@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Entityclass",
+        "records": [
+            {
+                "code": "ENT",
+                "definition": "Corresponds to the Entity class",
+                "display": "entity",
+                "id": "59752231-6d23-4bf6-b147-6e83d36f04b4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

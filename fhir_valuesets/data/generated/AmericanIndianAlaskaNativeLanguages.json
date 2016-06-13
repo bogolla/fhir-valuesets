@@ -1,0 +1,143 @@
+[
+    {
+        "model": "valuesets.Americanindianalaskanativelanguages",
+        "records": [
+            {
+                "code": "_Algic",
+                "definition": "Algic",
+                "display": "Algic",
+                "id": "2a589265-f09c-4719-8a91-a4f8a2331022"
+            },
+            {
+                "code": "_Caddoan",
+                "definition": "Caddoan",
+                "display": "Caddoan",
+                "id": "149b6209-f52e-47ff-b632-668b5339a492"
+            },
+            {
+                "code": "_Chimakuan",
+                "definition": "Chimakuan",
+                "display": "Chimakuan",
+                "id": "485cad92-ff40-4b1d-9345-e270ac747467"
+            },
+            {
+                "code": "_EskimoAleut",
+                "definition": "EskimoAleut",
+                "display": "EskimoAleut",
+                "id": "b3083566-60fa-4358-9c62-9b22ebf159d1"
+            },
+            {
+                "code": "_Hokan",
+                "definition": "Hokan",
+                "display": "Hokan",
+                "id": "386fcbaf-e8b4-4275-8c58-3cd9c0a54047"
+            },
+            {
+                "code": "_Iroquoian",
+                "definition": "Iroquoian",
+                "display": "Iroquoian",
+                "id": "0bba45dc-9740-4e60-84db-830a746614b1"
+            },
+            {
+                "code": "_Keresan",
+                "definition": "Keresan",
+                "display": "Keresan",
+                "id": "f8449cc8-3acc-4871-8654-d162592604b5"
+            },
+            {
+                "code": "_KiowaTanoan",
+                "definition": "KiowaTanoan",
+                "display": "KiowaTanoan",
+                "id": "2328c0bd-0b30-4d50-b2d7-aafceefbd856"
+            },
+            {
+                "code": "_Muskogean",
+                "definition": "Muskogean",
+                "display": "Muskogean",
+                "id": "56023fc3-cfa4-4797-92e5-405ffc69dd1d"
+            },
+            {
+                "code": "_Nadene",
+                "definition": "Nadene",
+                "display": "Nadene",
+                "id": "7f8c83ec-eaac-474e-b90f-f46736e470aa"
+            },
+            {
+                "code": "_Penutian",
+                "definition": "Penutian",
+                "display": "Penutian",
+                "id": "0a81766d-6766-41f2-b146-89388795b975"
+            },
+            {
+                "code": "_Pidgin",
+                "definition": "Pidgin",
+                "display": "Pidgin",
+                "id": "adc446fc-4807-4245-9a35-afa4e3003f41"
+            },
+            {
+                "code": "_Salishan",
+                "definition": "Salishan",
+                "display": "Salishan",
+                "id": "ec345945-6372-48c6-b31f-1bf575ec45cb"
+            },
+            {
+                "code": "_SiouanCatawba",
+                "definition": "SiouanCatawba",
+                "display": "SiouanCatawba",
+                "id": "054143a9-1e4b-4574-b12e-6af2d390bc6b"
+            },
+            {
+                "code": "_UtoAztecan",
+                "definition": "UtoAztecan",
+                "display": "UtoAztecan",
+                "id": "b700d576-6c00-46b7-ad0e-38526d3cad59"
+            },
+            {
+                "code": "_Wakashan",
+                "definition": "Wakashan",
+                "display": "Wakashan",
+                "id": "dd0a7a9a-4afc-4684-b798-5168bfb68efb"
+            },
+            {
+                "code": "_Yukian",
+                "definition": "Yukian",
+                "display": "Yukian",
+                "id": "425e2c8e-8c9a-4ad2-99dd-05067611dedd"
+            },
+            {
+                "code": "x-HAI",
+                "definition": "Haida",
+                "display": "Haida",
+                "id": "24459e1d-ad93-4920-a731-9a192bb6dc52"
+            },
+            {
+                "code": "x-KUN",
+                "definition": "Kootenai",
+                "display": "Kootenai",
+                "id": "c874d217-1e14-4ff5-8a0f-afdb87915f75"
+            },
+            {
+                "code": "x-PSD",
+                "definition": "Plains Indian Sign Language",
+                "display": "Plains Indian Sign Language",
+                "id": "70b7ab35-5d6d-4391-bd81-07ca873bcadf"
+            },
+            {
+                "code": "x-YUC",
+                "definition": "Yuchi",
+                "display": "Yuchi",
+                "id": "2a5ca2fd-944c-46c7-a88a-daaab5d60d20"
+            },
+            {
+                "code": "x-ZUN",
+                "definition": "Zuni",
+                "display": "Zuni",
+                "id": "c82d13f7-8d6a-4deb-89f3-b90f5db81fd0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

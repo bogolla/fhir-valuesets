@@ -1,0 +1,83 @@
+[
+    {
+        "model": "valuesets.AssertResponseCodeTypes",
+        "records": [
+            {
+                "code": "okay",
+                "definition": "Response code is 200.",
+                "display": "okay",
+                "id": "6a155bd4-a70d-4ec2-9e13-6dabf0b1bafc"
+            },
+            {
+                "code": "created",
+                "definition": "Response code is 201.",
+                "display": "created",
+                "id": "58bc70ab-197d-4b95-b3e8-3781634bd482"
+            },
+            {
+                "code": "noContent",
+                "definition": "Response code is 204.",
+                "display": "noContent",
+                "id": "8e039a21-da63-4a71-8e7a-6123a74b6a16"
+            },
+            {
+                "code": "notModified",
+                "definition": "Response code is 304.",
+                "display": "notModified",
+                "id": "30ff9ed1-471a-46ff-bdff-e8e24a0ac436"
+            },
+            {
+                "code": "bad",
+                "definition": "Response code is 400.",
+                "display": "bad",
+                "id": "45d60f08-ee7d-4d88-bac7-6c66cdd81fd0"
+            },
+            {
+                "code": "forbidden",
+                "definition": "Response code is 403.",
+                "display": "forbidden",
+                "id": "ebe66341-fa8b-4b1d-a5b4-402d09a06c7a"
+            },
+            {
+                "code": "notFound",
+                "definition": "Response code is 404.",
+                "display": "notFound",
+                "id": "2a4b9d94-1072-46b3-84a3-7c7b6ccb10a2"
+            },
+            {
+                "code": "methodNotAllowed",
+                "definition": "Response code is 405.",
+                "display": "methodNotAllowed",
+                "id": "4dec2dc2-8704-44d0-91cd-333b42e74211"
+            },
+            {
+                "code": "conflict",
+                "definition": "Response code is 409.",
+                "display": "conflict",
+                "id": "dd9e9b14-b564-486d-8dbd-ad0f068e7ba8"
+            },
+            {
+                "code": "gone",
+                "definition": "Response code is 410.",
+                "display": "gone",
+                "id": "412efd5d-c5f4-4380-8e34-91592026b446"
+            },
+            {
+                "code": "preconditionFailed",
+                "definition": "Response code is 412.",
+                "display": "preconditionFailed",
+                "id": "44d0d7ec-255e-4c42-a708-4126c1732e32"
+            },
+            {
+                "code": "unprocessable",
+                "definition": "Response code is 422.",
+                "display": "unprocessable",
+                "id": "61d1c7c6-86d6-4923-8695-6ae3be6a8aa7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

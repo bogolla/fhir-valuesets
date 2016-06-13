@@ -1,0 +1,155 @@
+[
+    {
+        "model": "valuesets.ObjectRole",
+        "records": [
+            {
+                "code": "1",
+                "definition": "This object is the patient that is the subject of care related to this event.  It is identifiable by patient ID or equivalent.  The patient may be either human or animal.",
+                "display": "Patient",
+                "id": "aaeca9f8-fac9-43bc-a29b-84790062338b"
+            },
+            {
+                "code": "2",
+                "definition": "This is a location identified as related to the event.  This is usually the location where the event took place.  Note that for shipping, the usual events are arrival at a location or departure from a location.",
+                "display": "Location",
+                "id": "b6b4148a-abc4-4b08-8182-bd570d14d58d"
+            },
+            {
+                "code": "3",
+                "definition": "This object is any kind of persistent document created as a result of the event.  This could be a paper report, film, electronic report, DICOM Study, etc.  Issues related to medical records life cycle management are conveyed elsewhere.",
+                "display": "Report",
+                "id": "82ee299d-2ef4-46c4-b6dc-56a65d81a505"
+            },
+            {
+                "code": "4",
+                "definition": "A logical object related to a health record event.  This is any healthcare  specific resource (object) not restricted to FHIR defined Resources.",
+                "display": "Domain Resource",
+                "id": "dc3715c5-7a07-468c-9eb1-0391eee04906"
+            },
+            {
+                "code": "5",
+                "definition": "This is any configurable file used to control creation of documents.  Examples include the objects maintained by the HL7 Master File transactions, Value Sets, etc.",
+                "display": "Master file",
+                "id": "82638311-e796-431a-93af-860aa962d1a6"
+            },
+            {
+                "code": "6",
+                "definition": "A human participant not otherwise identified by some other category.",
+                "display": "User",
+                "id": "c57024ba-6fff-43b9-a338-ff044151597f"
+            },
+            {
+                "code": "7",
+                "definition": "(deprecated)",
+                "display": "List",
+                "id": "fb1d411a-178f-4300-8433-b921e4fe9b2a"
+            },
+            {
+                "code": "8",
+                "definition": "Typically a licensed person who is providing or performing care related to the event, generally a physician.   The key distinction between doctor and practitioner is with regards to their role, not the licensing.  The doctor is the human who actually performed the work.  The practitioner is the human or organization that is responsible for the work.",
+                "display": "Doctor",
+                "id": "b4ce4d10-aa24-4277-9e79-6284d6b5c809"
+            },
+            {
+                "code": "9",
+                "definition": "A person or system that is being notified as part of the event.  This is relevant in situations where automated systems provide notifications to other parties when an event took place.",
+                "display": "Subscriber",
+                "id": "61a51932-e06c-44d2-a5c3-c2eab04bf3d4"
+            },
+            {
+                "code": "10",
+                "definition": "Insurance company, or any other organization who accepts responsibility for paying for the healthcare event.",
+                "display": "Guarantor",
+                "id": "12ea75df-3328-4579-87e6-ec6193690ec4"
+            },
+            {
+                "code": "11",
+                "definition": "A person or active system object involved in the event with a security role.",
+                "display": "Security User Entity",
+                "id": "f937969c-8ee0-4cf0-8986-b35be63a8c1c"
+            },
+            {
+                "code": "12",
+                "definition": "A person or system object involved in the event with the authority to modify security roles of other objects.",
+                "display": "Security User Group",
+                "id": "ea7ebb80-043d-45ef-a81a-68512c77a277"
+            },
+            {
+                "code": "13",
+                "definition": "A passive object, such as a role table, that is relevant to the event.",
+                "display": "Security Resource",
+                "id": "ebe839e4-4ecc-4459-8d0a-e2dc36dced0b"
+            },
+            {
+                "code": "14",
+                "definition": "(deprecated)  Relevant to certain RBAC security methodologies.",
+                "display": "Security Granularity Definition",
+                "id": "30a4527a-dcda-4694-95d9-c58d415da4e6"
+            },
+            {
+                "code": "15",
+                "definition": "Any person or organization responsible for providing care.  This encompasses all forms of care, licensed or otherwise, and all sorts of teams and care groups. Note, the distinction between practitioners and the doctor that actually provided the care to the patient.",
+                "display": "Practitioner",
+                "id": "527b084f-7d1b-453f-aacb-3d0643264531"
+            },
+            {
+                "code": "16",
+                "definition": "The source or destination for data transfer, when it does not match some other role.",
+                "display": "Data Destination",
+                "id": "8c55d6d7-8f79-4841-97d2-a886ad1dc200"
+            },
+            {
+                "code": "17",
+                "definition": "A source or destination for data transfer that acts as an archive, database, or similar role.",
+                "display": "Data Repository",
+                "id": "be3ab812-7829-4148-9e26-010ef88b9c30"
+            },
+            {
+                "code": "18",
+                "definition": "An object that holds schedule information.  This could be an appointment book, availability information, etc.",
+                "display": "Schedule",
+                "id": "24c3d240-8122-4591-a4b3-06dc32446449"
+            },
+            {
+                "code": "19",
+                "definition": "An organization or person that is the recipient of services.  This could be an organization that is buying services for a patient, or a person that is buying services for an animal.",
+                "display": "Customer",
+                "id": "dffa32ca-7f62-4c78-8b47-e100682e66aa"
+            },
+            {
+                "code": "20",
+                "definition": "An order, task, work item, procedure step, or other description of work to be performed; e.g. a particular instance of an MPPS.",
+                "display": "Job",
+                "id": "5a02615f-cc0f-4591-b8a0-77d0c4eb368d"
+            },
+            {
+                "code": "21",
+                "definition": "A list of jobs or a system that provides lists of jobs; e.g. an MWL SCP.",
+                "display": "Job Stream",
+                "id": "fdaa3848-d79d-4d36-8694-6f44f502b5bd"
+            },
+            {
+                "code": "22",
+                "definition": "(Deprecated)",
+                "display": "Table",
+                "id": "95730387-8ed0-453a-8983-36d6d91eb71f"
+            },
+            {
+                "code": "23",
+                "definition": "An object that specifies or controls the routing or delivery of items.  For example, a distribution list is the routing criteria for mail.  The items delivered may be documents, jobs, or other objects.",
+                "display": "Routing Criteria",
+                "id": "a213e777-38f7-4f56-908a-3d5c3910bb58"
+            },
+            {
+                "code": "24",
+                "definition": "The contents of a query.  This is used to capture the contents of any kind of query.  For security surveillance purposes knowing the queries being made is very important.",
+                "display": "Query",
+                "id": "d93316dd-a702-4794-979b-4e713dc59177"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

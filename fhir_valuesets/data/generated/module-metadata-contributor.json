@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ModuleMetadataContributor",
+        "records": [
+            {
+                "code": "author",
+                "definition": "An author of the content of the module",
+                "display": "Author",
+                "id": "292b76a1-fd16-4996-ba91-a3d03cd50a05"
+            },
+            {
+                "code": "editor",
+                "definition": "An editor of the content of the module",
+                "display": "Editor",
+                "id": "ec61a35c-1b06-4194-9b8b-549a5d12b809"
+            },
+            {
+                "code": "reviewer",
+                "definition": "A reviewer of the content of the module",
+                "display": "Reviewer",
+                "id": "cef71a7d-a0c2-4eaf-af6c-b981b5850aa3"
+            },
+            {
+                "code": "endorser",
+                "definition": "An endorser of the content of the module",
+                "display": "Endorser",
+                "id": "bf7b1651-2731-4ba8-8449-b8127b2d3625"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

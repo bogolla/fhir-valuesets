@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.MessageReasonEncounter",
+        "records": [
+            {
+                "code": "admit",
+                "definition": "The patient has been admitted.",
+                "display": "Admit",
+                "id": "eac89b80-dc34-4f51-a90e-9eb972e17182"
+            },
+            {
+                "code": "discharge",
+                "definition": "The patient has been discharged.",
+                "display": "Discharge",
+                "id": "38fa770a-9ccb-485e-8641-0f27d3605f71"
+            },
+            {
+                "code": "absent",
+                "definition": "The patient has temporarily left the institution.",
+                "display": "Absent",
+                "id": "fac9c553-256b-4106-b1e7-051e45301077"
+            },
+            {
+                "code": "return",
+                "definition": "The patient has returned from a temporary absence.",
+                "display": "Returned",
+                "id": "d46c8acc-8012-4f97-8e01-fee8378f6d2d"
+            },
+            {
+                "code": "moved",
+                "definition": "The patient has been moved to a new location.",
+                "display": "Moved",
+                "id": "9aa67b02-8309-47c2-93b3-d82fa726ea9c"
+            },
+            {
+                "code": "edit",
+                "definition": "Encounter details have been updated (e.g. to correct a coding error).",
+                "display": "Edit",
+                "id": "fbbaf8a9-604a-4688-a607-b81e14369fdb"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

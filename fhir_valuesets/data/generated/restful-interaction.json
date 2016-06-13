@@ -1,0 +1,77 @@
+[
+    {
+        "model": "valuesets.RestfulInteraction",
+        "records": [
+            {
+                "code": "read",
+                "definition": "Read the current state of the resource.",
+                "display": "read",
+                "id": "63091688-63ef-4a0d-9466-6416b2dd733e"
+            },
+            {
+                "code": "vread",
+                "definition": "Read the state of a specific version of the resource.",
+                "display": "vread",
+                "id": "f1324074-62b5-4b5e-ba45-160ca71df2c9"
+            },
+            {
+                "code": "update",
+                "definition": "Update an existing resource by its id (or create it if it is new).",
+                "display": "update",
+                "id": "53578681-ef6b-480c-81ce-5f426e3ed8b2"
+            },
+            {
+                "code": "delete",
+                "definition": "Delete a resource.",
+                "display": "delete",
+                "id": "4d9fda1b-123d-4fc0-a7ba-35ca849532aa"
+            },
+            {
+                "code": "history",
+                "definition": "Retrieve the change history for a particular resource, type of resource, or the entire system.",
+                "display": "history",
+                "id": "942b548d-8cc7-4469-a43e-8321362160ba"
+            },
+            {
+                "code": "create",
+                "definition": "Create a new resource with a server assigned id.",
+                "display": "create",
+                "id": "a2f7f4c0-eb63-4ac0-beab-40d3135533d7"
+            },
+            {
+                "code": "search",
+                "definition": "Search a resource type or all resources based on some filter criteria.",
+                "display": "search",
+                "id": "e0424f90-8fda-4261-bbb4-de5dcbb6680a"
+            },
+            {
+                "code": "conformance",
+                "definition": "Get a conformance statement for the system.",
+                "display": "conformance",
+                "id": "7d5face2-db44-4f72-bac1-5f46f655432e"
+            },
+            {
+                "code": "transaction",
+                "definition": "Update, create or delete a set of resources as a single transaction.",
+                "display": "transaction",
+                "id": "aa65d0f9-43e2-4c73-a6ee-a4e1e7b9fd22"
+            },
+            {
+                "code": "batch",
+                "definition": "perform a set of a separate interactions in a single http operation",
+                "display": "batch",
+                "id": "0de7a386-e9ae-49d5-a2fa-53da2f6c2406"
+            },
+            {
+                "code": "operation",
+                "definition": "Perform an operation as defined by an OperationDefinition.",
+                "display": "operation",
+                "id": "83f5909f-aa1c-4388-a4b5-e9c218894e34"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.FilterOperator",
+        "records": [
+            {
+                "code": "=",
+                "definition": "The specified property of the code equals the provided value.",
+                "display": "Equals",
+                "id": "208edb25-6c32-4dbf-832f-4cddb184ee9e"
+            },
+            {
+                "code": "is-a",
+                "definition": "Includes all concept ids that have a transitive is-a relationship with the concept Id provided as the value, including the provided concept itself.",
+                "display": "Is A (by subsumption)",
+                "id": "7538035d-b9d9-4c01-9a42-7f996693809c"
+            },
+            {
+                "code": "is-not-a",
+                "definition": "The specified property of the code does not have an is-a relationship with the provided value.",
+                "display": "Not (Is A) (by subsumption)",
+                "id": "bfa7632f-b6f4-4ac7-a3e2-5d564a706274"
+            },
+            {
+                "code": "regex",
+                "definition": "The specified property of the code  matches the regex specified in the provided value.",
+                "display": "Regular Expression",
+                "id": "2a251618-3f3e-47b8-80ee-25db96cb1104"
+            },
+            {
+                "code": "in",
+                "definition": "The specified property of the code is in the set of codes or concepts specified in the provided value (comma separated list).",
+                "display": "In Set",
+                "id": "7e38465e-10f8-42f5-85a0-01a604b7a620"
+            },
+            {
+                "code": "not-in",
+                "definition": "The specified property of the code is not in the set of codes or concepts specified in the provided value (comma separated list).",
+                "display": "Not in Set",
+                "id": "bd5d313b-e164-4e79-ba2b-3fb0014519d7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

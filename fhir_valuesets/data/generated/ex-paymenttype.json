@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ExPaymenttype",
+        "records": [
+            {
+                "code": "complete",
+                "definition": "Complete (final) payment of the benefit under the Claim less any adjustments.",
+                "display": "Complete",
+                "id": "5ecce1b8-03b5-44d9-bad2-835b5ab4b3b8"
+            },
+            {
+                "code": "partial",
+                "definition": "Partial payment of the benefit under the Claim less any adjustments.",
+                "display": "Partial",
+                "id": "cdb19394-1c82-4c9b-946f-6069216ecfa0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

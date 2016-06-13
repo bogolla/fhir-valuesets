@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.TransactionMode",
+        "records": [
+            {
+                "code": "not-supported",
+                "definition": "Neither batch or transaction is supported.",
+                "display": "None",
+                "id": "99940de2-aab3-489c-a384-c0f66d1e3de4"
+            },
+            {
+                "code": "batch",
+                "definition": "Batches are  supported.",
+                "display": "Batches supported",
+                "id": "83839383-f531-427e-bd92-d97fda902f3a"
+            },
+            {
+                "code": "transaction",
+                "definition": "Transactions are supported.",
+                "display": "Transactions Supported",
+                "id": "ec9246b3-e9ec-4373-ab7c-a3265ee59af2"
+            },
+            {
+                "code": "both",
+                "definition": "Both batches and transactions are supported.",
+                "display": "Batches & Transactions",
+                "id": "03b230b2-534e-4bad-850b-383b29b4441a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

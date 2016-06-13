@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Referralstatus",
+        "records": [
+            {
+                "code": "draft",
+                "definition": "A draft referral that has yet to be send.",
+                "display": "Draft",
+                "id": "c589ea0e-b24a-4f84-a9a1-52c2997ccfc5"
+            },
+            {
+                "code": "active",
+                "definition": "The referral is complete and is ready for fulfillment.",
+                "display": "Active",
+                "id": "88bfe495-ea73-4490-a761-a234b1c33002"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The referral has been cancelled without being completed. For example it is no longer needed.",
+                "display": "Cancelled",
+                "id": "d0a49f73-55e1-4413-8084-4b63f5b29e21"
+            },
+            {
+                "code": "completed",
+                "definition": "The referral has been completely actioned.",
+                "display": "Completed",
+                "id": "e0fdde72-8682-45f0-b22b-e15100b8c89b"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "This referral record should never have existed, though it's possible some degree of real-world activity or decisions may have been taken due to its existence",
+                "display": "Entered in Error",
+                "id": "7d75db76-1426-4f64-b7b5-28daab2617bc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ClaimCareteamrole",
+        "records": [
+            {
+                "code": "primary",
+                "definition": "The primary care provider.",
+                "display": "Primary provider",
+                "id": "e46fa2ca-e564-4d64-9f7d-73fbc602adb8"
+            },
+            {
+                "code": "assist",
+                "definition": "Assisting care provider.",
+                "display": "Assisting Provider",
+                "id": "1a4530ca-f714-446c-a872-a6dabcc8c85f"
+            },
+            {
+                "code": "supervisor",
+                "definition": "Supervising care provider.",
+                "display": "Supervising Provider",
+                "id": "77ce2781-0e6c-4ce7-9bce-3c85c6108f87"
+            },
+            {
+                "code": "other",
+                "definition": "Other role on the care team.",
+                "display": "Other",
+                "id": "5a6532be-18aa-4ffe-8a39-2f4cfd862c21"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

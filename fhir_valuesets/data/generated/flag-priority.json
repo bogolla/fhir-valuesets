@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.FlagPriority",
+        "records": [
+            {
+                "code": "PN",
+                "definition": "No alarm.",
+                "display": "No alarm",
+                "id": "5da5aa4d-3baa-4f85-9e98-1ccc9e8f5803"
+            },
+            {
+                "code": "PL",
+                "definition": "Low priority.",
+                "display": "Low priority",
+                "id": "33b89220-1b11-4281-ab9c-e624e783fa52"
+            },
+            {
+                "code": "PM",
+                "definition": "Medium priority.",
+                "display": "Medium priority",
+                "id": "dd0ddf33-00b8-4a5e-a575-0fd7b1369347"
+            },
+            {
+                "code": "PH",
+                "definition": "High priority.",
+                "display": "High priority",
+                "id": "a049e137-803a-4551-95b0-39c07a276ebf"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

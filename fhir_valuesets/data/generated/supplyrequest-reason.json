@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.SupplyrequestReason",
+        "records": [
+            {
+                "code": "patient-care",
+                "definition": "The supply has been requested for use in direct patient care.",
+                "display": "Patient Care",
+                "id": "6c32e9e8-4aaf-49fd-af3d-0a9d2fdc4189"
+            },
+            {
+                "code": "ward-stock",
+                "definition": "The supply has been requested for for creating or replenishing ward stock.",
+                "display": "Ward Stock",
+                "id": "af460dc4-54a6-4413-84c4-54ed4e1d93ba"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

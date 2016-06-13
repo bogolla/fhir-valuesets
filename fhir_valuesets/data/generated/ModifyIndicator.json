@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Modifyindicator",
+        "records": [
+            {
+                "code": "M",
+                "definition": "Modified subscription to a query server.",
+                "display": "Modified subscription",
+                "id": "8e4acc2a-173a-4127-a92f-70b076270619"
+            },
+            {
+                "code": "N",
+                "definition": "New subscription to a query server.",
+                "display": "New subscription",
+                "id": "f2be2753-fe17-4bc2-8b57-a7e3f7c7831e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

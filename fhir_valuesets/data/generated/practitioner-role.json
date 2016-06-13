@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.PractitionerRole",
+        "records": [
+            {
+                "code": "doctor",
+                "definition": null,
+                "display": "Doctor",
+                "id": "8b81a782-bd15-4315-9c75-235c8e468632"
+            },
+            {
+                "code": "nurse",
+                "definition": null,
+                "display": "Nurse",
+                "id": "754a1161-2c3c-477c-a9ec-1c3004132bf1"
+            },
+            {
+                "code": "pharmacist",
+                "definition": null,
+                "display": "Pharmacist",
+                "id": "cf2d7f65-9bae-423a-9ab7-6cf55437575b"
+            },
+            {
+                "code": "researcher",
+                "definition": null,
+                "display": "Researcher",
+                "id": "c0d261d2-0024-401a-928e-0a31e64ba639"
+            },
+            {
+                "code": "teacher",
+                "definition": null,
+                "display": "Teacher/educator",
+                "id": "9dc81f24-2cf7-4e50-8362-09e87c4d2f17"
+            },
+            {
+                "code": "ict",
+                "definition": null,
+                "display": "ICT professional",
+                "id": "4a41c7ce-04c2-44d2-a544-170117384f55"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

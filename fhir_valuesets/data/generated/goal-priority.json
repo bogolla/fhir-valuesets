@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.GoalPriority",
+        "records": [
+            {
+                "code": "high",
+                "definition": "Indicates that the goal is of considerable importance and should be a primary focus of care delivery.",
+                "display": "high",
+                "id": "9a338bb4-bbb3-4023-97e9-751f66a85905"
+            },
+            {
+                "code": "medium",
+                "definition": "Indicates that the goal has a reasonable degree of importance and that concrete action should be taken towards the goal.  Attainment is not as critical as high-priority goals.",
+                "display": "medium",
+                "id": "c9854413-06dc-4e44-bef9-b1b16e8d451e"
+            },
+            {
+                "code": "low",
+                "definition": "The goal is desirable but is not sufficiently important to devote significant resources to.  Achievement of the goal may be sought when incidental to achieving other goals.",
+                "display": "low",
+                "id": "41bbe1e0-821f-4762-b2a0-2d0143726c01"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

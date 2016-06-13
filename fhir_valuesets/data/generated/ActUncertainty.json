@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Actuncertainty",
+        "records": [
+            {
+                "code": "N",
+                "definition": "Specifies that the act statement is made without explicit tagging of uncertainty. This is the normal statement, meaning that it is not free of errors and uncertainty may still exist.",
+                "display": "stated with no assertion of uncertainty",
+                "id": "999854b6-acce-4f69-80c4-1ca403a520a6"
+            },
+            {
+                "code": "U",
+                "definition": "Specifies that the originator of the Act statement does not have full confidence in the applicability (i.e., in event mood: factual truth) of the statement.",
+                "display": "stated with uncertainty",
+                "id": "c37d1519-7ef4-47b2-8ca4-ccd34f22ce1c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

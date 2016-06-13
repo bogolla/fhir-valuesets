@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ExOnsettype",
+        "records": [
+            {
+                "code": "lxm",
+                "definition": "Date of last examination.",
+                "display": "Last Exam",
+                "id": "73ce70f9-3859-4a0c-a0e4-295366f6b710"
+            },
+            {
+                "code": "sym",
+                "definition": "Date when symptoms were first noticed..",
+                "display": "Start of Symptoms",
+                "id": "1d0f8092-9731-44fd-8147-f99f62545eef"
+            },
+            {
+                "code": "lmn",
+                "definition": "Start date of last menstruation.",
+                "display": "Last Menstruation",
+                "id": "1b860384-a647-4e23-9613-e23f994e0a2e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

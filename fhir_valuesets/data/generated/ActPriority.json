@@ -1,0 +1,89 @@
+[
+    {
+        "model": "valuesets.Actpriority",
+        "records": [
+            {
+                "code": "A",
+                "definition": "As soon as possible, next highest priority after stat.",
+                "display": "ASAP",
+                "id": "ec369823-8d4d-4394-b65f-a533888df4f4"
+            },
+            {
+                "code": "CR",
+                "definition": "Filler should contact the placer as soon as results are available, even for preliminary results.  (Was \"C\" in HL7 verion 2.3's reporting priority.)",
+                "display": "callback results",
+                "id": "d493c94b-3c25-417b-b25a-1bb4ed63f7e7"
+            },
+            {
+                "code": "CS",
+                "definition": "Filler should contact the placer (or target) to schedule the service.  (Was \"C\" in HL7 version 2.3's TQ-priority component.)",
+                "display": "callback for scheduling",
+                "id": "1a36c394-721c-4a9c-b9fa-880bbf03d6c8"
+            },
+            {
+                "code": "EL",
+                "definition": "Beneficial to the patient but not essential for survival.",
+                "display": "elective",
+                "id": "97febc8d-de03-47f3-9006-8d454794e587"
+            },
+            {
+                "code": "EM",
+                "definition": "An unforeseen combination of circumstances or the resulting state that calls for immediate action.",
+                "display": "emergency",
+                "id": "0210c528-d152-4be7-91a6-1721d6175ac4"
+            },
+            {
+                "code": "P",
+                "definition": "Used to indicate that a service is to be performed prior to a scheduled surgery.  When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service.  When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation.",
+                "display": "preop",
+                "id": "c5392414-9070-468b-ad1b-e45bcc084c7d"
+            },
+            {
+                "code": "PRN",
+                "definition": "An \"as needed\" order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition.",
+                "display": "as needed",
+                "id": "5c84f78e-be3e-48e5-a999-a6663efaf654"
+            },
+            {
+                "code": "R",
+                "definition": "Routine service, do at usual work hours.",
+                "display": "routine",
+                "id": "99608273-af22-41d0-84b5-d8aea5707f63"
+            },
+            {
+                "code": "RR",
+                "definition": "A report should be prepared and sent as quickly as possible.",
+                "display": "rush reporting",
+                "id": "c7492b3f-9b61-43e4-8697-a2734a23fa73"
+            },
+            {
+                "code": "S",
+                "definition": "With highest priority (e.g., emergency).",
+                "display": "stat",
+                "id": "cc019e06-60b3-448e-9b1b-066a61667007"
+            },
+            {
+                "code": "T",
+                "definition": "It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level).",
+                "display": "timing critical",
+                "id": "100c97b8-c60a-4b1d-945b-e61b60ec13d6"
+            },
+            {
+                "code": "UD",
+                "definition": "Drug is to be used as directed by the prescriber.",
+                "display": "use as directed",
+                "id": "f934e7b2-4a50-497a-8bc7-1d2bf346fcb4"
+            },
+            {
+                "code": "UR",
+                "definition": "Calls for prompt action.",
+                "display": "urgent",
+                "id": "fd50e086-b6d0-4464-83f0-681f2e10fa8e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

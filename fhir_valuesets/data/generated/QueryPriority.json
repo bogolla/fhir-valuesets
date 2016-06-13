@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Querypriority",
+        "records": [
+            {
+                "code": "D",
+                "definition": "Query response is deferred.",
+                "display": "Deferred",
+                "id": "a85eaa52-a98e-45e2-8af4-01ef85ece5d5"
+            },
+            {
+                "code": "I",
+                "definition": "Query response is immediate.",
+                "display": "Immediate",
+                "id": "48d6510f-3425-4098-bbe8-e2291b369bd3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

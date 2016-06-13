@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ResourceTypeLink",
+        "records": [
+            {
+                "code": "organization",
+                "definition": "Organization resource",
+                "display": "Organization",
+                "id": "786ab5c1-e1c3-4c83-a871-c40e06ac50c9"
+            },
+            {
+                "code": "patient",
+                "definition": "Patient resource",
+                "display": "Patient",
+                "id": "27ef052c-6cc8-4c59-a882-f7b3441dde1a"
+            },
+            {
+                "code": "practitioner",
+                "definition": "Practitioner resource",
+                "display": "Practitioner",
+                "id": "52ad0492-9702-45fc-b804-23457b4ac89b"
+            },
+            {
+                "code": "relatedperson",
+                "definition": "RelatedPerson resource",
+                "display": "RelatedPerson",
+                "id": "83ec89c6-215c-4b8d-8579-c7a700ac963e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

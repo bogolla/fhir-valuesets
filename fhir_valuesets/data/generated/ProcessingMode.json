@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Processingmode",
+        "records": [
+            {
+                "code": "A",
+                "definition": "Identifies archive mode of processing.",
+                "display": "Archive",
+                "id": "7fad68af-6e4b-417c-af28-4116a7103157"
+            },
+            {
+                "code": "I",
+                "definition": "Identifies initial load mode of processing.",
+                "display": "Initial load",
+                "id": "ff1d783f-1cf8-40a6-a451-b43a75431550"
+            },
+            {
+                "code": "R",
+                "definition": "Identifies restore mode of processing.",
+                "display": "Restore from archive",
+                "id": "da47ff78-de29-480a-bded-77170b9a9879"
+            },
+            {
+                "code": "T",
+                "definition": "Identifies on-line mode of processing.",
+                "display": "Current processing",
+                "id": "e4e1455b-0a9b-48fb-9fa5-93a294a50004"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

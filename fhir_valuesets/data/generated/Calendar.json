@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Calendar",
+        "records": [
+            {
+                "code": "GREG",
+                "definition": "The Gregorian calendar is the calendar in effect in most countries of Christian influence since approximately 1582. This calendar superceded the Julian calendar.",
+                "display": "Gregorian",
+                "id": "c13ef941-2b60-4992-a02e-bf834968fca9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

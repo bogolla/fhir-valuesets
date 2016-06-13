@@ -1,0 +1,95 @@
+[
+    {
+        "model": "valuesets.DiagnosticOrderStatus",
+        "records": [
+            {
+                "code": "proposed",
+                "definition": "The request has been proposed.",
+                "display": "Proposed",
+                "id": "ac5c7065-57c9-4546-930f-02d765e17148"
+            },
+            {
+                "code": "draft",
+                "definition": "The request is in preliminary form prior to being sent.",
+                "display": "Draft",
+                "id": "a5b89f43-a826-45a6-b6f2-99663725c777"
+            },
+            {
+                "code": "planned",
+                "definition": "The request has been planned.",
+                "display": "Planned",
+                "id": "0570d3b8-ff5e-42e8-84af-103079d1d2af"
+            },
+            {
+                "code": "requested",
+                "definition": "The request has been placed.",
+                "display": "Requested",
+                "id": "f14ecc20-888f-40ea-acb5-153487df8448"
+            },
+            {
+                "code": "received",
+                "definition": "The receiving system has received the order, but not yet decided whether it will be performed.",
+                "display": "Received",
+                "id": "e94286ee-3b96-4d92-9d92-8f5d06790ec9"
+            },
+            {
+                "code": "accepted",
+                "definition": "The receiving system has accepted the order, but work has not yet commenced.",
+                "display": "Accepted",
+                "id": "657951e5-e4ec-467c-b0c2-6bbec8ec30ed"
+            },
+            {
+                "code": "in-progress",
+                "definition": "The work to fulfill the order is happening.",
+                "display": "In-Progress",
+                "id": "6901717d-2095-484e-8439-92403079eb0d"
+            },
+            {
+                "code": "review",
+                "definition": "The work is complete, and the outcomes are being reviewed for approval.",
+                "display": "Review",
+                "id": "a95fdfd2-c52a-4737-bf82-6f46a4435026"
+            },
+            {
+                "code": "completed",
+                "definition": "The work has been completed, the report(s) released, and no further work is planned.",
+                "display": "Completed",
+                "id": "c574229a-df9e-4790-a9a9-e5c7655e21cb"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The request has been withdrawn.",
+                "display": "Cancelled",
+                "id": "8e4ea062-a10a-4206-855d-7b164ae3f8e5"
+            },
+            {
+                "code": "suspended",
+                "definition": "The request has been held by originating system/user request.",
+                "display": "Suspended",
+                "id": "b656ee5e-c6f2-4fed-8cc7-5e9b66a326e5"
+            },
+            {
+                "code": "rejected",
+                "definition": "The receiving system has declined to fulfill the request.",
+                "display": "Rejected",
+                "id": "90ba70b2-1a75-4c21-bb3e-56bf005e6157"
+            },
+            {
+                "code": "failed",
+                "definition": "The diagnostic investigation was attempted, but due to some procedural error, it could not be completed.",
+                "display": "Failed",
+                "id": "a72748be-479a-408e-bd75-9a458e2b24fc"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The request was entered in error and voided.",
+                "display": "Entered in Error",
+                "id": "6a1ef6ee-8998-40dc-bab6-a155dd87d8e7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

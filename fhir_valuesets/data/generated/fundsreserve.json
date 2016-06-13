@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Fundsreserve",
+        "records": [
+            {
+                "code": "patient",
+                "definition": null,
+                "display": null,
+                "id": "fc43f228-8f92-4d52-916f-d0be7b9b3a84"
+            },
+            {
+                "code": "provider",
+                "definition": null,
+                "display": null,
+                "id": "c59102fa-96fb-43aa-b26c-775248682baa"
+            },
+            {
+                "code": "none",
+                "definition": null,
+                "display": null,
+                "id": "bacb8a9f-5b49-423a-8c17-9f2758c00a37"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

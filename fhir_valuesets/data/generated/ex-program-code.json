@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ExProgramCode",
+        "records": [
+            {
+                "code": "as",
+                "definition": "Child Asthma Program",
+                "display": "Child Asthma",
+                "id": "14eddfe2-2fb7-43eb-9cd6-975ec86385bb"
+            },
+            {
+                "code": "hd",
+                "definition": "Heamodialisis Program.",
+                "display": "Heamodialisis",
+                "id": "72b98055-5cac-4308-8dd8-b80f2d8682a5"
+            },
+            {
+                "code": "auscr",
+                "definition": "Autism Screening Program.",
+                "display": "Autism Screening",
+                "id": "2d7ca387-e5f5-4783-bca5-80d618f424c3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

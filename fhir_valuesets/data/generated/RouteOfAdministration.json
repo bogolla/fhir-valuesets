@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Routeofadministration",
+        "records": [
+            {
+                "code": "_RouteByMethod",
+                "definition": "Route of substance administration classified by administration method.",
+                "display": "RouteByMethod",
+                "id": "082fbb55-b175-45a8-b2fc-945897abf935"
+            },
+            {
+                "code": "_RouteBySite",
+                "definition": "Route of substance administration classified by site.",
+                "display": "RouteBySite",
+                "id": "6b872778-248e-47fc-8bb9-e2d51d0c9aea"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

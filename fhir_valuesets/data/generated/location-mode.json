@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.LocationMode",
+        "records": [
+            {
+                "code": "instance",
+                "definition": "The Location resource represents a specific instance of a location (e.g. Operating Theatre 1A).",
+                "display": "Instance",
+                "id": "5f72df89-da79-4244-95d7-edbf2a2d3bad"
+            },
+            {
+                "code": "kind",
+                "definition": "The Location represents a class of locations (e.g. Any Operating Theatre) although this class of locations could be constrained within a specific boundary (such as organization, or parent location, address etc.).",
+                "display": "Kind",
+                "id": "28cd003e-c142-4431-89c6-570c9bb2fed5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

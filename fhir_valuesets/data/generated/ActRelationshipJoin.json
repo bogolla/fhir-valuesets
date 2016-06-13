@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Actrelationshipjoin",
+        "records": [
+            {
+                "code": "D",
+                "definition": "Detach this branch from the other branches so it will not be resynchronized with the other branches.",
+                "display": "detached",
+                "id": "10eab9a0-73ea-4382-94c9-119ad144063d"
+            },
+            {
+                "code": "K",
+                "definition": "When all other concurrent branches are terminated, interrupt and discontinue this branch.",
+                "display": "kill",
+                "id": "c76e7cf3-f61b-46fa-9d16-bee5c6be74d6"
+            },
+            {
+                "code": "W",
+                "definition": "Wait for this branch to terminate.",
+                "display": "wait",
+                "id": "dfbdaaf8-5d6a-45bd-9fe4-6eacef45e2cc"
+            },
+            {
+                "code": "X",
+                "definition": "Wait for any one of the branches in the set of exclusive wait branches to terminate, then discontinue all the other exclusive wait branches.",
+                "display": "exclusive wait",
+                "id": "20f9e746-4924-4971-b56b-2e37be3975aa"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "model": "valuesets.EventTiming",
+    "unique_fields": [
+        "id"
+    ],
+    "records": [
+       {
+            "id": "7eb46e2d-eb26-4e21-8c0e-2ca119f116d7",
+            "code": "HS",
+            "display": "HS",
+            "definition": "event occurs [duration] before the hour of sleep (or trying to)"
+        },
+        {
+            "id": "5aaf06af-7e9a-43cb-aeda-6a7887f316e7",
+            "code": "WAKE",
+            "display": "WAKE",
+            "definition": "event occurs [duration] after waking"
+        },
+        {
+            "id": "1a87b09e-6f9c-462c-8203-fd7e0b4b3cae",
+            "code": "C",
+            "display": "C",
+            "definition": "event occurs at a meal (from the Latin cibus)"
+        },
+        {
+            "id": "374dcd47-712c-4b95-9df6-957f6e2de9aa",
+            "code": "CM",
+            "display": "CM",
+            "definition": "event occurs at breakfast (from the Latin cibus matutinus)"
+        },
+        {
+            "id": "6d12912c-115d-4be2-9224-be3e50138315",
+            "code": "CD",
+            "display": "CD",
+            "definition": "event occurs at lunch (from the Latin cibus diurnus)"
+        },
+        {
+            "id": "6b8d25c0-6cea-4a14-ae2d-b6e05361e715",
+            "code": "CV",
+            "display": "CV",
+            "definition": "event occurs at dinner (from the Latin ante cibus vespertinus)"
+        },
+        {
+            "id": "b830a43f-4440-436d-b402-c14d5af1df86",
+            "code": "AC",
+            "display": "AC",
+            "definition": "event occurs [duration] before a meal (from the Latin ante cibus)"
+        },
+        {
+            "id": "cdc818b9-f7c8-4fce-a8e8-42d6a8cc5993",
+            "code": "ACM",
+            "display": "ACM",
+            "definition": "event occurs [duration] before breakfast (from the Latin ante cibus matutinus)"
+        },
+        {
+            "id": "bcdd9a68-9df2-41c7-9de0-8abbef7001ca",
+            "code": "ACD",
+            "display": "ACD",
+            "definition": "event occurs [duration] before lunch (from the Latin ante cibus diurnus)"
+        },
+        {
+            "id": "2435c289-a45f-4981-bf36-b469acf5dbf2",
+            "code": "ACV",
+            "display": "ACV",
+            "definition": "event occurs [duration] before dinner (from the Latin ante cibus vespertinus)"
+        },
+        {
+            "id": "cf694c8f-cced-4525-8c00-8ab7219e0a42",
+            "code": "PC",
+            "display": "PC",
+            "definition": "event occurs [duration] after a meal (from the Latin post cibus)"
+        },
+        {
+            "id": "dba48596-cf3a-4f18-9ad0-32e227d9f9de",
+            "code": "PCM",
+            "display": "PCM",
+            "definition": "event occurs [duration] after breakfast (from the Latin post cibus matutinus)"
+        },
+        {
+            "id": "afb0c25a-1ad4-4b06-94e1-73bc51e2a46f",
+            "code": "PCD",
+            "display": "PCD",
+            "definition": "event occurs [duration] after lunch (from the Latin post cibus diurnus)"
+        },
+        {
+            "id": "4c8dbe34-2344-4e4c-8944-32ccc7240dac",
+            "code": "PCV",
+            "display": "PCV",
+            "definition": "event occurs [duration] after dinner (from the Latin post cibus vespertinus)"
+        }
+    ]
+  }
+]

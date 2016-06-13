@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Responsemode",
+        "records": [
+            {
+                "code": "D",
+                "definition": "The receiver may respond in a non-immediate manner. Note: this will be the default value.",
+                "display": "deferred",
+                "id": "b7cf479c-2353-470a-b943-c9aef0950dbe"
+            },
+            {
+                "code": "I",
+                "definition": "The receiver is required to assume that the sender is blocking and behave appropriately by sending an immediate response.",
+                "display": "immediate",
+                "id": "3d89c472-80d4-45f3-9618-495aebac670d"
+            },
+            {
+                "code": "Q",
+                "definition": "The receiver shall keep any application responses in a queue until such time as the queue is polled.",
+                "display": "queue",
+                "id": "4a51c2fc-5d76-4522-8ac3-9db700f8a9d6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

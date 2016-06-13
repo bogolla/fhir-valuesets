@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Icd10Procedures",
+        "records": [
+            {
+                "code": "123001",
+                "definition": "Procedure 1",
+                "display": "PROC-1",
+                "id": "65746754-0e0f-4b26-a501-a5f6063f392e"
+            },
+            {
+                "code": "123002",
+                "definition": "Procedure 2",
+                "display": "PROC-2",
+                "id": "9d567256-302a-46e3-8686-fb01195f8c21"
+            },
+            {
+                "code": "123003",
+                "definition": "Procedure 3",
+                "display": "PROC-3",
+                "id": "20f48bda-639e-4afb-b914-b3312ef9cb25"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

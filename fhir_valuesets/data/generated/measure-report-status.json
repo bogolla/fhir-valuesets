@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.MeasureReportStatus",
+        "records": [
+            {
+                "code": "complete",
+                "definition": "The report is complete and ready for use",
+                "display": "Complete",
+                "id": "a908d747-401d-4dc7-8714-ad1e42013d14"
+            },
+            {
+                "code": "pending",
+                "definition": "The report is currently being generated",
+                "display": "Pending",
+                "id": "d64d695e-eaca-482e-b19b-68d0fcbe3603"
+            },
+            {
+                "code": "error",
+                "definition": "An error occurred attempting to generate the report",
+                "display": "Error",
+                "id": "b9939452-454b-43cf-8f24-cfe958f79dcd"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

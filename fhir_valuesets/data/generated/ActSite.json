@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Actsite",
+        "records": [
+            {
+                "code": "_HumanActSite",
+                "definition": "An anatomical location on a human which can be the focus of an act.",
+                "display": "HumanActSite",
+                "id": "9cb9d474-9722-422d-a607-629f957ec1ee"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

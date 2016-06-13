@@ -1,0 +1,46 @@
+[
+  {
+    "model": "valuesets.AgeUnits",
+    "unique_fields": [
+        "id"
+    ],
+    "records": [
+      {
+          "id": "535f227d-fc15-47b0-ba08-523a2c70429a",
+          "code": "min",
+          "display": "Minute",
+          "definition": null
+      },
+      {
+          "id": "ecdb81de-c689-4624-8de2-0fa7f2878513",
+          "code": "h",
+          "display": "Hour",
+          "definition": null
+      },
+      {
+          "id": "1115a499-a6ce-47f5-a1bf-92825e0b9428",
+          "code": "d",
+          "display": "Day",
+          "definition": null
+      },
+      {
+          "id": "ad0d4112-5688-4594-a115-859282051925",
+          "code": "wk",
+          "display": "Week",
+          "definition": null
+      },
+      {
+          "id": "fc1e9859-90ff-4753-ac95-3c51545adac5",
+          "code": "mo",
+          "display": "Month",
+          "definition": null
+      },
+      {
+          "id": "ada2310a-de2b-4a55-a38f-e226c5000e98",
+          "code": "a",
+          "display": "Year",
+          "definition": null
+      }
+    ]
+  }
+]

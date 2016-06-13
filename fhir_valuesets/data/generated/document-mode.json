@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.DocumentMode",
+        "records": [
+            {
+                "code": "producer",
+                "definition": "The application produces documents of the specified type.",
+                "display": "Producer",
+                "id": "24fb63b7-b1aa-46d6-83b7-c7da1b033230"
+            },
+            {
+                "code": "consumer",
+                "definition": "The application consumes documents of the specified type.",
+                "display": "Consumer",
+                "id": "a445ba46-08af-4d8c-bfe5-ff434c107316"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

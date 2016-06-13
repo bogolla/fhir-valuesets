@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Addressuse",
+        "records": [
+            {
+                "code": "_GeneralAddressUse",
+                "definition": "Description: Address uses that can apply to both postal and telecommunication addresses.",
+                "display": "_GeneralAddressUse",
+                "id": "38f6e45d-deab-4461-9890-64c42ae36418"
+            },
+            {
+                "code": "_PostalAddressUse",
+                "definition": "Description: Address uses that only apply to postal addresses, not telecommunication addresses.",
+                "display": "_PostalAddressUse",
+                "id": "1863ad5c-b054-4ba5-b3cc-07a64a6cddbd"
+            },
+            {
+                "code": "_TelecommunicationAddressUse",
+                "definition": "Description: Address uses that only apply to telecommunication addresses, not postal addresses.",
+                "display": "_TelecommunicationAddressUse",
+                "id": "6793be58-7c7e-4ae7-9b0e-560cc738445b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

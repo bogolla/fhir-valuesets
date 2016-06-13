@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.XdsRelationshipType",
+        "records": [
+            {
+                "code": "APND",
+                "definition": "A separate XDS document that references a prior document, and may extend or alter the observations in the prior document.",
+                "display": "APND",
+                "id": "ad571eb8-68ad-4077-bfcd-6462ff3a2314"
+            },
+            {
+                "code": "RPLC",
+                "definition": "A new version of an existing document.",
+                "display": "RPLC",
+                "id": "5fd51875-ffb5-4a9b-b470-46709911fba2"
+            },
+            {
+                "code": "XFRM",
+                "definition": "A transformed document is derived by a machine translation from some other format.",
+                "display": "XFRM",
+                "id": "47f3510d-90ba-450e-a41c-2a7fbc73df33"
+            },
+            {
+                "code": "XFRM_RPLC",
+                "definition": "Both a XFRM and a RPLC relationship.",
+                "display": "XFRM_RPLC",
+                "id": "73d3021d-a07f-4863-9cc5-dae27d340e24"
+            },
+            {
+                "code": "signs",
+                "definition": "This document signs the target document.",
+                "display": "Signs",
+                "id": "8b00c78d-54da-4ae1-b972-3c30d54b0013"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

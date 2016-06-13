@@ -1,0 +1,113 @@
+[
+    {
+        "model": "valuesets.Observationvalue",
+        "records": [
+            {
+                "code": "_ActCoverageAssessmentObservationValue",
+                "definition": "Codes specify the category of observation, evidence, or document used to assess for services, e.g., discharge planning, or to establish eligibility for coverage under a policy or program. The type of evidence is coded as observation values.",
+                "display": "ActCoverageAssessmentObservationValue",
+                "id": "eeece835-3070-4a7d-8e8b-1c308089951d"
+            },
+            {
+                "code": "_AllergyTestValue",
+                "definition": "Indicates the result of a particular allergy test.  E.g. Negative, Mild, Moderate, Severe",
+                "display": "AllergyTestValue",
+                "id": "9fab79d5-5a79-4050-9f46-5dd2b44ced34"
+            },
+            {
+                "code": "_CoverageLimitObservationValue",
+                "definition": "Description:Coded observation values for coverage limitations, for e.g., types of claims or types of parties covered under a policy or program.",
+                "display": "CoverageLimitObservationValue",
+                "id": "b3d3f07c-320b-43ab-a79f-8cccdb493b6b"
+            },
+            {
+                "code": "_CriticalityObservationValue",
+                "definition": "A clinical judgment as to the worst case result of a future exposure (including substance administration). When the worst case result is assessed to have a life-threatening or organ system threatening potential, it is considered to be of high criticality.",
+                "display": "CriticalityObservationValue",
+                "id": "2805c4aa-ec9c-4e18-aa19-4d6bdc127380"
+            },
+            {
+                "code": "_GeneticObservationValue",
+                "definition": "Description: The domain contains genetic analysis specific observation values, e.g. Homozygote, Heterozygote, etc.",
+                "display": "GeneticObservationValue",
+                "id": "deffb5bd-b5d7-463f-874c-2d064827c394"
+            },
+            {
+                "code": "_ObservationMeasureScoring",
+                "definition": "Observation values used to indicate the type of scoring (e.g. proportion, ratio) used by a health quality measure.",
+                "display": "ObservationMeasureScoring",
+                "id": "0416be93-77b4-4c34-9c03-576ca192f461"
+            },
+            {
+                "code": "_ObservationMeasureType",
+                "definition": "Observation values used to indicate what kind of health quality measure is used.",
+                "display": "ObservationMeasureType",
+                "id": "1eb3f5f5-6043-423f-a979-145a6dd2fe47"
+            },
+            {
+                "code": "_ObservationPopulationInclusion",
+                "definition": "Observation values used to assert various populations that a subject falls into.",
+                "display": "ObservationPopulationInclusion",
+                "id": "2624331d-8218-416a-ae9b-a3be33987fdc"
+            },
+            {
+                "code": "_PartialCompletionScale",
+                "definition": "PartialCompletionScale",
+                "display": "PartialCompletionScale",
+                "id": "035c2836-6f15-496d-80b3-67ac0f9bacda"
+            },
+            {
+                "code": "_SecurityObservationValue",
+                "definition": "Observation values used to indicate security observation metadata.",
+                "display": "SecurityObservationValue",
+                "id": "dbfb0f2d-3598-4eae-8f14-fc13d2104aea"
+            },
+            {
+                "code": "_SeverityObservation",
+                "definition": "Potential values for observations of severity.",
+                "display": "SeverityObservation",
+                "id": "35396c5b-33cc-4759-b228-f77be435648e"
+            },
+            {
+                "code": "_SubjectBodyPosition",
+                "definition": "Contains codes for defining the observed, physical position of a subject, such as during an observation, assessment, collection of a specimen, etc.  ECG waveforms and vital signs, such as blood pressure, are two examples where a general, observed position typically needs to be noted.",
+                "display": "_SubjectBodyPosition",
+                "id": "b5250fb8-a7dc-4303-b5b8-8e52051c61f6"
+            },
+            {
+                "code": "_VerificationOutcomeValue",
+                "definition": "Values for observations of verification act results\r\n\n                        \n                           Examples: Verified, not verified, verified with warning.",
+                "display": "verification outcome",
+                "id": "d86484d8-114b-494d-abd9-2007474de2f4"
+            },
+            {
+                "code": "_AnnotationValue",
+                "definition": "AnnotationValue",
+                "display": "AnnotationValue",
+                "id": "224cdb2c-1ac4-4d3c-bae3-e7e62fd45032"
+            },
+            {
+                "code": "_CommonClinicalObservationValue",
+                "definition": "Description:Used in a patient care message to value simple clinical (non-lab) observations.",
+                "display": "common clinical observation",
+                "id": "ea7dbcdf-df81-46b6-af68-2a752471e41c"
+            },
+            {
+                "code": "_IndividualCaseSafetyReportValueDomains",
+                "definition": "This domain is established as a parent to a variety of value domains being defined to support the communication of Individual Case Safety Reports to regulatory bodies. Arguably, this aggregation is not taxonomically pure, but the grouping will facilitate the management of these domains.",
+                "display": "Individual Case Safety Report Value Domains",
+                "id": "19743b70-954f-4949-b49f-f0985688a400"
+            },
+            {
+                "code": "_IndicationValue",
+                "definition": "Indicates the specific observation result which is the reason for the action (prescription, lab test, etc.). E.g. Headache, Ear infection, planned diagnostic image (requiring contrast agent), etc.",
+                "display": "IndicationValue",
+                "id": "09823ea8-2d85-47ef-b4f8-22c8ca405471"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

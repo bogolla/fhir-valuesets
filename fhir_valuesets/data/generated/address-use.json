@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.AddressUse",
+        "records": [
+            {
+                "code": "home",
+                "definition": "A communication address at a home.",
+                "display": "Home",
+                "id": "cc8baa62-aa20-4f7f-b8c6-02f97f6a3683"
+            },
+            {
+                "code": "work",
+                "definition": "An office address. First choice for business related contacts during business hours.",
+                "display": "Work",
+                "id": "f789fbb9-edfa-4369-b08b-80b73a0c5f03"
+            },
+            {
+                "code": "temp",
+                "definition": "A temporary address. The period can provide more detailed information.",
+                "display": "Temporary",
+                "id": "e099817f-167d-4398-9e81-a8a1ed2f35b1"
+            },
+            {
+                "code": "old",
+                "definition": "This address is no longer in use (or was never correct, but retained for records).",
+                "display": "Old / Incorrect",
+                "id": "4ee5847a-8df6-42b2-988d-e50b9a8bcde1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

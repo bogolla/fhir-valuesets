@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Acknowledgementcondition",
+        "records": [
+            {
+                "code": "AL",
+                "definition": "Always send an acknowledgement.",
+                "display": "Always",
+                "id": "2047689d-d2b7-4658-82e3-4844411d3f60"
+            },
+            {
+                "code": "ER",
+                "definition": "Send an acknowledgement for error/reject conditions only.",
+                "display": "Error/reject only",
+                "id": "0140b818-d7bf-4d36-bd5d-3ed5f7171bb6"
+            },
+            {
+                "code": "NE",
+                "definition": "Never send an acknowledgement.",
+                "display": "Never",
+                "id": "0b3843a1-9563-4515-9db7-a5034172c45b"
+            },
+            {
+                "code": "SU",
+                "definition": "Send an acknowledgement for successful completions only.",
+                "display": "Successful only",
+                "id": "05c40bcd-bf83-4c3c-b7f8-5b973a319d40"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

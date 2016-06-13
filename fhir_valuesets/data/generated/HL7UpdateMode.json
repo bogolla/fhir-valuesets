@@ -1,0 +1,83 @@
+[
+    {
+        "model": "valuesets.Hl7updatemode",
+        "records": [
+            {
+                "code": "A",
+                "definition": "Description:The item was (or is to be) added, having not been present immediately before. (If it is already present, this may be treated as an error condition.)",
+                "display": "Add",
+                "id": "fa75a2df-2e31-463f-89c0-84b53b87e81c"
+            },
+            {
+                "code": "AR",
+                "definition": "Description:The item was (or is to be) either added or replaced.",
+                "display": "Add or Replace",
+                "id": "f9dff96d-0bb3-4feb-ae80-9523eb06d92b"
+            },
+            {
+                "code": "D",
+                "definition": "Description:The item was (or is to be) removed (sometimes referred to as deleted). If the item is part of a collection, delete any matching items.",
+                "display": "Remove",
+                "id": "b0814d57-00cc-4bad-a9e4-ece464cd8f81"
+            },
+            {
+                "code": "K",
+                "definition": "Description:This item is part of the identifying information for this object.",
+                "display": "Key",
+                "id": "a4ccdd45-938c-46d2-a295-4c30f1d14941"
+            },
+            {
+                "code": "N",
+                "definition": "Description:There was (or is to be) no change to the item. This is primarily used when this element has not changed, but other attributes in the instance have changed.",
+                "display": "No Change",
+                "id": "0363d7a3-d47e-4f8a-932e-9a9a97355f74"
+            },
+            {
+                "code": "R",
+                "definition": "Description:The item existed previously and has (or is to be) revised. (If an item does not already exist, this may be treated as an error condition.)",
+                "display": "Replace",
+                "id": "d0f20d4a-e7fb-41c5-bc65-8fe0145e7848"
+            },
+            {
+                "code": "REF",
+                "definition": "Description:This item provides enough information to allow a processing system to locate the full applicable record by identifying the object.",
+                "display": "Reference",
+                "id": "e524887d-3e09-4997-9f2c-708a964c2499"
+            },
+            {
+                "code": "U",
+                "definition": "Description:Description:</b>It is not specified whether or what kind of change has occurred to the item, or whether the item is present as a reference or identifying property.",
+                "display": "Unknown",
+                "id": "1a74bf03-7db5-4db1-b1d6-69225b9dfc6c"
+            },
+            {
+                "code": "_SetUpdateMode",
+                "definition": "These concepts apply when the element and/or message is updating a set of items.",
+                "display": "SetUpdateMode",
+                "id": "8b5e6316-2945-4ca2-95d8-888d846d069d"
+            },
+            {
+                "code": "AU",
+                "definition": "Description: AU: If this item exists, update it with these values. If it does not exist, create it with these values. If the item is part of the collection, update each item that matches this item, and if no items match, add a new item to the collection.",
+                "display": "Add or Update",
+                "id": "54080934-2a17-4f9b-be13-2a906d0f4bda"
+            },
+            {
+                "code": "I",
+                "definition": "Ignore this role, it is not relevant to the update.",
+                "display": "Ignore",
+                "id": "9907a9c4-e43d-4155-bce1-c5105ddde3ab"
+            },
+            {
+                "code": "V",
+                "definition": "Verify - this message element must match a value already in the receiving systems database in order to process the message.",
+                "display": "Verify",
+                "id": "ad0471e6-78b5-4092-b139-36dafa49e8ee"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

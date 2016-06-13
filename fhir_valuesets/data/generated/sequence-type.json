@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.SequenceType",
+        "records": [
+            {
+                "code": "AA",
+                "definition": "Amino acid sequence",
+                "display": "AA Sequence",
+                "id": "672fed48-c9cc-45d7-9d6b-eea2068e366a"
+            },
+            {
+                "code": "DNA",
+                "definition": "DNA Sequence",
+                "display": "DNA Sequence",
+                "id": "7546b0ef-f40f-42da-862f-47871c9f25aa"
+            },
+            {
+                "code": "RNA",
+                "definition": "RNA Sequence",
+                "display": "RNA Sequence",
+                "id": "62faf3c7-b5b4-4452-98bf-b5a37a4e777c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

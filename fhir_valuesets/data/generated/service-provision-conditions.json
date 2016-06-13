@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ServiceProvisionConditions",
+        "records": [
+            {
+                "code": "free",
+                "definition": "This service is available for no patient cost.",
+                "display": "Free",
+                "id": "c5b98a72-10bc-4516-adc8-b3c988a49ce0"
+            },
+            {
+                "code": "disc",
+                "definition": "There are discounts available on this service for qualifying patients.",
+                "display": "Discounts Available",
+                "id": "af8f7d02-6dd7-49ad-9c3e-245a6a47682b"
+            },
+            {
+                "code": "cost",
+                "definition": "Fees apply for this service.",
+                "display": "Fees apply",
+                "id": "ce7dd741-e101-4208-85be-10ea7543afa6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

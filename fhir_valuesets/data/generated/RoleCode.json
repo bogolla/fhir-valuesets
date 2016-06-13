@@ -1,0 +1,209 @@
+[
+    {
+        "model": "valuesets.Rolecode",
+        "records": [
+            {
+                "code": "_AffiliationRoleType",
+                "definition": "Concepts characterizing the type of association formed by player and scoper when there is a recognized Affiliate role by which the two parties are related.\r\n\n                        \n                           Examples: Business Partner, Business Associate, Colleague",
+                "display": "AffiliationRoleType",
+                "id": "3a41034f-e6b6-440c-aecd-4d169f11a480"
+            },
+            {
+                "code": "_AssignedRoleType",
+                "definition": "AssignedRoleType",
+                "display": "AssignedRoleType",
+                "id": "25b16e4f-5373-469a-b3b2-ea41fc626f9f"
+            },
+            {
+                "code": "_CertifiedEntityType",
+                "definition": "Defines types of certifications for all entities",
+                "display": "CertifiedEntityType",
+                "id": "456a90b1-a42c-4dc1-bcc6-9da1e2f1ed05"
+            },
+            {
+                "code": "_CitizenRoleType",
+                "definition": "A role type used to qualify a person's legal status within a country or nation.",
+                "display": "CitizenRoleType",
+                "id": "0a50c3ec-7ba7-44d1-81ed-4a1705150a70"
+            },
+            {
+                "code": "_ContactRoleType",
+                "definition": "Types of contact for Role code \"CON\"",
+                "display": "ContactRoleType",
+                "id": "cd845fb1-7dc5-4516-84e0-ab908ad7c3ca"
+            },
+            {
+                "code": "_IdentifiedEntityType",
+                "definition": "Definition: A code representing the type of identifier that has been assigned to the identified entity (IDENT).\r\n\n                        \n                           Examples: Example values include Social Insurance Number, Product Catalog ID, Product Model Number.",
+                "display": "IdentifiedEntityType",
+                "id": "94e45f6b-113d-4695-86b0-cdc47e93cb11"
+            },
+            {
+                "code": "_LivingSubjectProductionClass",
+                "definition": "Code indicating the primary use for which a living subject is bred or grown",
+                "display": "LivingSubjectProductionClass",
+                "id": "fcccdaae-5d20-4df6-bb8d-ee2aa93f7a73"
+            },
+            {
+                "code": "_MedicationGeneralizationRoleType",
+                "definition": "Identifies the specific hierarchical relationship between the playing and scoping medications. \r\n\n                        \n                           Examples: Generic, Generic Formulation, Therapeutic Class, etc.",
+                "display": "MedicationGeneralizationRoleType",
+                "id": "de375a63-f47f-4d7f-b66f-926a97fee9f1"
+            },
+            {
+                "code": "_MemberRoleType",
+                "definition": "Types of membership for Role code \"MBR\"",
+                "display": "MemberRoleType",
+                "id": "fb02e17b-d8ea-4392-b68a-8c2db584c1cf"
+            },
+            {
+                "code": "_PersonalRelationshipRoleType",
+                "definition": "PersonalRelationshipRoleType",
+                "display": "PersonalRelationshipRoleType",
+                "id": "c33a033a-da18-4d9b-9bd8-9b153891f591"
+            },
+            {
+                "code": "_PolicyOrProgramCoverageRoleType",
+                "definition": "Description: A role recognized through the eligibility of an identified party for benefits covered under an insurance policy or a program based on meeting eligibility criteria.\r\n\n                        Eligibility as a covered party may be conditioned on the party meeting criteria to qualify for coverage under a policy or program, which may be mandated by law.  These criteria may be: \r\n\n                        \n                           \n                              The sole basis for coverage, e.g., being differently abled may qualify a person for disability coverage\r\n\n                           \n                           \n                              May more fully qualify a covered party role e.g, being differently abled may qualify an adult child as a dependent\r\n\n                           \n                           \n                              May impact the level of coverage for a covered party under a policy or program, e.g., being differently abled may qualify a program eligible for additional benefits.\r\n\n                           \n                        \n                        \n                           Discussion:  The Abstract Value Set \"CoverageRoleType\", which was developed for use in the Canadian realm \"pre-coordinate\" coverage roles with other roles that a covered party must play in order to be eligible for coverage, e.g., \"handicapped dependent\".   These role.codes may only be used with COVPTY to avoid overlapping concepts that would result from using them to specify the specializations of COVPTY, e.g., the role.class DEPEN should not be used with the role.code family dependent because that relationship has overlapping concepts due to the role.code precoodination and is conveyed in FICO with the personal relationship role that has a PART role link to the covered party role.  For the same reasons, the role.class DEPEN should not be used with the role.code HANDIC (handicapped dependent); the role.code DIFFABLE (differently abled) should be used instead.\r\n\n                        In summary, the coded concepts in the Abstract Value Set \"CoveredPartyRoleType\" can be \"post-coordinated\" with the \"RoleClassCoveredParty\" Abstract Value Set.  Decoupling these concepts is intended to support an expansive range of covered party concepts and their semantic comparability.",
+                "display": "PolicyOrProgramCoverageRoleType",
+                "id": "2b90b909-80e5-4985-8582-aab891babdac"
+            },
+            {
+                "code": "_ResearchSubjectRoleBasis",
+                "definition": "Specifies the administrative functionality within a formal experimental design for which the ResearchSubject role was established.  Examples: screening - role is used for pre-enrollment evaluation portion of the design; enrolled - role is used for subjects admitted to the active treatment portion of the design.",
+                "display": "ResearchSubjectRoleBasis",
+                "id": "22c4822f-a88a-4066-9680-81d62429b7be"
+            },
+            {
+                "code": "_ServiceDeliveryLocationRoleType",
+                "definition": "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+                "display": "ServiceDeliveryLocationRoleType",
+                "id": "45be8d78-b1d4-4347-83bc-1e4dfa846608"
+            },
+            {
+                "code": "_SpecimenRoleType",
+                "definition": "SpecimenRoleType",
+                "display": "SpecimenRoleType",
+                "id": "df8d7679-36a9-4457-a6af-a96bb2bd171d"
+            },
+            {
+                "code": "CLAIM",
+                "definition": "A party that makes a claim for coverage under a policy.",
+                "display": "claimant",
+                "id": "d379b23a-0065-40b9-ab77-0be068875803"
+            },
+            {
+                "code": "communityLaboratory",
+                "definition": "Community Laboratory",
+                "display": "Community Laboratory",
+                "id": "b38fe508-66dc-4e84-a3a4-7fcfbe35e141"
+            },
+            {
+                "code": "GT",
+                "definition": "An individual or organization that makes or gives a promise, assurance, pledge to pay or has paid the healthcare service provider.",
+                "display": "Guarantor",
+                "id": "b2fbeedf-d31e-4ab4-88d1-395337d901ab"
+            },
+            {
+                "code": "homeHealth",
+                "definition": "Home Health",
+                "display": "Home Health",
+                "id": "36d38554-d2c1-4d71-a0f7-93c9a9da3525"
+            },
+            {
+                "code": "laboratory",
+                "definition": "Laboratory",
+                "display": "Laboratory",
+                "id": "bd130da4-630a-4700-93b1-375753852392"
+            },
+            {
+                "code": "pathologist",
+                "definition": "Pathologist",
+                "display": "Pathologist",
+                "id": "c9791c16-be91-4bd2-b555-6c81d299ed54"
+            },
+            {
+                "code": "PH",
+                "definition": "Policy holder for the insurance policy.",
+                "display": "Policy Holder",
+                "id": "56c340f0-3a12-4d30-87a6-80c3e9892a17"
+            },
+            {
+                "code": "phlebotomist",
+                "definition": "Phlebotomist",
+                "display": "Phlebotomist",
+                "id": "6b726e4e-2ca9-4644-9fb8-78bcbc9e96d5"
+            },
+            {
+                "code": "PROG",
+                "definition": "A party that meets the eligibility criteria for coverage under a program.",
+                "display": "program eligible",
+                "id": "79469c14-ba8a-445f-8a0c-92fe4eddf39a"
+            },
+            {
+                "code": "PT",
+                "definition": "The recipient for the service(s) and/or product(s) when they are not the covered party.",
+                "display": "Patient",
+                "id": "c26325a5-6299-4b94-bd15-a945255b01a2"
+            },
+            {
+                "code": "subject",
+                "definition": "Self",
+                "display": "Self",
+                "id": "bcf4148f-c385-4fc6-a372-9b42bd824cc2"
+            },
+            {
+                "code": "thirdParty",
+                "definition": "Third Party",
+                "display": "Third Party",
+                "id": "cf7199bb-6227-4695-ac26-d17748a34fad"
+            },
+            {
+                "code": "DEP",
+                "definition": null,
+                "display": null,
+                "id": "f3eb6775-7321-46ec-9785-c441d57d9154"
+            },
+            {
+                "code": "DEPEN",
+                "definition": "A party covered under a policy based on association with a subscriber.",
+                "display": "dependent",
+                "id": "033d017d-bc91-42e8-9fd5-ef8c71729407"
+            },
+            {
+                "code": "FM",
+                "definition": "A member of the covered party's family. This could be the spouse, a parent, a grand parent, a sibling, etc.",
+                "display": "Family Member",
+                "id": "01f6a724-5b45-4fba-a9ae-4d1a9e6b4295"
+            },
+            {
+                "code": "INDIV",
+                "definition": "A party covered under a policy as the policyholder.",
+                "display": "individual",
+                "id": "9947ce0a-c057-43e9-a1ee-0e22a8b6b4d4"
+            },
+            {
+                "code": "NAMED",
+                "definition": "A party to an insurance policy to whom the insurer agrees to indemnify for losses, provides benefits for, or renders services.",
+                "display": "named insured",
+                "id": "a7b7ae7b-71d8-4955-8dc1-615166d97499"
+            },
+            {
+                "code": "PSYCHCF",
+                "definition": null,
+                "display": null,
+                "id": "0ea31824-8a86-4bb6-9ff6-183f658b2e6c"
+            },
+            {
+                "code": "SUBSCR",
+                "definition": "A party covered under a policy based on association with a sponsor who is the policy holder, and whose association may provide for the eligibility of dependents for coverage",
+                "display": "subscriber",
+                "id": "aa5e5d5c-a4c7-495f-bf05-02e1c5e0e574"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

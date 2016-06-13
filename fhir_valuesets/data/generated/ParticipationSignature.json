@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Participationsignature",
+        "records": [
+            {
+                "code": "I",
+                "definition": "The particpant intends to provide a signature.",
+                "display": "intended",
+                "id": "88be108b-cca6-42fc-8e14-0fe5f582cee2"
+            },
+            {
+                "code": "S",
+                "definition": "Signature has been affixed, either written on file, or electronic (incl. digital) signature in Participation.signatureText.",
+                "display": "signed",
+                "id": "08709878-f8f1-4706-8b2f-e256bd2ad671"
+            },
+            {
+                "code": "X",
+                "definition": "A signature for the service is required of this actor.",
+                "display": "required",
+                "id": "b07610de-d6e8-42d9-8088-0d83411d9537"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

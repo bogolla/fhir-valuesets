@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.SupplyrequestKind",
+        "records": [
+            {
+                "code": "central",
+                "definition": "Supply is stored and requested from central supply.",
+                "display": "Central Supply",
+                "id": "cb50c16d-60a5-4bb0-a596-e229fa926259"
+            },
+            {
+                "code": "nonstock",
+                "definition": "Supply is not onsite and must be requested from an outside vendor using a non-stock requisition.",
+                "display": "Non-Stock",
+                "id": "2987ba8e-484b-4cca-bb7b-9ca09cfac2a5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

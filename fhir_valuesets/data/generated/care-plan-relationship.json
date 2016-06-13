@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.CarePlanRelationship",
+        "records": [
+            {
+                "code": "includes",
+                "definition": "The referenced plan is considered to be part of this plan.",
+                "display": "Includes",
+                "id": "6f230b5e-82a7-4151-b329-c59a00001c0b"
+            },
+            {
+                "code": "replaces",
+                "definition": "This plan takes the places of the referenced plan.",
+                "display": "Replaces",
+                "id": "d6298d12-4f19-4a01-9594-ac87749aa821"
+            },
+            {
+                "code": "fulfills",
+                "definition": "This plan provides details about how to perform activities defined at a higher level by the referenced plan.",
+                "display": "Fulfills",
+                "id": "cb7a705f-e315-44d6-8cde-6801265684b5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

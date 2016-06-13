@@ -1,0 +1,257 @@
+[
+    {
+        "model": "valuesets.TestscriptOperationCodes",
+        "records": [
+            {
+                "code": "read",
+                "definition": "Read the current state of the resource.",
+                "display": "Read",
+                "id": "fda40d6c-6f06-45d4-9940-8d12a29222db"
+            },
+            {
+                "code": "vread",
+                "definition": "Read the state of a specific version of the resource.",
+                "display": "Version Read",
+                "id": "bbb792c9-ed32-49cc-b97a-88502635e871"
+            },
+            {
+                "code": "update",
+                "definition": "Update an existing resource by its id (or create it if it is new).",
+                "display": "Update",
+                "id": "2648751f-e023-4e14-bab8-21027f521109"
+            },
+            {
+                "code": "delete",
+                "definition": "Delete a resource.",
+                "display": "Delete",
+                "id": "81b103ca-78a3-4939-ba1a-f4f1922d9867"
+            },
+            {
+                "code": "history",
+                "definition": "Retrieve the change history for a particular resource or resource type.",
+                "display": "History",
+                "id": "4c181aaa-5ab1-4590-9db8-a5a1e61f4586"
+            },
+            {
+                "code": "create",
+                "definition": "Create a new resource with a server assigned id.",
+                "display": "Create",
+                "id": "2bf6a12e-4cc5-4756-bade-31d7cf1480ce"
+            },
+            {
+                "code": "search",
+                "definition": "Search based on some filter criteria.",
+                "display": "Search",
+                "id": "d201bd9c-7b3d-492f-acec-e8063041910c"
+            },
+            {
+                "code": "batch",
+                "definition": "Update, create or delete a set of resources as independent actions.",
+                "display": "Batch",
+                "id": "bf9ab342-c892-4d10-ae12-77e696d38a95"
+            },
+            {
+                "code": "transaction",
+                "definition": "Update, create or delete a set of resources as a single transaction.",
+                "display": "Transaction",
+                "id": "a618a9ca-ed17-4a46-953a-22448a84f9ca"
+            },
+            {
+                "code": "conformance",
+                "definition": "Get a conformance statement for the system.",
+                "display": "Conformance",
+                "id": "0f8928c6-8fb1-425f-98bc-a7aa2922fea0"
+            },
+            {
+                "code": "cancel",
+                "definition": "Cancel Task",
+                "display": "$cancel",
+                "id": "b60991c7-27e8-4620-a6e4-a35bd6eb701f"
+            },
+            {
+                "code": "cds-hook",
+                "definition": "The CDS Hook operation is the core API request for CDS Hooks",
+                "display": "$cds-hook",
+                "id": "74d63262-08f4-43c0-9f06-f35b0354bd79"
+            },
+            {
+                "code": "closure",
+                "definition": "Closure Table Maintenance",
+                "display": "$closure",
+                "id": "cc7f472f-4056-47e9-94f1-957b629c9457"
+            },
+            {
+                "code": "document",
+                "definition": "Generate a Document",
+                "display": "$document",
+                "id": "e5c786b4-dfea-4433-8aa2-fb3506eed256"
+            },
+            {
+                "code": "evaluate",
+                "definition": "Evaluate DecisionSupportRule / DecisionSupportServiceModule",
+                "display": "$evaluate",
+                "id": "c6cf858d-71b3-4e4f-9c1c-c8a383736a50"
+            },
+            {
+                "code": "evaluate-measure",
+                "definition": "Evaluate Measure",
+                "display": "$evaluate-measure",
+                "id": "22458fc5-a3ca-412d-83af-2b3d0019cd91"
+            },
+            {
+                "code": "everything",
+                "definition": "Fetch Encounter/Patient Record",
+                "display": "$everything",
+                "id": "456265b3-eefa-4dc2-9845-eb6130d42475"
+            },
+            {
+                "code": "expand",
+                "definition": "Value Set Expansion",
+                "display": "$expand",
+                "id": "a53e0456-9832-48e2-8673-ad444eb9cfa7"
+            },
+            {
+                "code": "fail",
+                "definition": "Fail Task",
+                "display": "$fail",
+                "id": "53026373-e927-487b-8e7a-6a1ec2eb8a6e"
+            },
+            {
+                "code": "find",
+                "definition": "Find a functional list",
+                "display": "$find",
+                "id": "9374cc93-2b27-4c84-8416-44a79a49b4b6"
+            },
+            {
+                "code": "finish",
+                "definition": "Finish Task",
+                "display": "$finish",
+                "id": "d5b94147-d3f1-43d6-a5ee-4b4eba520df2"
+            },
+            {
+                "code": "lookup",
+                "definition": "Concept Look Up",
+                "display": "$lookup",
+                "id": "85f41542-6874-4bbc-845a-9fab9c468482"
+            },
+            {
+                "code": "match",
+                "definition": "Find patient matches using MPI based logic",
+                "display": "$match",
+                "id": "02f1c383-97ac-422d-bd8b-9d9c37436d34"
+            },
+            {
+                "code": "meta",
+                "definition": "Access a list of profiles, tags, and security labels",
+                "display": "$meta",
+                "id": "ebceff04-6f43-495c-9cbb-590b86564d0c"
+            },
+            {
+                "code": "meta-add",
+                "definition": "Add profiles, tags, and security labels to a resource",
+                "display": "$meta-add",
+                "id": "cf2e5e5a-99e3-4c7d-b3a6-bb3373631ddd"
+            },
+            {
+                "code": "meta-delete",
+                "definition": "Delete profiles, tags, and security labels for a resource",
+                "display": "$meta-delete",
+                "id": "f6fd1f1d-d7ad-4b89-9371-21732fc69234"
+            },
+            {
+                "code": "place",
+                "definition": "Place OrderSet",
+                "display": "$place",
+                "id": "ddc527f8-1d9e-41f4-a958-8c188c48c67a"
+            },
+            {
+                "code": "populate",
+                "definition": "Populate Questionnaire",
+                "display": "$populate",
+                "id": "255092d0-18ae-4df5-86ff-0fd89bc84856"
+            },
+            {
+                "code": "process-message",
+                "definition": "Process Message",
+                "display": "$process-message",
+                "id": "7533d401-744e-4d8b-ba93-d7b9370ad06e"
+            },
+            {
+                "code": "questionnaire",
+                "definition": "Build Questionnaire",
+                "display": "$questionnaire",
+                "id": "d6a78165-cf50-4f5e-9c88-436a9f82b6ee"
+            },
+            {
+                "code": "release",
+                "definition": "Release Task",
+                "display": "$release",
+                "id": "72526f6c-0c35-4f64-a4f4-f884f3e53a08"
+            },
+            {
+                "code": "reserve",
+                "definition": "Reserve Task",
+                "display": "$reserve",
+                "id": "d916f710-c444-4915-9a0a-0ad2a830a98d"
+            },
+            {
+                "code": "resume",
+                "definition": "Resume Task",
+                "display": "$resume",
+                "id": "dbd541f5-8adf-4ba3-b13c-4c78638986b5"
+            },
+            {
+                "code": "set-input",
+                "definition": "Set Task Input",
+                "display": "$set-input",
+                "id": "ab5f192c-a11c-4979-a38b-b51e95b84f16"
+            },
+            {
+                "code": "set-output",
+                "definition": "Set Task Output",
+                "display": "$set-output",
+                "id": "7945fc46-1998-49c6-8a2e-285203379947"
+            },
+            {
+                "code": "start",
+                "definition": "Start Task",
+                "display": "$start",
+                "id": "83d06bfd-7b2d-4964-bce8-ba8d6973e4c0"
+            },
+            {
+                "code": "stop",
+                "definition": "Stop Task",
+                "display": "$stop",
+                "id": "bc338eeb-4f52-4a2a-abc4-f56e677832b9"
+            },
+            {
+                "code": "suspend",
+                "definition": "Suspend Task",
+                "display": "$suspend",
+                "id": "8b908626-93b8-4fa1-ab8c-a731a068366d"
+            },
+            {
+                "code": "translate",
+                "definition": "Concept Translation",
+                "display": "$translate",
+                "id": "604e7d29-d759-4e5e-8d89-00d1e94c57d9"
+            },
+            {
+                "code": "validate",
+                "definition": "Validate a resource",
+                "display": "$validate",
+                "id": "19b2d855-5ce3-4c1e-9def-721a0343ad42"
+            },
+            {
+                "code": "validate-code",
+                "definition": "Value Set based Validation",
+                "display": "$validate-code",
+                "id": "9c93ee6a-4c32-431c-babe-a85ad433b500"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.CoverageException",
+        "records": [
+            {
+                "code": "student",
+                "definition": "Fulltime Student",
+                "display": "Student (Fulltime)",
+                "id": "de661cac-8d57-4814-afc3-d1d4648fd0bb"
+            },
+            {
+                "code": "disabled",
+                "definition": "Disabled",
+                "display": "Disabled",
+                "id": "6f55260e-edfd-4a51-a920-39ed05976372"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

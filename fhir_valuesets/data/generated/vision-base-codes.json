@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.VisionBaseCodes",
+        "records": [
+            {
+                "code": "up",
+                "definition": "top",
+                "display": "Up",
+                "id": "f69b0fd5-4f6d-4f5e-9fa0-3996788a6ab5"
+            },
+            {
+                "code": "down",
+                "definition": "bottom",
+                "display": "Down",
+                "id": "612c3ac9-2651-4010-b8d0-b2f5274458e0"
+            },
+            {
+                "code": "in",
+                "definition": "inner edge",
+                "display": "In",
+                "id": "151eeaad-d752-4b01-8256-8b94557080d6"
+            },
+            {
+                "code": "out",
+                "definition": "outer edge",
+                "display": "Out",
+                "id": "d2213b3b-fdf8-433b-ab9b-851307f6413e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

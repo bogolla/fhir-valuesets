@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.EpisodeOfCareStatus",
+        "records": [
+            {
+                "code": "planned",
+                "definition": "This episode of care is planned to start at the date specified in the period.start. During this status an organization may perform assessments to determine if they are eligible to receive services, or be organizing to make resources available to provide care services.",
+                "display": "Planned",
+                "id": "4b322f4f-4847-4196-be0f-5b4fc2965167"
+            },
+            {
+                "code": "waitlist",
+                "definition": "This episode has been placed on a waitlist, pending the episode being made active (or cancelled).",
+                "display": "Waitlist",
+                "id": "e69282a8-ebc7-40d3-839b-baa70d9ab885"
+            },
+            {
+                "code": "active",
+                "definition": "This episode of care is current.",
+                "display": "Active",
+                "id": "a84d37b7-e522-4ed8-8d34-56d9ee40e8c7"
+            },
+            {
+                "code": "onhold",
+                "definition": "This episode of care is on hold, the organization has limited responsibility for the patient (such as while on respite).",
+                "display": "On Hold",
+                "id": "7c894fad-847d-45a7-9409-3beab85bf4d1"
+            },
+            {
+                "code": "finished",
+                "definition": "This episode of care is finished at the organization is not expecting to be providing care to the patient. Can also be known as \"closed\", \"completed\" or other similar terms.",
+                "display": "Finished",
+                "id": "15f6ef0a-89e2-431b-981f-147bf7a178c2"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The episode of care was cancelled, or withdrawn from service, often selected during the planned stage as the patient may have gone elsewhere, or the circumstances have changed and the organization is unable to provide the care. It indicates that services terminated outside the planned/expected workflow.",
+                "display": "Cancelled",
+                "id": "9be1b37d-f925-4f79-bfec-65933b26cd89"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

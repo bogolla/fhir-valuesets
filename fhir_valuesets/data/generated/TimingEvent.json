@@ -1,0 +1,101 @@
+[
+    {
+        "model": "valuesets.Timingevent",
+        "records": [
+            {
+                "code": "AC",
+                "definition": "before meal (from lat. ante cibus)",
+                "display": "AC",
+                "id": "0eb3c788-98e3-4512-82d5-232eb22195f9"
+            },
+            {
+                "code": "ACD",
+                "definition": "before lunch (from lat. ante cibus diurnus)",
+                "display": "ACD",
+                "id": "98567926-4619-4b44-8528-455c32f10405"
+            },
+            {
+                "code": "ACM",
+                "definition": "before breakfast (from lat. ante cibus matutinus)",
+                "display": "ACM",
+                "id": "9cb90a90-fa26-4118-8653-52465bdd37cd"
+            },
+            {
+                "code": "ACV",
+                "definition": "before dinner (from lat. ante cibus vespertinus)",
+                "display": "ACV",
+                "id": "b3bf388d-fcb4-4f05-9c17-1ca247673d44"
+            },
+            {
+                "code": "C",
+                "definition": "Description: meal (from lat. ante cibus)",
+                "display": "C",
+                "id": "f9ad492a-4c7c-47f7-aef7-892391eb4e28"
+            },
+            {
+                "code": "HS",
+                "definition": "Description: Prior to beginning a regular period of extended sleep (this would exclude naps).  Note that this might occur at different times of day depending on a person's regular sleep schedule.",
+                "display": "HS",
+                "id": "a62a3c37-e257-4a2a-9417-657423860901"
+            },
+            {
+                "code": "IC",
+                "definition": "between meals (from lat. inter cibus)",
+                "display": "IC",
+                "id": "b6ee34e6-ba11-4674-8003-19ab25831a48"
+            },
+            {
+                "code": "ICD",
+                "definition": "between lunch and dinner",
+                "display": "ICD",
+                "id": "b1e6aa41-5d64-4bf5-bea1-ceaae4d576e4"
+            },
+            {
+                "code": "ICM",
+                "definition": "between breakfast and lunch",
+                "display": "ICM",
+                "id": "b3f01f97-f408-42dc-8d04-f851c4824da5"
+            },
+            {
+                "code": "ICV",
+                "definition": "between dinner and the hour of sleep",
+                "display": "ICV",
+                "id": "8bd7deb0-fc3f-4d85-b5ae-61c1764fbc6b"
+            },
+            {
+                "code": "PC",
+                "definition": "after meal (from lat. post cibus)",
+                "display": "PC",
+                "id": "9a0983d8-6514-48f1-8bc7-e7ea533bba50"
+            },
+            {
+                "code": "PCD",
+                "definition": "after lunch (from lat. post cibus diurnus)",
+                "display": "PCD",
+                "id": "a0bf5f74-f3a5-481c-970c-fa229c2300cf"
+            },
+            {
+                "code": "PCM",
+                "definition": "after breakfast (from lat. post cibus matutinus)",
+                "display": "PCM",
+                "id": "e593bc57-5b1c-4312-8601-276acba992da"
+            },
+            {
+                "code": "PCV",
+                "definition": "after dinner (from lat. post cibus vespertinus)",
+                "display": "PCV",
+                "id": "ce2704a3-99af-4d6e-ab37-78c4d3e52b04"
+            },
+            {
+                "code": "WAKE",
+                "definition": "Description: Upon waking up from a regular period of sleep, in order to start regular activities (this would exclude waking up from a nap or temporarily waking up during a period of sleep)\r\n\n                        \n                           Usage Notes: e.g.\r\n\n                        Take pulse rate on waking in management of thyrotoxicosis.\r\n\n                        Take BP on waking in management of hypertension\r\n\n                        Take basal body temperature on waking in establishing date of ovulation",
+                "display": "WAKE",
+                "id": "9b8d3924-dd68-420b-8698-83a4189f96e5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

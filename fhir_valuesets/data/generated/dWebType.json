@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Dwebtype",
+        "records": [
+            {
+                "code": "WADO-RS",
+                "definition": "Web Access to DICOM Persistent Objects - RESTful Services",
+                "display": "WADO-RS",
+                "id": "bd430c4e-b61d-4f12-a223-fdd06796dec0"
+            },
+            {
+                "code": "WADO-URI",
+                "definition": "Web Access to DICOM Persistent Objects - URI",
+                "display": "WADO-URI",
+                "id": "0e1b1076-e942-4b4d-8f79-b41b35a0f361"
+            },
+            {
+                "code": "IID",
+                "definition": "IHE - Invoke Image Display Profile",
+                "display": "IID",
+                "id": "229e9fe5-1d3e-4beb-a067-7538c1790b52"
+            },
+            {
+                "code": "WADO-WS",
+                "definition": "Web Access to DICOM Persistent Objects - Web Services",
+                "display": "WADO-WS",
+                "id": "97f80be7-e0ef-4233-a9ac-d4dc2ce56759"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

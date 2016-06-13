@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Entitycode",
+        "records": [
+            {
+                "code": "_MaterialEntityClassType",
+                "definition": "Types of Material for EntityClass \"MAT\"",
+                "display": "MaterialEntityClassType",
+                "id": "18a96823-5f19-4f3f-9959-21a88273f631"
+            },
+            {
+                "code": "_NonDrugAgentEntity",
+                "definition": "Indicates types of allergy and intolerance agents which are non-drugs.  (E.g. foods, latex, etc.)",
+                "display": "NonDrugAgentEntity",
+                "id": "fe341221-3083-4247-a087-bccf4a60cc02"
+            },
+            {
+                "code": "_OrganizationEntityType",
+                "definition": "Further classifies entities of classCode ORG.",
+                "display": "OrganizationEntityType",
+                "id": "6cf06b12-ef6a-4a99-b418-d7b6c75ca969"
+            },
+            {
+                "code": "_PlaceEntityType",
+                "definition": "Types of places for EntityClass \"PLC\"",
+                "display": "PlaceEntityType",
+                "id": "0203cc99-9df0-40c9-848d-9adbab8ffd36"
+            },
+            {
+                "code": "_ResourceGroupEntityType",
+                "definition": "Codes to characterize a Resource Group using categories that typify its membership and/or function\r\n\n                        .\r\n\n                        \n                           Example: PractitionerGroup",
+                "display": "ResourceGroupEntityType",
+                "id": "6c2acd4a-4afb-4e34-9ce5-5844424cbb90"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

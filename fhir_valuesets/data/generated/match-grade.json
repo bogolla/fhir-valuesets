@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.MatchGrade",
+        "records": [
+            {
+                "code": "certain",
+                "definition": "This record meets the matching criteria to be automatically considered as a full match.",
+                "display": "Certain Match",
+                "id": "08bf364b-1da3-4698-866a-ae924c188151"
+            },
+            {
+                "code": "probable",
+                "definition": "This record is a close match, but not a certain match. Additional review (e.g. by a human) may be required before using this as a match.",
+                "display": "Probable Match",
+                "id": "24b27998-9e08-4043-913d-389f098c3bd3"
+            },
+            {
+                "code": "possible",
+                "definition": "This record may be a matching one. Additional review (e.g. by a human) SHOULD be performed before using this as a match.",
+                "display": "Possible Match",
+                "id": "c5fda178-2963-4a44-9217-c6393d2358ae"
+            },
+            {
+                "code": "certainly-not",
+                "definition": "This record is known not to be a match. Note that usually non-matching records are not returned, but in some cases records previously or likely considered as a match may specifically be negated by the matching engine",
+                "display": "Certainly Not a Match",
+                "id": "4aa96886-da98-4320-971f-0fd7bab29369"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

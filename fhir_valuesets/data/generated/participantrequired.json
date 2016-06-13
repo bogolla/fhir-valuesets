@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Participantrequired",
+        "records": [
+            {
+                "code": "required",
+                "definition": "The participant is required to attend the appointment.",
+                "display": "Required",
+                "id": "07fa79bc-e5ca-48c7-9b1d-95b4ece4332b"
+            },
+            {
+                "code": "optional",
+                "definition": "The participant may optionally attend the appointment.",
+                "display": "Optional",
+                "id": "d0b92e06-a081-430a-b830-34b15d2cea25"
+            },
+            {
+                "code": "information-only",
+                "definition": "The participant is excluded from the appointment, and may not be informed of the appointment taking place. (Appointment is about them, not for them - such as 2 doctors discussing results about a patient's test).",
+                "display": "Information Only",
+                "id": "dfa136e0-1780-4c29-acc0-318804be403e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

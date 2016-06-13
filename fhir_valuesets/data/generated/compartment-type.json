@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.CompartmentType",
+        "records": [
+            {
+                "code": "Patient",
+                "definition": "The compartment definition is for the patient compartment",
+                "display": "Patient",
+                "id": "d0cb10b4-8e76-42ca-a0a7-c72409613724"
+            },
+            {
+                "code": "Encounter",
+                "definition": "The compartment definition is for the encounter compartment",
+                "display": "Encounter",
+                "id": "3dd3dc52-ba4c-4446-bbf7-ebfe0d10c008"
+            },
+            {
+                "code": "RelatedPerson",
+                "definition": "The compartment definition is for the related-person compartment",
+                "display": "RelatedPerson",
+                "id": "9678c7b9-3493-45b8-b6ee-4041e58fb6c2"
+            },
+            {
+                "code": "Practitioner",
+                "definition": "The compartment definition is for the practitioner compartment",
+                "display": "Practitioner",
+                "id": "df4aa875-29a6-42e6-a73d-88d819d0bc84"
+            },
+            {
+                "code": "Device",
+                "definition": "The compartment definition is for the device compartment",
+                "display": "Device",
+                "id": "cce49fde-902b-4407-b791-31e68cccca32"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

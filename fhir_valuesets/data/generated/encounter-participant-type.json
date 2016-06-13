@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.EncounterParticipantType",
+        "records": [
+            {
+                "code": "translator",
+                "definition": "A translator who is facilitating communication with the patient during the encounter.",
+                "display": "Translator",
+                "id": "ea208c3a-cb93-4ec0-8ae4-b34b212d69ff"
+            },
+            {
+                "code": "emergency",
+                "definition": "A person to be contacted in case of an emergency during the encounter.",
+                "display": "Emergency",
+                "id": "148d9c76-1bd7-45b4-9f5b-2bb6517d3ea5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.EncounterState",
+        "records": [
+            {
+                "code": "planned",
+                "definition": "The Encounter has not yet started.",
+                "display": "Planned",
+                "id": "49df80f5-590a-4df2-bead-de3d57ea4e6a"
+            },
+            {
+                "code": "arrived",
+                "definition": "The Patient is present for the encounter, however is not currently meeting with a practitioner.",
+                "display": "Arrived",
+                "id": "f1472e2d-e0ac-4dc2-9665-1f3fdee51b41"
+            },
+            {
+                "code": "in-progress",
+                "definition": "The Encounter has begun and the patient is present / the practitioner and the patient are meeting.",
+                "display": "in Progress",
+                "id": "8df66cd0-a22c-491e-9d2d-15e6fde07021"
+            },
+            {
+                "code": "onleave",
+                "definition": "The Encounter has begun, but the patient is temporarily on leave.",
+                "display": "On Leave",
+                "id": "3adcbfa2-2ad8-4442-82b5-5e5b0c07e999"
+            },
+            {
+                "code": "finished",
+                "definition": "The Encounter has ended.",
+                "display": "Finished",
+                "id": "d4ef39ef-b981-46da-8d1d-1938e2553d41"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The Encounter has ended before it has begun.",
+                "display": "Cancelled",
+                "id": "a38bebbd-2b0e-4034-bf18-56d07d3cd267"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

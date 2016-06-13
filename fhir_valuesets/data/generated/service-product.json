@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ServiceProduct",
+        "records": [
+            {
+                "code": "exam",
+                "definition": "Exam",
+                "display": "Exam",
+                "id": "92d748a6-6b2a-4ea9-8d2d-712aaa7932ff"
+            },
+            {
+                "code": "flushot",
+                "definition": "Flu shot",
+                "display": "Flu shot",
+                "id": "d815ff3f-7bb3-42e4-a190-b97daaabdc5b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

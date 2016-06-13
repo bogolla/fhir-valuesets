@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Devicestatus",
+        "records": [
+            {
+                "code": "available",
+                "definition": "The Device is available for use.",
+                "display": "Available",
+                "id": "955b3973-f57f-4391-8e16-e74c670ce8c3"
+            },
+            {
+                "code": "not-available",
+                "definition": "The Device is no longer available for use (e.g. lost, expired, damaged).",
+                "display": "Not Available",
+                "id": "58392711-aac4-415d-a773-d37e6f9b9148"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The Device was entered in error and voided.",
+                "display": "Entered in Error",
+                "id": "1efa4fad-8b6d-4499-8a89-d5a5cd0c4ab2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

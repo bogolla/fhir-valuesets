@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.AuditEventType",
+        "records": [
+            {
+                "code": "rest",
+                "definition": "Audit Event: Execution of a RESTful operation as defined by FHIR.",
+                "display": "RESTful Operation",
+                "id": "4a35ecd2-955e-4878-8cf2-d864f038a849"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

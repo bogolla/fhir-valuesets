@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ConsentStatus",
+        "records": [
+            {
+                "code": "draft",
+                "definition": "The consent is in development or awaiting use but is not yet intended to be acted upon.",
+                "display": "Pending",
+                "id": "932f5ba2-5f50-429c-8fae-85ac298d6f7c"
+            },
+            {
+                "code": "proposed",
+                "definition": "The consent has be proposed but not yet agreed to by all parties. The negotiation stage.",
+                "display": "Proposed",
+                "id": "1dc866d3-6f2d-4bf1-a41c-c9bd0b0838e4"
+            },
+            {
+                "code": "active",
+                "definition": "The consent is to be followed and enforced.",
+                "display": "Active",
+                "id": "406e9a82-27be-43d1-8cf9-73f881387f44"
+            },
+            {
+                "code": "rejected",
+                "definition": "The consent has been rejected by one or more of the parties.",
+                "display": "Rejected",
+                "id": "1c6b70e6-3735-485f-a6d2-c47d3a765f48"
+            },
+            {
+                "code": "inactive",
+                "definition": "The consent is terminated or replaced.",
+                "display": "Inactive",
+                "id": "e7666db7-4026-4e1f-993f-31b99b225269"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The consent was created wrongly (e.g. wrong patient) and should be ignored",
+                "display": "Entered in Error",
+                "id": "fbd70c30-c9ff-4552-ba99-50f4dcb23264"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

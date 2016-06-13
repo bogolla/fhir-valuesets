@@ -1,0 +1,305 @@
+[
+    {
+        "model": "valuesets.OperationOutcome",
+        "records": [
+            {
+                "code": "MSG_AUTH_REQUIRED",
+                "definition": null,
+                "display": "You must authenticate before you can use this service",
+                "id": "573d10e1-0119-48be-8800-fe866a40c570"
+            },
+            {
+                "code": "MSG_BAD_FORMAT",
+                "definition": null,
+                "display": "Bad Syntax: \"%s\" must be a %s'",
+                "id": "b36661cc-7cde-4d83-a4f5-7fa5343f6d77"
+            },
+            {
+                "code": "MSG_BAD_SYNTAX",
+                "definition": null,
+                "display": "Bad Syntax in %s",
+                "id": "663e8b58-a36c-4426-8e05-047658553249"
+            },
+            {
+                "code": "MSG_CANT_PARSE_CONTENT",
+                "definition": null,
+                "display": "Unable to parse feed (entry content type = \"%s\")",
+                "id": "b5777aea-b957-4626-9e11-e7fbd8b0e65c"
+            },
+            {
+                "code": "MSG_CANT_PARSE_ROOT",
+                "definition": null,
+                "display": "Unable to parse feed (root element name = \"%s\")",
+                "id": "e4f371c4-5e4c-4e08-a7e1-74e5a70a5e87"
+            },
+            {
+                "code": "MSG_CREATED",
+                "definition": null,
+                "display": "New resource created",
+                "id": "b3f44079-d72d-48dc-aafe-66f0af85f539"
+            },
+            {
+                "code": "MSG_DATE_FORMAT",
+                "definition": null,
+                "display": "The Date value %s is not in the correct format (Xml Date Format required)",
+                "id": "490f713e-d200-4471-a5d3-3d8c6438cee4"
+            },
+            {
+                "code": "MSG_DELETED",
+                "definition": null,
+                "display": "This resource has been deleted",
+                "id": "eb68df5f-26fb-4438-80a7-9b65fe509d3b"
+            },
+            {
+                "code": "MSG_DELETED_DONE",
+                "definition": null,
+                "display": "Resource deleted",
+                "id": "4ca6c4f1-7d15-4d25-b627-1625355ee841"
+            },
+            {
+                "code": "MSG_DELETED_ID",
+                "definition": null,
+                "display": "The resource \"%s\" has been deleted",
+                "id": "9588ad14-d63f-410f-8d52-cf9a328dca92"
+            },
+            {
+                "code": "MSG_DUPLICATE_ID",
+                "definition": null,
+                "display": "Duplicate Id %s for resource type %s",
+                "id": "4bb2c262-a87c-41e8-b9ac-61a600feabff"
+            },
+            {
+                "code": "MSG_ERROR_PARSING",
+                "definition": null,
+                "display": "Error parsing resource Xml (%s)",
+                "id": "517b22fd-cc56-4b53-955f-29bb34fa6d0b"
+            },
+            {
+                "code": "MSG_ID_INVALID",
+                "definition": null,
+                "display": "Id \"%s\" has an invalid character \"%s\"",
+                "id": "5ad828de-d24b-4463-ae9d-05afbc29a252"
+            },
+            {
+                "code": "MSG_ID_TOO_LONG",
+                "definition": null,
+                "display": "Id \"%s\" too long (length limit 36)",
+                "id": "6aa07952-86d2-491d-9ded-510f971f0f88"
+            },
+            {
+                "code": "MSG_INVALID_ID",
+                "definition": null,
+                "display": "Id not accepted",
+                "id": "81d7a457-1baf-452c-93b4-334cc0a823c6"
+            },
+            {
+                "code": "MSG_JSON_OBJECT",
+                "definition": null,
+                "display": "Json Source for a resource should start with an object",
+                "id": "357fcb44-8b42-428c-b16a-f2043e603cc1"
+            },
+            {
+                "code": "MSG_LOCAL_FAIL",
+                "definition": null,
+                "display": "Unable to resolve local reference to resource %s",
+                "id": "994645bf-d576-4450-8fa3-88f18c0687dc"
+            },
+            {
+                "code": "MSG_NO_MATCH",
+                "definition": null,
+                "display": "No Resource found matching the query \"%s\"",
+                "id": "bd79b365-dd60-4755-a0e2-f294ec77e5ed"
+            },
+            {
+                "code": "MSG_NO_EXIST",
+                "definition": null,
+                "display": "Resource Id \"%s\" does not exist",
+                "id": "57e9a53b-eb16-48ab-af45-7f09a2723bb6"
+            },
+            {
+                "code": "MSG_NO_MODULE",
+                "definition": null,
+                "display": "No module could be found to handle the request \"%s\"",
+                "id": "8642540b-4514-4bcd-8c50-676dc19650be"
+            },
+            {
+                "code": "MSG_NO_SUMMARY",
+                "definition": null,
+                "display": "No Summary for this resource",
+                "id": "bc2a5566-6267-4324-bad1-517aaa6ef952"
+            },
+            {
+                "code": "MSG_OP_NOT_ALLOWED",
+                "definition": null,
+                "display": "Operation %s not allowed for resource %s (due to local configuration)",
+                "id": "2fc1d7a9-d0ca-41b7-a7ea-93bcc54b1b4b"
+            },
+            {
+                "code": "MSG_PARAM_CHAINED",
+                "definition": null,
+                "display": "Unknown chained parameter name \"%s\"",
+                "id": "37a6e038-203c-4a23-bb9e-f74b29cf613f"
+            },
+            {
+                "code": "MSG_PARAM_NO_REPEAT",
+                "definition": null,
+                "display": "Parameter \"%s\" is not allowed to repeat",
+                "id": "03a9eafb-e68a-4a00-b9f9-8b85da9a87d9"
+            },
+            {
+                "code": "MSG_PARAM_UNKNOWN",
+                "definition": null,
+                "display": "Parameter \"%s\" not understood",
+                "id": "b2bd3262-8f25-429c-b79b-6b01c259322a"
+            },
+            {
+                "code": "MSG_PARAM_INVALID",
+                "definition": null,
+                "display": "Parameter \"%s\" content is invalid",
+                "id": "59e76a1f-e950-4839-bb28-cde2f2c06b5c"
+            },
+            {
+                "code": "MSG_PARAM_MODIFIER_INVALID",
+                "definition": null,
+                "display": "Parameter \"%s\" modifier is invalid",
+                "id": "cb4aec8c-1cca-42b3-8330-5dfce5542b6c"
+            },
+            {
+                "code": "MSG_RESOURCE_EXAMPLE_PROTECTED",
+                "definition": null,
+                "display": "Resources with identity \"example\" cannot be deleted (for testing/training purposes)",
+                "id": "ddf92fc3-0af0-47e4-8f02-6bd8046b8321"
+            },
+            {
+                "code": "MSG_RESOURCE_ID_FAIL",
+                "definition": null,
+                "display": "unable to allocate resource id",
+                "id": "8029fb24-bdcf-44de-afd2-a430d2f6e9b3"
+            },
+            {
+                "code": "MSG_RESOURCE_NOT_ALLOWED",
+                "definition": null,
+                "display": "Not allowed to submit a resource for this operation",
+                "id": "87785494-c79a-4134-a16d-54a83eb9c2a4"
+            },
+            {
+                "code": "MSG_RESOURCE_REQUIRED",
+                "definition": null,
+                "display": "A resource is required",
+                "id": "90b94a1b-ab66-44eb-97f9-ea814deefbcf"
+            },
+            {
+                "code": "MSG_RESOURCE_ID_MISMATCH",
+                "definition": null,
+                "display": "Resource Id Mismatch",
+                "id": "9af250ae-408b-4c9f-baa8-e6b1bbfa2f87"
+            },
+            {
+                "code": "MSG_RESOURCE_ID_MISSING",
+                "definition": null,
+                "display": "Resource Id Missing",
+                "id": "038fcdd8-2afa-4f8b-b901-457194dae2ee"
+            },
+            {
+                "code": "MSG_RESOURCE_TYPE_MISMATCH",
+                "definition": null,
+                "display": "Resource Type Mismatch",
+                "id": "e1f5117e-c58e-4768-b60e-9e41084c1965"
+            },
+            {
+                "code": "MSG_SORT_UNKNOWN",
+                "definition": null,
+                "display": "Unknown sort parameter name \"%s\"",
+                "id": "7f791867-4694-43ce-b8b2-5e4069e71a3c"
+            },
+            {
+                "code": "MSG_TRANSACTION_DUPLICATE_ID",
+                "definition": null,
+                "display": "Duplicate Identifier in transaction: %s",
+                "id": "956c27c2-d832-4d80-bca9-8192f9c1bd9c"
+            },
+            {
+                "code": "MSG_TRANSACTION_MISSING_ID",
+                "definition": null,
+                "display": "Missing Identifier in transaction - an entry.id must be provided",
+                "id": "c8f8880e-2767-403e-b3fa-5253663de884"
+            },
+            {
+                "code": "MSG_UNHANDLED_NODE_TYPE",
+                "definition": null,
+                "display": "Unhandled xml node type \"%s\"",
+                "id": "9f6e0491-8f68-4bda-a67a-02297c5fc861"
+            },
+            {
+                "code": "MSG_UNKNOWN_CONTENT",
+                "definition": null,
+                "display": "Unknown Content (%s) at %s",
+                "id": "7b3c4d0d-44d5-421e-a203-49723cf7d833"
+            },
+            {
+                "code": "MSG_UNKNOWN_OPERATION",
+                "definition": null,
+                "display": "unknown FHIR http operation",
+                "id": "cff6af30-ba54-4684-a0b1-017ac5a841a0"
+            },
+            {
+                "code": "MSG_UNKNOWN_TYPE",
+                "definition": null,
+                "display": "Resource Type \"%s\" not recognised",
+                "id": "e4b93b5c-19a8-4377-ba7c-20acb7ace4de"
+            },
+            {
+                "code": "MSG_UPDATED",
+                "definition": null,
+                "display": "existing resource updated",
+                "id": "f1427334-cadc-4494-a713-dc881bb3e018"
+            },
+            {
+                "code": "MSG_VERSION_AWARE",
+                "definition": null,
+                "display": "Version aware updates are required for this resource",
+                "id": "75419602-48ac-407a-ba62-29dad0b1aa92"
+            },
+            {
+                "code": "MSG_VERSION_AWARE_CONFLICT",
+                "definition": null,
+                "display": "Update Conflict (server current version = \"%s\", client version referenced = \"%s\")",
+                "id": "355799ea-e24a-43ce-b195-ffe8dacd885a"
+            },
+            {
+                "code": "MSG_VERSION_AWARE_URL",
+                "definition": null,
+                "display": "Version specific URL not recognised",
+                "id": "3f5547f4-44d5-4f25-a595-296b5bc5d82d"
+            },
+            {
+                "code": "MSG_WRONG_NS",
+                "definition": null,
+                "display": "This does not appear to be a FHIR element or resource (wrong namespace \"%s\")",
+                "id": "1ccddd7b-eea3-47a3-9632-9183d618d6d4"
+            },
+            {
+                "code": "SEARCH_MULTIPLE",
+                "definition": null,
+                "display": "Error: Multiple matches exist for %s search parameters \"%s\"",
+                "id": "a0f9ee3b-6366-42bb-8707-317ecf710e2e"
+            },
+            {
+                "code": "UPDATE_MULTIPLE_MATCHES",
+                "definition": null,
+                "display": "Error: Multiple matches exist for the conditional update",
+                "id": "330d113c-5dc6-4c00-b768-382b6c44c23d"
+            },
+            {
+                "code": "SEARCH_NONE",
+                "definition": null,
+                "display": "Error: no processable search found for %s search parameters \"%s\"",
+                "id": "2452df96-08cc-4e81-a6de-9f1cf36cc48f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

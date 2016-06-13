@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.BenefitCategory",
+        "records": [
+            {
+                "code": "oral",
+                "definition": "Dental and Oral Health Coverage",
+                "display": "Dental and Oral Health Coverage",
+                "id": "9edd4685-0d0b-4c34-a3e9-e46f1cf459de"
+            },
+            {
+                "code": "vision",
+                "definition": "Vision Health Coverage",
+                "display": "Vision Health Coverage",
+                "id": "95490926-0428-4f75-b5b5-a1ff1eeae97f"
+            },
+            {
+                "code": "medical",
+                "definition": "Medical Health Coverage",
+                "display": "Medical Health Coverage",
+                "id": "0a413b1f-3afc-49e5-acd5-76d21c9b07a5"
+            },
+            {
+                "code": "pharmacy",
+                "definition": "Pharmacy Coverage",
+                "display": "Pharmacy Coverage",
+                "id": "23178808-5c1c-47c1-b9d1-ab907d575c5b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

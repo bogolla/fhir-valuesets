@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.QuestionnaireStatus",
+        "records": [
+            {
+                "code": "draft",
+                "definition": "This Questionnaire is not ready for official use.",
+                "display": "Draft",
+                "id": "6790e713-89a5-4496-9be2-433dc111f8ab"
+            },
+            {
+                "code": "published",
+                "definition": "This Questionnaire is ready for use.",
+                "display": "Published",
+                "id": "51c2982c-97b9-4291-9335-2c6b5c527ba9"
+            },
+            {
+                "code": "retired",
+                "definition": "This Questionnaire should no longer be used to gather data.",
+                "display": "Retired",
+                "id": "0150d027-83d0-4ea0-962d-82d26b9da933"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

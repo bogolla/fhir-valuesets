@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.EncounterType",
+        "records": [
+            {
+                "code": "ADMS",
+                "definition": null,
+                "display": "Annual diabetes mellitus screening",
+                "id": "2eddede5-0b2b-4db7-a470-eb54599b3622"
+            },
+            {
+                "code": "BD/BM-clin",
+                "definition": null,
+                "display": "Bone drilling/bone marrow punction in clinic",
+                "id": "8f655b55-dc1c-4235-8de1-e3ab4d3faef2"
+            },
+            {
+                "code": "CCS60",
+                "definition": null,
+                "display": "Infant colon screening - 60 minutes",
+                "id": "c4062130-1252-4463-99f5-85974d1e68de"
+            },
+            {
+                "code": "OKI",
+                "definition": null,
+                "display": "Outpatient Kenacort injection",
+                "id": "2b1321d7-e8f2-431f-bac6-2daf89e282b7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

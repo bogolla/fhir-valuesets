@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ClaimSubtype",
+        "records": [
+            {
+                "code": "ortho",
+                "definition": "A claim for Orthodontic Services.",
+                "display": "Orthodontic Claim",
+                "id": "1c4138da-84de-471b-91f6-49fbf2da7ffc"
+            },
+            {
+                "code": "emergency",
+                "definition": "A claim for emergency services.",
+                "display": "Emergency Claim",
+                "id": "cff17b4d-cbc4-48fc-917f-e4c17f1f6a7e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

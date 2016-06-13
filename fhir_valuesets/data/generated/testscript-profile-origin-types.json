@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.TestscriptProfileOriginTypes",
+        "records": [
+            {
+                "code": "FHIR-Client",
+                "definition": "General FHIR client used to initiate operations against a FHIR server.",
+                "display": "FHIR Client",
+                "id": "95c96492-6618-4070-b590-f9258fa45c6e"
+            },
+            {
+                "code": "FHIR-SDC-FormFiller",
+                "definition": "A FHIR client acting as a Structured Data Capture Form Filler.",
+                "display": "FHIR SDC FormFiller",
+                "id": "30b88808-8c8b-448e-ac77-b3b3ce2e81bb"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.AbstractTypes",
+        "records": [
+            {
+                "code": "Type",
+                "definition": "A place holder that means any kind of data type",
+                "display": "Type",
+                "id": "ec23a73a-ecb4-4369-a93c-da6a85520369"
+            },
+            {
+                "code": "Any",
+                "definition": "A place holder that means any kind of resource",
+                "display": "Any",
+                "id": "999f0892-3d64-4c65-aa92-f46f8a11bce3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

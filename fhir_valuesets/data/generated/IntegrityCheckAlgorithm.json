@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Integritycheckalgorithm",
+        "records": [
+            {
+                "code": "SHA-1",
+                "definition": "This algorithm is defined in FIPS PUB 180-1: Secure Hash Standard.  As of April 17, 1995.",
+                "display": "secure hash algorithm - 1",
+                "id": "bd3cd286-a2a2-4529-b7aa-b9106daa1f27"
+            },
+            {
+                "code": "SHA-256",
+                "definition": "This algorithm is defined in FIPS PUB 180-2: Secure Hash Standard.",
+                "display": "secure hash algorithm - 256",
+                "id": "ef46876c-5f45-4a2b-aab0-114d1dc3eada"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

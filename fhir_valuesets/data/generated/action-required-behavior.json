@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ActionRequiredBehavior",
+        "records": [
+            {
+                "code": "must",
+                "definition": "An action with this behavior must be included in the actions processed by the end user; the end user may not choose not to include this action",
+                "display": "Must",
+                "id": "6d740036-8aec-44df-b395-a45fde21b8ef"
+            },
+            {
+                "code": "could",
+                "definition": "An action with this behavior may be included in the set of actions processed by the end user",
+                "display": "Could",
+                "id": "a465eb9e-0345-4013-9877-d97435ae5c72"
+            },
+            {
+                "code": "must-unless-documented",
+                "definition": "An action with this behavior must be included in the set of actions processed by the end user, unless the end user provides documentation as to why the action was not included",
+                "display": "Must Unless Documented",
+                "id": "8b9a4b5b-4f55-4f18-8f1d-4ae5fe38f433"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

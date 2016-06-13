@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ContactPointSystem",
+        "records": [
+            {
+                "code": "phone",
+                "definition": "The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.",
+                "display": "Phone",
+                "id": "b9a1acc0-5dce-4b4d-b190-15ac86a12ca2"
+            },
+            {
+                "code": "fax",
+                "definition": "The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required.",
+                "display": "Fax",
+                "id": "fdf5cb5e-f979-447f-9c71-728cc52402e9"
+            },
+            {
+                "code": "email",
+                "definition": "The value is an email address.",
+                "display": "Email",
+                "id": "1049c5bb-98ee-4474-91cb-a910faf2c05a"
+            },
+            {
+                "code": "pager",
+                "definition": "The value is a pager number. These may be local pager numbers that are only usable on a particular pager system.",
+                "display": "Pager",
+                "id": "448768e6-8fdf-40ac-ae78-7a5cbf7a824d"
+            },
+            {
+                "code": "other",
+                "definition": "A contact that is not a phone, fax, or email address. The format of the value SHOULD be a URL. This is intended for various personal contacts including blogs, Twitter, Facebook, etc. Do not use for email addresses. If this is not a URL, then it will require human interpretation.",
+                "display": "URL",
+                "id": "7a084b5d-c4aa-4e79-be2b-8f8dc37cc35c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

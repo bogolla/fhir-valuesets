@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Specimentype",
+        "records": [
+            {
+                "code": "_SpecimenEntityType",
+                "definition": "SpecimenEntityType",
+                "display": "SpecimenEntityType",
+                "id": "18dcebaa-79ad-47de-a17e-8524cf136e57"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

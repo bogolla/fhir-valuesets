@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Substitutioncondition",
+        "records": [
+            {
+                "code": "_Conditional",
+                "definition": "Some conditions may be attached to an allowable substitution.  An allowable substitution is based on a match to any other attributes that may be specified.",
+                "display": "Conditional",
+                "id": "c7bb0f8d-0908-4c04-90c7-a66aeeb88d86"
+            },
+            {
+                "code": "NOSUB",
+                "definition": "Substitution is not permitted.",
+                "display": "No substitution",
+                "id": "a26204f5-6d23-4c38-a795-6688179bb652"
+            },
+            {
+                "code": "UNCOND",
+                "definition": "No conditions are required.",
+                "display": "Unconditional",
+                "id": "410fb814-7aff-496e-9365-06fe4561a688"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Ethnicity",
+        "records": [
+            {
+                "code": "2135-2",
+                "definition": "Hispanic or Latino",
+                "display": "Hispanic or Latino",
+                "id": "7caea66d-cb7a-458c-acac-95880e3a46de"
+            },
+            {
+                "code": "2186-5",
+                "definition": "Note that this term remains in the table for completeness, even though within HL7, the notion of \"not otherwise coded\" term is deprecated.",
+                "display": "Not Hispanic or Latino",
+                "id": "ca27fc79-e50d-433f-bcca-db5b106f24fc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

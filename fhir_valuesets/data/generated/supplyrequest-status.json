@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.SupplyrequestStatus",
+        "records": [
+            {
+                "code": "requested",
+                "definition": "Supply has been requested, but not dispensed.",
+                "display": "Requested",
+                "id": "3f5f5ea9-201f-477c-954c-45b1987ec5db"
+            },
+            {
+                "code": "completed",
+                "definition": "Supply has been received by the requestor.",
+                "display": "Received",
+                "id": "ace66632-723a-4f63-8d51-ceb706ed17e0"
+            },
+            {
+                "code": "failed",
+                "definition": "The supply will not be completed because the supplier was unable or unwilling to supply the item.",
+                "display": "Failed",
+                "id": "e491977b-a45b-45c4-8744-4a10596a3944"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The orderer of the supply cancelled the request.",
+                "display": "Cancelled",
+                "id": "fed9eaf0-5bb1-4479-8ffa-b3f003cbde44"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

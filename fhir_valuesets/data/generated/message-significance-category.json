@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.MessageSignificanceCategory",
+        "records": [
+            {
+                "code": "Consequence",
+                "definition": "The message represents/requests a change that should not be processed more than once; e.g. Making a booking for an appointment.",
+                "display": "Consequence",
+                "id": "6164615c-51ea-47fb-a846-fa9927de6ce5"
+            },
+            {
+                "code": "Currency",
+                "definition": "The message represents a response to query for current information. Retrospective processing is wrong and/or wasteful.",
+                "display": "Currency",
+                "id": "3ab9b573-86dc-48ee-9064-f09e3244cf8f"
+            },
+            {
+                "code": "Notification",
+                "definition": "The content is not necessarily intended to be current, and it can be reprocessed, though there may be version issues created by processing old notifications.",
+                "display": "Notification",
+                "id": "9eea0bcd-adeb-41c9-a7c4-48acf309ed0d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

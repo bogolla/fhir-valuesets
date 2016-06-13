@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.PlanactionType",
+        "records": [
+            {
+                "code": "create",
+                "definition": "The action is to create a new resource",
+                "display": "Create",
+                "id": "ba2d3799-8df9-49ff-95f3-faa29c83bbfd"
+            },
+            {
+                "code": "update",
+                "definition": "The action is to update an existing resource",
+                "display": "Update",
+                "id": "c52d8821-0321-43ea-9ee2-ff7cfd12a25b"
+            },
+            {
+                "code": "remove",
+                "definition": "The action is to remove an existing resource",
+                "display": "Remove",
+                "id": "b93385a8-e247-4b04-a91d-327ddebfeabd"
+            },
+            {
+                "code": "fire-event",
+                "definition": "The action is to fire a specific event",
+                "display": "Fire Event",
+                "id": "11c61d75-adfa-4db3-b5d2-55b5948e4a0d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

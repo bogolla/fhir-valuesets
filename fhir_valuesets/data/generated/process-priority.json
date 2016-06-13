@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ProcessPriority",
+        "records": [
+            {
+                "code": "stat",
+                "definition": "Immediately in real time.",
+                "display": "Immediate",
+                "id": "8a444ab4-0695-41df-ad3d-e73106040940"
+            },
+            {
+                "code": "normal",
+                "definition": "With best effort.",
+                "display": "Normal",
+                "id": "02321768-e216-49d3-a071-95383bb670ad"
+            },
+            {
+                "code": "deferred",
+                "definition": "Later, when possible.",
+                "display": "Deferred",
+                "id": "03e7a53b-dbe0-474b-be37-95a6251fc9be"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

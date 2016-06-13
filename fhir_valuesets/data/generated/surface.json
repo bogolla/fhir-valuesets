@@ -1,0 +1,77 @@
+[
+    {
+        "model": "valuesets.Surface",
+        "records": [
+            {
+                "code": "M",
+                "definition": "The surface of a tooth that is closest to the midline (middle) of the face.",
+                "display": "Mesial",
+                "id": "baf7505d-5adc-4af3-bcaa-7693a258ca83"
+            },
+            {
+                "code": "O",
+                "definition": "The chewing surface of posterior teeth.",
+                "display": "Occlusal",
+                "id": "7a949fee-dbd4-42e4-b3c4-cc2cd67416d9"
+            },
+            {
+                "code": "I",
+                "definition": "The biting edge of anterior teeth.",
+                "display": "Incisal",
+                "id": "2ec12b7b-3ed4-4a79-9b5a-a6d896934a41"
+            },
+            {
+                "code": "D",
+                "definition": "The surface of a tooth that faces away from the midline of the face.",
+                "display": "Distal",
+                "id": "0c15a52c-e144-4106-a3d9-c6ac2be9c912"
+            },
+            {
+                "code": "B",
+                "definition": "The surface of a posterior tooth facing the cheeks.",
+                "display": "Buccal",
+                "id": "1501248f-0508-4dd8-92d3-69b7dd89d7cc"
+            },
+            {
+                "code": "V",
+                "definition": "The surface of a tooth facing the lips.",
+                "display": "Ventral",
+                "id": "4f2b07b4-31c6-451e-a5a3-eeb2ae4ef3df"
+            },
+            {
+                "code": "L",
+                "definition": "The surface of a tooth facing the tongue.",
+                "display": "Lingual",
+                "id": "25a2bc01-d00c-4265-8d2b-bef78df156c7"
+            },
+            {
+                "code": "MO",
+                "definition": "The Mesioclusal surfaces of a tooth.",
+                "display": "Mesioclusal",
+                "id": "5025eefa-5708-46a9-8c9d-60300e1f5e5f"
+            },
+            {
+                "code": "DO",
+                "definition": "The Distoclusal surfaces of a tooth.",
+                "display": "Distoclusal",
+                "id": "41a8db50-6ac2-45af-9564-d54c292ba774"
+            },
+            {
+                "code": "DI",
+                "definition": "The Distoincisal surfaces of a tooth.",
+                "display": "Distoincisal",
+                "id": "4dea5de3-2f59-4fd1-b3f5-a9d1c71b41e8"
+            },
+            {
+                "code": "MOD",
+                "definition": "The Mesioclusodistal surfaces of a tooth.",
+                "display": "Mesioclusodistal",
+                "id": "10b26ea2-c395-4fb6-9c3e-33295b3e5c81"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

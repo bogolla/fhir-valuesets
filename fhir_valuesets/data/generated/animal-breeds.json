@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.AnimalBreeds",
+        "records": [
+            {
+                "code": "gsd",
+                "definition": null,
+                "display": "German Shepherd Dog",
+                "id": "c0d510a7-7baf-4e0d-8a31-438d0723f2b5"
+            },
+            {
+                "code": "irt",
+                "definition": null,
+                "display": "Irish Terrier",
+                "id": "f6bc6838-5cb4-4d15-aa8a-9355ac8a49ee"
+            },
+            {
+                "code": "tibmas",
+                "definition": null,
+                "display": "Tibetan Mastiff",
+                "id": "cdf48c43-659d-4c57-8807-84ebf6cb7a64"
+            },
+            {
+                "code": "gret",
+                "definition": null,
+                "display": "Golden Retriever",
+                "id": "b2c84ded-3b5d-4771-8810-c4f3f5f9b09f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

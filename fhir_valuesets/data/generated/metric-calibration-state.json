@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.MetricCalibrationState",
+        "records": [
+            {
+                "code": "not-calibrated",
+                "definition": "The metric has not been calibrated.",
+                "display": "Not Calibrated",
+                "id": "6a62f3b2-207b-4e79-b7a3-2a7d7b80f251"
+            },
+            {
+                "code": "calibration-required",
+                "definition": "The metric needs to be calibrated.",
+                "display": "Calibration Required",
+                "id": "b99fa20b-1674-472c-86e5-6648e1ab458c"
+            },
+            {
+                "code": "calibrated",
+                "definition": "The metric has been calibrated.",
+                "display": "Calibrated",
+                "id": "29c282e5-f912-4d8a-aa82-7ffb5646c4b0"
+            },
+            {
+                "code": "unspecified",
+                "definition": "The state of calibration of this metric is unspecified.",
+                "display": "Unspecified",
+                "id": "03d29122-06ca-4cc8-9828-5a2b663bf921"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

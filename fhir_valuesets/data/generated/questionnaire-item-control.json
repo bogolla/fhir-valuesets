@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.QuestionnaireItemControl",
+        "records": [
+            {
+                "code": "group",
+                "definition": "UI controls relevant to organizing groups of questions",
+                "display": null,
+                "id": "c9a8414c-8210-4b43-971d-db4a87d271d7"
+            },
+            {
+                "code": "text",
+                "definition": "UI controls relevant to rendering questionnaire text items",
+                "display": null,
+                "id": "98eeb1b0-3347-4cba-a5bd-3a253c60672d"
+            },
+            {
+                "code": "question",
+                "definition": "UI controls relevant to capturing question data",
+                "display": null,
+                "id": "438311b9-2568-4bcb-9fdb-da913c4bb92e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

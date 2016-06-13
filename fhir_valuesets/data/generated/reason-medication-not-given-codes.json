@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ReasonMedicationNotGivenCodes",
+        "records": [
+            {
+                "code": "a",
+                "definition": "No reason known.",
+                "display": "None",
+                "id": "74cf31fd-695b-4774-95b6-a201f4cd0ded"
+            },
+            {
+                "code": "b",
+                "definition": "The patient was not available when the dose was scheduled.",
+                "display": "Away",
+                "id": "66579a45-1bea-4132-af67-4e534728cc75"
+            },
+            {
+                "code": "c",
+                "definition": "The patient was asleep when the dose was scheduled.",
+                "display": "Asleep",
+                "id": "67bd0d60-bc99-449b-acb9-594da82485ea"
+            },
+            {
+                "code": "d",
+                "definition": "The patient was given the medication and immediately vomited it back.",
+                "display": "Vomit",
+                "id": "2f4b19ff-8308-4695-a389-b06f13132764"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

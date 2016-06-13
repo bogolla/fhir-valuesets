@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Intervention",
+        "records": [
+            {
+                "code": "unknown",
+                "definition": "Unknown",
+                "display": "Unknown",
+                "id": "44acc15a-75e6-4bea-bea2-05343c0a1b5a"
+            },
+            {
+                "code": "other",
+                "definition": "Other",
+                "display": "Other",
+                "id": "07ef3a55-3cc3-4b92-94a1-e3ebcbdda6cd"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

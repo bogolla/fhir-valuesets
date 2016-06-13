@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.Appointmentstatus",
+        "records": [
+            {
+                "code": "proposed",
+                "definition": "None of the participant(s) have finalized their acceptance of the appointment request, and the start/end time may not be set yet.",
+                "display": "Proposed",
+                "id": "0ef4d6cb-3649-42ff-a9cc-861a071e8d7f"
+            },
+            {
+                "code": "pending",
+                "definition": "Some or all of the participant(s) have not finalized their acceptance of the appointment request.",
+                "display": "Pending",
+                "id": "65ea32e5-65f9-4502-806f-bb64176b2887"
+            },
+            {
+                "code": "booked",
+                "definition": "All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.",
+                "display": "Booked",
+                "id": "269008b5-9f2a-4fb6-9059-cb40a62975d7"
+            },
+            {
+                "code": "arrived",
+                "definition": "Some of the patients have arrived.",
+                "display": "Arrived",
+                "id": "2f5b4d40-fedf-4790-979e-05f0e33d67fa"
+            },
+            {
+                "code": "fulfilled",
+                "definition": "This appointment has completed and may have resulted in an encounter.",
+                "display": "Fulfilled",
+                "id": "95942f9b-8c58-482f-88c4-00bbc636b4db"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The appointment has been cancelled.",
+                "display": "Cancelled",
+                "id": "8ea2308f-2c2d-4122-a46c-1b5f715b521d"
+            },
+            {
+                "code": "noshow",
+                "definition": "Some or all of the participant(s) have not/did not appear for the appointment (usually the patient).",
+                "display": "No Show",
+                "id": "d10ebe06-584c-453f-84a8-1d51e0ce1fa7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

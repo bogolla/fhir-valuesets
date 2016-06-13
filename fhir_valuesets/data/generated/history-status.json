@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.HistoryStatus",
+        "records": [
+            {
+                "code": "partial",
+                "definition": "Some health information is known and captured, but not complete - see notes for details.",
+                "display": "Partial",
+                "id": "d0f19d58-9f89-4c42-b612-7c4dc7e86d01"
+            },
+            {
+                "code": "completed",
+                "definition": "All relevant health information is known and captured.",
+                "display": "Completed",
+                "id": "8be8b31b-6b21-4276-bfff-620317a451dc"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "This instance should not have been part of this patient's medical record.",
+                "display": "Entered in error",
+                "id": "ac931641-7503-4d40-ab45-90b833fd64fa"
+            },
+            {
+                "code": "health-unknown",
+                "definition": "Health information for this individual is unavailable/unknown.",
+                "display": "Health unknown",
+                "id": "0f1ed8f2-aac9-4fb5-acf1-2a822fcfc01d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

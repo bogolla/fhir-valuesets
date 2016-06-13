@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ContractSubtype",
+        "records": [
+            {
+                "code": "disclosure-CA",
+                "definition": null,
+                "display": null,
+                "id": "4794c348-7426-46ce-815e-8536fd860cdb"
+            },
+            {
+                "code": "disclosure-US",
+                "definition": null,
+                "display": null,
+                "id": "32b29cdf-5fa1-4cff-b732-96271b417af5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

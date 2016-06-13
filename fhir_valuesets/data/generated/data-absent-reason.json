@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.DataAbsentReason",
+        "records": [
+            {
+                "code": "unknown",
+                "definition": "The value is not known.",
+                "display": "Unknown",
+                "id": "b54ce031-d6d9-4255-b4a8-b977b4041ce8"
+            },
+            {
+                "code": "asked",
+                "definition": "The source human does not know the value.",
+                "display": "Asked",
+                "id": "49834e91-2beb-42e3-85bb-20460a8c759b"
+            },
+            {
+                "code": "temp",
+                "definition": "There is reason to expect (from the workflow) that the value may become known.",
+                "display": "Temp",
+                "id": "c285d815-c263-4dec-81f8-81f4c6ca563d"
+            },
+            {
+                "code": "not-asked",
+                "definition": "The workflow didn't lead to this value being known.",
+                "display": "Not Asked",
+                "id": "b065eb16-3380-4c90-a326-a23523ef292b"
+            },
+            {
+                "code": "masked",
+                "definition": "The information is not available due to security, privacy or related reasons.",
+                "display": "Masked",
+                "id": "cc30a180-9330-421f-a128-15875b5242ce"
+            },
+            {
+                "code": "unsupported",
+                "definition": "The source system wasn't capable of supporting this element.",
+                "display": "Unsupported",
+                "id": "5a79aa1d-b52d-4f51-a9c6-1bb4a364dce8"
+            },
+            {
+                "code": "astext",
+                "definition": "The content of the data is represented in the resource narrative.",
+                "display": "As Text",
+                "id": "dbef911c-d63d-4b50-82ec-a73c2faedb3c"
+            },
+            {
+                "code": "error",
+                "definition": "Some system or workflow process error means that the information is not available.",
+                "display": "Error",
+                "id": "a4d8b02b-7161-4da9-8778-821e06bd2465"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

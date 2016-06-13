@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.NoteType",
+        "records": [
+            {
+                "code": "display",
+                "definition": "Display the note.",
+                "display": "Display",
+                "id": "a3f7db08-a51e-468d-83f6-518111bedb78"
+            },
+            {
+                "code": "print",
+                "definition": "Print the note on the form.",
+                "display": "Print (Form)",
+                "id": "a2916718-0332-4784-95ad-6eed5c4b4860"
+            },
+            {
+                "code": "printoper",
+                "definition": "Print the note for the operator.",
+                "display": "Print (Operator)",
+                "id": "fbade238-fe8a-4c10-8a2c-32fb159fe0dc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

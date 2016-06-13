@@ -1,0 +1,155 @@
+[
+    {
+        "model": "valuesets.ChromosomeHuman",
+        "records": [
+            {
+                "code": "1",
+                "definition": "chromsome 1",
+                "display": "chromsome 1",
+                "id": "617bba24-41d7-4415-9753-30c642a6f2fb"
+            },
+            {
+                "code": "2",
+                "definition": "chromsome 2",
+                "display": "chromsome 2",
+                "id": "ab07be26-17bb-447e-a0e1-701d3123bdaa"
+            },
+            {
+                "code": "3",
+                "definition": "chromsome 3",
+                "display": "chromsome 3",
+                "id": "cfc67a13-ca9f-4c31-9820-78d6e045deef"
+            },
+            {
+                "code": "4",
+                "definition": "chromsome 4",
+                "display": "chromsome 4",
+                "id": "d10710d6-5412-41ad-92ff-91dc5f752d8d"
+            },
+            {
+                "code": "5",
+                "definition": "chromsome 5",
+                "display": "chromsome 5",
+                "id": "4896a7b0-6f6e-406d-823f-5b05714391eb"
+            },
+            {
+                "code": "6",
+                "definition": "chromsome 6",
+                "display": "chromsome 6",
+                "id": "22d7c053-1e4b-427f-97f9-7696231e7b10"
+            },
+            {
+                "code": "7",
+                "definition": "chromsome 7",
+                "display": "chromsome 7",
+                "id": "0f44be62-c2ce-4b9b-a76b-ce3fe1dd18a1"
+            },
+            {
+                "code": "8",
+                "definition": "chromsome 8",
+                "display": "chromsome 8",
+                "id": "ccf62422-bda2-4162-a6b1-81ffa3a7ddcd"
+            },
+            {
+                "code": "9",
+                "definition": "chromsome 9",
+                "display": "chromsome 9",
+                "id": "c3124093-2fb0-4bbc-8092-a0baa54046d4"
+            },
+            {
+                "code": "10",
+                "definition": "chromsome 10",
+                "display": "chromsome 10",
+                "id": "1e256b43-936b-40aa-b4a1-b3280ecc01b2"
+            },
+            {
+                "code": "11",
+                "definition": "chromsome 11",
+                "display": "chromsome 11",
+                "id": "0d541c8b-bfa0-489a-b081-65737db0f0c4"
+            },
+            {
+                "code": "12",
+                "definition": "chromsome 12",
+                "display": "chromsome 12",
+                "id": "57e58a94-08b8-48b6-b159-511fb34c9498"
+            },
+            {
+                "code": "13",
+                "definition": "chromsome 13",
+                "display": "chromsome 13",
+                "id": "1191eb49-37ec-429a-8910-0d476095645d"
+            },
+            {
+                "code": "14",
+                "definition": "chromsome 14",
+                "display": "chromsome 14",
+                "id": "c5d13d44-ce53-46ea-9377-5edb6a0a983e"
+            },
+            {
+                "code": "15",
+                "definition": "chromsome 15",
+                "display": "chromsome 15",
+                "id": "d0de4dc2-792b-4f44-9de6-896c99ff2ccc"
+            },
+            {
+                "code": "16",
+                "definition": "chromsome 16",
+                "display": "chromsome 16",
+                "id": "e4f31210-8bdb-47d2-af77-4eea6f96902f"
+            },
+            {
+                "code": "17",
+                "definition": "chromsome 17",
+                "display": "chromsome 17",
+                "id": "f4e25726-1f58-4e67-8994-10334458854a"
+            },
+            {
+                "code": "18",
+                "definition": "chromsome 18",
+                "display": "chromsome 18",
+                "id": "49e6d1ac-57ae-4d4a-9f3d-7d550c43bb78"
+            },
+            {
+                "code": "19",
+                "definition": "chromsome 19",
+                "display": "chromsome 19",
+                "id": "433bcbda-46b0-48b5-b01a-c34de5f154df"
+            },
+            {
+                "code": "20",
+                "definition": "chromsome 20",
+                "display": "chromsome 20",
+                "id": "3ce78463-4160-4cdd-9af5-c9a251c59db4"
+            },
+            {
+                "code": "21",
+                "definition": "chromsome 21",
+                "display": "chromsome 21",
+                "id": "1cd9a700-87af-4a5b-b6ae-5cf267eb3479"
+            },
+            {
+                "code": "22",
+                "definition": "chromsome 22",
+                "display": "chromsome 22",
+                "id": "c818f3ce-c46f-4af6-b365-cce0fa05aec3"
+            },
+            {
+                "code": "X",
+                "definition": "chromsome X",
+                "display": "chromsome X",
+                "id": "d3e5c47a-6901-4e3c-b7c2-59757b58bac8"
+            },
+            {
+                "code": "Y",
+                "definition": "chromsome Y",
+                "display": "chromsome Y",
+                "id": "acd49f2b-ccdc-4a84-bd9e-20abca45af67"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,335 @@
+[
+    {
+        "model": "valuesets.Actcode",
+        "records": [
+            {
+                "code": "_ActAccountCode",
+                "definition": "An account represents a grouping of financial transactions that are tracked and reported together with a single balance. \t \tExamples of account codes (types) are Patient billing accounts (collection of charges), Cost centers; Cash.",
+                "display": "ActAccountCode",
+                "id": "4e9144b4-00f5-4362-af35-a4bb7de266f0"
+            },
+            {
+                "code": "_ActAdjudicationCode",
+                "definition": "Includes coded responses that will occur as a result of the adjudication of an electronic invoice at a summary level and provides guidance on interpretation of the referenced adjudication results.",
+                "display": "ActAdjudicationCode",
+                "id": "73caafb2-256e-422e-a4eb-d1ac8f5c2c8c"
+            },
+            {
+                "code": "_ActAdjudicationResultActionCode",
+                "definition": "Actions to be carried out by the recipient of the Adjudication Result information.",
+                "display": "ActAdjudicationResultActionCode",
+                "id": "9ae8f03c-5a1b-494d-896a-981cb7c1e3cd"
+            },
+            {
+                "code": "_ActBillableModifierCode",
+                "definition": "Definition:An identifying modifier code for healthcare interventions or procedures.",
+                "display": "ActBillableModifierCode",
+                "id": "c295904f-64ac-45fa-bb23-9a7dc59714b2"
+            },
+            {
+                "code": "_ActBillingArrangementCode",
+                "definition": "The type of provision(s)  made for reimbursing for the deliver of healthcare services and/or goods provided by a Provider, over a specified period.",
+                "display": "ActBillingArrangementCode",
+                "id": "0f3b3b33-ee38-47e3-bd92-bfb0d422aa7c"
+            },
+            {
+                "code": "_ActBoundedROICode",
+                "definition": "Type of bounded ROI.",
+                "display": "ActBoundedROICode",
+                "id": "97a274c9-e89a-48c0-a658-8673da959e42"
+            },
+            {
+                "code": "_ActCareProvisionCode",
+                "definition": "Description:The type and scope of responsibility taken-on by the performer of the Act for a specific subject of care.",
+                "display": "act care provision",
+                "id": "6c6a9c1e-61bb-4eba-9e84-c531c690b75d"
+            },
+            {
+                "code": "_ActClaimAttachmentCategoryCode",
+                "definition": "Description: Coded types of attachments included to support a healthcare claim.",
+                "display": "ActClaimAttachmentCategoryCode",
+                "id": "7bc0fc39-e426-40ed-ae73-f6a4defae6bb"
+            },
+            {
+                "code": "_ActConsentType",
+                "definition": "Definition: The type of consent directive, e.g., to consent or dissent to collect, access, or use in specific ways within an EHRS or for health information exchange; or to disclose  health information  for purposes such as research.",
+                "display": "ActConsentType",
+                "id": "5ca2e2fc-3506-47fc-bf41-81b81489f50a"
+            },
+            {
+                "code": "_ActContainerRegistrationCode",
+                "definition": "Constrains the ActCode to the domain of Container Registration",
+                "display": "ActContainerRegistrationCode",
+                "id": "cf6921f6-45c2-480a-971c-1a5cb4cf7af8"
+            },
+            {
+                "code": "_ActControlVariable",
+                "definition": "An observation form that determines parameters or attributes of an Act. Examples are the settings of a ventilator machine as parameters of a ventilator treatment act; the controls on dillution factors of a chemical analyzer as a parameter of a laboratory observation act; the settings of a physiologic measurement assembly (e.g., time skew) or the position of the body while measuring blood pressure.\r\n\n                        Control variables are forms of observations because just as with clinical observations, the Observation.code determines the parameter and the Observation.value assigns the value. While control variables sometimes can be observed (by noting the control settings or an actually measured feedback loop) they are not primary observations, in the sense that a control variable without a primary act is of no use (e.g., it makes no sense to record a blood pressure position without recording a blood pressure, whereas it does make sense to record a systolic blood pressure without a diastolic blood pressure).",
+                "display": "ActControlVariable",
+                "id": "7670a425-f6dc-4181-9393-7d65ef0a9e2f"
+            },
+            {
+                "code": "_ActCoverageConfirmationCode",
+                "definition": "Response to an insurance coverage eligibility query or authorization request.",
+                "display": "ActCoverageConfirmationCode",
+                "id": "11f230f1-c531-4301-85dd-b2e7e6be6742"
+            },
+            {
+                "code": "_ActCoverageLimitCode",
+                "definition": "Criteria that are applicable to the authorized coverage.",
+                "display": "ActCoverageLimitCode",
+                "id": "c1c7ce5f-c9f5-485c-b96b-11dfb5cacd31"
+            },
+            {
+                "code": "_ActCoverageTypeCode",
+                "definition": "Definition: Set of codes indicating the type of insurance policy or program that pays for the cost of benefits provided to covered parties.",
+                "display": "ActCoverageTypeCode",
+                "id": "dd5be194-6f21-474f-9ec5-bcca3d7c2700"
+            },
+            {
+                "code": "_ActDetectedIssueManagementCode",
+                "definition": "Codes dealing with the management of Detected Issue observations",
+                "display": "ActDetectedIssueManagementCode",
+                "id": "7afef5da-63ba-4e49-beeb-eb0b333c6a7a"
+            },
+            {
+                "code": "_ActExposureCode",
+                "definition": "Concepts that identify the type or nature of exposure interaction.  Examples include \"household\", \"care giver\", \"intimate partner\", \"common space\", \"common substance\", etc. to further describe the nature of interaction.",
+                "display": "ActExposureCode",
+                "id": "17b0d125-35fc-4107-8b25-9ca3f174bbf7"
+            },
+            {
+                "code": "_ActFinancialTransactionCode",
+                "definition": "ActFinancialTransactionCode",
+                "display": "ActFinancialTransactionCode",
+                "id": "6aada46b-735a-4e29-9779-8894eafb6637"
+            },
+            {
+                "code": "_ActIncidentCode",
+                "definition": "Set of codes indicating the type of incident or accident.",
+                "display": "ActIncidentCode",
+                "id": "392e4249-78b6-454b-8a2a-296d69be6de6"
+            },
+            {
+                "code": "_ActInformationAccessCode",
+                "definition": "Description: The type of health information to which the subject of the information or the subject's delegate consents or dissents.",
+                "display": "ActInformationAccessCode",
+                "id": "98dbd804-0a6e-4de8-b137-3784dee64cd5"
+            },
+            {
+                "code": "_ActInformationAccessContextCode",
+                "definition": "Concepts conveying the context in which authorization given under jurisdictional law, by organizational policy, or by a patient consent directive permits the collection, access, use or disclosure of specified patient health information.",
+                "display": "ActInformationAccessContextCode",
+                "id": "91eda8d3-0442-4f6c-82cd-64c96452a243"
+            },
+            {
+                "code": "_ActInformationCategoryCode",
+                "definition": "Definition:Indicates the set of information types which may be manipulated or referenced, such as for recommending access restrictions.",
+                "display": "ActInformationCategoryCode",
+                "id": "91d51c71-687d-4b01-9c16-51cab1f600f6"
+            },
+            {
+                "code": "_ActInvoiceElementCode",
+                "definition": "Type of invoice element that is used to assist in describing an Invoice that is either submitted for adjudication or for which is returned on adjudication results.",
+                "display": "ActInvoiceElementCode",
+                "id": "6fa308d8-ff25-4fd3-97c0-0c650b0143d8"
+            },
+            {
+                "code": "_ActInvoiceElementSummaryCode",
+                "definition": "Identifies the different types of summary information that can be reported by queries dealing with Statement of Financial Activity (SOFA).  The summary information is generally used to help resolve balance discrepancies between providers and payors.",
+                "display": "ActInvoiceElementSummaryCode",
+                "id": "723aaacc-cf87-4596-bf54-2d7bb2e7dad7"
+            },
+            {
+                "code": "_ActInvoiceOverrideCode",
+                "definition": "Includes coded responses that will occur as a result of the adjudication of an electronic invoice at a summary level and provides guidance on interpretation of the referenced adjudication results.",
+                "display": "ActInvoiceOverrideCode",
+                "id": "855d4b2c-48f8-40d7-b1f1-867c08251ba4"
+            },
+            {
+                "code": "_ActListCode",
+                "definition": "Provides codes associated with ActClass value of LIST (working list)",
+                "display": "ActListCode",
+                "id": "47ae8610-5c3d-4407-839b-dd72bee1b369"
+            },
+            {
+                "code": "_ActMonitoringProtocolCode",
+                "definition": "Identifies types of monitoring programs",
+                "display": "ActMonitoringProtocolCode",
+                "id": "385986a5-b0ee-4de1-a4af-f9f69cb4ad14"
+            },
+            {
+                "code": "_ActNonObservationIndicationCode",
+                "definition": "Description:Concepts representing indications (reasons for clinical action) other than diagnosis and symptoms.",
+                "display": "ActNonObservationIndicationCode",
+                "id": "79216fdc-e171-49b2-8fb4-8e06677af904"
+            },
+            {
+                "code": "_ActObservationVerificationType",
+                "definition": "Identifies the type of verification investigation being undertaken with respect to the subject of the verification activity.\r\n\n                        \n                           Examples:\n                        \r\n\n                        \n                           \n                              Verification of eligibility for coverage under a policy or program - aka enrolled/covered by a policy or program\r\n\n                           \n                           \n                              Verification of record - e.g., person has record in an immunization registry\r\n\n                           \n                           \n                              Verification of enumeration - e.g. NPI\r\n\n                           \n                           \n                              Verification of Board Certification - provider specific\r\n\n                           \n                           \n                              Verification of Certification - e.g. JAHCO, NCQA, URAC\r\n\n                           \n                           \n                              Verification of Conformance - e.g. entity use with HIPAA, conformant to the CCHIT EHR system criteria\r\n\n                           \n                           \n                              Verification of Provider Credentials\r\n\n                           \n                           \n                              Verification of no adverse findings - e.g. on National Provider Data Bank, Health Integrity Protection Data Base (HIPDB)",
+                "display": "act observation verification",
+                "id": "efe18e8a-e8e3-45cf-9d09-2255cc46ce9d"
+            },
+            {
+                "code": "_ActPaymentCode",
+                "definition": "Code identifying the method or the movement of payment instructions.\r\n\n                        Codes are drawn from X12 data element 591 (PaymentMethodCode)",
+                "display": "ActPaymentCode",
+                "id": "e7c56644-49b6-48ea-b1b0-f3621f2646b8"
+            },
+            {
+                "code": "_ActPharmacySupplyType",
+                "definition": "Identifies types of dispensing events",
+                "display": "ActPharmacySupplyType",
+                "id": "b576b08f-76ee-48db-ba7d-e1487678af3e"
+            },
+            {
+                "code": "_ActPolicyType",
+                "definition": "Description:Types of policies that further specify the ActClassPolicy value set.",
+                "display": "ActPolicyType",
+                "id": "d090d148-400a-4e85-89af-0ea388ea87a1"
+            },
+            {
+                "code": "_ActProductAcquisitionCode",
+                "definition": "The method that a product is obtained for use by the subject of the supply act (e.g. patient).  Product examples are consumable or durable goods.",
+                "display": "ActProductAcquisitionCode",
+                "id": "a55131e2-8fa1-408d-875c-a98208e2e8b7"
+            },
+            {
+                "code": "_ActSpecimenTransportCode",
+                "definition": "Transportation of a specimen.",
+                "display": "ActSpecimenTransportCode",
+                "id": "280ed6de-771f-4b2f-aa4f-f406e88499dc"
+            },
+            {
+                "code": "_ActSpecimenTreatmentCode",
+                "definition": "Set of codes related to specimen treatments",
+                "display": "ActSpecimenTreatmentCode",
+                "id": "10f38632-b8a7-42e9-bdbb-ab6397f19c3f"
+            },
+            {
+                "code": "_ActSubstanceAdministrationCode",
+                "definition": "Description: Describes the type of substance administration being performed.  This should not be used to carry codes for identification of products.  Use an associated role or entity to carry such information.",
+                "display": "ActSubstanceAdministrationCode",
+                "id": "031cf6b6-d85b-42af-a28b-3bdaf0482921"
+            },
+            {
+                "code": "_ActTaskCode",
+                "definition": "Description: A task or action that a user may perform in a clinical information system (e.g., medication order entry, laboratory test results review, problem list entry).",
+                "display": "ActTaskCode",
+                "id": "6e159b07-aaa2-4776-8089-0dab76bceb8d"
+            },
+            {
+                "code": "_ActTransportationModeCode",
+                "definition": "Characterizes how a transportation act was or will be carried out.\r\n\n                        \n                           Examples: Via private transport, via public transit, via courier.",
+                "display": "ActTransportationModeCode",
+                "id": "4ba9d324-4709-468b-a8d2-75159132c7c1"
+            },
+            {
+                "code": "_ObservationType",
+                "definition": "Identifies the kinds of observations that can be performed",
+                "display": "ObservationType",
+                "id": "fd7d683e-1c85-4914-ad54-7b1bf9019d60"
+            },
+            {
+                "code": "_ROIOverlayShape",
+                "definition": "Shape of the region on the object being referenced",
+                "display": "ROIOverlayShape",
+                "id": "e51da703-07ce-46dd-a968-6c4cc70b23e8"
+            },
+            {
+                "code": "C",
+                "definition": "Description:Indicates that result data has been corrected.",
+                "display": "corrected",
+                "id": "8f2087c1-e897-469b-9cd4-19ccf1ac759f"
+            },
+            {
+                "code": "DIET",
+                "definition": "Code set to define specialized/allowed diets",
+                "display": "Diet",
+                "id": "c4c200e2-496a-461b-80c3-5431b5a5c538"
+            },
+            {
+                "code": "DRUGPRG",
+                "definition": "Definition: A public or government health program that administers and funds coverage for prescription drugs to assist program eligible who meet financial and health status criteria.",
+                "display": "drug program",
+                "id": "0243af02-ba99-409c-bfd0-7be99d89c832"
+            },
+            {
+                "code": "F",
+                "definition": "Description:Indicates that a result is complete.  No further results are to come.  This maps to the 'complete' state in the observation result status code.",
+                "display": "final",
+                "id": "9611bbe7-a552-4a9a-82e0-bc2e83b1069a"
+            },
+            {
+                "code": "PRLMN",
+                "definition": "Description:Indicates that a result is incomplete.  There are further results to come.  This maps to the 'active' state in the observation result status code.",
+                "display": "preliminary",
+                "id": "d0bbd755-cd5f-4f95-a3d9-ac4387a203a5"
+            },
+            {
+                "code": "SECOBS",
+                "definition": "An observation identifying security metadata about an IT resource (data, information object, service, or system capability), which may be used to make access control decisions.  Security metadata are used to name security labels.  \r\n\n                        \n                           Rationale: According to ISO/TS 22600-3:2009(E) A.9.1.7 SECURITY LABEL MATCHING, Security label matching compares the initiator's clearance to the target's security label.  All of the following must be true for authorization to be granted:\r\n\n                        \n                           The security policy identifiers shall be identical\n                           The classification level of the initiator shall be greater than or equal to that of the target (that is, there shall be at least one value in the classification list of the clearance greater than or equal to the classification of the target), and \n                           For each security category in the target label, there shall be a security category of the same type in the initiator's clearance and the initiator's classification level shall dominate that of the target.\n                        \n                        \n                           Examples: SecurityObservationType  security label fields include:\r\n\n                        \n                           Confidentiality classification\n                           Compartment category\n                           Sensitivity category\n                           Security mechanisms used to ensure data integrity or to perform authorized data transformation\n                           Indicators of an IT resource completeness, veracity, reliability, trustworthiness, or provenance.\n                        \n                        \n                           Usage Note: SecurityObservationType codes designate security label field types, which are valued with an applicable SecurityObservationValue code as the \"security label tag\".",
+                "display": "SecurityObservationType",
+                "id": "18f805de-c77c-4a24-aeb9-ac6f1e7e7dfd"
+            },
+            {
+                "code": "SUBSIDFFS",
+                "definition": "Definition: A government health program that provides coverage on a fee for service basis for health services to persons meeting eligibility criteria such as income, location of residence, access to other coverages, health condition, and age, the cost of which is to some extent subsidized by public funds.\r\n\n                        \n                           Discussion: The structure and business processes for underwriting and administering a subsidized fee for service program is further specified by the Underwriter and Payer Role.class and Role.code.",
+                "display": "subsidized fee for service program",
+                "id": "f2202ec6-c65d-49b9-a09c-0e6343edf807"
+            },
+            {
+                "code": "WRKCOMP",
+                "definition": "Definition: Government mandated program providing coverage, disability income, and vocational rehabilitation for injuries sustained in the work place or in the course of employment.  Employers may either self-fund the program, purchase commercial coverage, or pay a premium to a government entity that administers the program.  Employees may be required to pay premiums toward the cost of coverage as well.",
+                "display": "(workers compensation program",
+                "id": "14d61401-b6a2-4c8a-a815-13c18b6e1898"
+            },
+            {
+                "code": "_ActProcedureCode",
+                "definition": "An identifying code for healthcare interventions/procedures.",
+                "display": "ActProcedureCode",
+                "id": "a7061076-3344-4c55-a9d3-22276bfee6f0"
+            },
+            {
+                "code": "_HL7DefinedActCodes",
+                "definition": "Domain provides the root for HL7-defined detailed or rich codes for the Act classes.",
+                "display": "HL7DefinedActCodes",
+                "id": "6f2d4718-1a27-46d8-b44a-b8710494790f"
+            },
+            {
+                "code": "COPAY",
+                "definition": "COPAY",
+                "display": "COPAY",
+                "id": "f2acf7d7-dc81-4e60-a962-bdf3af8ada5e"
+            },
+            {
+                "code": "DEDUCT",
+                "definition": "DEDUCT",
+                "display": "DEDUCT",
+                "id": "0192954f-4534-4f38-9605-d3746bc27891"
+            },
+            {
+                "code": "DOSEIND",
+                "definition": "DOSEIND",
+                "display": "DOSEIND",
+                "id": "2af41715-bd04-4138-acc4-11e85de88ab7"
+            },
+            {
+                "code": "PRA",
+                "definition": "PRA",
+                "display": "PRA",
+                "id": "2ac8b5d4-9c0d-4022-b23d-4da8c0fe0148"
+            },
+            {
+                "code": "STORE",
+                "definition": "The act of putting something away for safe keeping. The \"something\" may be physical object such as a specimen, or information, such as observations regarding a specimen.",
+                "display": "Storage",
+                "id": "4ac5b3fd-1921-4118-9b5d-38d5501d32e7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

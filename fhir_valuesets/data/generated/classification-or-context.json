@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ClassificationOrContext",
+        "records": [
+            {
+                "code": "classification",
+                "definition": "Indicates the useContext is a classification - e.g. Administrative, financial, etc.",
+                "display": "Classification",
+                "id": "53b732ca-f960-49bf-a6df-bebe372e8c47"
+            },
+            {
+                "code": "context",
+                "definition": "Indicates the useContext is a context - a domain of use - e.g. Particular country, organization or system",
+                "display": "Context",
+                "id": "724b98d2-64e7-43ea-af8c-aa8239900092"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.AdjudicationError",
+        "records": [
+            {
+                "code": "a001",
+                "definition": "Missing Identifier",
+                "display": "Missing Identifier",
+                "id": "1856d019-77dd-47f1-b162-db7661bd48a9"
+            },
+            {
+                "code": "a002",
+                "definition": "Missing Creation Date",
+                "display": "Missing Creation Date",
+                "id": "3f768077-b68e-4587-ae50-10da999f20b0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

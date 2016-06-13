@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.MapInputMode",
+        "records": [
+            {
+                "code": "source",
+                "definition": "Names an input instance used a source for mapping",
+                "display": "Source Instance",
+                "id": "a4ecd5dd-564a-4bee-b743-240570f93a42"
+            },
+            {
+                "code": "target",
+                "definition": "Names an instance that is being populated",
+                "display": "Target Instance",
+                "id": "67aa39e1-cf5a-434e-8e93-9900b193b9fe"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

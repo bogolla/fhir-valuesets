@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.Relationaloperator",
+        "records": [
+            {
+                "code": "CT",
+                "definition": "Specified set of things includes value being evaluated.",
+                "display": "Contains",
+                "id": "abd09535-f818-4569-b749-9bdbca173c57"
+            },
+            {
+                "code": "EQ",
+                "definition": "Equal condition applied to comparisons.",
+                "display": "Equal",
+                "id": "707fa877-62d3-4aec-9093-142d379bfd06"
+            },
+            {
+                "code": "GE",
+                "definition": "Greater than or equal condition applied to comparisons.",
+                "display": "Greater than or equal",
+                "id": "705839c1-91f7-44ac-8d70-d2f7bf8a1fed"
+            },
+            {
+                "code": "GN",
+                "definition": "A generic comparison selects a record for inclusion in the response if the beginning of the designated element value matches the select string.",
+                "display": "Generic",
+                "id": "a6dba6d0-0912-4165-8a71-55626b02a314"
+            },
+            {
+                "code": "GT",
+                "definition": "Greater than condition applied to comparisons.",
+                "display": "Greater than",
+                "id": "6e4a128e-098a-4ec2-98ee-dbdd71352042"
+            },
+            {
+                "code": "LE",
+                "definition": "Less than or equal condition applied to comparisons.",
+                "display": "Less than or equal",
+                "id": "5482c69a-1b8c-450e-a438-7c6b23d5c6de"
+            },
+            {
+                "code": "LT",
+                "definition": "Less than condition applied to comparisons.",
+                "display": "Less than",
+                "id": "826d12e7-3eda-4a79-87ec-b79f2fb80dab"
+            },
+            {
+                "code": "NE",
+                "definition": "Not equal condition applied to comparisons.",
+                "display": "Not Equal",
+                "id": "4417f657-3e8c-4147-8570-0b56da1fd1d1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

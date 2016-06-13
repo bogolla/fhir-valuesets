@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.DeviceAction",
+        "records": [
+            {
+                "code": "implanted",
+                "definition": "The device was implanted in the patient during the procedure.",
+                "display": "Implanted",
+                "id": "f1348fe4-8a6f-4037-a1b8-ace689520d71"
+            },
+            {
+                "code": "explanted",
+                "definition": "The device was explanted from the patient during the procedure.",
+                "display": "Explanted",
+                "id": "74a6b742-bd58-49d2-b4c9-0b9f72283547"
+            },
+            {
+                "code": "manipulated",
+                "definition": "The device remains in that patient, but its location, settings, or functionality was changed.",
+                "display": "Manipulated",
+                "id": "e4753e1f-cf06-44de-907a-f344dea65e0e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

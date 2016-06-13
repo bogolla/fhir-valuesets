@@ -1,0 +1,13 @@
+---
+valuesets_install_dir: "/opt/fhir_valuesets_server"
+valuesets_venv_dir: "{{valuesets_install_dir}}/env"
+valuesets_version: "1.0.2"
+env_file: "fhir_valuesets_server.env.sh"
+pg_login_user: valuesets_user
+pg_login_password: valuesets_pas-11a
+valuesets_db_user: valuesets_user
+valuesets_db_pass: valuesets_db_pas-11a
+valuesets_db_name: fhir_valuesets
+db_host: localhost
+db_port: 5432
+valuesets_database_url: "postgres://{{valuesets_db_user}}:{{valuesets_db_pass}}@{{db_host}}:{{db_port}}/{{valuesets_db_name}}"

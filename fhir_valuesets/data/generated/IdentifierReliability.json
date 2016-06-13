@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Identifierreliability",
+        "records": [
+            {
+                "code": "ISS",
+                "definition": "Description: The identifier was issued by the system responsible for constructing the instance.",
+                "display": "Issued by System",
+                "id": "1ae367b0-253d-4886-ae63-3cef98cd77f0"
+            },
+            {
+                "code": "UNV",
+                "definition": "Description: The identifier was provided to the system that constructed the instance, but has not been verified. e.g. a Drivers  license entered manually into a system by a user.",
+                "display": "Unverified by system",
+                "id": "ec9d0fed-397f-4555-839a-ad8c4fd880f8"
+            },
+            {
+                "code": "VRF",
+                "definition": "Description: The identifier was not issued by the system responsible for constructing the instance, but the system that captured the id has verified the identifier with the issuing authority, or with another system that has verified the identifier.",
+                "display": "Verified by system",
+                "id": "97ac6b83-8cc2-4469-9f4c-6e0cf5ec8d23"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Devicealertlevel",
+        "records": [
+            {
+                "code": "C",
+                "definition": "Shut Down, Fix Problem and Re-initialize",
+                "display": "Critical",
+                "id": "2d4de267-a580-4b11-b93b-8fdfe3ffaa45"
+            },
+            {
+                "code": "N",
+                "definition": "No Corrective Action Needed",
+                "display": "Normal",
+                "id": "5065aee1-d7a1-4571-a46e-878a16e78376"
+            },
+            {
+                "code": "S",
+                "definition": "Corrective Action Required",
+                "display": "Serious",
+                "id": "6d3da070-d027-4a9a-95c5-48b52891e32b"
+            },
+            {
+                "code": "W",
+                "definition": "Corrective Action Anticipated",
+                "display": "Warning",
+                "id": "aa2e074e-6f08-448e-99d2-cdc728cac27a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

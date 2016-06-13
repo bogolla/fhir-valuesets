@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.NamingsystemIdentifierType",
+        "records": [
+            {
+                "code": "oid",
+                "definition": "An ISO object identifier; e.g. 1.2.3.4.5.",
+                "display": "OID",
+                "id": "d23a004b-df4e-41a4-8d27-b255c87d2953"
+            },
+            {
+                "code": "uuid",
+                "definition": "A universally unique identifier of the form a5afddf4-e880-459b-876e-e4591b0acc11.",
+                "display": "UUID",
+                "id": "5336d941-686c-4896-a188-1e52b92e9882"
+            },
+            {
+                "code": "uri",
+                "definition": "A uniform resource identifier (ideally a URL - uniform resource locator); e.g. http://unitsofmeasure.org.",
+                "display": "URI",
+                "id": "5d07c4b6-e666-478c-9a9e-e4e3a80ed3e3"
+            },
+            {
+                "code": "other",
+                "definition": "Some other type of unique identifier; e.g. HL7-assigned reserved string such as LN for LOINC.",
+                "display": "Other",
+                "id": "584bca68-4f33-42e9-baaf-aeb68ae44839"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ActivityParticipantType",
+        "records": [
+            {
+                "code": "patient",
+                "definition": "The participant is the patient under evaluation",
+                "display": "Patient",
+                "id": "d3569993-a1d4-41a2-b52d-7acda3c319fd"
+            },
+            {
+                "code": "practitioner",
+                "definition": "The participant is a practitioner involved in the patient's care",
+                "display": "Practitioner",
+                "id": "8b99e213-5d46-4884-a6bc-4742f9d691cb"
+            },
+            {
+                "code": "related-person",
+                "definition": "The participant is a person related to the patient",
+                "display": "Related Person",
+                "id": "5c764aac-b290-4aa0-9073-7e50bcd9d51e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Maprelationship",
+        "records": [
+            {
+                "code": "BT",
+                "definition": "The first concept is at a more abstract level than the second concept.  For example, Hepatitis is broader than Hepatitis A, and endocrine disease is broader than Diabetes Mellitus.  Broader than is the opposite of the narrower than relationship.",
+                "display": "Broader Than",
+                "id": "ecb5b2db-900b-47cd-86fb-af3972533b4f"
+            },
+            {
+                "code": "E",
+                "definition": "The two concepts have identical meaning.",
+                "display": "Exact",
+                "id": "82b4f97f-d485-4c8f-a9ad-0c10267867a7"
+            },
+            {
+                "code": "NT",
+                "definition": "The first concept is at a more detailed level than the second concept.  For example, Pennicillin G is narrower than Pennicillin, and vellus hair is narrower than hair.  Narrower than is the opposite of broader than.",
+                "display": "Narrower Than",
+                "id": "411e2330-a261-4315-b4e2-71665bbfa726"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

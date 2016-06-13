@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Queryresponse",
+        "records": [
+            {
+                "code": "AE",
+                "definition": "Query Error.  Application Error.",
+                "display": "ApplicationError",
+                "id": "15dfc7d3-9168-44e4-bd4e-23ca95c93d61"
+            },
+            {
+                "code": "NF",
+                "definition": "No errors, but no data was found matching the query request specification.",
+                "display": "No data found",
+                "id": "04d931c5-b2fb-42d5-9035-4899816973a9"
+            },
+            {
+                "code": "OK",
+                "definition": "Query reponse data found for 1 or more result sets matching the query request specification.",
+                "display": "Data found",
+                "id": "10ac3535-9b59-4042-803e-c50f0b427c00"
+            },
+            {
+                "code": "QE",
+                "definition": "QueryError. Problem with input ParmetersError",
+                "display": "QueryParameterError",
+                "id": "e6db6b5a-e100-4b20-8170-10486687e7ae"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

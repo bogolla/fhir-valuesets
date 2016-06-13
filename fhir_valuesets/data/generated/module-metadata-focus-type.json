@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.ModuleMetadataFocusType",
+        "records": [
+            {
+                "code": "patient-gender",
+                "definition": "The gender of the patient. For this item type, use HL7 administrative gender codes (OID: 2.16.840.1.113883.1.11.1)",
+                "display": "Patient Gender",
+                "id": "78710174-ce06-4845-92d9-c6d53bbfc323"
+            },
+            {
+                "code": "patient-age-group",
+                "definition": "A patient demographic category for which this artifact is applicable. Allows specification of age groups using coded values originating from the MeSH Code system (OID: 2.16.840.1.113883.6.177). More specifically, only codes from the AgeGroupObservationValue value set are valid for this field  [2.16.840.1.113883.11.75]",
+                "display": "Patient Age Group",
+                "id": "22d29ca4-efbf-4ebf-b548-6a259b837ce1"
+            },
+            {
+                "code": "clinical-focus",
+                "definition": "The clinical concept(s) addressed by the artifact.  For example, disease, diagnostic test interpretation, medication ordering. Please refer to the implementation guide on which code system and codes to use",
+                "display": "Clinical Focus",
+                "id": "3ba2b390-d9e8-4b5b-bc89-49d143b5f37f"
+            },
+            {
+                "code": "target-user",
+                "definition": "The user types to which an artifact is targeted.  For example, PCP, Patient, Cardiologist, Behavioral Professional, Oral Health Professional, Prescriber, etc... taken from the NUCC Health Care provider taxonomyCode system (OID: 2.16.840.1.113883.6.101)",
+                "display": "Target User",
+                "id": "966f5015-8bd3-4163-82e0-22ce6d9dbfca"
+            },
+            {
+                "code": "workflow-setting",
+                "definition": "The settings in which the artifact is intended for use.  For example, admission, pre-op, etc",
+                "display": "Workflow Setting",
+                "id": "c07c4611-edbd-4d76-a0e5-4f1262a85732"
+            },
+            {
+                "code": "workflow-task",
+                "definition": "The context for the clinical task(s) represented by this artifact. Can be any task context represented by the HL7 ActTaskCode value set (OID: 2.16.840.1.113883.1.11.19846). General categories include: order entry, patient documentation and patient information review",
+                "display": "Workflow Task",
+                "id": "c42f33f0-1974-4b0f-8097-b71799308b6e"
+            },
+            {
+                "code": "clinical-venue",
+                "definition": "The venue in which an artifact could be used.  For example, Outpatient, Inpatient, Home, Nursing home. The code value may originate from either the HL7 ActEncounter (OID: 2.16.840.1.113883.1.11.13955) or NUCC non-individual provider codes OID: 2.16.840.1.113883.1.11.19465",
+                "display": "Clinical Venue",
+                "id": "c1f57733-71a3-4e65-851d-d6c4d4a7ffdc"
+            },
+            {
+                "code": "jurisdiction",
+                "definition": "The jurisdiction in which the artifact is intended to be used",
+                "display": "Jurisdiction",
+                "id": "e454712e-1095-4db6-ba4b-b922a0f6db97"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

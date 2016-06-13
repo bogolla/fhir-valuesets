@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Languageabilitymode",
+        "records": [
+            {
+                "code": "ESGN",
+                "definition": "Expressed signed",
+                "display": "Expressed signed",
+                "id": "d7700e7a-7176-4890-95e2-c6aef2c3d3ad"
+            },
+            {
+                "code": "ESP",
+                "definition": "Expressed spoken",
+                "display": "Expressed spoken",
+                "id": "b2f5e63d-1be3-4311-b476-f3119ce745ab"
+            },
+            {
+                "code": "EWR",
+                "definition": "Expressed written",
+                "display": "Expressed written",
+                "id": "6b254581-ace2-4e6b-adbb-203eee79d0c1"
+            },
+            {
+                "code": "RSGN",
+                "definition": "Received signed",
+                "display": "Received signed",
+                "id": "174be3bb-1c9f-4756-ac08-0f52e9c52fea"
+            },
+            {
+                "code": "RSP",
+                "definition": "Received spoken",
+                "display": "Received spoken",
+                "id": "f70c018a-4831-49b7-8098-aac4cecd114d"
+            },
+            {
+                "code": "RWR",
+                "definition": "Received written",
+                "display": "Received written",
+                "id": "9a0d90dd-d000-4434-a714-84cd55be2da9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

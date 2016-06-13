@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.GoalStatus",
+        "records": [
+            {
+                "code": "proposed",
+                "definition": "A goal is proposed for this patient",
+                "display": "Proposed",
+                "id": "d1930326-5cdb-4abe-82f2-d716ecb29902"
+            },
+            {
+                "code": "planned",
+                "definition": "A goal is planned for this patient",
+                "display": "Planned",
+                "id": "beed7efb-bbe8-481e-96ff-22859d4b5b09"
+            },
+            {
+                "code": "accepted",
+                "definition": "A proposed goal was accepted",
+                "display": "Accepted",
+                "id": "243393f0-d7aa-4fa8-8d3b-8eeb53cbf106"
+            },
+            {
+                "code": "rejected",
+                "definition": "A proposed goal was rejected",
+                "display": "Rejected",
+                "id": "7f27a63b-8d99-48e2-8d3a-97c1b1c23c65"
+            },
+            {
+                "code": "in-progress",
+                "definition": "The goal is being sought but has not yet been reached.  (Also applies if goal was reached in the past but there has been regression and goal is being sought again)",
+                "display": "In Progress",
+                "id": "89f47582-c62a-446c-9b53-077ce92c121a"
+            },
+            {
+                "code": "achieved",
+                "definition": "The goal has been met and no further action is needed",
+                "display": "Achieved",
+                "id": "ece92d0e-2937-4c54-9cdc-6344987f7078"
+            },
+            {
+                "code": "sustaining",
+                "definition": "The goal has been met, but ongoing activity is needed to sustain the goal objective",
+                "display": "Sustaining",
+                "id": "cd98111a-0f16-4a56-981f-e9c6b56fc352"
+            },
+            {
+                "code": "on-hold",
+                "definition": "The goal remains a long term objective but is no longer being actively pursued for a temporary period of time.",
+                "display": "On Hold",
+                "id": "019ca565-ffd1-42ed-bd2b-1f99bf029203"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The goal is no longer being sought",
+                "display": "Cancelled",
+                "id": "b3994764-2644-40dd-995e-4a8f3c91b26d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

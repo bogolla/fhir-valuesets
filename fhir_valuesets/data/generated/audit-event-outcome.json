@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.AuditEventOutcome",
+        "records": [
+            {
+                "code": "0",
+                "definition": "The operation completed successfully (whether with warnings or not).",
+                "display": "Success",
+                "id": "5e073405-4f99-4065-accc-d5f568395e40"
+            },
+            {
+                "code": "4",
+                "definition": "The action was not successful due to some kind of catered for error (often equivalent to an HTTP 400 response).",
+                "display": "Minor failure",
+                "id": "473b88e1-8ff6-4c23-860e-3c643b6fa140"
+            },
+            {
+                "code": "8",
+                "definition": "The action was not successful due to some kind of unexpected error (often equivalent to an HTTP 500 response).",
+                "display": "Serious failure",
+                "id": "8cbc6fa9-7d16-4654-b302-de650513ef69"
+            },
+            {
+                "code": "12",
+                "definition": "An error of such magnitude occurred that the system is no longer available for use (i.e. the system died).",
+                "display": "Major failure",
+                "id": "3347f916-9fef-40db-aadf-1bb8a9219287"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

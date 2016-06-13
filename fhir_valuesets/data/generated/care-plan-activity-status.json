@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.CarePlanActivityStatus",
+        "records": [
+            {
+                "code": "not-started",
+                "definition": "Activity is planned but no action has yet been taken.",
+                "display": "Not Started",
+                "id": "6a9a67e8-e1c6-44fb-ac8d-e3d929bfa28a"
+            },
+            {
+                "code": "scheduled",
+                "definition": "Appointment or other booking has occurred but activity has not yet begun.",
+                "display": "Scheduled",
+                "id": "af1d40d5-4fa5-4374-bb7a-72066fb6f62f"
+            },
+            {
+                "code": "in-progress",
+                "definition": "Activity has been started but is not yet complete.",
+                "display": "In Progress",
+                "id": "f2451b87-d069-483d-830f-4d37f47eb317"
+            },
+            {
+                "code": "on-hold",
+                "definition": "Activity was started but has temporarily ceased with an expectation of resumption at a future time.",
+                "display": "On Hold",
+                "id": "7e36d5a3-638c-4674-b22d-f7792874c0dc"
+            },
+            {
+                "code": "completed",
+                "definition": "The activities have been completed (more or less) as planned.",
+                "display": "Completed",
+                "id": "d45ffa09-43c2-4adb-a6fd-e6ae65eb5b69"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The activities have been ended prior to completion (perhaps even before they were started).",
+                "display": "Cancelled",
+                "id": "3dc06b4d-ee0d-4f41-b2b4-532bfd9088e5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

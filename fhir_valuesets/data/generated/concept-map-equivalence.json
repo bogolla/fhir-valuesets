@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.ConceptMapEquivalence",
+        "records": [
+            {
+                "code": "equivalent",
+                "definition": "The definitions of the concepts mean the same thing (including when structural implications of meaning are considered) (i.e. extensionally identical).",
+                "display": "Equivalent",
+                "id": "c1fe61cb-6c54-41ff-8d5e-a011742f9ea4"
+            },
+            {
+                "code": "wider",
+                "definition": "The target mapping is wider in meaning than the source concept.",
+                "display": "Wider",
+                "id": "1bf2925d-bf54-4dcb-a258-da0b1f2752f7"
+            },
+            {
+                "code": "subsumes",
+                "definition": "The target mapping subsumes the meaning of the source concept (e.g. the source is-a target).",
+                "display": "Subsumes",
+                "id": "3d82c441-c038-48e5-b5ac-4a8e345b73ab"
+            },
+            {
+                "code": "narrower",
+                "definition": "The target mapping is narrower in meaning that the source concept. The sense in which the mapping is narrower SHALL be described in the comments in this case, and applications should be careful when attempting to use these mappings operationally.",
+                "display": "Narrower",
+                "id": "6396e5bd-ccb2-41ef-8105-39235172f2b6"
+            },
+            {
+                "code": "specializes",
+                "definition": "The target mapping specializes the meaning of the source concept (e.g. the target is-a source).",
+                "display": "Specializes",
+                "id": "96d1fb46-bd32-4ea7-a0ca-2d68c5968ecf"
+            },
+            {
+                "code": "inexact",
+                "definition": "The target mapping overlaps with the source concept, but both source and target cover additional meaning, or the definitions are imprecise and it is uncertain whether they have the same boundaries to their meaning. The sense in which the mapping is narrower SHALL be described in the comments in this case, and applications should be careful when attempting to use these mappings operationally.",
+                "display": "Inexact",
+                "id": "708f2d48-a918-4993-9444-cbea0078d052"
+            },
+            {
+                "code": "unmatched",
+                "definition": "There is no match for this concept in the destination concept system.",
+                "display": "Unmatched",
+                "id": "28519d34-f51f-4fa5-a069-8159cddcf059"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

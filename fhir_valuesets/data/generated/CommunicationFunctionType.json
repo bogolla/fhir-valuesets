@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Communicationfunctiontype",
+        "records": [
+            {
+                "code": "RCV",
+                "definition": "The entity is the receiver of the transmission.",
+                "display": "receiver",
+                "id": "74606cfd-670e-4bbe-b56b-12da58bbd623"
+            },
+            {
+                "code": "RSP",
+                "definition": "The entity is the one to which the response or reply to the transmission should be sent.",
+                "display": "respond to",
+                "id": "d573b4cb-1918-4751-8952-428aff650b89"
+            },
+            {
+                "code": "SND",
+                "definition": "The entity is the sender of the transmission.",
+                "display": "sender",
+                "id": "39f4d496-cd6d-4c69-9805-f1b60f069666"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

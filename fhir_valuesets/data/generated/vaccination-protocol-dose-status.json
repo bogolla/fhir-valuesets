@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.VaccinationProtocolDoseStatus",
+        "records": [
+            {
+                "code": "count",
+                "definition": null,
+                "display": "Counts",
+                "id": "0a9820bd-01e3-41cc-a736-ef9696b860f3"
+            },
+            {
+                "code": "nocount",
+                "definition": null,
+                "display": "Does not Count",
+                "id": "b3c3598e-3e17-4390-b06b-b9180b961021"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

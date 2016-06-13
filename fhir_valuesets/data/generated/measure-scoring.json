@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.MeasureScoring",
+        "records": [
+            {
+                "code": "proportion",
+                "definition": "The measure score is defined using a proportion",
+                "display": "Proportion",
+                "id": "b7088092-f98f-4fcd-9bff-abf7effa0ee7"
+            },
+            {
+                "code": "ratio",
+                "definition": "The measure score is defined using a ratio",
+                "display": "Ratio",
+                "id": "f8020506-323c-4887-ac88-7b58ed7da3e8"
+            },
+            {
+                "code": "continuous-variable",
+                "definition": "The score is defined by a calculation of some quantity",
+                "display": "Continuous Variable",
+                "id": "3e2cc3dd-40ea-46c2-9dba-b841bd0408ee"
+            },
+            {
+                "code": "cohort",
+                "definition": "The measure is a cohort definition",
+                "display": "Cohort",
+                "id": "dd7e5931-af5c-4b0e-ac68-ba1ee2d3d352"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

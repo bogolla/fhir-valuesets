@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.SearchEntryMode",
+        "records": [
+            {
+                "code": "match",
+                "definition": "This resource matched the search specification.",
+                "display": "Match",
+                "id": "82571c21-c97a-493d-8e09-a149a81001c8"
+            },
+            {
+                "code": "include",
+                "definition": "This resource is returned because it is referred to from another resource in the search set.",
+                "display": "Include",
+                "id": "63ec80e9-306f-4889-b087-1b73145f2c1e"
+            },
+            {
+                "code": "outcome",
+                "definition": "An OperationOutcome that provides additional information about the processing of a search.",
+                "display": "Outcome",
+                "id": "d4e8cf50-43e0-44e3-a893-4013506ab7dc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

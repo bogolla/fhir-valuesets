@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Relationship",
+        "records": [
+            {
+                "code": "1",
+                "definition": "The patient is the subscriber (policy holder)",
+                "display": "Self",
+                "id": "1ed80a80-291a-48d6-a7a4-d64936ae681f"
+            },
+            {
+                "code": "2",
+                "definition": "The patient is the spouse or equivalent of the subscriber (policy holder)",
+                "display": "Spouse",
+                "id": "804deaec-2b87-4aa0-9a8f-39b55d5394ac"
+            },
+            {
+                "code": "3",
+                "definition": "The patient is the child of the subscriber (policy holder)",
+                "display": "Child",
+                "id": "c2b11275-34e9-4b17-ad25-62a503a51df2"
+            },
+            {
+                "code": "4",
+                "definition": "The patient is the common law spouse of the subscriber (policy holder)",
+                "display": "Common Law Spouse",
+                "id": "64eef4dd-18af-4065-a943-71c12c6c6fcd"
+            },
+            {
+                "code": "5",
+                "definition": "The patient has some other relationship, such as parent, to the subscriber (policy holder)",
+                "display": "Other",
+                "id": "899c462b-fa67-4eac-af94-954232c55240"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

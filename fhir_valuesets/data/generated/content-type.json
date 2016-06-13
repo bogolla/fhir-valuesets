@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ContentType",
+        "records": [
+            {
+                "code": "xml",
+                "definition": "XML content-type corresponding to the application/xml+fhir mime-type.",
+                "display": "xml",
+                "id": "5939f23e-92aa-4495-a507-e6941a8d41f0"
+            },
+            {
+                "code": "json",
+                "definition": "JSON content-type corresponding to the application/json+fhir mime-type.",
+                "display": "json",
+                "id": "254e1ade-e6a2-43ec-b215-8a42c54d7063"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

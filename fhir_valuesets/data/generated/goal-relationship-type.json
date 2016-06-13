@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.GoalRelationshipType",
+        "records": [
+            {
+                "code": "predecessor",
+                "definition": "Indicates that the target goal is one which must be met before striving for the current goal",
+                "display": "Predecessor",
+                "id": "5a2ac4cd-11bb-4b12-adfd-dc4fa8e81765"
+            },
+            {
+                "code": "successor",
+                "definition": "Indicates that the target goal is a desired objective once the current goal is met",
+                "display": "Successor",
+                "id": "f2c8a55d-2bcc-42e3-910b-fc703dfd1aff"
+            },
+            {
+                "code": "replacement",
+                "definition": "Indicates that this goal has been replaced by the target goal",
+                "display": "Replacement",
+                "id": "c78db3fd-0e2b-4409-b491-1a727a672137"
+            },
+            {
+                "code": "component",
+                "definition": "Indicates that the target goal is considered to be a \"piece\" of attaining this goal.",
+                "display": "Component",
+                "id": "cf936b95-1607-4223-8dad-4bb662ee244c"
+            },
+            {
+                "code": "other",
+                "definition": "Indicates that the relationship is not covered by one of the pre-defined codes.  (An extension may convey more information about the meaning of the relationship.)",
+                "display": "Other",
+                "id": "6deaefb1-b9fa-45c9-b29d-6ca57f1a1a23"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

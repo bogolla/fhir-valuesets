@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.CopyNumberEvent",
+        "records": [
+            {
+                "code": "amp",
+                "definition": "amplificaiton",
+                "display": "amplificaiton",
+                "id": "2dad130d-653e-4a11-8ac6-8145516b734f"
+            },
+            {
+                "code": "del",
+                "definition": "deletion",
+                "display": "deletion",
+                "id": "2e7e15c7-dc1f-4f63-9c0e-f64dca27b22d"
+            },
+            {
+                "code": "lof",
+                "definition": "loss of function",
+                "display": "loss of function",
+                "id": "01b8333d-d43c-4c2d-bc75-d927b55eccd8"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

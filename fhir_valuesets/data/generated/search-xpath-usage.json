@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.SearchXpathUsage",
+        "records": [
+            {
+                "code": "normal",
+                "definition": "The search parameter is derived directly from the selected nodes based on the type definitions.",
+                "display": "Normal",
+                "id": "7cad32db-6927-420b-ad79-b30bee22db3a"
+            },
+            {
+                "code": "phonetic",
+                "definition": "The search parameter is derived by a phonetic transform from the selected nodes.",
+                "display": "Phonetic",
+                "id": "c5d1795f-1e0c-42a6-a097-6f57b4548ff8"
+            },
+            {
+                "code": "nearby",
+                "definition": "The search parameter is based on a spatial transform of the selected nodes.",
+                "display": "Nearby",
+                "id": "047fd158-26aa-48de-8b0e-f3f43016bb08"
+            },
+            {
+                "code": "distance",
+                "definition": "The search parameter is based on a spatial transform of the selected nodes, using physical distance from the middle.",
+                "display": "Distance",
+                "id": "626f2902-94fd-4fdb-8880-20dd768310e4"
+            },
+            {
+                "code": "other",
+                "definition": "The interpretation of the xpath statement is unknown (and can't be automated).",
+                "display": "Other",
+                "id": "5327a5f4-96f9-4c26-9b88-241239b7bdfc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

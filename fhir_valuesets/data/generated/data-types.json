@@ -1,0 +1,317 @@
+[
+    {
+        "model": "valuesets.DataTypes",
+        "records": [
+            {
+                "code": "ActionDefinition",
+                "definition": "The definition of an action to be performed. Some aspects of the definition are specified statically, and some aspects can be specified dynamically by referencing logic defined in a library.",
+                "display": "ActionDefinition",
+                "id": "e8f979bf-a0d1-40ba-ac60-784db59202b8"
+            },
+            {
+                "code": "Address",
+                "definition": "An address expressed using postal conventions (as opposed to GPS or other location definition formats).  This data type may be used to convey addresses for use in delivering mail as well as for visiting locations and which might not be valid for mail delivery.  There are a variety of postal address formats defined around the world.",
+                "display": "Address",
+                "id": "3cf82ce5-492b-4843-a787-2f18e3b7cd07"
+            },
+            {
+                "code": "Age",
+                "definition": "A duration of time during which an organism (or a process) has existed.",
+                "display": "Age",
+                "id": "3c341662-7a4a-472b-a704-5cd8dc9c6a13"
+            },
+            {
+                "code": "Annotation",
+                "definition": "A  text note which also  contains information about who made the statement and when.",
+                "display": "Annotation",
+                "id": "4812b97e-da18-45d9-8640-1cb93ee6d53a"
+            },
+            {
+                "code": "Attachment",
+                "definition": "For referring to data content defined in other formats.",
+                "display": "Attachment",
+                "id": "ed7d223c-a81c-4c1c-8b1c-4fa306f6b1bf"
+            },
+            {
+                "code": "BackboneElement",
+                "definition": "Base definition for all elements that are defined inside a resource - but not those in a data type.",
+                "display": "BackboneElement",
+                "id": "baeff98f-df15-4938-984c-f0c7e7eed693"
+            },
+            {
+                "code": "CodeableConcept",
+                "definition": "A concept that may be defined by a formal reference to a terminology or ontology or may be provided by text.",
+                "display": "CodeableConcept",
+                "id": "71643e38-79f2-4d75-8d14-c6eb985999ee"
+            },
+            {
+                "code": "Coding",
+                "definition": "A reference to a code defined by a terminology system.",
+                "display": "Coding",
+                "id": "1bdab15d-46ba-46c0-ac41-e6084137d666"
+            },
+            {
+                "code": "ContactPoint",
+                "definition": "Details for all kinds of technology mediated contact points for a person or organization, including telephone, email, etc.",
+                "display": "ContactPoint",
+                "id": "a2c1a3a0-06dc-4cc3-8ad7-7121a9c1dd11"
+            },
+            {
+                "code": "Count",
+                "definition": "A measured amount (or an amount that can potentially be measured). Note that measured amounts include amounts that are not precisely quantified, including amounts involving arbitrary units and floating currencies.",
+                "display": "Count",
+                "id": "417ac078-e26c-4283-b4f2-07f11af62220"
+            },
+            {
+                "code": "DataRequirement",
+                "definition": "Describes a required data item for evaluation in terms of the type of data, and optional code- or date-based filters of the data.",
+                "display": "DataRequirement",
+                "id": "7781377e-7cdc-4c6f-9963-6596058ec80c"
+            },
+            {
+                "code": "Distance",
+                "definition": "A length - a value with a unit that is a physical distance.",
+                "display": "Distance",
+                "id": "9b2d6fa0-de0d-4a21-a05c-08350f01444c"
+            },
+            {
+                "code": "Duration",
+                "definition": "A length of time.",
+                "display": "Duration",
+                "id": "d6027b5e-d91a-41c7-b631-f77e275d3eee"
+            },
+            {
+                "code": "Element",
+                "definition": "Base definition for all elements in a resource.",
+                "display": "Element",
+                "id": "de0c6627-8ae4-4204-b5cb-4ffdf57920f8"
+            },
+            {
+                "code": "ElementDefinition",
+                "definition": "Captures constraints on each element within the resource, profile, or extension.",
+                "display": "ElementDefinition",
+                "id": "30bf82a1-4e25-47e9-8eb7-0ff0fb564dd7"
+            },
+            {
+                "code": "Extension",
+                "definition": "Optional Extensions Element - found in all resources.",
+                "display": "Extension",
+                "id": "8c411040-df7f-4cac-9b2f-7f1673bb2965"
+            },
+            {
+                "code": "HumanName",
+                "definition": "A human's name with the ability to identify parts and usage.",
+                "display": "HumanName",
+                "id": "5517693e-92e7-416d-a4f8-b408345db7d4"
+            },
+            {
+                "code": "Identifier",
+                "definition": "A technical identifier - identifies some entity uniquely and unambiguously.",
+                "display": "Identifier",
+                "id": "a4238d1c-63b6-4da5-a806-2a35d6f0bc7b"
+            },
+            {
+                "code": "Meta",
+                "definition": "The metadata about a resource. This is content in the resource that is maintained by the infrastructure. Changes to the content may not always be associated with version changes to the resource.",
+                "display": "Meta",
+                "id": "b4b69878-b707-4e56-a853-5a77c321f91c"
+            },
+            {
+                "code": "ModuleMetadata",
+                "definition": "The ModuleMetadata structure defines the common metadata elements used by quality improvement artifacts. This information includes descriptive and topical metadata to enable repository searches, as well as governance and evidentiary support information.",
+                "display": "ModuleMetadata",
+                "id": "295d7c28-2f56-4c6f-bdaf-3e2820fe6861"
+            },
+            {
+                "code": "Money",
+                "definition": "An amount of economic utility in some recognised currency.",
+                "display": "Money",
+                "id": "1683fa4c-28de-4153-9f4d-94328c6be7fc"
+            },
+            {
+                "code": "Narrative",
+                "definition": "A human-readable formatted text, including images.",
+                "display": "Narrative",
+                "id": "9a2c27c0-2d38-4c5b-b5ee-86e87d7a18b8"
+            },
+            {
+                "code": "ParameterDefinition",
+                "definition": "The parameters to the module. This collection specifies both the input and output parameters. Input parameters are provided by the caller as part of the $evaluate operation. Output parameters are included in the GuidanceResponse.",
+                "display": "ParameterDefinition",
+                "id": "5edde8d8-ad3d-4784-87fe-d70c72027ac8"
+            },
+            {
+                "code": "Period",
+                "definition": "A time period defined by a start and end date and optionally time.",
+                "display": "Period",
+                "id": "85f2ce95-c9e0-4cc7-a1e7-00e1eb889b20"
+            },
+            {
+                "code": "Quantity",
+                "definition": "A measured amount (or an amount that can potentially be measured). Note that measured amounts include amounts that are not precisely quantified, including amounts involving arbitrary units and floating currencies.",
+                "display": "Quantity",
+                "id": "2da55931-44a4-47d8-b546-cb0a3cafde8e"
+            },
+            {
+                "code": "Range",
+                "definition": "A set of ordered Quantities defined by a low and high limit.",
+                "display": "Range",
+                "id": "df40e162-478d-403c-9b52-1b430e612109"
+            },
+            {
+                "code": "Ratio",
+                "definition": "A relationship of two Quantity values - expressed as a numerator and a denominator.",
+                "display": "Ratio",
+                "id": "565a166a-08de-4d95-8353-cab9bba47ebe"
+            },
+            {
+                "code": "Reference",
+                "definition": "A reference from one resource to another.",
+                "display": "Reference",
+                "id": "d8154e19-e02b-41bf-84db-3e304663da23"
+            },
+            {
+                "code": "SampledData",
+                "definition": "A series of measurements taken by a device, with upper and lower limits. There may be more than one dimension in the data.",
+                "display": "SampledData",
+                "id": "717ab411-78b9-45b0-a8c0-746e16e01936"
+            },
+            {
+                "code": "Signature",
+                "definition": "A digital signature along with supporting context. The signature may be electronic/cryptographic in nature, or a graphical image representing a hand-written signature, or a signature process. Different Signature approaches have different utilities.",
+                "display": "Signature",
+                "id": "dcf199f5-21a7-4343-93ad-b5015a53fbb3"
+            },
+            {
+                "code": "SimpleQuantity",
+                "definition": null,
+                "display": "SimpleQuantity",
+                "id": "3fac98ac-077f-4481-bb31-15aa20a37513"
+            },
+            {
+                "code": "Timing",
+                "definition": "Specifies an event that may occur multiple times. Timing schedules are used to record when things are expected or requested to occur. The most common usage is in dosage instructions for medications. They are also used when planning care of various kinds.",
+                "display": "Timing",
+                "id": "cc1d51da-0659-498f-8604-dcdd4639dfc8"
+            },
+            {
+                "code": "TriggerDefinition",
+                "definition": "A description of a triggering event.",
+                "display": "TriggerDefinition",
+                "id": "b8e3d572-b4f2-49e8-8469-7471caeb3a58"
+            },
+            {
+                "code": "base64Binary",
+                "definition": "A stream of bytes",
+                "display": "base64Binary",
+                "id": "7f7b2360-13ef-42d9-90df-7d8fba369889"
+            },
+            {
+                "code": "boolean",
+                "definition": "Value of \"true\" or \"false\"",
+                "display": "boolean",
+                "id": "37b743c6-2ad5-4463-b44e-4d732a471717"
+            },
+            {
+                "code": "code",
+                "definition": "A string which has at least one character and no leading or trailing whitespace and where there is no whitespace other than single spaces in the contents",
+                "display": "code",
+                "id": "90792a6a-ad73-446c-b4dd-39969ce7f4b6"
+            },
+            {
+                "code": "date",
+                "definition": "A date or partial date (e.g. just year or year + month). There is no time zone. The format is a union of the schema types gYear, gYearMonth and date.  Dates SHALL be valid dates.",
+                "display": "date",
+                "id": "6085cadc-dc22-4b9e-ae14-55d337f43387"
+            },
+            {
+                "code": "dateTime",
+                "definition": "A date, date-time or partial date (e.g. just year or year + month).  If hours and minutes are specified, a time zone SHALL be populated. The format is a union of the schema types gYear, gYearMonth, date and dateTime. Seconds must be provided due to schema type constraints but may be zero-filled and may be ignored.                 Dates SHALL be valid dates.",
+                "display": "dateTime",
+                "id": "1354eee8-553d-44b4-83da-9c02a4b18dff"
+            },
+            {
+                "code": "decimal",
+                "definition": "A rational number with implicit precision",
+                "display": "decimal",
+                "id": "6bf4a885-076d-4a3f-b821-380dc6939236"
+            },
+            {
+                "code": "id",
+                "definition": "Any combination of letters, numerals, \"-\" and \".\", with a length limit of 64 characters.  (This might be an integer, an unprefixed OID, UUID or any other identifier pattern that meets these constraints.)  Ids are case-insensitive.",
+                "display": "id",
+                "id": "2c4ce02a-bed4-44d4-ba08-871525c32c05"
+            },
+            {
+                "code": "instant",
+                "definition": "An instant in time - known at least to the second",
+                "display": "instant",
+                "id": "3561d4a3-fb21-4f01-81aa-ccec27e64aab"
+            },
+            {
+                "code": "integer",
+                "definition": "A whole number",
+                "display": "integer",
+                "id": "91016fa3-098f-4c7d-aff7-4958f31f759b"
+            },
+            {
+                "code": "markdown",
+                "definition": "A string that may contain markdown syntax for optional processing by a mark down presentation engine",
+                "display": "markdown",
+                "id": "9cbe4cee-0391-4315-af3a-c70d18c1e930"
+            },
+            {
+                "code": "oid",
+                "definition": "An oid represented as a URI",
+                "display": "oid",
+                "id": "c78a28bb-28fa-419c-8c7d-cb72594d9de7"
+            },
+            {
+                "code": "positiveInt",
+                "definition": "An integer with a value that is positive (e.g. >0)",
+                "display": "positiveInt",
+                "id": "b7aa4ebe-27db-4b2e-8ea4-fc4b37b60c73"
+            },
+            {
+                "code": "string",
+                "definition": "A sequence of Unicode characters",
+                "display": "string",
+                "id": "c53335dd-2fbf-49ed-93a0-bae38d7428ee"
+            },
+            {
+                "code": "time",
+                "definition": "A time during the day, with no date specified",
+                "display": "time",
+                "id": "a3379bfe-9d6f-47a3-a29e-6277cca53b43"
+            },
+            {
+                "code": "unsignedInt",
+                "definition": "An integer with a value that is not negative (e.g. >= 0)",
+                "display": "unsignedInt",
+                "id": "acbd281a-d02d-4b39-a26b-723d51b8fae2"
+            },
+            {
+                "code": "uri",
+                "definition": "String of characters used to identify a name or a resource",
+                "display": "uri",
+                "id": "6cafcea0-bb2a-4d3e-a02d-00978d52abcd"
+            },
+            {
+                "code": "uuid",
+                "definition": "A UUID, represented as a URI",
+                "display": "uuid",
+                "id": "c5fbf1e2-a81c-45b1-b573-0d4f098fc5ae"
+            },
+            {
+                "code": "xhtml",
+                "definition": "XHTML format, as defined by W3C, but restricted usage (mainly, no active content)",
+                "display": "XHTML",
+                "id": "ff6f21d5-d616-41d5-808d-1d8668d904b0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

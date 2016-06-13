@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ConsentDataMeaning",
+        "records": [
+            {
+                "code": "instance",
+                "definition": "The consent applies directly to the instance of the resource",
+                "display": "Instance",
+                "id": "658f614c-5e05-4c8d-8636-aec31ddfcaad"
+            },
+            {
+                "code": "related",
+                "definition": "The consent applies directly to the instance of the resource, and instances it refers to",
+                "display": "Related",
+                "id": "b9b5ebd3-a4cf-4ee7-9525-1e579b1bfa3c"
+            },
+            {
+                "code": "dependents",
+                "definition": "The consent applies directly to the instance of the resource, and instances that refer to it",
+                "display": "Dependents",
+                "id": "ae1eddfb-2c3b-4396-89a0-b7975e784dd5"
+            },
+            {
+                "code": "profile",
+                "definition": "The consent applies to any resources that conform to the profile referenced",
+                "display": "Profile",
+                "id": "3fea6b5c-4a9d-41ff-9deb-c77bed86cf30"
+            },
+            {
+                "code": "valueset",
+                "definition": "The consent applies to any resource where the primary code is in the referenced value set",
+                "display": "ValueSet",
+                "id": "a8661879-e43d-4f0e-97e0-1670334cf123"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

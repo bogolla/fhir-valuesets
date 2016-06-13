@@ -1,0 +1,257 @@
+[
+    {
+        "model": "valuesets.Tooth",
+        "records": [
+            {
+                "code": "0",
+                "definition": "Oral cavity.",
+                "display": "Oral cavity",
+                "id": "5aba0590-fc0f-43ab-ae45-dbf267360c7e"
+            },
+            {
+                "code": "1",
+                "definition": "Permanent teeth Maxillary right.",
+                "display": "1",
+                "id": "37a04c4c-cb79-4bbb-aab5-fce96cbef2cd"
+            },
+            {
+                "code": "2",
+                "definition": "Permanent teeth Maxillary left.",
+                "display": "2",
+                "id": "3d82a1c3-0489-480c-9926-3b9c6c3914d7"
+            },
+            {
+                "code": "3",
+                "definition": "Permanent teeth Mandibular right.",
+                "display": "3",
+                "id": "52c6355f-c978-4630-b44d-d3c6951e30ea"
+            },
+            {
+                "code": "4",
+                "definition": "Permanent teeth Mandibular left.",
+                "display": "4",
+                "id": "f61f12ea-e0fb-4fc5-b1fc-1f078c5eea64"
+            },
+            {
+                "code": "5",
+                "definition": "Deciduous teeth Maxillary right.",
+                "display": "5",
+                "id": "137abd0b-1e70-4e5a-97e4-ecef4a7cb4a8"
+            },
+            {
+                "code": "6",
+                "definition": "Deciduous teeth Maxillary left.",
+                "display": "6",
+                "id": "9647e1f5-9513-4d3e-90ef-5a993cd886a4"
+            },
+            {
+                "code": "7",
+                "definition": "Deciduous teeth Mandibular right.",
+                "display": "7",
+                "id": "2d7478bb-4aa4-4b5a-8bbf-60b21238de43"
+            },
+            {
+                "code": "8",
+                "definition": "Deciduous teeth Mandibular left.",
+                "display": "8",
+                "id": "5171954d-fd43-47a6-a74f-26efd1874fbf"
+            },
+            {
+                "code": "11",
+                "definition": "Upper Right Tooth 1 from the central axis, permanent dentition.",
+                "display": "11",
+                "id": "9ade52b1-96da-4c99-9c88-05580c2d2dbc"
+            },
+            {
+                "code": "12",
+                "definition": "Upper Right Tooth 2 from the central axis, permanent dentition.",
+                "display": "12",
+                "id": "36145d8c-cf80-400e-95ff-4ce95e9899d8"
+            },
+            {
+                "code": "13",
+                "definition": "Upper Right Tooth 3 from the central axis, permanent dentition.",
+                "display": "13",
+                "id": "9d5d5c15-a696-4711-bd54-060a30011b2a"
+            },
+            {
+                "code": "14",
+                "definition": "Upper Right Tooth 4 from the central axis, permanent dentition.",
+                "display": "14",
+                "id": "d57b8e8e-d02e-497b-b368-3904b84aa77b"
+            },
+            {
+                "code": "15",
+                "definition": "Upper Right Tooth 5 from the central axis, permanent dentition.",
+                "display": "15",
+                "id": "b2df0193-f0c8-454c-80e3-f4084a1099fd"
+            },
+            {
+                "code": "16",
+                "definition": "Upper Right Tooth 6 from the central axis, permanent dentition.",
+                "display": "16",
+                "id": "d50e7186-c712-45b3-b474-28a4b91d8738"
+            },
+            {
+                "code": "17",
+                "definition": "Upper Right Tooth 7 from the central axis, permanent dentition.",
+                "display": "17",
+                "id": "104ea96f-6aaf-4b07-aa73-413fc60882a2"
+            },
+            {
+                "code": "18",
+                "definition": "Upper Right Tooth 8 from the central axis, permanent dentition.",
+                "display": "18",
+                "id": "85df3a03-2ac6-42da-bca7-b79436f01cd0"
+            },
+            {
+                "code": "21",
+                "definition": "Upper Left Tooth 1 from the central axis, permanent dentition.",
+                "display": "21",
+                "id": "34593230-d8bb-45e4-a695-4b7bdbd9c55a"
+            },
+            {
+                "code": "22",
+                "definition": "Upper Left Tooth 2 from the central axis, permanent dentition.",
+                "display": "22",
+                "id": "8e1683c6-ab89-4df9-bd5a-b198782d7f55"
+            },
+            {
+                "code": "23",
+                "definition": "Upper Left Tooth 3 from the central axis, permanent dentition.",
+                "display": "23",
+                "id": "d9bdb769-997f-471f-af18-83ed9a66ec7b"
+            },
+            {
+                "code": "24",
+                "definition": "Upper Left Tooth 4 from the central axis, permanent dentition.",
+                "display": "24",
+                "id": "925d16fd-49c9-4df4-8a38-ea0f0c15a3bd"
+            },
+            {
+                "code": "25",
+                "definition": "Upper Left Tooth 5 from the central axis, permanent dentition.",
+                "display": "25",
+                "id": "58ca35e1-0c7e-44b7-8292-bfa0c2942251"
+            },
+            {
+                "code": "26",
+                "definition": "Upper Left Tooth 6 from the central axis, permanent dentition.",
+                "display": "26",
+                "id": "d94363f4-79d8-4e96-9188-4a8a6f4a9d2e"
+            },
+            {
+                "code": "27",
+                "definition": "Upper Left Tooth 7 from the central axis, permanent dentition.",
+                "display": "27",
+                "id": "05abd12a-1ba8-4877-b726-8dd5347a0a3d"
+            },
+            {
+                "code": "28",
+                "definition": "Upper Left Tooth 8 from the central axis, permanent dentition.",
+                "display": "28",
+                "id": "ac1b2326-34e4-452e-9672-e75a18d3ce1b"
+            },
+            {
+                "code": "31",
+                "definition": "Lower Left Tooth 1 from the central axis, permanent dentition.",
+                "display": "31",
+                "id": "07d2f7fb-7828-44cb-a2a3-8e7d3db18b5e"
+            },
+            {
+                "code": "32",
+                "definition": "Lower Left Tooth 2 from the central axis, permanent dentition.",
+                "display": "32",
+                "id": "08f96663-f866-444a-a32d-4d1fc4796b0f"
+            },
+            {
+                "code": "33",
+                "definition": "Lower Left Tooth 3 from the central axis, permanent dentition.",
+                "display": "33",
+                "id": "e859804b-214c-473b-b56e-1f003cdd7a9b"
+            },
+            {
+                "code": "34",
+                "definition": "Lower Left Tooth 4 from the central axis, permanent dentition.",
+                "display": "34",
+                "id": "a9c5d267-a095-4e1e-8ee3-74325954b8a8"
+            },
+            {
+                "code": "35",
+                "definition": "Lower Left Tooth 5 from the central axis, permanent dentition.",
+                "display": "35",
+                "id": "0bf1a094-351b-49e1-bcc1-3ce2f495af2a"
+            },
+            {
+                "code": "36",
+                "definition": "Lower Left Tooth 6 from the central axis, permanent dentition.",
+                "display": "36",
+                "id": "61597078-726b-4355-ac03-6f62bef03aed"
+            },
+            {
+                "code": "37",
+                "definition": "Lower Left Tooth 7 from the central axis, permanent dentition.",
+                "display": "37",
+                "id": "a1eb79e5-9e73-44ca-b2a7-59ad48fb1d8d"
+            },
+            {
+                "code": "38",
+                "definition": "Lower Left Tooth 8 from the central axis, permanent dentition.",
+                "display": "38",
+                "id": "4c231f7f-885d-446d-a7ce-133adff92b5f"
+            },
+            {
+                "code": "41",
+                "definition": "Lower Right Tooth 1 from the central axis, permanent dentition.",
+                "display": "41",
+                "id": "563dd72c-214b-4410-8ce8-305ffad10960"
+            },
+            {
+                "code": "42",
+                "definition": "Lower Right Tooth 2 from the central axis, permanent dentition.",
+                "display": "42",
+                "id": "a6e958b6-686e-45c5-adf8-bf14711df0cc"
+            },
+            {
+                "code": "43",
+                "definition": "Lower Right Tooth 3 from the central axis, permanent dentition.",
+                "display": "43",
+                "id": "f755c1c5-05bc-4474-9b4f-448088b536ad"
+            },
+            {
+                "code": "44",
+                "definition": "Lower Right Tooth 4 from the central axis, permanent dentition.",
+                "display": "44",
+                "id": "63222780-7077-49b3-be45-603924d70d81"
+            },
+            {
+                "code": "45",
+                "definition": "Lower Right Tooth 5 from the central axis, permanent dentition.",
+                "display": "45",
+                "id": "50a1b38c-803e-450e-87ec-9ee36a5cbd34"
+            },
+            {
+                "code": "46",
+                "definition": "Lower Right Tooth 6 from the central axis, permanent dentition.",
+                "display": "46",
+                "id": "6f6df00f-09df-4d69-9931-f2ab87b9c206"
+            },
+            {
+                "code": "47",
+                "definition": "Lower Right Tooth 7 from the central axis, permanent dentition.",
+                "display": "47",
+                "id": "71d86302-94e7-4391-a2a8-829ac3eb8185"
+            },
+            {
+                "code": "48",
+                "definition": "Lower Right Tooth 8 from the central axis, permanent dentition.",
+                "display": "48",
+                "id": "6bc7b15f-c846-48a4-a557-278cbf2f2e22"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

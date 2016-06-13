@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.AdjudicationReason",
+        "records": [
+            {
+                "code": "ar001",
+                "definition": "Not covered",
+                "display": "Not covered",
+                "id": "6ffada68-0bf5-4865-aca9-c8886732caef"
+            },
+            {
+                "code": "ar002",
+                "definition": "Plan Limit Reached",
+                "display": "Plan Limit Reached",
+                "id": "6919c3cb-5915-4e8b-9b4e-8372b24a4db0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ResponseCode",
+        "records": [
+            {
+                "code": "ok",
+                "definition": "The message was accepted and processed without error.",
+                "display": "OK",
+                "id": "0965fc5b-8b44-4b7b-aef0-1be8442e36bb"
+            },
+            {
+                "code": "transient-error",
+                "definition": "Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required.",
+                "display": "Transient Error",
+                "id": "4f5dfd78-2b34-4fb1-98b6-ab0351bf42f7"
+            },
+            {
+                "code": "fatal-error",
+                "definition": "The message was rejected because of some content in it. There is no point in re-sending without change. The response narrative SHALL describe the issue.",
+                "display": "Fatal Error",
+                "id": "ad956382-b4f8-4ad9-803f-9faa856d28fe"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

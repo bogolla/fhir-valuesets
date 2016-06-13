@@ -1,0 +1,4 @@
+export SECRET_KEY=de00842abffbee09f09e7b44b53b7d9abe0e28a090933169b69f750f9997a5e9cf78a3cd7a553e052fbb7614c62e1c968b634a59dec28df1916718d956b28fd7
+export DATABASE_URL={{valuesets_database_url}}
+export MIGRATIONS_PATH={{valuesets_venv_dir}}/lib/python3.5/site-packages/fhir_valuesets_server/server/migrations
+export STATIC_ROOT={{static_dir}}

@@ -1,0 +1,503 @@
+[
+    {
+        "model": "valuesets.Religiousaffiliation",
+        "records": [
+            {
+                "code": "1001",
+                "definition": "Adventist",
+                "display": "Adventist",
+                "id": "b1aabc7f-54d4-4a0c-8ae0-f8d999bf39d7"
+            },
+            {
+                "code": "1002",
+                "definition": "African Religions",
+                "display": "African Religions",
+                "id": "065ce226-b270-451a-a0f8-77d04aba9d1e"
+            },
+            {
+                "code": "1003",
+                "definition": "Afro-Caribbean Religions",
+                "display": "Afro-Caribbean Religions",
+                "id": "15ea00b8-ecf4-4ab5-8879-8078a9681856"
+            },
+            {
+                "code": "1004",
+                "definition": "Agnosticism",
+                "display": "Agnosticism",
+                "id": "35e780ef-f835-48b9-bc9b-71a53f28a39d"
+            },
+            {
+                "code": "1005",
+                "definition": "Anglican",
+                "display": "Anglican",
+                "id": "04512c6f-ddf6-42b0-8617-c2e50b575e4c"
+            },
+            {
+                "code": "1006",
+                "definition": "Animism",
+                "display": "Animism",
+                "id": "2d34ca56-20f3-48d0-9ccb-08245ba250e1"
+            },
+            {
+                "code": "1007",
+                "definition": "Atheism",
+                "display": "Atheism",
+                "id": "3b5e1aaf-ac34-47e0-a4ce-9340db5684bd"
+            },
+            {
+                "code": "1008",
+                "definition": "Babi & Baha'I faiths",
+                "display": "Babi & Baha'I faiths",
+                "id": "e00cb9bb-22b7-4586-8007-dceaf51be3ca"
+            },
+            {
+                "code": "1009",
+                "definition": "Baptist",
+                "display": "Baptist",
+                "id": "cff0f723-b3bf-4ed9-9901-75a98bc0a60f"
+            },
+            {
+                "code": "1010",
+                "definition": "Bon",
+                "display": "Bon",
+                "id": "97f38e89-47e7-450c-9111-d555619f1f8f"
+            },
+            {
+                "code": "1011",
+                "definition": "Cao Dai",
+                "display": "Cao Dai",
+                "id": "78bc6b52-0934-45d3-b3d0-23f47ae5beb0"
+            },
+            {
+                "code": "1012",
+                "definition": "Celticism",
+                "display": "Celticism",
+                "id": "49e2a647-f589-46f5-9917-f8a534084840"
+            },
+            {
+                "code": "1013",
+                "definition": "Christian (non-Catholic, non-specific)",
+                "display": "Christian (non-Catholic, non-specific)",
+                "id": "cea581d9-5a98-43ae-a931-542c94173374"
+            },
+            {
+                "code": "1014",
+                "definition": "Confucianism",
+                "display": "Confucianism",
+                "id": "c29ba829-c547-4f5f-ac77-02d0fb47832a"
+            },
+            {
+                "code": "1015",
+                "definition": "Cyberculture Religions",
+                "display": "Cyberculture Religions",
+                "id": "37137415-0c99-4a1f-9716-35985e304f17"
+            },
+            {
+                "code": "1016",
+                "definition": "Divination",
+                "display": "Divination",
+                "id": "72f4e99e-654d-453c-ac17-68570174bfd2"
+            },
+            {
+                "code": "1017",
+                "definition": "Fourth Way",
+                "display": "Fourth Way",
+                "id": "85010af5-7320-4811-93fc-ce777ba4ec89"
+            },
+            {
+                "code": "1018",
+                "definition": "Free Daism",
+                "display": "Free Daism",
+                "id": "b3ea81aa-29b4-439b-9f81-7e721ce4b9e3"
+            },
+            {
+                "code": "1019",
+                "definition": "Gnosis",
+                "display": "Gnosis",
+                "id": "b7366d13-4627-4b9b-94db-48d5e6082b58"
+            },
+            {
+                "code": "1020",
+                "definition": "Hinduism",
+                "display": "Hinduism",
+                "id": "78296058-922a-4831-b575-92f610771e83"
+            },
+            {
+                "code": "1021",
+                "definition": "Humanism",
+                "display": "Humanism",
+                "id": "b223d6f2-d019-4cd9-b686-87c660a66b6e"
+            },
+            {
+                "code": "1022",
+                "definition": "Independent",
+                "display": "Independent",
+                "id": "1ffff4ad-4b6a-440c-ac9c-59815c938ca9"
+            },
+            {
+                "code": "1023",
+                "definition": "Islam",
+                "display": "Islam",
+                "id": "ab11d3b3-188e-40c2-bd31-925dcaa0edab"
+            },
+            {
+                "code": "1024",
+                "definition": "Jainism",
+                "display": "Jainism",
+                "id": "4c29bb44-7832-4a1f-b7e8-644ccc6bfda6"
+            },
+            {
+                "code": "1025",
+                "definition": "Jehovah's Witnesses",
+                "display": "Jehovah's Witnesses",
+                "id": "85ec4e2e-62fa-41a7-be1c-28c6c44aa8d4"
+            },
+            {
+                "code": "1026",
+                "definition": "Judaism",
+                "display": "Judaism",
+                "id": "b92a795f-d61c-41b0-aed9-dfadbb079df1"
+            },
+            {
+                "code": "1027",
+                "definition": "Latter Day Saints",
+                "display": "Latter Day Saints",
+                "id": "aa7c2bba-4623-4723-b168-2fb4ba6f534f"
+            },
+            {
+                "code": "1028",
+                "definition": "Lutheran",
+                "display": "Lutheran",
+                "id": "f60c2fbc-1d33-490e-b53f-a4c53c533a25"
+            },
+            {
+                "code": "1029",
+                "definition": "Mahayana",
+                "display": "Mahayana",
+                "id": "d525774b-631b-46eb-a6f4-5e946fd47cb0"
+            },
+            {
+                "code": "1030",
+                "definition": "Meditation",
+                "display": "Meditation",
+                "id": "6c5c6547-d52c-47ce-aaf2-4a046e68e5d1"
+            },
+            {
+                "code": "1031",
+                "definition": "Messianic Judaism",
+                "display": "Messianic Judaism",
+                "id": "be478960-7ebe-46d8-963f-8e6b3e4c58f9"
+            },
+            {
+                "code": "1032",
+                "definition": "Mitraism",
+                "display": "Mitraism",
+                "id": "4390dacb-7f4a-4b74-9e85-fcc76e9e81a6"
+            },
+            {
+                "code": "1033",
+                "definition": "New Age",
+                "display": "New Age",
+                "id": "ffe38009-a908-41be-ac6c-771ff36a4d05"
+            },
+            {
+                "code": "1034",
+                "definition": "non-Roman Catholic",
+                "display": "non-Roman Catholic",
+                "id": "f8ca2338-c170-45ea-972a-29330ccddc3f"
+            },
+            {
+                "code": "1035",
+                "definition": "Occult",
+                "display": "Occult",
+                "id": "219cfb37-5bc6-452f-86bf-49dee8289412"
+            },
+            {
+                "code": "1036",
+                "definition": "Orthodox",
+                "display": "Orthodox",
+                "id": "7f01b768-928b-4497-83d0-0cf74e3aa95c"
+            },
+            {
+                "code": "1037",
+                "definition": "Paganism",
+                "display": "Paganism",
+                "id": "560c8592-076a-436f-bcdb-4f211c73a6b8"
+            },
+            {
+                "code": "1038",
+                "definition": "Pentecostal",
+                "display": "Pentecostal",
+                "id": "da1fabab-fe8e-44d0-b9a8-256e8e3d9fc7"
+            },
+            {
+                "code": "1039",
+                "definition": "Process, The",
+                "display": "Process, The",
+                "id": "8efe774d-7767-4474-a4f3-b1cb25e613a8"
+            },
+            {
+                "code": "1040",
+                "definition": "Reformed/Presbyterian",
+                "display": "Reformed/Presbyterian",
+                "id": "29711589-d4a6-4a15-8f3d-e3b0d11007d6"
+            },
+            {
+                "code": "1041",
+                "definition": "Roman Catholic Church",
+                "display": "Roman Catholic Church",
+                "id": "e0ba5753-51f1-4ab9-9a95-0b21b7ab4af4"
+            },
+            {
+                "code": "1042",
+                "definition": "Satanism",
+                "display": "Satanism",
+                "id": "5c7ef8b7-9c37-486e-9cbd-4c798970e3e4"
+            },
+            {
+                "code": "1043",
+                "definition": "Scientology",
+                "display": "Scientology",
+                "id": "651cd059-ba06-4d68-a680-2c351aa57051"
+            },
+            {
+                "code": "1044",
+                "definition": "Shamanism",
+                "display": "Shamanism",
+                "id": "8d844393-8110-4af5-aafe-c8cc97a47d2b"
+            },
+            {
+                "code": "1045",
+                "definition": "Shiite (Islam)",
+                "display": "Shiite (Islam)",
+                "id": "5b0f9573-d324-497d-a2c3-d130d4191ac5"
+            },
+            {
+                "code": "1046",
+                "definition": "Shinto",
+                "display": "Shinto",
+                "id": "81549a7a-f6d2-4f2f-83de-89a22d5417bd"
+            },
+            {
+                "code": "1047",
+                "definition": "Sikism",
+                "display": "Sikism",
+                "id": "0c000914-94ad-4f78-b074-0f65dfd6cf51"
+            },
+            {
+                "code": "1048",
+                "definition": "Spiritualism",
+                "display": "Spiritualism",
+                "id": "7e87d715-77f1-40fd-851e-3668fc50747e"
+            },
+            {
+                "code": "1049",
+                "definition": "Sunni (Islam)",
+                "display": "Sunni (Islam)",
+                "id": "7886e6be-88df-4a83-a8df-20206261af9d"
+            },
+            {
+                "code": "1050",
+                "definition": "Taoism",
+                "display": "Taoism",
+                "id": "ab47484e-dcff-4ef7-822f-cdb72160f767"
+            },
+            {
+                "code": "1051",
+                "definition": "Theravada",
+                "display": "Theravada",
+                "id": "921d496a-7833-4aeb-9251-7dd2946b8416"
+            },
+            {
+                "code": "1052",
+                "definition": "Unitarian-Universalism",
+                "display": "Unitarian-Universalism",
+                "id": "8587c2f3-eb13-4f60-8bee-182815ff05c5"
+            },
+            {
+                "code": "1053",
+                "definition": "Universal Life Church",
+                "display": "Universal Life Church",
+                "id": "0b34fe4a-db03-4913-a7d2-2f311643995e"
+            },
+            {
+                "code": "1054",
+                "definition": "Vajrayana (Tibetan)",
+                "display": "Vajrayana (Tibetan)",
+                "id": "09bea367-6116-4c89-92e7-4ffdca60fe84"
+            },
+            {
+                "code": "1055",
+                "definition": "Veda",
+                "display": "Veda",
+                "id": "361e73f0-126a-4313-86ae-c06b99269826"
+            },
+            {
+                "code": "1056",
+                "definition": "Voodoo",
+                "display": "Voodoo",
+                "id": "3d576909-32ef-44fb-86cd-3c1cdb4dcf51"
+            },
+            {
+                "code": "1057",
+                "definition": "Wicca",
+                "display": "Wicca",
+                "id": "60241879-75c6-4270-ade7-f16b25ad33fa"
+            },
+            {
+                "code": "1058",
+                "definition": "Yaohushua",
+                "display": "Yaohushua",
+                "id": "9cdfe546-9174-4431-bf14-94d4799e77df"
+            },
+            {
+                "code": "1059",
+                "definition": "Zen Buddhism",
+                "display": "Zen Buddhism",
+                "id": "521429a8-b95b-4ae5-a8ed-4e0a8899dcff"
+            },
+            {
+                "code": "1060",
+                "definition": "Zoroastrianism",
+                "display": "Zoroastrianism",
+                "id": "ad7aa607-23f2-4507-b6db-df7365dbd814"
+            },
+            {
+                "code": "1061",
+                "definition": "Assembly of God",
+                "display": "Assembly of God",
+                "id": "c4de52e1-1629-4fec-9260-3c8e502eb041"
+            },
+            {
+                "code": "1062",
+                "definition": "Brethren",
+                "display": "Brethren",
+                "id": "cffa8c87-d2b4-4848-a1ea-4f9a1ca7c468"
+            },
+            {
+                "code": "1063",
+                "definition": "Christian Scientist",
+                "display": "Christian Scientist",
+                "id": "9eff8882-ef6c-4786-a894-b973668d391d"
+            },
+            {
+                "code": "1064",
+                "definition": "Church of Christ",
+                "display": "Church of Christ",
+                "id": "9eba703f-33e8-49b4-a5e1-6ea277826a0f"
+            },
+            {
+                "code": "1065",
+                "definition": "Church of God",
+                "display": "Church of God",
+                "id": "385016d3-204d-4e4c-b3b5-ebd5c7a377dc"
+            },
+            {
+                "code": "1066",
+                "definition": "Congregational",
+                "display": "Congregational",
+                "id": "a319b5b5-0cc2-4546-be73-af89bf172efb"
+            },
+            {
+                "code": "1067",
+                "definition": "Disciples of Christ",
+                "display": "Disciples of Christ",
+                "id": "3209d592-0a7a-4a86-a15a-0f5ede488bce"
+            },
+            {
+                "code": "1068",
+                "definition": "Eastern Orthodox",
+                "display": "Eastern Orthodox",
+                "id": "b9838642-9ed3-42ef-9f06-7ad31b833193"
+            },
+            {
+                "code": "1069",
+                "definition": "Episcopalian",
+                "display": "Episcopalian",
+                "id": "956d3a70-d180-4d37-ab83-27a4525fb994"
+            },
+            {
+                "code": "1070",
+                "definition": "Evangelical Covenant",
+                "display": "Evangelical Covenant",
+                "id": "b20c95dd-b41b-40d1-ac2a-daab3ba433af"
+            },
+            {
+                "code": "1071",
+                "definition": "Friends",
+                "display": "Friends",
+                "id": "2f60d71e-54f8-4563-9a3d-d6643659270e"
+            },
+            {
+                "code": "1072",
+                "definition": "Full Gospel",
+                "display": "Full Gospel",
+                "id": "71078919-65d8-4a49-8e61-737456929a15"
+            },
+            {
+                "code": "1073",
+                "definition": "Methodist",
+                "display": "Methodist",
+                "id": "01ded287-a879-4b28-ab20-b54bc3350d7d"
+            },
+            {
+                "code": "1074",
+                "definition": "Native American",
+                "display": "Native American",
+                "id": "ce6f4619-2387-4f54-b857-763273f2c8c0"
+            },
+            {
+                "code": "1075",
+                "definition": "Nazarene",
+                "display": "Nazarene",
+                "id": "bfb7c92b-464a-4eaa-8595-d343489128da"
+            },
+            {
+                "code": "1076",
+                "definition": "Presbyterian",
+                "display": "Presbyterian",
+                "id": "6eca688b-cd72-47be-8d97-a88399b0af93"
+            },
+            {
+                "code": "1077",
+                "definition": "Protestant",
+                "display": "Protestant",
+                "id": "e111c9db-ca7a-42e0-a4fa-a57aba70bcde"
+            },
+            {
+                "code": "1078",
+                "definition": "Protestant, No Denomination",
+                "display": "Protestant, No Denomination",
+                "id": "77ef3765-8066-496d-86c0-f114d92918ca"
+            },
+            {
+                "code": "1079",
+                "definition": "Reformed",
+                "display": "Reformed",
+                "id": "98386719-6771-4548-9285-d1aba127c30b"
+            },
+            {
+                "code": "1080",
+                "definition": "Salvation Army",
+                "display": "Salvation Army",
+                "id": "a34f9496-583d-4482-b79c-7509a2d0014c"
+            },
+            {
+                "code": "1081",
+                "definition": "Unitarian Universalist",
+                "display": "Unitarian Universalist",
+                "id": "287db87d-74f7-4ef2-9d9c-fe68ae83bb1d"
+            },
+            {
+                "code": "1082",
+                "definition": "United Church of Christ",
+                "display": "United Church of Christ",
+                "id": "3465a862-2da3-4634-84b3-65d6412c0d16"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

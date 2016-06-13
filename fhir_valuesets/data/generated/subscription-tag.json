@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.SubscriptionTag",
+        "records": [
+            {
+                "code": "queued",
+                "definition": "The message has been queued for processing on a destination systems.",
+                "display": "Queued",
+                "id": "6fb000f3-a7f6-4f6f-86bd-3ce8fefa640b"
+            },
+            {
+                "code": "delivered",
+                "definition": "The message has been delivered to its intended recipient.",
+                "display": "Delivered",
+                "id": "22305575-6f26-4a19-af66-a9a7afee5bb2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

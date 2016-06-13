@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.PropertyRepresentation",
+        "records": [
+            {
+                "code": "xmlAttr",
+                "definition": "In XML, this property is represented as an attribute not an element.",
+                "display": "XML Attribute",
+                "id": "af70218a-33b9-4363-a21e-9c65675905ce"
+            },
+            {
+                "code": "xmlText",
+                "definition": "This element is represented using the XML text attribute (primitives only)",
+                "display": "XML Text",
+                "id": "f0529a2f-77ca-48a2-97b4-7d32d8ffdfb5"
+            },
+            {
+                "code": "typeAttr",
+                "definition": "The type of this element is indicated using xsi:type",
+                "display": "Type Attribute",
+                "id": "c1dfa9b6-cfd8-4098-a3d7-1b034c576556"
+            },
+            {
+                "code": "cdaText",
+                "definition": "Use CDA narrative instead of XHTML",
+                "display": "CDA Text Format",
+                "id": "d4967cd8-c97f-45db-9eee-3ca4d5608384"
+            },
+            {
+                "code": "xhtml",
+                "definition": "The property is represented using XHTML",
+                "display": "XHTML",
+                "id": "e6e90d87-3940-4282-a436-d32065792f87"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

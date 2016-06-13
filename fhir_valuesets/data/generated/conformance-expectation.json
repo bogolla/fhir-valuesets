@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ConformanceExpectation",
+        "records": [
+            {
+                "code": "SHALL",
+                "definition": "Support for the specified capability is required to be considered conformant.",
+                "display": "SHALL",
+                "id": "631a1c30-7b35-4768-9fba-0ef473995ca2"
+            },
+            {
+                "code": "SHOULD",
+                "definition": "Support for the specified capability is strongly encouraged and failure to support it should only occur after careful consideration.",
+                "display": "SHOULD",
+                "id": "8e24936f-7a90-4d05-ac76-b2324a0dab61"
+            },
+            {
+                "code": "MAY",
+                "definition": "Support for the specified capability is not necessary to be considered conformant and the requirement should be considered strictly optional.",
+                "display": "MAY",
+                "id": "959930a0-fc88-4eab-8e29-fbdba39719ae"
+            },
+            {
+                "code": "SHOULD-NOT",
+                "definition": "Support for the specified capability is strongly discouraged and should occur only after careful consideration.",
+                "display": "SHOULD-NOT",
+                "id": "a45cf188-1354-4a23-98cd-7cedac36ba8e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

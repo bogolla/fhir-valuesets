@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ProtocolStatus",
+        "records": [
+            {
+                "code": "draft",
+                "definition": "This protocol is still under development",
+                "display": "Draft",
+                "id": "96fa477e-b6ec-43f7-bfd6-ab54603aab98"
+            },
+            {
+                "code": "testing",
+                "definition": "This protocol was authored for testing purposes (or education/evaluation/marketing)",
+                "display": "Testing",
+                "id": "508400cc-4c78-475a-bf5e-31e47fb20ed9"
+            },
+            {
+                "code": "review",
+                "definition": "This protocol is undergoing review to check that it is ready for production use",
+                "display": "Review",
+                "id": "13004274-1027-431e-a49a-638ef50f97d5"
+            },
+            {
+                "code": "active",
+                "definition": "This protocol is ready for use in production systems",
+                "display": "Active",
+                "id": "908d55ec-12cb-4618-aaae-2f53d887a6d2"
+            },
+            {
+                "code": "withdrawn",
+                "definition": "This protocol has been withdrawn and should no longer be used",
+                "display": "Withdrawn",
+                "id": "3c6a6acd-01b7-42e3-8cb7-f3d622d661ce"
+            },
+            {
+                "code": "superseded",
+                "definition": "This protocol has been replaced and a different protocol should be used in its place",
+                "display": "Superseded",
+                "id": "1298e6e5-9890-400b-8a21-075ad81f4665"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

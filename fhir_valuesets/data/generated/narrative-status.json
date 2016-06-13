@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.NarrativeStatus",
+        "records": [
+            {
+                "code": "generated",
+                "definition": "The contents of the narrative are entirely generated from the structured data in the content.",
+                "display": "Generated",
+                "id": "f8a3ed6e-50bd-4414-ad08-33676b75fcfe"
+            },
+            {
+                "code": "extensions",
+                "definition": "The contents of the narrative are entirely generated from the structured data in the content and some of the content is generated from extensions",
+                "display": "Extensions",
+                "id": "76e70e6c-af8d-4652-83f1-37c6e0147289"
+            },
+            {
+                "code": "additional",
+                "definition": "The contents of the narrative contain additional information not found in the structured data",
+                "display": "Additional",
+                "id": "f9f87aef-21db-4775-804b-e899f97cbf78"
+            },
+            {
+                "code": "empty",
+                "definition": "The contents of the narrative are some equivalent of \"No human-readable text provided in this case\"",
+                "display": "Empty",
+                "id": "5167a3e3-dcc2-4cac-803b-517574c1f3c6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

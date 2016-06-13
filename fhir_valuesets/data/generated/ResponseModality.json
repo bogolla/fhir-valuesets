@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Responsemodality",
+        "records": [
+            {
+                "code": "B",
+                "definition": "Query response to be sent as an HL7 Batch.",
+                "display": "Batch",
+                "id": "70c29ad3-ef03-40bf-a0f8-5226c3e8d32e"
+            },
+            {
+                "code": "R",
+                "definition": "Query response to occur in real time.",
+                "display": "Real Time",
+                "id": "bf446306-4a37-4cd5-9e45-819d874beea4"
+            },
+            {
+                "code": "T",
+                "definition": "Query response to sent as a series of responses at the same time without the use of batch formatting.",
+                "display": "Bolus",
+                "id": "cc26c0fc-b6f9-4b70-9804-452178d12e1d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ClinicalImpressionStatus",
+        "records": [
+            {
+                "code": "in-progress",
+                "definition": "The assessment is still on-going and results are not yet final.",
+                "display": "In progress",
+                "id": "0dc8f1e1-bc83-4bb9-9db5-5c826df61f11"
+            },
+            {
+                "code": "completed",
+                "definition": "The assessment is done and the results are final.",
+                "display": "Completed",
+                "id": "6f147744-698d-49ed-bab4-7b39db97c6a8"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "This assessment was never actually done and the record is erroneous (e.g. Wrong patient).",
+                "display": "Entered in Error",
+                "id": "f9cebf4a-18dd-43a5-a2e0-d8f8456862a9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

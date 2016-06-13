@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Calendarcycle",
+        "records": [
+            {
+                "code": "_CalendarCycleOneLetter",
+                "definition": "CalendarCycleOneLetter",
+                "display": "CalendarCycleOneLetter",
+                "id": "bd126816-edcb-440b-af8b-49bdd8af7099"
+            },
+            {
+                "code": "_CalendarCycleTwoLetter",
+                "definition": "CalendarCycleTwoLetter",
+                "display": "CalendarCycleTwoLetter",
+                "id": "c83a700d-7b90-454d-ac53-ff22658926a6"
+            },
+            {
+                "code": "WM",
+                "definition": "The week with the month's first Thursday in it (analagous to the ISO 8601 definition for week of the year).",
+                "display": "week of the month",
+                "id": "bc6c3b1d-86df-4694-8b01-f711d713f62e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

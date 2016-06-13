@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.MessageTransport",
+        "records": [
+            {
+                "code": "http",
+                "definition": "The application sends or receives messages using HTTP POST (may be over http: or https:).",
+                "display": "HTTP",
+                "id": "7cf6546a-167f-4e39-b510-4aa4260b28d5"
+            },
+            {
+                "code": "ftp",
+                "definition": "The application sends or receives messages using File Transfer Protocol.",
+                "display": "FTP",
+                "id": "f55cff8d-313f-4071-a67c-5819b62d696d"
+            },
+            {
+                "code": "mllp",
+                "definition": "The application sends or receives messages using HL7's Minimal Lower Level Protocol.",
+                "display": "MLLP",
+                "id": "8136efcd-ee05-48b5-8c32-c9e74c8b85c5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

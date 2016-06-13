@@ -1,0 +1,119 @@
+[
+    {
+        "model": "valuesets.Entityhandling",
+        "records": [
+            {
+                "code": "AMB",
+                "definition": "Keep at ambient temperature, 22 +/- 2C",
+                "display": "Ambient Temperature",
+                "id": "3932971a-4ee2-49fe-8d47-a970d851e260"
+            },
+            {
+                "code": "C37",
+                "definition": "Critical to keep at body temperature 36-38C",
+                "display": "Body Temperature",
+                "id": "562bf7d1-a197-4353-8f5b-cc60b2d271ef"
+            },
+            {
+                "code": "CAMB",
+                "definition": "Critical ambient - must not be refrigerated or frozen.",
+                "display": "Critical Ambient temperature",
+                "id": "26d9bdd9-5b65-4718-9e2b-9cedc597670d"
+            },
+            {
+                "code": "CATM",
+                "definition": "Critical. Do not expose to atmosphere.  Do not uncap.",
+                "display": "Protect from Air",
+                "id": "1c0d1142-8b18-420c-a4da-3e82c371cd69"
+            },
+            {
+                "code": "CFRZ",
+                "definition": "Critical frozen. Specimen must not be allowed to thaw until immediately prior to testing.",
+                "display": "Critical frozen",
+                "id": "cf1e08fb-0f39-4c67-9c4e-1ad2f647e990"
+            },
+            {
+                "code": "CREF",
+                "definition": "Critical refrigerated - must not be allowed to freeze or warm until imediately prior to testing.",
+                "display": "Critical refrigerated temperature",
+                "id": "7bd78e64-0f9b-4519-923a-08d9544a7b19"
+            },
+            {
+                "code": "DFRZ",
+                "definition": "Deep Frozen -16 to -20C.",
+                "display": "Deep Frozen",
+                "id": "f96dda3e-1932-43c0-bebe-cb5410ff0e16"
+            },
+            {
+                "code": "DRY",
+                "definition": "Keep in a dry environment",
+                "display": "dry",
+                "id": "8b02d959-18db-4320-a881-991e2d758d37"
+            },
+            {
+                "code": "FRZ",
+                "definition": "Keep frozen below 0 ?C",
+                "display": "frozen",
+                "id": "48bb5bd4-0a57-44eb-87d1-b245f044a75b"
+            },
+            {
+                "code": "MTLF",
+                "definition": "Container is free of heavy metals, including lead.",
+                "display": "Metal Free",
+                "id": "4ea15829-e82f-47c7-8cd8-f0ad95513701"
+            },
+            {
+                "code": "NTR",
+                "definition": "Keep in liquid nitrogen",
+                "display": "nitrogen",
+                "id": "616979c2-aefd-4381-83cd-c37b71120687"
+            },
+            {
+                "code": "PRTL",
+                "definition": "Protect from light (eg. Wrap in aluminum foil).",
+                "display": "Protect from Light",
+                "id": "f769b34e-5998-40a3-9775-6f3f60817c12"
+            },
+            {
+                "code": "PSA",
+                "definition": "Do not shake",
+                "display": "do not shake",
+                "id": "06a13dd6-d315-4b85-bbc0-35ba79f8319f"
+            },
+            {
+                "code": "PSO",
+                "definition": "Protect against shock",
+                "display": "no shock",
+                "id": "7c99fa4b-d72d-465a-b599-63a937b82431"
+            },
+            {
+                "code": "REF",
+                "definition": "Keep at refrigerated temperature:4-8C Accidental warming or freezing is of little consequence.",
+                "display": "Refrigerated temperature",
+                "id": "88db88a5-98d5-4801-8095-57a1f1673dd0"
+            },
+            {
+                "code": "SBU",
+                "definition": "Shake thoroughly before using",
+                "display": "Shake before use",
+                "id": "a967208e-0b49-4f1e-b360-5873931693d0"
+            },
+            {
+                "code": "UFRZ",
+                "definition": "Ultra cold frozen -75 to -85C.  Ultra cold freezer is typically at temperature of dry ice.",
+                "display": "Ultra frozen",
+                "id": "dbe07a0e-8ffb-4ebc-a405-8bfbe0895b8e"
+            },
+            {
+                "code": "UPR",
+                "definition": "Keep upright, do not turn upside down",
+                "display": "upright",
+                "id": "6df64e5c-06ef-487d-a111-7146e33427c4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

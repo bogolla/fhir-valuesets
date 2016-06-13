@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Contentprocessingmode",
+        "records": [
+            {
+                "code": "SEQL",
+                "definition": "Description:The content should be processed in a sequential fashion.",
+                "display": "Sequential",
+                "id": "4d0063b4-31f1-41fe-bf58-6df62c077583"
+            },
+            {
+                "code": "UNOR",
+                "definition": "Description:The content may be processed in any order.",
+                "display": "Unordered",
+                "id": "404e9f8b-82c1-482a-b000-002b9b9da2f9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Identifierscope",
+        "records": [
+            {
+                "code": "BUSN",
+                "definition": "Description: An identifier whose scope is defined by the business practices associated with the object. In contrast to the other scope identifiers, the scope of the use of the id is not necessarily restricted to a single object, but may be reused for other objects closely associated with the object due to business practice.",
+                "display": "Business Identifier",
+                "id": "676b8b45-f00c-45d0-8cad-69241d37116f"
+            },
+            {
+                "code": "OBJ",
+                "definition": "Description: The identifier associated with a particular object. It remains consistent as the object undergoes state transitions.",
+                "display": "Object Identifier",
+                "id": "cfce5742-a469-43cf-9bd3-f9c1d8e20c1e"
+            },
+            {
+                "code": "VER",
+                "definition": "Description: An identifier that references a particular object as it existed at a given point in time. The identifier SHALL change with each state transition on the object. I.e. The version identifier of an object prior to a 'suspend' state transition is distinct from the identifier of the object after the state transition. Each version identifier can be tied to exactly one ControlAct event which brought that version into being (though the control act may never be instantiated).\r\n\n                        \n                            NOTE: Applications that do not support versioning of objects must ignore and not persist these ids to avoid confusion resulting from leaving the same identifier on an object that undergoes changes.",
+                "display": "Version Identifier",
+                "id": "d5c4a3f4-d176-4a5c-9b65-271dba325cc1"
+            },
+            {
+                "code": "VW",
+                "definition": "Description: An identifier that references a particular object as it existed at a given point in time. The identifier SHALL change with each state transition on the object.\r\n\n                        \n                           Example The version identifier of an object prior to a 'suspend' state transition is distinct from the identifier of the object after the state transition. Each version identifier can be tied to exactly one ControlAct event which brought that version into being (though the control act may never be instantiated).\r\n\n                        \n                            NOTE: Applications that do not support versioning of objects must ignore and not persist these ids to avoid confusion resulting from leaving the same identifier on an object that undergoes changes.",
+                "display": "View Specific Identifier",
+                "id": "aacb7e8a-9ffc-4ebf-b049-a064bdf991e8"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

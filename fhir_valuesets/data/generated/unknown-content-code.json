@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.UnknownContentCode",
+        "records": [
+            {
+                "code": "no",
+                "definition": "The application does not accept either unknown elements or extensions.",
+                "display": "Neither Elements or Extensions",
+                "id": "231e9418-110c-46f5-9cb3-1325e89d5840"
+            },
+            {
+                "code": "extensions",
+                "definition": "The application accepts unknown extensions, but not unknown elements.",
+                "display": "Unknown Extensions",
+                "id": "7d4ca080-fff0-4d20-869a-1a2593bacbef"
+            },
+            {
+                "code": "elements",
+                "definition": "The application accepts unknown elements, but not unknown extensions.",
+                "display": "Unknown Elements",
+                "id": "9c6b3f04-1e9d-4885-8213-91c8d9fbecd9"
+            },
+            {
+                "code": "both",
+                "definition": "The application accepts unknown elements and extensions.",
+                "display": "Unknown Elements and Extensions",
+                "id": "fefa05d9-7e3a-4fdb-afd2-bf58262b522d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

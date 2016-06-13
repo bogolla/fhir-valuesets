@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.CdsRuleTriggerType",
+        "records": [
+            {
+                "code": "named-event",
+                "definition": "The trigger occurs in response to a specific named event",
+                "display": "Named Event",
+                "id": "2e3a711a-ae5b-490a-8bfb-14a0ddcefbc1"
+            },
+            {
+                "code": "periodic",
+                "definition": "The trigger occurs at a specific time or periodically as described by a timing or schedule",
+                "display": "Periodic",
+                "id": "4fa48e5e-80b7-47fe-8f39-64fe81fb6c9a"
+            },
+            {
+                "code": "data-added",
+                "definition": "The trigger occurs whenever data of a particular type is added",
+                "display": "Data Added",
+                "id": "02efad9c-97b2-4265-9f94-48c647ca33f4"
+            },
+            {
+                "code": "data-modified",
+                "definition": "The trigger occurs whenever data of a particular type is modified",
+                "display": "Data Modified",
+                "id": "f000c2cf-e0d2-4022-a4c0-226609980f6a"
+            },
+            {
+                "code": "data-removed",
+                "definition": "The trigger occurs whenever data of a particular type is removed",
+                "display": "Data Removed",
+                "id": "207d7457-e4ec-4342-9c65-9706c71b69e5"
+            },
+            {
+                "code": "data-accessed",
+                "definition": "The trigger occurs whenever data of a particular type is accessed",
+                "display": "Data Accessed",
+                "id": "a817efb9-2cb8-4e5b-998a-d8dc8ffea8b5"
+            },
+            {
+                "code": "data-access-ended",
+                "definition": "The trigger occurs whenever access to data of a particular type is completed",
+                "display": "Data Access Ended",
+                "id": "7d1540d7-fc9e-43e5-805c-87ef15b264f9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

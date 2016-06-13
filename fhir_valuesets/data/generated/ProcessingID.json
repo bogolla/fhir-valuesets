@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Processingid",
+        "records": [
+            {
+                "code": "D",
+                "definition": "Identifies debugging type of processing.",
+                "display": "Debugging",
+                "id": "6efa1c5b-c350-4d30-bc73-c5b76e683d06"
+            },
+            {
+                "code": "P",
+                "definition": "Identifies production type of processing.",
+                "display": "Production",
+                "id": "010f8d65-1223-49e3-b8da-f0dd1ed00625"
+            },
+            {
+                "code": "T",
+                "definition": "Identifies training type of processing.",
+                "display": "Training",
+                "id": "b67a0310-8aff-4b00-befa-5a8645914a88"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

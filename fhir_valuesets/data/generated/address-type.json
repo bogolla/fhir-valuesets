@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.AddressType",
+        "records": [
+            {
+                "code": "postal",
+                "definition": "Mailing addresses - PO Boxes and care-of addresses.",
+                "display": "Postal",
+                "id": "c8d75143-1ab5-4697-b499-197c6565d1fb"
+            },
+            {
+                "code": "physical",
+                "definition": "A physical address that can be visited.",
+                "display": "Physical",
+                "id": "022d176e-feb3-4baa-bff3-8b3d4668e6a7"
+            },
+            {
+                "code": "both",
+                "definition": "An address that is both physical and postal.",
+                "display": "Postal & Physical",
+                "id": "5efc664c-f0ce-435a-a03a-67750b928110"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

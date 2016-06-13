@@ -1,0 +1,83 @@
+[
+    {
+        "model": "valuesets.ExDiagnosistype",
+        "records": [
+            {
+                "code": "admitting",
+                "definition": "The diagnosis given as the reason why the patient was admitted to the hospital.",
+                "display": "Admitting Diagnosis",
+                "id": "271991df-39e9-4560-ae76-18336693a57c"
+            },
+            {
+                "code": "clinical",
+                "definition": "A diagnosis made on the basis of medical signs and patient-reported symptoms, rather than diagnostic tests.",
+                "display": "Clinical Diagnosis",
+                "id": "c800f609-a4bb-462b-939e-f5f70753d11d"
+            },
+            {
+                "code": "differential",
+                "definition": "One of a set of the possible diagnoses that could be connected to the signs, symptoms, and lab findings.",
+                "display": "Differential Diagnosis",
+                "id": "f7f1a8f1-1737-4970-86f1-1c9cf770b588"
+            },
+            {
+                "code": "discharge",
+                "definition": "The diagnosis given when the patient is discharged from the hospital.",
+                "display": "Discharge Diagnosis",
+                "id": "6c5d7a42-57c2-413a-bc7b-f4e020010c95"
+            },
+            {
+                "code": "laboratory",
+                "definition": "A diagnosis based significantly on laboratory reports or test results, rather than the physical examination of the patient.",
+                "display": "Laboratory Diagnosis",
+                "id": "188041cf-067d-4b1a-bb87-25f2e392d73c"
+            },
+            {
+                "code": "nursing",
+                "definition": "A diagnosis which identifies people's responses to situations in their lives, such as a readiness to change or a willingness to accept assistance.",
+                "display": "Nursing Diagnosis",
+                "id": "5a4053e6-85af-4046-a0be-bbc7946bf49e"
+            },
+            {
+                "code": "prenatal",
+                "definition": "A diagnosis determined prior to birth.",
+                "display": "Prenatal Diagnosis",
+                "id": "719e6faf-a445-4b07-9639-b8e6148ecba9"
+            },
+            {
+                "code": "principal",
+                "definition": "The single medical diagnosis that is most relevant to the patient's chief complaint or need for treatment.",
+                "display": "Principal Diagnosis",
+                "id": "05814cab-ee7b-4458-8fb1-1665d65075ce"
+            },
+            {
+                "code": "radiology",
+                "definition": "A diagnosis based primarily on the results from medical imaging studies.",
+                "display": "Radiology Diagnosis",
+                "id": "013df2e7-7963-4aa0-8a16-400141e2af83"
+            },
+            {
+                "code": "remote",
+                "definition": "A diagnosis determined using telemedicine techniques.",
+                "display": "Remote Diagnosis",
+                "id": "dfb2cc7b-651f-470c-8516-30cf762603c7"
+            },
+            {
+                "code": "retrospective",
+                "definition": "The labeling of an illness in a specific historical event using modern knowledge, methods and disease classifications.",
+                "display": "Retrospective Diagnosis",
+                "id": "b3ad6e41-97e3-41c3-b8af-6962241114c2"
+            },
+            {
+                "code": "self",
+                "definition": "A diagnosis determined by the patient.",
+                "display": "Self Diagnosis",
+                "id": "b7baf84d-8627-4c7e-90e4-192ca1a76247"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

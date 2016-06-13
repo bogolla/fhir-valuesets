@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ProcessOutcome",
+        "records": [
+            {
+                "code": "complete",
+                "definition": null,
+                "display": null,
+                "id": "63120da1-5e05-4c3d-8689-37f70fbdb5c7"
+            },
+            {
+                "code": "pended",
+                "definition": null,
+                "display": null,
+                "id": "09c1ae1e-f5bd-4a9b-82dc-9bfa1f33ae6d"
+            },
+            {
+                "code": "error",
+                "definition": null,
+                "display": null,
+                "id": "93fc2466-bd5e-4d96-896b-822bdc6a4a20"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

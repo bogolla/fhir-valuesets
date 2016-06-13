@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.Codingrationale",
+        "records": [
+            {
+                "code": "O",
+                "definition": "Description: Originally produced code.",
+                "display": "originally produced code",
+                "id": "7c8b45bb-4dbe-470d-a7a2-6628544ad7c6"
+            },
+            {
+                "code": "OR",
+                "definition": "Originally produced code, required by the specification describing the use of the coded concept.",
+                "display": "original and required",
+                "id": "deca50d9-fc14-4b19-bfb6-d7436605c6bd"
+            },
+            {
+                "code": "P",
+                "definition": "Description: Post-coded from free text source</description>",
+                "display": "post-coded",
+                "id": "2afb7dca-8165-404c-8d4e-0a304c5795c4"
+            },
+            {
+                "code": "PR",
+                "definition": "Post-coded from free text source, required by the specification describing the use of the coded concept.",
+                "display": "post-coded and required",
+                "id": "5a937142-7076-42bd-97e9-9b821b0af7c6"
+            },
+            {
+                "code": "R",
+                "definition": "Description: Required standard code for HL7.",
+                "display": "required",
+                "id": "a6973116-e223-468c-a508-facfcc284755"
+            },
+            {
+                "code": "HL7",
+                "definition": "HL7 Specified or Mandated",
+                "display": "HL7 Specified or Mandated",
+                "id": "fa1d3041-bdf4-425d-b441-66c71883c78e"
+            },
+            {
+                "code": "SH",
+                "definition": "Both HL7 mandated and the original code (precoordination)",
+                "display": "Both HL7 mandated and the original code",
+                "id": "2fdc98e7-f3de-471d-a822-4f8fda6b231a"
+            },
+            {
+                "code": "SRC",
+                "definition": "Source (or original) code",
+                "display": "Source (or original) code",
+                "id": "8e3d1046-49a9-423d-98a5-54d2a8680f64"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

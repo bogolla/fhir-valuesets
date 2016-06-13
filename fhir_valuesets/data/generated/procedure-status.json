@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ProcedureStatus",
+        "records": [
+            {
+                "code": "in-progress",
+                "definition": "The procedure is still occurring.",
+                "display": "In Progress",
+                "id": "a663262e-c486-43e4-a38a-8ac73868ffca"
+            },
+            {
+                "code": "aborted",
+                "definition": "The procedure was terminated without completing successfully.",
+                "display": "Aboted",
+                "id": "1bc49aaf-5826-42a0-8731-af6c88f7a663"
+            },
+            {
+                "code": "completed",
+                "definition": "All actions involved in the procedure have taken place.",
+                "display": "Completed",
+                "id": "1f8e80e9-1d25-4a02-a507-3f5e7ba283a5"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The statement was entered in error and Is not valid.",
+                "display": "Entered in Error",
+                "id": "86ed0507-39a6-4c17-acb0-e178ec307417"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

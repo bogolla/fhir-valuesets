@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.CommunicationStatus",
+        "records": [
+            {
+                "code": "in-progress",
+                "definition": "The communication transmission is ongoing.",
+                "display": "In Progress",
+                "id": "075396c2-beaa-4ab5-82a0-a029871afb66"
+            },
+            {
+                "code": "completed",
+                "definition": "The message transmission is complete, i.e., delivered to the recipient's destination.",
+                "display": "Completed",
+                "id": "39bbf29a-1e4c-42c1-b618-3b9250491029"
+            },
+            {
+                "code": "suspended",
+                "definition": "The communication transmission has been held by originating system/user request.",
+                "display": "Suspended",
+                "id": "57132643-057e-4a96-b365-2699d1f0433a"
+            },
+            {
+                "code": "rejected",
+                "definition": "The receiving system has declined to accept the message.",
+                "display": "Rejected",
+                "id": "bd4c9209-bf37-465b-a692-5fc245f27ef4"
+            },
+            {
+                "code": "failed",
+                "definition": "There was a failure in transmitting the message out.",
+                "display": "Failed",
+                "id": "a61543d3-4d9f-4a7a-bf36-c77a89e7c929"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

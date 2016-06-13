@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.GroupType",
+        "records": [
+            {
+                "code": "person",
+                "definition": "Group contains \"person\" Patient resources",
+                "display": "Person",
+                "id": "1057562b-c1ed-41fc-864c-0eaaceac5b8e"
+            },
+            {
+                "code": "animal",
+                "definition": "Group contains \"animal\" Patient resources",
+                "display": "Animal",
+                "id": "3230e8b1-bbbe-4bb2-8c3c-f56bc0a2d38a"
+            },
+            {
+                "code": "practitioner",
+                "definition": "Group contains healthcare practitioner resources",
+                "display": "Practitioner",
+                "id": "36bdb8ff-aeb7-4bea-b5a3-ac8937515b5b"
+            },
+            {
+                "code": "device",
+                "definition": "Group contains Device resources",
+                "display": "Device",
+                "id": "0645d0b8-89ec-46dc-9546-35368ddcfc9e"
+            },
+            {
+                "code": "medication",
+                "definition": "Group contains Medication resources",
+                "display": "Medication",
+                "id": "5a153b99-7477-47a6-b552-fcc8238bc79c"
+            },
+            {
+                "code": "substance",
+                "definition": "Group contains Substance resources",
+                "display": "Substance",
+                "id": "f6ccbb7e-c9c4-4f6f-a279-43f9fc477696"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

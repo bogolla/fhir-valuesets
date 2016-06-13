@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Hl7v3conformance",
+        "records": [
+            {
+                "code": "I",
+                "definition": "Description: Implementers receiving this property must not raise an error if the data is received, but will not perform any useful function with the data.  This conformance level is not used in profiles or other artifacts that are specific to the \"sender\" or \"initiator\" of a communication.",
+                "display": "ignored",
+                "id": "dcddebbd-daf8-4308-ac57-4382b565b17c"
+            },
+            {
+                "code": "NP",
+                "definition": "Description: All implementers are prohibited from transmitting this content, and may raise an error if they receive it.",
+                "display": "not permitted",
+                "id": "24cefc47-e0bd-41d2-8700-7cab1ce75e0d"
+            },
+            {
+                "code": "R",
+                "definition": "Description: All implementers must support this property.  I.e. they must be able to transmit, or to receive and usefully handle the concept.",
+                "display": "required",
+                "id": "71af7e97-63f2-45aa-aedd-3ee78902849d"
+            },
+            {
+                "code": "RC",
+                "definition": "Description: The element is considered \"required\" (i.e. must be supported) from the perspective of systems that consume  instances, but is \"undetermined\" for systems that generate instances.  Used only as part of specifications that define both initiator and consumer expectations.",
+                "display": "required for consumer",
+                "id": "bb759a9b-0061-4edc-9efb-7e83316a2f21"
+            },
+            {
+                "code": "RI",
+                "definition": "Description: The element is considered \"required\" (i.e. must be supported) from the perspective of systems that generate instances, but is \"undetermined\" for systems that consume instances.  Used only as part of specifications that define both initiator and consumer expectations.",
+                "display": "required for initiator",
+                "id": "ca557248-9c80-4d12-8647-b82fc0434328"
+            },
+            {
+                "code": "U",
+                "definition": "Description: The conformance expectations for this element have not yet been determined.",
+                "display": "undetermined",
+                "id": "e4dae3b6-c364-42d8-baee-08e358a45b01"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

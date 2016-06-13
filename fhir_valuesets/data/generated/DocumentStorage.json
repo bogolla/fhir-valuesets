@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Documentstorage",
+        "records": [
+            {
+                "code": "AC",
+                "definition": "A storage status in which a document is available on-line.",
+                "display": "active",
+                "id": "557f93ca-4d17-4ff0-ad10-0277adc85116"
+            },
+            {
+                "code": "AR",
+                "definition": "A storage status in which a document has been stored off-line for long-term access.",
+                "display": "archived (not active)",
+                "id": "b46a0a03-b2ce-45d2-8794-dfbfab0e4629"
+            },
+            {
+                "code": "PU",
+                "definition": "A storage status in which a document is no longer available in this system.",
+                "display": "purged",
+                "id": "545e71a1-0544-4849-b8a3-9aa0702c502b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

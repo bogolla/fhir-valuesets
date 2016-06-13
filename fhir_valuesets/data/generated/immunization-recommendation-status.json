@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ImmunizationRecommendationStatus",
+        "records": [
+            {
+                "code": "due",
+                "definition": "The patient is due for their next vaccination.",
+                "display": "Due",
+                "id": "6f8a2acc-bb29-47bf-bd46-c9c4b3aeb827"
+            },
+            {
+                "code": "overdue",
+                "definition": "The patient is considered overdue for their next vaccination.",
+                "display": "Overdue",
+                "id": "5d438fe7-bc12-4f30-949a-f503adb94704"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

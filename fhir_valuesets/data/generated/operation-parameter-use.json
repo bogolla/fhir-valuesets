@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.OperationParameterUse",
+        "records": [
+            {
+                "code": "in",
+                "definition": "This is an input parameter.",
+                "display": "In",
+                "id": "baa3338c-99ef-4e14-a332-d44892b3a944"
+            },
+            {
+                "code": "out",
+                "definition": "This is an output parameter.",
+                "display": "Out",
+                "id": "bcd6de53-8b05-4eed-8625-df560de81f8a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

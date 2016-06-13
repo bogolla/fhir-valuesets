@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Tablerules",
+        "records": [
+            {
+                "code": "all",
+                "definition": "all",
+                "display": "all",
+                "id": "a7c418ce-1663-40de-bcf8-b0dbc7a8662c"
+            },
+            {
+                "code": "cols",
+                "definition": "cols",
+                "display": "cols",
+                "id": "08b07ac0-16dc-435b-a795-eaf97edd43dd"
+            },
+            {
+                "code": "groups",
+                "definition": "groups",
+                "display": "groups",
+                "id": "069ff712-6f9f-4971-b7b0-2ce7bf905820"
+            },
+            {
+                "code": "none",
+                "definition": "none",
+                "display": "none",
+                "id": "16602f4f-1604-463e-a2a3-d696b71af082"
+            },
+            {
+                "code": "rows",
+                "definition": "rows",
+                "display": "rows",
+                "id": "cf0912e4-d501-4402-a86a-0cd0200cad82"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

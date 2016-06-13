@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.MetricOperationalStatus",
+        "records": [
+            {
+                "code": "on",
+                "definition": "The DeviceMetric is operating and will generate DeviceObservations.",
+                "display": "On",
+                "id": "1c41cb05-30be-44c6-9b25-59d9f8668c46"
+            },
+            {
+                "code": "off",
+                "definition": "The DeviceMetric is not operating.",
+                "display": "Off",
+                "id": "8b17a919-e45d-4396-b5b9-ebce64a9a0ef"
+            },
+            {
+                "code": "standby",
+                "definition": "The DeviceMetric is operating, but will not generate any DeviceObservations.",
+                "display": "Standby",
+                "id": "3810a2cb-4cf6-4e3e-8639-5eafc6af2eee"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

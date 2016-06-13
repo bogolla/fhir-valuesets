@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ConsentCategory",
+        "records": [
+            {
+                "code": "hipaa",
+                "definition": "HIPAA 45 CFR Section 164.508 Uses and disclosures for which an authorization is required. (a) Standard: Authorizations for uses and disclosures.  (1) Authorization required: General rule. Except as otherwise permitted or required by this subchapter, a covered entity may not use or disclose protected health information without an authorization that is valid under this section. When a covered entity obtains or receives a valid authorization for its use or disclosure of protected health information, such use or disclosure must be consistent with such authorization. Usage Note:  Authorizations governed under this regulation meet the definition of an opt in class of consent directive.",
+                "display": "HIPAA Authorization",
+                "id": "e7979d16-667b-496b-a795-c5cd8ede67f6"
+            },
+            {
+                "code": "EMRGONLY",
+                "definition": "Opt-in to disclosure of health information for emergency only consent directive",
+                "display": "emergency only",
+                "id": "b5904480-40ca-407e-a04e-c81c96df459c"
+            },
+            {
+                "code": "advance-directive",
+                "definition": "Any instructions, written or given verbally by a patient to a health care provider in anticipation of potential need for medical treatment",
+                "display": "advance directive",
+                "id": "cd456733-f9c9-4717-9e8a-1a86e9ce6de6"
+            },
+            {
+                "code": "dnr",
+                "definition": "A legal document, signed by both the patient and their provider, stating a desire not to have CPR initiated in case of a cardiac event.  Note: This form was replaced in 2003 with the Physician Orders for Life-Sustaining Treatment [POLST].",
+                "display": "DNR (Do Not resuscitate)",
+                "id": "fdcf96f3-7b16-4909-8555-4005e663c09f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

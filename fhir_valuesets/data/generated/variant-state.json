@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.VariantState",
+        "records": [
+            {
+                "code": "positive",
+                "definition": "the variant is detected",
+                "display": "positive",
+                "id": "27452bd5-a87a-4444-953b-396bba641f52"
+            },
+            {
+                "code": "negative",
+                "definition": "no variant is detected",
+                "display": "negative",
+                "id": "15370d7d-aaee-46cb-934d-aff807e0d533"
+            },
+            {
+                "code": "absent",
+                "definition": "result of the variant is missing",
+                "display": "absent",
+                "id": "e39a97eb-4498-4922-a75d-421b9fd94ac4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

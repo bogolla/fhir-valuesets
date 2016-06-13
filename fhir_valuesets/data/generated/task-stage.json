@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.TaskStage",
+        "records": [
+            {
+                "code": "proposal",
+                "definition": "The request is a recommendation or suggestion where there has not yet been any commitment to action",
+                "display": "proposal",
+                "id": "8d770998-9acc-4a34-888e-9e246fefb3e0"
+            },
+            {
+                "code": "planned",
+                "definition": "The request has a specific intention to be performed and may be scheduled but is not yet authorized to be performed",
+                "display": "planned",
+                "id": "7db9e447-7c0a-4c4e-a74a-b0c008279e22"
+            },
+            {
+                "code": "actionable",
+                "definition": "Indicates that the task is authorized and ready to be actioned",
+                "display": "actionable",
+                "id": "f4941a84-683f-485e-8742-5b3a5b097213"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

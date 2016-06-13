@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Actrelationshipsplit",
+        "records": [
+            {
+                "code": "E1",
+                "definition": "The pre-condition associated with the branch is evaluated once and if true the branch may be entered. All other exclusive branches compete with each other and only one will be selected. This implements a COND, IF and CASE conditionals, or \"XOR-split.\" The order in which the branches are considered may be specified in the priorityNumber attribute.",
+                "display": "exclusive try once",
+                "id": "bfdcc308-a02f-416b-bb71-78565c21197e"
+            },
+            {
+                "code": "EW",
+                "definition": "A branch is selected as soon as the pre-condition associated with the branch evaluates to true.  If the condition is false, the branch may be entered later, when the condition turns true.  All other exclusive branches compete with each other and only one will be selected.  Each waiting branch executes in parallel with the default join code wait  (see below). The order in which the branches are considered may be specified in the Service_relationship.priority_nmb.",
+                "display": "exclusive wait",
+                "id": "bd27e077-b13f-441e-8fd1-2e66a81c1cac"
+            },
+            {
+                "code": "I1",
+                "definition": "A branch is executed if its associated preconditions permit. If associated preconditions do not permit, the branch is dropped.  Inclusive branches are not suppressed and do not suppress other branches.",
+                "display": "inclusive try once",
+                "id": "80c7f8d2-f9a4-4561-a95d-c426e07fdf3f"
+            },
+            {
+                "code": "IW",
+                "definition": "A branch is executed as soon as its associated conditions permit.  If the condition is false, the branch may be entered later, when the condition turns true.  Inclusive branches are not suppressed and do not suppress other branches.  Each waiting branch executes in parallel with the default join code wait  (see below).",
+                "display": "inclusive wait",
+                "id": "56d4e7ec-627d-4891-aabf-8e3fe7d2882e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

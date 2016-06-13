@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.SpecialValues",
+        "records": [
+            {
+                "code": "true",
+                "definition": "Boolean true.",
+                "display": "true",
+                "id": "4959d2d9-d6d5-47d1-a00c-6ea252243cfe"
+            },
+            {
+                "code": "false",
+                "definition": "Boolean false.",
+                "display": "false",
+                "id": "1ad49bf1-42f5-4f72-a755-42a9880af06c"
+            },
+            {
+                "code": "trace",
+                "definition": "The content is greater than zero, but too small to be quantified.",
+                "display": "Trace Amount Detected",
+                "id": "db414da3-f367-4706-b636-c6c1250206eb"
+            },
+            {
+                "code": "sufficient",
+                "definition": "The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material.",
+                "display": "Sufficient Quantity",
+                "id": "bedafd3d-a709-4f2c-b4d4-a419069ad6f9"
+            },
+            {
+                "code": "withdrawn",
+                "definition": "The value is no longer available.",
+                "display": "Value Withdrawn",
+                "id": "e71bb908-7c56-4ca3-b469-7ba37cf99b4e"
+            },
+            {
+                "code": "nil-known",
+                "definition": "The are no known applicable values in this context.",
+                "display": "Nil Known",
+                "id": "97f7b6da-e9b5-465b-848f-e1873ac3663f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

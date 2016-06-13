@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.ProvenanceAgentRole",
+        "records": [
+            {
+                "code": "enterer",
+                "definition": "A person entering the data into the originating system",
+                "display": "Enterer",
+                "id": "052cc05f-ff7c-4cbc-aca0-76e6fbb68bd5"
+            },
+            {
+                "code": "performer",
+                "definition": "A person, animal, organization or device that who actually and principally carries out the activity",
+                "display": "Performer",
+                "id": "ec2cb4b7-3022-4971-81ad-e824c1e205cb"
+            },
+            {
+                "code": "author",
+                "definition": "A party that originates the resource and therefore has responsibility for the information given in the resource and ownership of this resource",
+                "display": "Author",
+                "id": "5555ff18-a6ab-47a2-8968-4061bf9a583c"
+            },
+            {
+                "code": "verifier",
+                "definition": "A person who verifies the correctness and appropriateness of activity",
+                "display": "Verifier",
+                "id": "63f8ac6a-ea97-4095-854c-5137f370a7f7"
+            },
+            {
+                "code": "attester",
+                "definition": "A verifier who attests to the accuracy of the resource",
+                "display": "Attester",
+                "id": "31d5176a-52b0-4138-b0df-479a3bd9982e"
+            },
+            {
+                "code": "informant",
+                "definition": "A person who reported information that contributed to the resource",
+                "display": "Informant",
+                "id": "6e1b3def-930f-43b4-afbd-9e9caefe4b08"
+            },
+            {
+                "code": "custodian",
+                "definition": "The entity that is accountable for maintaining a true an accurate copy of the original record",
+                "display": "Custodian",
+                "id": "b786b843-13ce-410f-ad9a-63457490a346"
+            },
+            {
+                "code": "assembler",
+                "definition": "A device that operates independently of an author on custodian's algorithms for data extraction of existing information for purpose of generating a new artifact.",
+                "display": "Assembler",
+                "id": "31d0c534-7175-4618-aa9e-298a05d3c5b1"
+            },
+            {
+                "code": "composer",
+                "definition": "A device used by an author to record new information, which may also be used by the author to select existing information for aggregation with newly recorded information for the purpose of generating a new artifact.",
+                "display": "Composer",
+                "id": "f697b4e7-bd63-44e2-ac0f-475f116d06cd"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

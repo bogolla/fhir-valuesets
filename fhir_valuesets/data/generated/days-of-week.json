@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.DaysOfWeek",
+        "records": [
+            {
+                "code": "mon",
+                "definition": "Monday",
+                "display": "Monday",
+                "id": "15bb4111-da53-4b35-a74d-c4333fc6e412"
+            },
+            {
+                "code": "tue",
+                "definition": "Tuesday",
+                "display": "Tuesday",
+                "id": "e984dfe6-e72e-4d18-85a5-632dc7415fa5"
+            },
+            {
+                "code": "wed",
+                "definition": "Wednesday",
+                "display": "Wednesday",
+                "id": "f295b859-ec41-4fef-bbaf-ae792712b387"
+            },
+            {
+                "code": "thu",
+                "definition": "Thursday",
+                "display": "Thursday",
+                "id": "ebbc5037-8ac7-4ca8-a20d-9f0d4c87affe"
+            },
+            {
+                "code": "fri",
+                "definition": "Friday",
+                "display": "Friday",
+                "id": "48271aa6-52c6-4c1f-93bd-2e17c26f8a3e"
+            },
+            {
+                "code": "sat",
+                "definition": "Saturday",
+                "display": "Saturday",
+                "id": "6d1defd8-b67f-4396-88b3-df9a956ffb0a"
+            },
+            {
+                "code": "sun",
+                "definition": "Sunday",
+                "display": "Sunday",
+                "id": "634949b3-44b3-49f1-b389-1f479272957a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

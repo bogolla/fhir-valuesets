@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.MetricColor",
+        "records": [
+            {
+                "code": "black",
+                "definition": "Color for representation - black.",
+                "display": "Color Black",
+                "id": "f9ae7e06-09ae-4160-ac3e-724d5f5cc664"
+            },
+            {
+                "code": "red",
+                "definition": "Color for representation - red.",
+                "display": "Color Red",
+                "id": "90be5446-28f1-484a-be38-2f0ff85ef9dd"
+            },
+            {
+                "code": "green",
+                "definition": "Color for representation - green.",
+                "display": "Color Green",
+                "id": "fecbe640-7979-426c-85e9-2be345f080ce"
+            },
+            {
+                "code": "yellow",
+                "definition": "Color for representation - yellow.",
+                "display": "Color Yellow",
+                "id": "f08af13d-ab67-46ad-896c-e59066e62de8"
+            },
+            {
+                "code": "blue",
+                "definition": "Color for representation - blue.",
+                "display": "Color Blue",
+                "id": "6def0336-2975-4d8e-a4a9-8fe546b223e5"
+            },
+            {
+                "code": "magenta",
+                "definition": "Color for representation - magenta.",
+                "display": "Color Magenta",
+                "id": "1dad7e26-9d40-4f82-98b0-860b5472d22b"
+            },
+            {
+                "code": "cyan",
+                "definition": "Color for representation - cyan.",
+                "display": "Color Cyan",
+                "id": "f47ff2bd-8ba8-403c-850c-e3064e8111cd"
+            },
+            {
+                "code": "white",
+                "definition": "Color for representation - white.",
+                "display": "Color White",
+                "id": "7f25a750-5f44-40f7-b761-e3c58dca28ea"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

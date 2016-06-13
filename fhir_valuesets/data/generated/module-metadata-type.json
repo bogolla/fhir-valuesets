@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ModuleMetadataType",
+        "records": [
+            {
+                "code": "module",
+                "definition": "The resource is a description of a knowledge module",
+                "display": "Module",
+                "id": "f775003d-9982-4570-b0d9-cece47c5d5a2"
+            },
+            {
+                "code": "library",
+                "definition": "The resource is a shareable library of formalized knowledge",
+                "display": "Library",
+                "id": "8522a1dc-3ab8-4c5a-9814-0929e0da7e72"
+            },
+            {
+                "code": "decision-support-rule",
+                "definition": "An Event-Condition-Action Rule Artifact",
+                "display": "Decision Support Rule",
+                "id": "bd5d5a1c-8b96-4c89-8d75-38033ac895bf"
+            },
+            {
+                "code": "documentation-template",
+                "definition": "A Documentation Template Artifact",
+                "display": "Documentation Template",
+                "id": "4d8efa8c-96c3-48d0-8976-3da338833373"
+            },
+            {
+                "code": "order-set",
+                "definition": "An Order Set Artifact",
+                "display": "Order Set",
+                "id": "c9520833-ed37-43c9-939e-e867d12eb245"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

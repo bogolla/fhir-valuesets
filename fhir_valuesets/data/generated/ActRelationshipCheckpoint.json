@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Actrelationshipcheckpoint",
+        "records": [
+            {
+                "code": "B",
+                "definition": "Condition is tested every time before execution of the service (WHILE condition DO service).",
+                "display": "beginning",
+                "id": "d7d2df42-2123-42d5-b6d0-7a89b7d12bb0"
+            },
+            {
+                "code": "E",
+                "definition": "Condition is tested at the end of a repeated service execution.  The service is repeated only if the condition is true (DO service WHILE condition).",
+                "display": "end",
+                "id": "f3a92978-5841-4eb7-8895-76a0c767fd86"
+            },
+            {
+                "code": "S",
+                "definition": "Condition is tested once before the service is executed (IF condition THEN service).",
+                "display": "entry",
+                "id": "92926b23-fb09-4564-9a9c-40cb18787825"
+            },
+            {
+                "code": "T",
+                "definition": "Condition must be true throughout the execution and the service is interrupted (asynchronously) as soon as the condition turns false (asynchronous WHILE loop).  The service must be interruptible.",
+                "display": "through",
+                "id": "3e14cd44-6e31-40fd-b603-ef27584b2c7a"
+            },
+            {
+                "code": "X",
+                "definition": "Condition is a loop checkpoint, i.e. it is a step of an activity plan and, if negative causes the containing loop to exit.",
+                "display": "exit",
+                "id": "9829f290-6167-47ab-8944-0ee1a60f9241"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

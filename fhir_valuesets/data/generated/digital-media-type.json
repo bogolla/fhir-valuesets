@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.DigitalMediaType",
+        "records": [
+            {
+                "code": "photo",
+                "definition": "The media consists of one or more unmoving images, including photographs, computer-generated graphs and charts, and scanned documents",
+                "display": "Photo",
+                "id": "40c3b7bc-eacf-41e1-8465-9930919ae5cf"
+            },
+            {
+                "code": "video",
+                "definition": "The media consists of a series of frames that capture a moving image",
+                "display": "Video",
+                "id": "b848ff4e-3a76-40e4-a6be-060cfee0d845"
+            },
+            {
+                "code": "audio",
+                "definition": "The media consists of a sound recording",
+                "display": "Audio",
+                "id": "21b0c686-26c7-4a0c-9644-1fd7ac7f3b69"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.PlanactionRelationshipType",
+        "records": [
+            {
+                "code": "before",
+                "definition": "The action must be performed before the related action",
+                "display": "Before",
+                "id": "b7e26081-5fbe-456f-8708-32383a6b5e5e"
+            },
+            {
+                "code": "after",
+                "definition": "The action must be performed after the related action",
+                "display": "After",
+                "id": "37bf24b1-4bea-4e6c-8221-98fcd275aa57"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

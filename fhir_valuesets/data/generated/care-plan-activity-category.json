@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.CarePlanActivityCategory",
+        "records": [
+            {
+                "code": "diet",
+                "definition": "Plan for the patient to consume food of a specified nature",
+                "display": "Diet",
+                "id": "8b9811ca-1992-4831-960d-3e8cf4222f95"
+            },
+            {
+                "code": "drug",
+                "definition": "Plan for the patient to consume/receive a drug, vaccine or other product",
+                "display": "Drug",
+                "id": "d6ac1a81-2f83-4c7b-9a71-1f18601c2372"
+            },
+            {
+                "code": "encounter",
+                "definition": "Plan to meet or communicate with the patient (in-patient, out-patient, phone call, etc.)",
+                "display": "Encounter",
+                "id": "d1d0c554-8f96-4670-a3cf-be9f20771144"
+            },
+            {
+                "code": "observation",
+                "definition": "Plan to capture information about a patient (vitals, labs, diagnostic images, etc.)",
+                "display": "Observation",
+                "id": "2c468081-3da2-453e-ba1a-3f7c3dcdd988"
+            },
+            {
+                "code": "procedure",
+                "definition": "Plan to modify the patient in some way (surgery, physiotherapy, education, counseling, etc.)",
+                "display": "Procedure",
+                "id": "836ffe1e-4c7c-4dea-bd12-3a5027c8c56a"
+            },
+            {
+                "code": "supply",
+                "definition": "Plan to provide something to the patient (medication, medical supply, etc.)",
+                "display": "Supply",
+                "id": "080130bf-1f69-43e9-9692-b3cf94476191"
+            },
+            {
+                "code": "other",
+                "definition": "Some other form of action",
+                "display": "Other",
+                "id": "be06ef37-d050-4879-97bf-2adf3f14b734"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Rolestatus",
+        "records": [
+            {
+                "code": "normal",
+                "definition": "The 'typical' state. Excludes \"nullified\" which represents the termination state of a Role instance that was created in error.",
+                "display": "normal",
+                "id": "f99cd432-4e28-4a73-b092-5275edbb93fb"
+            },
+            {
+                "code": "nullified",
+                "definition": "The state representing the termination of a Role instance that was created in error.",
+                "display": "nullified",
+                "id": "556690f5-ecbb-4677-8b09-02b60f0960fc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

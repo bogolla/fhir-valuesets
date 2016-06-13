@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.IssueSeverity",
+        "records": [
+            {
+                "code": "fatal",
+                "definition": "The issue caused the action to fail, and no further checking could be performed.",
+                "display": "Fatal",
+                "id": "6e8eb807-3e08-4f78-8284-dc4bfe0f0b1b"
+            },
+            {
+                "code": "error",
+                "definition": "The issue is sufficiently important to cause the action to fail.",
+                "display": "Error",
+                "id": "33550927-a9fb-429b-819e-ab1be95808f9"
+            },
+            {
+                "code": "warning",
+                "definition": "The issue is not important enough to cause the action to fail, but may cause it to be performed suboptimally or in a way that is not as desired.",
+                "display": "Warning",
+                "id": "e9dc2f8b-3558-428f-97c3-1efd260bf817"
+            },
+            {
+                "code": "information",
+                "definition": "The issue has no relation to the degree of success of the action.",
+                "display": "Information",
+                "id": "299d7c42-94db-49d8-97ce-54cd2070c926"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

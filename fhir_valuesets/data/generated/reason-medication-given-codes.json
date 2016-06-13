@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ReasonMedicationGivenCodes",
+        "records": [
+            {
+                "code": "a",
+                "definition": "No reason known.",
+                "display": "None",
+                "id": "97c38540-7ece-4a68-9acb-920c0a43c956"
+            },
+            {
+                "code": "b",
+                "definition": "The administration was following an ordered protocol.",
+                "display": "Given as Ordered",
+                "id": "196bf8bd-038e-4d29-b493-4d7247bcda40"
+            },
+            {
+                "code": "c",
+                "definition": "The administration was needed to treat an emergency.",
+                "display": "Emergency",
+                "id": "25ec5b55-fc43-4b3e-8707-43dd0b5b3ed0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "model": "valuesets.MessageEvents",
+        "records": [
+            {
+                "code": "CodeSystem-expand",
+                "definition": "The definition of a code system is used to create a simple collection of codes suitable for use for data entry or validation. An expanded code system will be returned, or an error message.",
+                "display": "CodeSystem-expand",
+                "id": "4e6f111c-3c59-40a6-91b3-3abda8aa3870"
+            },
+            {
+                "code": "MedicationAdministration-Complete",
+                "definition": "Change the status of a Medication Administration to show that it is complete.",
+                "display": "MedicationAdministration-Complete",
+                "id": "35693136-ae37-4f2c-9809-0ff880eca118"
+            },
+            {
+                "code": "MedicationAdministration-Nullification",
+                "definition": "Someone wishes to record that the record of administration of a medication is in error and should be ignored.",
+                "display": "MedicationAdministration-Nullification",
+                "id": "213c6a64-b5f0-4d93-8e56-4c379213b316"
+            },
+            {
+                "code": "MedicationAdministration-Recording",
+                "definition": "Indicates that a medication has been recorded against the patient's record.",
+                "display": "MedicationAdministration-Recording",
+                "id": "029f9550-bae1-47cd-afc0-1d9f4431fd3d"
+            },
+            {
+                "code": "MedicationAdministration-Update",
+                "definition": "Update a Medication Administration record.",
+                "display": "MedicationAdministration-Update",
+                "id": "3f982ea5-31ae-46c5-8afc-fe6079797f7b"
+            },
+            {
+                "code": "admin-notify",
+                "definition": "Notification of a change to an administrative resource (either create or update). Note that there is no delete, though some administrative resources have status or period elements for this use.",
+                "display": "admin-notify",
+                "id": "8b3c3969-5bfd-4a47-a522-41e0fc8d2250"
+            },
+            {
+                "code": "diagnosticreport-provide",
+                "definition": "Provide a diagnostic report, or update a previously provided diagnostic report.",
+                "display": "diagnosticreport-provide",
+                "id": "1e50b2c5-b149-4fba-bb8c-ed9551abd03a"
+            },
+            {
+                "code": "observation-provide",
+                "definition": "Provide a simple observation or update a previously provided simple observation.",
+                "display": "observation-provide",
+                "id": "0031fbd8-5795-42d7-b1ed-577b10040c90"
+            },
+            {
+                "code": "patient-link",
+                "definition": "Notification that two patient records actually identify the same patient.",
+                "display": "patient-link",
+                "id": "38df90d5-8366-48e2-af83-f70fc1f4ddcf"
+            },
+            {
+                "code": "patient-unlink",
+                "definition": "Notification that previous advice that two patient records concern the same patient is now considered incorrect.",
+                "display": "patient-unlink",
+                "id": "d89ef05b-afb6-4158-83f4-e316e0089073"
+            },
+            {
+                "code": "valueset-expand",
+                "definition": "The definition of a value set is used to create a simple collection of codes suitable for use for data entry or validation. An expanded value set will be returned, or an error message.",
+                "display": "valueset-expand",
+                "id": "8bf005c1-5cce-4d2c-b2d9-1d834ec49400"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

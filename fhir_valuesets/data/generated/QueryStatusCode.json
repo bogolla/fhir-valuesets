@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Querystatuscode",
+        "records": [
+            {
+                "code": "aborted",
+                "definition": "Query status aborted",
+                "display": "aborted",
+                "id": "2e62614a-1048-4104-a460-60a558d628a1"
+            },
+            {
+                "code": "deliveredResponse",
+                "definition": "Query Status delivered response",
+                "display": "deliveredResponse",
+                "id": "c9267bbb-4935-49ac-a17a-86d365c1f252"
+            },
+            {
+                "code": "executing",
+                "definition": "Query Status executing",
+                "display": "executing",
+                "id": "243ec68b-89f4-4109-b2e2-98644229f3b5"
+            },
+            {
+                "code": "new",
+                "definition": "Query Status new",
+                "display": "new",
+                "id": "f28eb833-fd53-443b-a7b4-5cd34a11e00b"
+            },
+            {
+                "code": "waitContinuedQueryResponse",
+                "definition": "Query Status wait continued",
+                "display": "waitContinuedQueryResponse",
+                "id": "d4c7e540-0248-40d8-b479-e35c471f4ee5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

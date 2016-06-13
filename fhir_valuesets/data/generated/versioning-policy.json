@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.VersioningPolicy",
+        "records": [
+            {
+                "code": "no-version",
+                "definition": "VersionId meta-property is not supported (server) or used (client).",
+                "display": "No VersionId Support",
+                "id": "29521647-d9cb-4b7f-b31b-6fff7c859abe"
+            },
+            {
+                "code": "versioned",
+                "definition": "VersionId meta-property is supported (server) or used (client).",
+                "display": "Versioned",
+                "id": "83a19aa8-de5f-4702-8376-f9a0313256ae"
+            },
+            {
+                "code": "versioned-update",
+                "definition": "VersionId is must be correct for updates (server) or will be specified (If-match header) for updates (client).",
+                "display": "VersionId tracked fully",
+                "id": "eb56fa1d-5e92-41da-b27d-c893ab1bb2bf"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

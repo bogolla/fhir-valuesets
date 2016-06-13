@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ProcedureRequestPriority",
+        "records": [
+            {
+                "code": "routine",
+                "definition": "The request has a normal priority.",
+                "display": "Routine",
+                "id": "2479af75-255f-4169-8f36-14acb5212e4d"
+            },
+            {
+                "code": "urgent",
+                "definition": "The request should be done urgently.",
+                "display": "Urgent",
+                "id": "459f0e62-f2ff-4c06-85c8-ca5d0e25547a"
+            },
+            {
+                "code": "stat",
+                "definition": "The request is time-critical.",
+                "display": "Stat",
+                "id": "c402d70b-ecb4-4915-bdf2-0d5b562ddea9"
+            },
+            {
+                "code": "asap",
+                "definition": "The request should be acted on as soon as possible.",
+                "display": "ASAP",
+                "id": "2b495890-e235-45ce-9b16-7b6221deffe6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

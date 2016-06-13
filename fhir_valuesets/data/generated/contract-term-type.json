@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ContractTermType",
+        "records": [
+            {
+                "code": "OralHealth",
+                "definition": null,
+                "display": null,
+                "id": "44067bd7-2bee-4859-ba16-52f0738c572f"
+            },
+            {
+                "code": "Vision",
+                "definition": null,
+                "display": null,
+                "id": "a42a0fb2-5f23-4642-b12c-a4fb90355428"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

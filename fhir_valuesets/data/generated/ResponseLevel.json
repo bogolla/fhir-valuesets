@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.Responselevel",
+        "records": [
+            {
+                "code": "C",
+                "definition": "Respond with exceptions and a notification of completion",
+                "display": "completion",
+                "id": "4eaa2506-8f98-4245-bdea-411670118e2d"
+            },
+            {
+                "code": "D",
+                "definition": "Respond with exceptions, completion, modifications and include more detail information (if applicable)",
+                "display": "detail",
+                "id": "dc592bb1-e758-4586-87e8-d907613e73b1"
+            },
+            {
+                "code": "E",
+                "definition": "Respond with exceptions only",
+                "display": "exception",
+                "id": "54f74bc2-eec8-4df9-83bc-5b37d7e59481"
+            },
+            {
+                "code": "F",
+                "definition": "Respond with exceptions, completion, and modification with detail (as above), and send positive confirmations even if no modifications are being made.",
+                "display": "confirmation",
+                "id": "3e200fd9-2430-4ffe-ac9d-e279bcca4fc9"
+            },
+            {
+                "code": "N",
+                "definition": "Respond only with message level acknowledgements, i.e., only notify acceptance or rejection of the message, do not include any application-level detail",
+                "display": "message-control",
+                "id": "10a50fc9-0096-48c6-b396-e73c6b6ca705"
+            },
+            {
+                "code": "R",
+                "definition": "Respond with exceptions, completions and modifications or revisions done before completion",
+                "display": "modification",
+                "id": "c9940743-71af-4383-be02-da506c3a3dc4"
+            },
+            {
+                "code": "X",
+                "definition": "Do not send any kind of response",
+                "display": "none",
+                "id": "f7c8aa26-91b6-4eb0-86a0-74c629434324"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

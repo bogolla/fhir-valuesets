@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.NameUse",
+        "records": [
+            {
+                "code": "usual",
+                "definition": "Known as/conventional/the one you normally use",
+                "display": "Usual",
+                "id": "bce99c15-42f6-48a9-a045-8274da34bbcc"
+            },
+            {
+                "code": "official",
+                "definition": "The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called \"legal name\".",
+                "display": "Official",
+                "id": "5be6ffdc-9fc1-4af2-b4d2-c0f96184271d"
+            },
+            {
+                "code": "temp",
+                "definition": "A temporary name. Name.period can provide more detailed information. This may also be used for temporary names assigned at birth or in emergency situations.",
+                "display": "Temp",
+                "id": "526cc3da-b408-4d70-9d30-13975a0053d7"
+            },
+            {
+                "code": "nickname",
+                "definition": "A name that is used to address the person in an informal manner, but is not part of their formal or usual name",
+                "display": "Nickname",
+                "id": "a64079c3-55ea-462a-b56e-731e89c2ca9a"
+            },
+            {
+                "code": "anonymous",
+                "definition": "Anonymous assigned name, alias, or pseudonym (used to protect a person's identity for privacy reasons)",
+                "display": "Anonymous",
+                "id": "66fcce60-08d5-4b7b-9df7-51f37c838942"
+            },
+            {
+                "code": "old",
+                "definition": "This name is no longer in use (or was never correct, but retained for records)",
+                "display": "Old",
+                "id": "63f9a86e-1601-45b5-b5cb-d324b1106509"
+            },
+            {
+                "code": "maiden",
+                "definition": "A name used prior to marriage. Marriage naming customs vary greatly around the world. This name use is for use by applications that collect and store \"maiden\" names. Though the concept of maiden name is often gender specific, the use of this term is not gender specific. The use of this term does not imply any particular history for a person's name, nor should the maiden name be determined algorithmically.",
+                "display": "Maiden",
+                "id": "1332d231-bd57-4e41-bcfb-2aed980df0a2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

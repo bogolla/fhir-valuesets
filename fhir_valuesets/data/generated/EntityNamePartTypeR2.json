@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Entitynameparttyper2",
+        "records": [
+            {
+                "code": "DEL",
+                "definition": "Description:A delimiter has no meaning other than being literally printed in this name representation. A delimiter has no implicit leading and trailing white space.",
+                "display": "delimiter",
+                "id": "aaae098a-c00b-4331-b531-07643a4f529f"
+            },
+            {
+                "code": "FAM",
+                "definition": "Description:Family name, this is the name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father.",
+                "display": "family",
+                "id": "a73900dd-7bad-4132-8fff-be18a3b747a5"
+            },
+            {
+                "code": "GIV",
+                "definition": "Description:Given name. Note: don't call it \"first name\" since the given names do not always come first.",
+                "display": "given",
+                "id": "5d87039d-e7e5-4665-9f02-feb53a90e069"
+            },
+            {
+                "code": "TITLE",
+                "definition": "Description:Part of the name that is acquired as a title due to academic, legal, employment or nobility status etc.\r\n\n                        \n                           Note:Title name parts include name parts that come after the name such as qualifications, even if they are not always considered to be titles.",
+                "display": "title",
+                "id": "009e4fb7-df61-4ab1-a975-1d7621d87760"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

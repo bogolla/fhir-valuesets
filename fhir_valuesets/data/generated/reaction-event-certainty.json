@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ReactionEventCertainty",
+        "records": [
+            {
+                "code": "unlikely",
+                "definition": "There is a low level of clinical certainty that the reaction was caused by the identified Substance.",
+                "display": "Unlikely",
+                "id": "3d7dc9b5-e577-4811-a41b-3f39aaed0f71"
+            },
+            {
+                "code": "likely",
+                "definition": "There is a high level of clinical certainty that the reaction was caused by the identified Substance.",
+                "display": "Likely",
+                "id": "0604b6ce-ecd4-474b-9594-881863cabcde"
+            },
+            {
+                "code": "confirmed",
+                "definition": "There is a very high level of clinical certainty that the reaction was due to the identified Substance, which may include clinical evidence by testing or rechallenge.",
+                "display": "Confirmed",
+                "id": "b4039530-0e3c-4a9f-b0c0-82afb2ee69eb"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

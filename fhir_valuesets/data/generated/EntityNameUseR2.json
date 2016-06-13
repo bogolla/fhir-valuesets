@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.Entitynameuser2",
+        "records": [
+            {
+                "code": "Assumed",
+                "definition": "Description:A name that a person has assumed or has been assumed to them.",
+                "display": "Assumed",
+                "id": "543047e3-c328-4b80-82e6-fdb8b990f741"
+            },
+            {
+                "code": "C",
+                "definition": "Description:Known as/conventional/the one you normally use",
+                "display": "customary",
+                "id": "91981528-cb31-414b-8af7-ba5188057862"
+            },
+            {
+                "code": "M",
+                "definition": "Description:A name used prior to marriage.Note that marriage naming customs vary greatly around the world.  This name use is for use by applications that collect and store maiden names.  Though the concept of maiden name is often gender specific, the use of this term is not gender specific.  The use of this term does not imply any particular history for a person's name, nor should the maiden name be determined algorithmically",
+                "display": "maiden name",
+                "id": "b7b2525a-0fb5-4a84-a7ac-69b5829976a0"
+            },
+            {
+                "code": "NameRepresentationUse",
+                "definition": "Description:Identifies the different representations of a name .  The representation may affect how the name is used .  (E.g .  use of Ideographic for formal communications.)",
+                "display": "NameRepresentationUse",
+                "id": "c76f790f-4697-4dcb-bca2-5a8cbafc52e0"
+            },
+            {
+                "code": "OLD",
+                "definition": "Description:This name is no longer in use (note: Names may also carry valid time ranges .  This code is used to cover the situations where it is known that the name is no longer valid, but no particular time range for its use is known)",
+                "display": "no longer in use",
+                "id": "8de79cb3-247f-434c-9c95-98280b7df083"
+            },
+            {
+                "code": "OR",
+                "definition": "Description:The formal name as registered in an official (government) registry, but which name might not be commonly used .  May correspond to the concept of legal name",
+                "display": "official registry name",
+                "id": "b44cd030-93a2-489b-8b21-f2ba3d04ca80"
+            },
+            {
+                "code": "PHON",
+                "definition": "Description:The name as understood by the data enterer, i.e. a close approximation of a phonetic spelling of the name, not based on a phonetic algorithm.",
+                "display": "phonetic",
+                "id": "6ade09f2-7487-4970-a3b1-2aa006eff63b"
+            },
+            {
+                "code": "SRCH",
+                "definition": "Description:A name intended for use in searching or matching.  This is used when the name is incomplete and contains enough details for search matching, but not enough for other uses.",
+                "display": "search",
+                "id": "2db3fe56-18fc-41ab-aa17-0f7b774e3afe"
+            },
+            {
+                "code": "T",
+                "definition": "Description:A temporary name.  Note that a name valid time can provide more detailed information.  This may also be used for temporary names assigned at birth or in emergency situations.",
+                "display": "temporary",
+                "id": "b859018e-a498-4368-ac66-c3f6dee18ddc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

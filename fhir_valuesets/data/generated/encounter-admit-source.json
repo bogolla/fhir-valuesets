@@ -1,0 +1,71 @@
+[
+    {
+        "model": "valuesets.EncounterAdmitSource",
+        "records": [
+            {
+                "code": "hosp-trans",
+                "definition": null,
+                "display": "Transferred from other hospital",
+                "id": "43f72d82-6eaa-442b-bdf5-7ca2cf242833"
+            },
+            {
+                "code": "emd",
+                "definition": null,
+                "display": "From accident/emergency department",
+                "id": "644b82ab-e913-44e8-8d46-60d12f7e0a7f"
+            },
+            {
+                "code": "outp",
+                "definition": null,
+                "display": "From outpatient department",
+                "id": "d7c1d9c0-4780-409c-b9d7-dc0b35a2ac08"
+            },
+            {
+                "code": "born",
+                "definition": null,
+                "display": "Born in hospital",
+                "id": "c6f09e99-7c46-401f-b76e-9ce4c6d7f283"
+            },
+            {
+                "code": "gp",
+                "definition": null,
+                "display": "General Practitioner referral",
+                "id": "a20872e6-62b8-4f9e-9c6d-885775abc08f"
+            },
+            {
+                "code": "mp",
+                "definition": null,
+                "display": "Medical Practitioner/physician referral",
+                "id": "9f5d5690-cccd-4ce2-afbc-63498c8ca841"
+            },
+            {
+                "code": "nursing",
+                "definition": null,
+                "display": "From nursing home",
+                "id": "7bf5eab3-77c7-46d2-8823-d10159df956b"
+            },
+            {
+                "code": "psych",
+                "definition": null,
+                "display": "From psychiatric hospital",
+                "id": "bb4e6405-9582-4fe3-afce-eb7dd50c6876"
+            },
+            {
+                "code": "rehab",
+                "definition": null,
+                "display": "From rehabilitation facility",
+                "id": "5cba0019-cffa-4474-abaf-0d28e72f042b"
+            },
+            {
+                "code": "other",
+                "definition": null,
+                "display": "Other",
+                "id": "1c252498-28b0-42e6-87db-a485a43cd75a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

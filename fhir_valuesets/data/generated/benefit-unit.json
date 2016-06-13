@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.BenefitUnit",
+        "records": [
+            {
+                "code": "individual",
+                "definition": "A single individual",
+                "display": "Individual",
+                "id": "c1bdf2c6-1296-4dbb-be66-d07640f42bf4"
+            },
+            {
+                "code": "family",
+                "definition": "A family, typically includes self, spous(s) and children to a defined age",
+                "display": "Family",
+                "id": "9cab7a18-cb1c-4ad6-acea-7695613c9811"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

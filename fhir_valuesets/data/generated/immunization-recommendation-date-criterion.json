@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ImmunizationRecommendationDateCriterion",
+        "records": [
+            {
+                "code": "due",
+                "definition": "Date the next dose is considered due.",
+                "display": "Due",
+                "id": "f578d3a3-60f8-43d0-9371-7c30218e9d31"
+            },
+            {
+                "code": "recommended",
+                "definition": "At the recommended date.",
+                "display": "Recommended",
+                "id": "d6a24d5c-37fa-4309-81ab-61416a39039c"
+            },
+            {
+                "code": "earliest",
+                "definition": "As early as possible.",
+                "display": "Earliest Date",
+                "id": "e7d2600b-8a0c-44e6-843b-a3eab1679c9e"
+            },
+            {
+                "code": "overdue",
+                "definition": "Date the next dose is considered overdue.",
+                "display": "Past Due Date",
+                "id": "1a703719-b64c-415a-8073-2513cbca9d93"
+            },
+            {
+                "code": "latest",
+                "definition": "The latest date the next dose is to be given.",
+                "display": "Latest",
+                "id": "8412a63e-ccbf-43ee-9a56-f587acbe868f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

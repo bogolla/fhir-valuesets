@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.AnimalSpecies",
+        "records": [
+            {
+                "code": "canislf",
+                "definition": "Canis lupus familiaris",
+                "display": "Dog",
+                "id": "de2e3ef5-e4c8-42f9-9492-d377e319668f"
+            },
+            {
+                "code": "ovisa",
+                "definition": "Ovis aries",
+                "display": "Sheep",
+                "id": "de5d8331-cc50-443c-8d30-f5c402c9c0f0"
+            },
+            {
+                "code": "serinuscd",
+                "definition": "Serinus canaria domestica",
+                "display": "Domestic Canary",
+                "id": "95565963-8239-484c-8113-d85e7151a70b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

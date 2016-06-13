@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.EndpointStatus",
+        "records": [
+            {
+                "code": "active",
+                "definition": "This endpoint is expected to be active and can be used",
+                "display": "Active",
+                "id": "52eea302-4992-4b08-b2bc-f612c378daac"
+            },
+            {
+                "code": "suspended",
+                "definition": "This endpoint is temporarily unavailable",
+                "display": "Suspended",
+                "id": "faefb3ad-eb63-4c76-a7bb-f10b0e1ddc18"
+            },
+            {
+                "code": "error",
+                "definition": "This endpoint has exceeded connectivity thresholds and is considered in an error state and should no longer be attempted to connect to until corrective action is taken",
+                "display": "Error",
+                "id": "8882ce9e-13ec-408d-96cf-9c3851c7924b"
+            },
+            {
+                "code": "off",
+                "definition": "This endpoint is no longer to be used",
+                "display": "Off",
+                "id": "23db42a7-cb01-4886-afdf-20ce70410e09"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

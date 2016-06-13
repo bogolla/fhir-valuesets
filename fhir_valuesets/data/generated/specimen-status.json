@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.SpecimenStatus",
+        "records": [
+            {
+                "code": "available",
+                "definition": "The physical specimen is present and in good condition.",
+                "display": "Available",
+                "id": "7baa0fa2-0840-4c96-a3ea-70a44f6155c5"
+            },
+            {
+                "code": "unavailable",
+                "definition": "There is no physical specimen because it is either lost, destroyed or consumed.",
+                "display": "Unavailable",
+                "id": "b3735812-6ca4-42e6-a9d1-3a343beb7c44"
+            },
+            {
+                "code": "unsatisfactory",
+                "definition": "The specimen cannot be used because of a quality issue such as a broken container, contamination, or too old.",
+                "display": "Unsatisfactory",
+                "id": "d0e1b98e-fdf1-42bc-8257-39ac479f233a"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The specimen was entered in error and therefore nullified.",
+                "display": "Entered-in-error",
+                "id": "665466b2-c514-438a-a273-ae8cdce1dbb4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Actionlist",
+        "records": [
+            {
+                "code": "cancel",
+                "definition": "Cancel, reverse or nullify the target resource.",
+                "display": "Cancel, Reverse or Nullify",
+                "id": "b0259f3d-ecf8-4f90-bca2-bc5d35360b96"
+            },
+            {
+                "code": "poll",
+                "definition": "Check for previously un-read/ not-retrieved resources.",
+                "display": "Poll",
+                "id": "34e27119-da49-4286-8485-f7026368f4c6"
+            },
+            {
+                "code": "reprocess",
+                "definition": "Re-process the target resource.",
+                "display": "Re-Process",
+                "id": "8fcf4f88-2090-41f2-85f2-bdab5cb2f748"
+            },
+            {
+                "code": "status",
+                "definition": "Retrieve the processing status of the target resource.",
+                "display": "Status Check",
+                "id": "2d4a89bc-9e8a-40a7-b9b8-4b25a2ec4f3a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

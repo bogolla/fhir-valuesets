@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Actstatus",
+        "records": [
+            {
+                "code": "normal",
+                "definition": "Encompasses the expected states of an Act, but excludes \"nullified\" and \"obsolete\" which represent unusual terminal states for the life-cycle.",
+                "display": "normal",
+                "id": "bd98d10e-d6a3-4824-954a-c8305ec1145d"
+            },
+            {
+                "code": "nullified",
+                "definition": "This Act instance was created in error and has been 'removed' and is treated as though it never existed.  A record is retained for audit purposes only.",
+                "display": "nullified",
+                "id": "aebceb6e-0520-4fee-b45a-0b6f47e6047a"
+            },
+            {
+                "code": "obsolete",
+                "definition": "This Act instance has been replaced by a new instance.",
+                "display": "obsolete",
+                "id": "f8428106-f646-4a02-a5ac-d2762c904cb4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

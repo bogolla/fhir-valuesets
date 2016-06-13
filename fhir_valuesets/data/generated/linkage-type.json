@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.LinkageType",
+        "records": [
+            {
+                "code": "source",
+                "definition": "The record represents the \"source of truth\" (from the perspective of this Linkage resource) for the underlying event/condition/etc.",
+                "display": "Source of truth",
+                "id": "a0231623-e9fb-40a1-83a5-a4f56fe56c57"
+            },
+            {
+                "code": "alternate",
+                "definition": "The record represents the alternative view of the underlying event/condition/etc.  The record may still be actively maintained, even though it is not considered to be the source of truth.",
+                "display": "Alternate record",
+                "id": "48b377d5-9c5f-48f9-855d-5d21b65eb7c1"
+            },
+            {
+                "code": "historical",
+                "definition": "The record represents an obsolete record of the underlyng event/condition/etc.  It is not expected to be actively maintained.",
+                "display": "Historical/obsolete record",
+                "id": "1787b65e-2267-43ee-894c-adbafd3d10d2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

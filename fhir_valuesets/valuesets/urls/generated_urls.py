@@ -1,0 +1,1427 @@
+from rest_framework import routers
+from ..views import *  # noqa
+
+router = routers.SimpleRouter()
+
+router.register(r'example',
+                ExampleViewSet,
+                'example')
+router.register(r'surface',
+                SurfaceViewSet,
+                'surface')
+router.register(r'LOINC_48002_0_answerlist',
+                Loinc480020AnswerlistViewSet,
+                'LOINC_48002_0_answerlist')
+router.register(r'LOINC_48019_4_answerlist',
+                Loinc480194AnswerlistViewSet,
+                'LOINC_48019_4_answerlist')
+router.register(r'LOINC_53034_5_answerlist',
+                Loinc530345AnswerlistViewSet,
+                'LOINC_53034_5_answerlist')
+router.register(r'abstract_types',
+                AbstractTypesViewSet,
+                'abstract_types')
+router.register(r'account_status',
+                AccountStatusViewSet,
+                'account_status')
+router.register(r'action_behavior_type',
+                ActionBehaviorTypeViewSet,
+                'action_behavior_type')
+router.register(r'action_cardinality_behavior',
+                ActionCardinalityBehaviorViewSet,
+                'action_cardinality_behavior')
+router.register(r'action_grouping_behavior',
+                ActionGroupingBehaviorViewSet,
+                'action_grouping_behavior')
+router.register(r'action_participant_type',
+                ActionParticipantTypeViewSet,
+                'action_participant_type')
+router.register(r'action_precheck_behavior',
+                ActionPrecheckBehaviorViewSet,
+                'action_precheck_behavior')
+router.register(r'action_relationship_anchor',
+                ActionRelationshipAnchorViewSet,
+                'action_relationship_anchor')
+router.register(r'action_relationship_type',
+                ActionRelationshipTypeViewSet,
+                'action_relationship_type')
+router.register(r'action_required_behavior',
+                ActionRequiredBehaviorViewSet,
+                'action_required_behavior')
+router.register(r'action_selection_behavior',
+                ActionSelectionBehaviorViewSet,
+                'action_selection_behavior')
+router.register(r'action_type',
+                ActionTypeViewSet,
+                'action_type')
+router.register(r'actionlist',
+                ActionlistViewSet,
+                'actionlist')
+router.register(r'activity_definition_category',
+                ActivityDefinitionCategoryViewSet,
+                'activity_definition_category')
+router.register(r'activity_participant_type',
+                ActivityParticipantTypeViewSet,
+                'activity_participant_type')
+router.register(r'additionalmaterials',
+                AdditionalmaterialsViewSet,
+                'additionalmaterials')
+router.register(r'address_type',
+                AddressTypeViewSet,
+                'address_type')
+router.register(r'address_use',
+                AddressUseViewSet,
+                'address_use')
+router.register(r'adjudication',
+                AdjudicationViewSet,
+                'adjudication')
+router.register(r'adjudication_error',
+                AdjudicationErrorViewSet,
+                'adjudication_error')
+router.register(r'adjudication_reason',
+                AdjudicationReasonViewSet,
+                'adjudication_reason')
+router.register(r'administrative_gender',
+                AdministrativeGenderViewSet,
+                'administrative_gender')
+router.register(r'encounter_admit_source',
+                EncounterAdmitSourceViewSet,
+                'encounter_admit_source')
+router.register(r'allergy_intolerance_category',
+                AllergyIntoleranceCategoryViewSet,
+                'allergy_intolerance_category')
+router.register(r'allergy_intolerance_criticality',
+                AllergyIntoleranceCriticalityViewSet,
+                'allergy_intolerance_criticality')
+router.register(r'allergy_intolerance_status',
+                AllergyIntoleranceStatusViewSet,
+                'allergy_intolerance_status')
+router.register(r'allergy_intolerance_type',
+                AllergyIntoleranceTypeViewSet,
+                'allergy_intolerance_type')
+router.register(r'animal_breeds',
+                AnimalBreedsViewSet,
+                'animal_breeds')
+router.register(r'animal_genderstatus',
+                AnimalGenderstatusViewSet,
+                'animal_genderstatus')
+router.register(r'animal_species',
+                AnimalSpeciesViewSet,
+                'animal_species')
+router.register(r'appointmentstatus',
+                AppointmentstatusViewSet,
+                'appointmentstatus')
+router.register(r'assert_direction_codes',
+                AssertDirectionCodesViewSet,
+                'assert_direction_codes')
+router.register(r'assert_operator_codes',
+                AssertOperatorCodesViewSet,
+                'assert_operator_codes')
+router.register(r'assert_response_code_types',
+                AssertResponseCodeTypesViewSet,
+                'assert_response_code_types')
+router.register(r'audit_event_action',
+                AuditEventActionViewSet,
+                'audit_event_action')
+router.register(r'audit_event_outcome',
+                AuditEventOutcomeViewSet,
+                'audit_event_outcome')
+router.register(r'audit_event_type',
+                AuditEventTypeViewSet,
+                'audit_event_type')
+router.register(r'basic_resource_type',
+                BasicResourceTypeViewSet,
+                'basic_resource_type')
+router.register(r'benefit_category',
+                BenefitCategoryViewSet,
+                'benefit_category')
+router.register(r'benefit_network',
+                BenefitNetworkViewSet,
+                'benefit_network')
+router.register(r'benefit_subcategory',
+                BenefitSubcategoryViewSet,
+                'benefit_subcategory')
+router.register(r'benefit_term',
+                BenefitTermViewSet,
+                'benefit_term')
+router.register(r'benefit_type',
+                BenefitTypeViewSet,
+                'benefit_type')
+router.register(r'benefit_unit',
+                BenefitUnitViewSet,
+                'benefit_unit')
+router.register(r'binding_strength',
+                BindingStrengthViewSet,
+                'binding_strength')
+router.register(r'bundle_type',
+                BundleTypeViewSet,
+                'bundle_type')
+router.register(r'cardinality_behavior',
+                CardinalityBehaviorViewSet,
+                'cardinality_behavior')
+router.register(r'care_plan_activity_category',
+                CarePlanActivityCategoryViewSet,
+                'care_plan_activity_category')
+router.register(r'care_plan_activity_status',
+                CarePlanActivityStatusViewSet,
+                'care_plan_activity_status')
+router.register(r'care_plan_relationship',
+                CarePlanRelationshipViewSet,
+                'care_plan_relationship')
+router.register(r'care_plan_status',
+                CarePlanStatusViewSet,
+                'care_plan_status')
+router.register(r'cds_rule_action_type',
+                CdsRuleActionTypeViewSet,
+                'cds_rule_action_type')
+router.register(r'cds_rule_participant',
+                CdsRuleParticipantViewSet,
+                'cds_rule_participant')
+router.register(r'cds_rule_trigger_type',
+                CdsRuleTriggerTypeViewSet,
+                'cds_rule_trigger_type')
+router.register(r'choice_list_orientation',
+                ChoiceListOrientationViewSet,
+                'choice_list_orientation')
+router.register(r'chromosome_human',
+                ChromosomeHumanViewSet,
+                'chromosome_human')
+router.register(r'claim_exception',
+                ClaimExceptionViewSet,
+                'claim_exception')
+router.register(r'claim_type_link',
+                ClaimTypeLinkViewSet,
+                'claim_type_link')
+router.register(r'claim_type_link2',
+                ClaimTypeLink2ViewSet,
+                'claim_type_link2')
+router.register(r'claim_use_link',
+                ClaimUseLinkViewSet,
+                'claim_use_link')
+router.register(r'claim_careteamrole',
+                ClaimCareteamroleViewSet,
+                'claim_careteamrole')
+router.register(r'claim_informationcategory',
+                ClaimInformationcategoryViewSet,
+                'claim_informationcategory')
+router.register(r'classification_or_context',
+                ClassificationOrContextViewSet,
+                'classification_or_context')
+router.register(r'clinical_impression_status',
+                ClinicalImpressionStatusViewSet,
+                'clinical_impression_status')
+router.register(r'content_mode',
+                ContentModeViewSet,
+                'content_mode')
+router.register(r'communication_request_status',
+                CommunicationRequestStatusViewSet,
+                'communication_request_status')
+router.register(r'communication_status',
+                CommunicationStatusViewSet,
+                'communication_status')
+router.register(r'compartment_type',
+                CompartmentTypeViewSet,
+                'compartment_type')
+router.register(r'composition_attestation_mode',
+                CompositionAttestationModeViewSet,
+                'composition_attestation_mode')
+router.register(r'composition_status',
+                CompositionStatusViewSet,
+                'composition_status')
+router.register(r'concept_map_equivalence',
+                ConceptMapEquivalenceViewSet,
+                'concept_map_equivalence')
+router.register(r'concept_properties',
+                ConceptPropertiesViewSet,
+                'concept_properties')
+router.register(r'concept_property_type',
+                ConceptPropertyTypeViewSet,
+                'concept_property_type')
+router.register(r'condition_category',
+                ConditionCategoryViewSet,
+                'condition_category')
+router.register(r'condition_clinical',
+                ConditionClinicalViewSet,
+                'condition_clinical')
+router.register(r'condition_state',
+                ConditionStateViewSet,
+                'condition_state')
+router.register(r'condition_ver_status',
+                ConditionVerStatusViewSet,
+                'condition_ver_status')
+router.register(r'conditional_delete_status',
+                ConditionalDeleteStatusViewSet,
+                'conditional_delete_status')
+router.register(r'conformance_expectation',
+                ConformanceExpectationViewSet,
+                'conformance_expectation')
+router.register(r'conformance_resource_status',
+                ConformanceResourceStatusViewSet,
+                'conformance_resource_status')
+router.register(r'conformance_statement_kind',
+                ConformanceStatementKindViewSet,
+                'conformance_statement_kind')
+router.register(r'consent_data_meaning',
+                ConsentDataMeaningViewSet,
+                'consent_data_meaning')
+router.register(r'consent_except_type',
+                ConsentExceptTypeViewSet,
+                'consent_except_type')
+router.register(r'consent_status',
+                ConsentStatusViewSet,
+                'consent_status')
+router.register(r'consent_action',
+                ConsentActionViewSet,
+                'consent_action')
+router.register(r'consent_category',
+                ConsentCategoryViewSet,
+                'consent_category')
+router.register(r'constraint_severity',
+                ConstraintSeverityViewSet,
+                'constraint_severity')
+router.register(r'contact_point_system',
+                ContactPointSystemViewSet,
+                'contact_point_system')
+router.register(r'contact_point_use',
+                ContactPointUseViewSet,
+                'contact_point_use')
+router.register(r'contactentity_type',
+                ContactentityTypeViewSet,
+                'contactentity_type')
+router.register(r'content_type',
+                ContentTypeViewSet,
+                'content_type')
+router.register(r'contract_subtype',
+                ContractSubtypeViewSet,
+                'contract_subtype')
+router.register(r'contract_term_subtype',
+                ContractTermSubtypeViewSet,
+                'contract_term_subtype')
+router.register(r'contract_term_type',
+                ContractTermTypeViewSet,
+                'contract_term_type')
+router.register(r'contract_type',
+                ContractTypeViewSet,
+                'contract_type')
+router.register(r'copy_number_event',
+                CopyNumberEventViewSet,
+                'copy_number_event')
+router.register(r'coverage_exception',
+                CoverageExceptionViewSet,
+                'coverage_exception')
+router.register(r'dWebType',
+                DwebtypeViewSet,
+                'dWebType')
+router.register(r'data_absent_reason',
+                DataAbsentReasonViewSet,
+                'data_absent_reason')
+router.register(r'data_types',
+                DataTypesViewSet,
+                'data_types')
+router.register(r'dataelement_stringency',
+                DataelementStringencyViewSet,
+                'dataelement_stringency')
+router.register(r'days_of_week',
+                DaysOfWeekViewSet,
+                'days_of_week')
+router.register(r'detectedissue_severity',
+                DetectedissueSeverityViewSet,
+                'detectedissue_severity')
+router.register(r'device_action',
+                DeviceActionViewSet,
+                'device_action')
+router.register(r'device_use_request_priority',
+                DeviceUseRequestPriorityViewSet,
+                'device_use_request_priority')
+router.register(r'device_use_request_status',
+                DeviceUseRequestStatusViewSet,
+                'device_use_request_status')
+router.register(r'devicestatus',
+                DevicestatusViewSet,
+                'devicestatus')
+router.register(r'diagnostic_order_priority',
+                DiagnosticOrderPriorityViewSet,
+                'diagnostic_order_priority')
+router.register(r'diagnostic_order_status',
+                DiagnosticOrderStatusViewSet,
+                'diagnostic_order_status')
+router.register(r'diagnostic_report_status',
+                DiagnosticReportStatusViewSet,
+                'diagnostic_report_status')
+router.register(r'encounter_diet',
+                EncounterDietViewSet,
+                'encounter_diet')
+router.register(r'digital_media_type',
+                DigitalMediaTypeViewSet,
+                'digital_media_type')
+router.register(r'encounter_discharge_disposition',
+                EncounterDischargeDispositionViewSet,
+                'encounter_discharge_disposition')
+router.register(r'document_mode',
+                DocumentModeViewSet,
+                'document_mode')
+router.register(r'document_reference_status',
+                DocumentReferenceStatusViewSet,
+                'document_reference_status')
+router.register(r'document_relationship_type',
+                DocumentRelationshipTypeViewSet,
+                'document_relationship_type')
+router.register(r'encounter_location_status',
+                EncounterLocationStatusViewSet,
+                'encounter_location_status')
+router.register(r'encounter_priority',
+                EncounterPriorityViewSet,
+                'encounter_priority')
+router.register(r'encounter_special_arrangements',
+                EncounterSpecialArrangementsViewSet,
+                'encounter_special_arrangements')
+router.register(r'encounter_state',
+                EncounterStateViewSet,
+                'encounter_state')
+router.register(r'encounter_type',
+                EncounterTypeViewSet,
+                'encounter_type')
+router.register(r'endpoint_status',
+                EndpointStatusViewSet,
+                'endpoint_status')
+router.register(r'entformula_additive',
+                EntformulaAdditiveViewSet,
+                'entformula_additive')
+router.register(r'episode_of_care_status',
+                EpisodeOfCareStatusViewSet,
+                'episode_of_care_status')
+router.register(r'service_uscls',
+                ServiceUsclsViewSet,
+                'service_uscls')
+router.register(r'fm_itemtype',
+                FmItemtypeViewSet,
+                'fm_itemtype')
+router.register(r'occurrence_codes',
+                OccurrenceCodesViewSet,
+                'occurrence_codes')
+router.register(r'occurrence_span_codes',
+                OccurrenceSpanCodesViewSet,
+                'occurrence_span_codes')
+router.register(r'claim_subtype',
+                ClaimSubtypeViewSet,
+                'claim_subtype')
+router.register(r'value_codes',
+                ValueCodesViewSet,
+                'value_codes')
+router.register(r'ex_diagnosisrelatedgroup',
+                ExDiagnosisrelatedgroupViewSet,
+                'ex_diagnosisrelatedgroup')
+router.register(r'ex_diagnosistype',
+                ExDiagnosistypeViewSet,
+                'ex_diagnosistype')
+router.register(r'teeth',
+                TeethViewSet,
+                'teeth')
+router.register(r'ex_onsettype',
+                ExOnsettypeViewSet,
+                'ex_onsettype')
+router.register(r'oral_prosthodontic_material',
+                OralProsthodonticMaterialViewSet,
+                'oral_prosthodontic_material')
+router.register(r'ex_paymenttype',
+                ExPaymenttypeViewSet,
+                'ex_paymenttype')
+router.register(r'service_pharmacy',
+                ServicePharmacyViewSet,
+                'service_pharmacy')
+router.register(r'ex_program_code',
+                ExProgramCodeViewSet,
+                'ex_program_code')
+router.register(r'provider_qualification',
+                ProviderQualificationViewSet,
+                'provider_qualification')
+router.register(r'related_claim_relationship',
+                RelatedClaimRelationshipViewSet,
+                'related_claim_relationship')
+router.register(r'service_modifiers',
+                ServiceModifiersViewSet,
+                'service_modifiers')
+router.register(r'service_place',
+                ServicePlaceViewSet,
+                'service_place')
+router.register(r'service_product',
+                ServiceProductViewSet,
+                'service_product')
+router.register(r'tooth',
+                ToothViewSet,
+                'tooth')
+router.register(r'udi',
+                UdiViewSet,
+                'udi')
+router.register(r'vision_product',
+                VisionProductViewSet,
+                'vision_product')
+router.register(r'extension_context',
+                ExtensionContextViewSet,
+                'extension_context')
+router.register(r'filter_operator',
+                FilterOperatorViewSet,
+                'filter_operator')
+router.register(r'flag_category',
+                FlagCategoryViewSet,
+                'flag_category')
+router.register(r'flag_priority',
+                FlagPriorityViewSet,
+                'flag_priority')
+router.register(r'flag_status',
+                FlagStatusViewSet,
+                'flag_status')
+router.register(r'fm_conditions',
+                FmConditionsViewSet,
+                'fm_conditions')
+router.register(r'forms',
+                FormsViewSet,
+                'forms')
+router.register(r'fundsreserve',
+                FundsreserveViewSet,
+                'fundsreserve')
+router.register(r'goal_acceptance_status',
+                GoalAcceptanceStatusViewSet,
+                'goal_acceptance_status')
+router.register(r'goal_category',
+                GoalCategoryViewSet,
+                'goal_category')
+router.register(r'goal_priority',
+                GoalPriorityViewSet,
+                'goal_priority')
+router.register(r'goal_relationship_type',
+                GoalRelationshipTypeViewSet,
+                'goal_relationship_type')
+router.register(r'goal_status',
+                GoalStatusViewSet,
+                'goal_status')
+router.register(r'goal_status_reason',
+                GoalStatusReasonViewSet,
+                'goal_status_reason')
+router.register(r'group_type',
+                GroupTypeViewSet,
+                'group_type')
+router.register(r'grouping_behavior',
+                GroupingBehaviorViewSet,
+                'grouping_behavior')
+router.register(r'guidance_response_status',
+                GuidanceResponseStatusViewSet,
+                'guidance_response_status')
+router.register(r'guide_dependency_type',
+                GuideDependencyTypeViewSet,
+                'guide_dependency_type')
+router.register(r'guide_page_kind',
+                GuidePageKindViewSet,
+                'guide_page_kind')
+router.register(r'history_status',
+                HistoryStatusViewSet,
+                'history_status')
+router.register(r'http_verb',
+                HttpVerbViewSet,
+                'http_verb')
+router.register(r'identifier_type',
+                IdentifierTypeViewSet,
+                'identifier_type')
+router.register(r'identifier_use',
+                IdentifierUseViewSet,
+                'identifier_use')
+router.register(r'identity_assuranceLevel',
+                IdentityAssurancelevelViewSet,
+                'identity_assuranceLevel')
+router.register(r'immunization_recommendation_date_criterion',
+                ImmunizationRecommendationDateCriterionViewSet,
+                'immunization_recommendation_date_criterion')
+router.register(r'immunization_recommendation_status',
+                ImmunizationRecommendationStatusViewSet,
+                'immunization_recommendation_status')
+router.register(r'intervention',
+                InterventionViewSet,
+                'intervention')
+router.register(r'issue_severity',
+                IssueSeverityViewSet,
+                'issue_severity')
+router.register(r'issue_type',
+                IssueTypeViewSet,
+                'issue_type')
+router.register(r'item_type',
+                ItemTypeViewSet,
+                'item_type')
+router.register(r'link_type',
+                LinkTypeViewSet,
+                'link_type')
+router.register(r'linkage_type',
+                LinkageTypeViewSet,
+                'linkage_type')
+router.register(r'list_empty_reason',
+                ListEmptyReasonViewSet,
+                'list_empty_reason')
+router.register(r'list_example_codes',
+                ListExampleCodesViewSet,
+                'list_example_codes')
+router.register(r'list_mode',
+                ListModeViewSet,
+                'list_mode')
+router.register(r'list_order',
+                ListOrderViewSet,
+                'list_order')
+router.register(r'list_status',
+                ListStatusViewSet,
+                'list_status')
+router.register(r'location_mode',
+                LocationModeViewSet,
+                'location_mode')
+router.register(r'location_physical_type',
+                LocationPhysicalTypeViewSet,
+                'location_physical_type')
+router.register(r'location_status',
+                LocationStatusViewSet,
+                'location_status')
+router.register(r'map_context_type',
+                MapContextTypeViewSet,
+                'map_context_type')
+router.register(r'map_input_mode',
+                MapInputModeViewSet,
+                'map_input_mode')
+router.register(r'map_list_mode',
+                MapListModeViewSet,
+                'map_list_mode')
+router.register(r'map_model_mode',
+                MapModelModeViewSet,
+                'map_model_mode')
+router.register(r'map_transform',
+                MapTransformViewSet,
+                'map_transform')
+router.register(r'marital_status',
+                MaritalStatusViewSet,
+                'marital_status')
+router.register(r'match_grade',
+                MatchGradeViewSet,
+                'match_grade')
+router.register(r'measure_data_usage',
+                MeasureDataUsageViewSet,
+                'measure_data_usage')
+router.register(r'measure_population',
+                MeasurePopulationViewSet,
+                'measure_population')
+router.register(r'measure_report_status',
+                MeasureReportStatusViewSet,
+                'measure_report_status')
+router.register(r'measure_report_type',
+                MeasureReportTypeViewSet,
+                'measure_report_type')
+router.register(r'measure_scoring',
+                MeasureScoringViewSet,
+                'measure_scoring')
+router.register(r'measure_type',
+                MeasureTypeViewSet,
+                'measure_type')
+router.register(r'measurement_principle',
+                MeasurementPrincipleViewSet,
+                'measurement_principle')
+router.register(r'digital_media_subtype',
+                DigitalMediaSubtypeViewSet,
+                'digital_media_subtype')
+router.register(r'medication_admin_status',
+                MedicationAdminStatusViewSet,
+                'medication_admin_status')
+router.register(r'medication_dispense_status',
+                MedicationDispenseStatusViewSet,
+                'medication_dispense_status')
+router.register(r'medication_order_status',
+                MedicationOrderStatusViewSet,
+                'medication_order_status')
+router.register(r'medication_statement_status',
+                MedicationStatementStatusViewSet,
+                'medication_statement_status')
+router.register(r'message_conformance_event_mode',
+                MessageConformanceEventModeViewSet,
+                'message_conformance_event_mode')
+router.register(r'message_events',
+                MessageEventsViewSet,
+                'message_events')
+router.register(r'message_reason_encounter',
+                MessageReasonEncounterViewSet,
+                'message_reason_encounter')
+router.register(r'message_significance_category',
+                MessageSignificanceCategoryViewSet,
+                'message_significance_category')
+router.register(r'message_transport',
+                MessageTransportViewSet,
+                'message_transport')
+router.register(r'metric_calibration_state',
+                MetricCalibrationStateViewSet,
+                'metric_calibration_state')
+router.register(r'metric_calibration_type',
+                MetricCalibrationTypeViewSet,
+                'metric_calibration_type')
+router.register(r'metric_category',
+                MetricCategoryViewSet,
+                'metric_category')
+router.register(r'metric_color',
+                MetricColorViewSet,
+                'metric_color')
+router.register(r'metric_operational_status',
+                MetricOperationalStatusViewSet,
+                'metric_operational_status')
+router.register(r'missing_tooth_reason',
+                MissingToothReasonViewSet,
+                'missing_tooth_reason')
+router.register(r'claim_modifiers',
+                ClaimModifiersViewSet,
+                'claim_modifiers')
+router.register(r'module_metadata_contributor',
+                ModuleMetadataContributorViewSet,
+                'module_metadata_contributor')
+router.register(r'module_metadata_focus_type',
+                ModuleMetadataFocusTypeViewSet,
+                'module_metadata_focus_type')
+router.register(r'module_metadata_resource_type',
+                ModuleMetadataResourceTypeViewSet,
+                'module_metadata_resource_type')
+router.register(r'module_metadata_status',
+                ModuleMetadataStatusViewSet,
+                'module_metadata_status')
+router.register(r'module_metadata_type',
+                ModuleMetadataTypeViewSet,
+                'module_metadata_type')
+router.register(r'name_use',
+                NameUseViewSet,
+                'name_use')
+router.register(r'namingsystem_identifier_type',
+                NamingsystemIdentifierTypeViewSet,
+                'namingsystem_identifier_type')
+router.register(r'namingsystem_type',
+                NamingsystemTypeViewSet,
+                'namingsystem_type')
+router.register(r'narrative_status',
+                NarrativeStatusViewSet,
+                'narrative_status')
+router.register(r'network_type',
+                NetworkTypeViewSet,
+                'network_type')
+router.register(r'note_type',
+                NoteTypeViewSet,
+                'note_type')
+router.register(r'nutrition_order_status',
+                NutritionOrderStatusViewSet,
+                'nutrition_order_status')
+router.register(r'object_lifecycle',
+                ObjectLifecycleViewSet,
+                'object_lifecycle')
+router.register(r'object_role',
+                ObjectRoleViewSet,
+                'object_role')
+router.register(r'object_type',
+                ObjectTypeViewSet,
+                'object_type')
+router.register(r'observation_category',
+                ObservationCategoryViewSet,
+                'observation_category')
+router.register(r'observation_paramcode',
+                ObservationParamcodeViewSet,
+                'observation_paramcode')
+router.register(r'observation_relationshiptypes',
+                ObservationRelationshiptypesViewSet,
+                'observation_relationshiptypes')
+router.register(r'observation_status',
+                ObservationStatusViewSet,
+                'observation_status')
+router.register(r'operation_kind',
+                OperationKindViewSet,
+                'operation_kind')
+router.register(r'operation_outcome',
+                OperationOutcomeViewSet,
+                'operation_outcome')
+router.register(r'operation_parameter_use',
+                OperationParameterUseViewSet,
+                'operation_parameter_use')
+router.register(r'order_set_item_type',
+                OrderSetItemTypeViewSet,
+                'order_set_item_type')
+router.register(r'order_set_participant',
+                OrderSetParticipantViewSet,
+                'order_set_participant')
+router.register(r'order_status',
+                OrderStatusViewSet,
+                'order_status')
+router.register(r'organization_type',
+                OrganizationTypeViewSet,
+                'organization_type')
+router.register(r'encounter_participant_type',
+                EncounterParticipantTypeViewSet,
+                'encounter_participant_type')
+router.register(r'participantrequired',
+                ParticipantrequiredViewSet,
+                'participantrequired')
+router.register(r'participationstatus',
+                ParticipationstatusViewSet,
+                'participationstatus')
+router.register(r'patient_contact_relationship',
+                PatientContactRelationshipViewSet,
+                'patient_contact_relationship')
+router.register(r'patient_mpi_match',
+                PatientMpiMatchViewSet,
+                'patient_mpi_match')
+router.register(r'payeetype',
+                PayeetypeViewSet,
+                'payeetype')
+router.register(r'payment_adjustment_reason',
+                PaymentAdjustmentReasonViewSet,
+                'payment_adjustment_reason')
+router.register(r'payment_type',
+                PaymentTypeViewSet,
+                'payment_type')
+router.register(r'payment_status',
+                PaymentStatusViewSet,
+                'payment_status')
+router.register(r'planaction_behavior_type',
+                PlanactionBehaviorTypeViewSet,
+                'planaction_behavior_type')
+router.register(r'planaction_relationship_anchor',
+                PlanactionRelationshipAnchorViewSet,
+                'planaction_relationship_anchor')
+router.register(r'planaction_relationship_type',
+                PlanactionRelationshipTypeViewSet,
+                'planaction_relationship_type')
+router.register(r'planaction_type',
+                PlanactionTypeViewSet,
+                'planaction_type')
+router.register(r'practitioner_role',
+                PractitionerRoleViewSet,
+                'practitioner_role')
+router.register(r'practitioner_specialty',
+                PractitionerSpecialtyViewSet,
+                'practitioner_specialty')
+router.register(r'precheck_behavior',
+                PrecheckBehaviorViewSet,
+                'precheck_behavior')
+router.register(r'procedure_progress_status_codes',
+                ProcedureProgressStatusCodesViewSet,
+                'procedure_progress_status_codes')
+router.register(r'procedure_relationship_type',
+                ProcedureRelationshipTypeViewSet,
+                'procedure_relationship_type')
+router.register(r'procedure_request_priority',
+                ProcedureRequestPriorityViewSet,
+                'procedure_request_priority')
+router.register(r'procedure_request_status',
+                ProcedureRequestStatusViewSet,
+                'procedure_request_status')
+router.register(r'procedure_status',
+                ProcedureStatusViewSet,
+                'procedure_status')
+router.register(r'process_outcome',
+                ProcessOutcomeViewSet,
+                'process_outcome')
+router.register(r'process_priority',
+                ProcessPriorityViewSet,
+                'process_priority')
+router.register(r'property_representation',
+                PropertyRepresentationViewSet,
+                'property_representation')
+router.register(r'protocol_activity_category',
+                ProtocolActivityCategoryViewSet,
+                'protocol_activity_category')
+router.register(r'protocol_status',
+                ProtocolStatusViewSet,
+                'protocol_status')
+router.register(r'protocol_type',
+                ProtocolTypeViewSet,
+                'protocol_type')
+router.register(r'provenance_entity_role',
+                ProvenanceEntityRoleViewSet,
+                'provenance_entity_role')
+router.register(r'provenance_agent_role',
+                ProvenanceAgentRoleViewSet,
+                'provenance_agent_role')
+router.register(r'provenance_agent_type',
+                ProvenanceAgentTypeViewSet,
+                'provenance_agent_type')
+router.register(r'quantity_comparator',
+                QuantityComparatorViewSet,
+                'quantity_comparator')
+router.register(r'question_max_occurs',
+                QuestionMaxOccursViewSet,
+                'question_max_occurs')
+router.register(r'questionnaire_answers_status',
+                QuestionnaireAnswersStatusViewSet,
+                'questionnaire_answers_status')
+router.register(r'questionnaire_display_category',
+                QuestionnaireDisplayCategoryViewSet,
+                'questionnaire_display_category')
+router.register(r'questionnaire_item_control',
+                QuestionnaireItemControlViewSet,
+                'questionnaire_item_control')
+router.register(r'questionnaire_status',
+                QuestionnaireStatusViewSet,
+                'questionnaire_status')
+router.register(r'reaction_event_certainty',
+                ReactionEventCertaintyViewSet,
+                'reaction_event_certainty')
+router.register(r'reaction_event_severity',
+                ReactionEventSeverityViewSet,
+                'reaction_event_severity')
+router.register(r'reason_medication_given_codes',
+                ReasonMedicationGivenCodesViewSet,
+                'reason_medication_given_codes')
+router.register(r'reason_medication_not_given_codes',
+                ReasonMedicationNotGivenCodesViewSet,
+                'reason_medication_not_given_codes')
+router.register(r'reference_version_rules',
+                ReferenceVersionRulesViewSet,
+                'reference_version_rules')
+router.register(r'referencerange_meaning',
+                ReferencerangeMeaningViewSet,
+                'referencerange_meaning')
+router.register(r'referralcategory',
+                ReferralcategoryViewSet,
+                'referralcategory')
+router.register(r'referralstatus',
+                ReferralstatusViewSet,
+                'referralstatus')
+router.register(r'relationship',
+                RelationshipViewSet,
+                'relationship')
+router.register(r'remittance_outcome',
+                RemittanceOutcomeViewSet,
+                'remittance_outcome')
+router.register(r'required_behavior',
+                RequiredBehaviorViewSet,
+                'required_behavior')
+router.register(r'resource_aggregation_mode',
+                ResourceAggregationModeViewSet,
+                'resource_aggregation_mode')
+router.register(r'resource_slicing_rules',
+                ResourceSlicingRulesViewSet,
+                'resource_slicing_rules')
+router.register(r'resource_type_link',
+                ResourceTypeLinkViewSet,
+                'resource_type_link')
+router.register(r'resource_types',
+                ResourceTypesViewSet,
+                'resource_types')
+router.register(r'resource_validation_mode',
+                ResourceValidationModeViewSet,
+                'resource_validation_mode')
+router.register(r'response_code',
+                ResponseCodeViewSet,
+                'response_code')
+router.register(r'restful_conformance_mode',
+                RestfulConformanceModeViewSet,
+                'restful_conformance_mode')
+router.register(r'restful_interaction',
+                RestfulInteractionViewSet,
+                'restful_interaction')
+router.register(r'restful_security_service',
+                RestfulSecurityServiceViewSet,
+                'restful_security_service')
+router.register(r'risk_probability',
+                RiskProbabilityViewSet,
+                'risk_probability')
+router.register(r'ruleset',
+                RulesetViewSet,
+                'ruleset')
+router.register(r'search_entry_mode',
+                SearchEntryModeViewSet,
+                'search_entry_mode')
+router.register(r'search_modifier_code',
+                SearchModifierCodeViewSet,
+                'search_modifier_code')
+router.register(r'search_param_type',
+                SearchParamTypeViewSet,
+                'search_param_type')
+router.register(r'search_xpath_usage',
+                SearchXpathUsageViewSet,
+                'search_xpath_usage')
+router.register(r'audit_source_type',
+                AuditSourceTypeViewSet,
+                'audit_source_type')
+router.register(r'selection_behavior',
+                SelectionBehaviorViewSet,
+                'selection_behavior')
+router.register(r'sequence_type',
+                SequenceTypeViewSet,
+                'sequence_type')
+router.register(r'service_category',
+                ServiceCategoryViewSet,
+                'service_category')
+router.register(r'service_provision_conditions',
+                ServiceProvisionConditionsViewSet,
+                'service_provision_conditions')
+router.register(r'service_referral_method',
+                ServiceReferralMethodViewSet,
+                'service_referral_method')
+router.register(r'service_type',
+                ServiceTypeViewSet,
+                'service_type')
+router.register(r'icd_10_procedures',
+                Icd10ProceduresViewSet,
+                'icd_10_procedures')
+router.register(r'slotstatus',
+                SlotstatusViewSet,
+                'slotstatus')
+router.register(r'special_values',
+                SpecialValuesViewSet,
+                'special_values')
+router.register(r'specimen_status',
+                SpecimenStatusViewSet,
+                'specimen_status')
+router.register(r'structure_definition_kind',
+                StructureDefinitionKindViewSet,
+                'structure_definition_kind')
+router.register(r'subscription_channel_type',
+                SubscriptionChannelTypeViewSet,
+                'subscription_channel_type')
+router.register(r'subscription_status',
+                SubscriptionStatusViewSet,
+                'subscription_status')
+router.register(r'subscription_tag',
+                SubscriptionTagViewSet,
+                'subscription_tag')
+router.register(r'substance_category',
+                SubstanceCategoryViewSet,
+                'substance_category')
+router.register(r'supplydelivery_type',
+                SupplydeliveryTypeViewSet,
+                'supplydelivery_type')
+router.register(r'supplyrequest_kind',
+                SupplyrequestKindViewSet,
+                'supplyrequest_kind')
+router.register(r'supplydelivery_status',
+                SupplydeliveryStatusViewSet,
+                'supplydelivery_status')
+router.register(r'supplyrequest_reason',
+                SupplyrequestReasonViewSet,
+                'supplyrequest_reason')
+router.register(r'supplyrequest_status',
+                SupplyrequestStatusViewSet,
+                'supplyrequest_status')
+router.register(r'task_performer_type',
+                TaskPerformerTypeViewSet,
+                'task_performer_type')
+router.register(r'task_priority',
+                TaskPriorityViewSet,
+                'task_priority')
+router.register(r'task_stage',
+                TaskStageViewSet,
+                'task_stage')
+router.register(r'task_status',
+                TaskStatusViewSet,
+                'task_status')
+router.register(r'testscript_operation_codes',
+                TestscriptOperationCodesViewSet,
+                'testscript_operation_codes')
+router.register(r'testscript_profile_destination_types',
+                TestscriptProfileDestinationTypesViewSet,
+                'testscript_profile_destination_types')
+router.register(r'testscript_profile_origin_types',
+                TestscriptProfileOriginTypesViewSet,
+                'testscript_profile_origin_types')
+router.register(r'transaction_mode',
+                TransactionModeViewSet,
+                'transaction_mode')
+router.register(r'trigger_type',
+                TriggerTypeViewSet,
+                'trigger_type')
+router.register(r'type_derivation_rule',
+                TypeDerivationRuleViewSet,
+                'type_derivation_rule')
+router.register(r'unknown_content_code',
+                UnknownContentCodeViewSet,
+                'unknown_content_code')
+router.register(r'vaccination_protocol_dose_status',
+                VaccinationProtocolDoseStatusViewSet,
+                'vaccination_protocol_dose_status')
+router.register(r'vaccination_protocol_dose_status_reason',
+                VaccinationProtocolDoseStatusReasonViewSet,
+                'vaccination_protocol_dose_status_reason')
+router.register(r'variant_state',
+                VariantStateViewSet,
+                'variant_state')
+router.register(r'versioning_policy',
+                VersioningPolicyViewSet,
+                'versioning_policy')
+router.register(r'vision_base_codes',
+                VisionBaseCodesViewSet,
+                'vision_base_codes')
+router.register(r'vision_eye_codes',
+                VisionEyeCodesViewSet,
+                'vision_eye_codes')
+router.register(r'xds_relationship_type',
+                XdsRelationshipTypeViewSet,
+                'xds_relationship_type')
+
+router.register(r'AcknowledgementCondition',
+                AcknowledgementconditionViewSet,
+                'AcknowledgementCondition')
+router.register(r'AcknowledgementDetailCode',
+                AcknowledgementdetailcodeViewSet,
+                'AcknowledgementDetailCode')
+router.register(r'AcknowledgementDetailType',
+                AcknowledgementdetailtypeViewSet,
+                'AcknowledgementDetailType')
+router.register(r'AcknowledgementType',
+                AcknowledgementtypeViewSet,
+                'AcknowledgementType')
+router.register(r'ActClass',
+                ActclassViewSet,
+                'ActClass')
+router.register(r'ActCode',
+                ActcodeViewSet,
+                'ActCode')
+router.register(r'ActExposureLevelCode',
+                ActexposurelevelcodeViewSet,
+                'ActExposureLevelCode')
+router.register(r'ActInvoiceElementModifier',
+                ActinvoiceelementmodifierViewSet,
+                'ActInvoiceElementModifier')
+router.register(r'ActMood',
+                ActmoodViewSet,
+                'ActMood')
+router.register(r'ActPriority',
+                ActpriorityViewSet,
+                'ActPriority')
+router.register(r'ActReason',
+                ActreasonViewSet,
+                'ActReason')
+router.register(r'ActRelationshipCheckpoint',
+                ActrelationshipcheckpointViewSet,
+                'ActRelationshipCheckpoint')
+router.register(r'ActRelationshipJoin',
+                ActrelationshipjoinViewSet,
+                'ActRelationshipJoin')
+router.register(r'ActRelationshipSplit',
+                ActrelationshipsplitViewSet,
+                'ActRelationshipSplit')
+router.register(r'ActRelationshipSubset',
+                ActrelationshipsubsetViewSet,
+                'ActRelationshipSubset')
+router.register(r'ActRelationshipType',
+                ActrelationshiptypeViewSet,
+                'ActRelationshipType')
+router.register(r'ActSite',
+                ActsiteViewSet,
+                'ActSite')
+router.register(r'ActStatus',
+                ActstatusViewSet,
+                'ActStatus')
+router.register(r'ActUSPrivacyLaw',
+                ActusprivacylawViewSet,
+                'ActUSPrivacyLaw')
+router.register(r'ActUncertainty',
+                ActuncertaintyViewSet,
+                'ActUncertainty')
+router.register(r'AddressPartType',
+                AddressparttypeViewSet,
+                'AddressPartType')
+router.register(r'AmericanIndianAlaskaNativeLanguages',
+                AmericanindianalaskanativelanguagesViewSet,
+                'AmericanIndianAlaskaNativeLanguages')
+router.register(r'Calendar',
+                CalendarViewSet,
+                'Calendar')
+router.register(r'CalendarCycle',
+                CalendarcycleViewSet,
+                'CalendarCycle')
+router.register(r'CalendarType',
+                CalendartypeViewSet,
+                'CalendarType')
+router.register(r'Charset',
+                CharsetViewSet,
+                'Charset')
+router.register(r'CodingRationale',
+                CodingrationaleViewSet,
+                'CodingRationale')
+router.register(r'CommunicationFunctionType',
+                CommunicationfunctiontypeViewSet,
+                'CommunicationFunctionType')
+router.register(r'CompressionAlgorithm',
+                CompressionalgorithmViewSet,
+                'CompressionAlgorithm')
+router.register(r'Confidentiality',
+                ConfidentialityViewSet,
+                'Confidentiality')
+router.register(r'ContainerCap',
+                ContainercapViewSet,
+                'ContainerCap')
+router.register(r'ContainerSeparator',
+                ContainerseparatorViewSet,
+                'ContainerSeparator')
+router.register(r'ContentProcessingMode',
+                ContentprocessingmodeViewSet,
+                'ContentProcessingMode')
+router.register(r'ContextControl',
+                ContextcontrolViewSet,
+                'ContextControl')
+router.register(r'DataOperation',
+                DataoperationViewSet,
+                'DataOperation')
+router.register(r'DeviceAlertLevel',
+                DevicealertlevelViewSet,
+                'DeviceAlertLevel')
+router.register(r'DocumentCompletion',
+                DocumentcompletionViewSet,
+                'DocumentCompletion')
+router.register(r'DocumentStorage',
+                DocumentstorageViewSet,
+                'DocumentStorage')
+router.register(r'EducationLevel',
+                EducationlevelViewSet,
+                'EducationLevel')
+router.register(r'EmployeeJobClass',
+                EmployeejobclassViewSet,
+                'EmployeeJobClass')
+router.register(r'EncounterAdmissionSource',
+                EncounteradmissionsourceViewSet,
+                'EncounterAdmissionSource')
+router.register(r'EncounterSpecialCourtesy',
+                EncounterspecialcourtesyViewSet,
+                'EncounterSpecialCourtesy')
+router.register(r'EntityClass',
+                EntityclassViewSet,
+                'EntityClass')
+router.register(r'EntityCode',
+                EntitycodeViewSet,
+                'EntityCode')
+router.register(r'EntityDeterminer',
+                EntitydeterminerViewSet,
+                'EntityDeterminer')
+router.register(r'EntityHandling',
+                EntityhandlingViewSet,
+                'EntityHandling')
+router.register(r'EntityNamePartQualifier',
+                EntitynamepartqualifierViewSet,
+                'EntityNamePartQualifier')
+router.register(r'EntityNamePartQualifierR2',
+                Entitynamepartqualifierr2ViewSet,
+                'EntityNamePartQualifierR2')
+router.register(r'EntityNamePartType',
+                EntitynameparttypeViewSet,
+                'EntityNamePartType')
+router.register(r'EntityNamePartTypeR2',
+                Entitynameparttyper2ViewSet,
+                'EntityNamePartTypeR2')
+router.register(r'EntityNameUse',
+                EntitynameuseViewSet,
+                'EntityNameUse')
+router.register(r'EntityNameUseR2',
+                Entitynameuser2ViewSet,
+                'EntityNameUseR2')
+router.register(r'EntityRisk',
+                EntityriskViewSet,
+                'EntityRisk')
+router.register(r'EntityStatus',
+                EntitystatusViewSet,
+                'EntityStatus')
+router.register(r'EquipmentAlertLevel',
+                EquipmentalertlevelViewSet,
+                'EquipmentAlertLevel')
+router.register(r'Ethnicity',
+                EthnicityViewSet,
+                'Ethnicity')
+router.register(r'ExposureMode',
+                ExposuremodeViewSet,
+                'ExposureMode')
+router.register(r'GTSAbbreviation',
+                GtsabbreviationViewSet,
+                'GTSAbbreviation')
+router.register(r'GenderStatus',
+                GenderstatusViewSet,
+                'GenderStatus')
+router.register(r'HL7UpdateMode',
+                Hl7updatemodeViewSet,
+                'HL7UpdateMode')
+router.register(r'HtmlLinkType',
+                HtmllinktypeViewSet,
+                'HtmlLinkType')
+router.register(r'IdentifierReliability',
+                IdentifierreliabilityViewSet,
+                'IdentifierReliability')
+router.register(r'IdentifierScope',
+                IdentifierscopeViewSet,
+                'IdentifierScope')
+router.register(r'IntegrityCheckAlgorithm',
+                IntegritycheckalgorithmViewSet,
+                'IntegrityCheckAlgorithm')
+router.register(r'LanguageAbilityMode',
+                LanguageabilitymodeViewSet,
+                'LanguageAbilityMode')
+router.register(r'LanguageAbilityProficiency',
+                LanguageabilityproficiencyViewSet,
+                'LanguageAbilityProficiency')
+router.register(r'LivingArrangement',
+                LivingarrangementViewSet,
+                'LivingArrangement')
+router.register(r'LocalMarkupIgnore',
+                LocalmarkupignoreViewSet,
+                'LocalMarkupIgnore')
+router.register(r'LocalRemoteControlState',
+                LocalremotecontrolstateViewSet,
+                'LocalRemoteControlState')
+router.register(r'ManagedParticipationStatus',
+                ManagedparticipationstatusViewSet,
+                'ManagedParticipationStatus')
+router.register(r'MapRelationship',
+                MaprelationshipViewSet,
+                'MapRelationship')
+router.register(r'MessageWaitingPriority',
+                MessagewaitingpriorityViewSet,
+                'MessageWaitingPriority')
+router.register(r'ModifyIndicator',
+                ModifyindicatorViewSet,
+                'ModifyIndicator')
+router.register(r'NullFlavor',
+                NullflavorViewSet,
+                'NullFlavor')
+router.register(r'ObservationInterpretation',
+                ObservationinterpretationViewSet,
+                'ObservationInterpretation')
+router.register(r'ObservationMethod',
+                ObservationmethodViewSet,
+                'ObservationMethod')
+router.register(r'ObservationValue',
+                ObservationvalueViewSet,
+                'ObservationValue')
+router.register(r'ParticipationFunction',
+                ParticipationfunctionViewSet,
+                'ParticipationFunction')
+router.register(r'ParticipationMode',
+                ParticipationmodeViewSet,
+                'ParticipationMode')
+router.register(r'ParticipationSignature',
+                ParticipationsignatureViewSet,
+                'ParticipationSignature')
+router.register(r'ParticipationType',
+                ParticipationtypeViewSet,
+                'ParticipationType')
+router.register(r'PatientImportance',
+                PatientimportanceViewSet,
+                'PatientImportance')
+router.register(r'PaymentTerms',
+                PaymenttermsViewSet,
+                'PaymentTerms')
+router.register(r'PersonDisabilityType',
+                PersondisabilitytypeViewSet,
+                'PersonDisabilityType')
+router.register(r'ProbabilityDistributionType',
+                ProbabilitydistributiontypeViewSet,
+                'ProbabilityDistributionType')
+router.register(r'ProcessingID',
+                ProcessingidViewSet,
+                'ProcessingID')
+router.register(r'ProcessingMode',
+                ProcessingmodeViewSet,
+                'ProcessingMode')
+router.register(r'QueryParameterValue',
+                QueryparametervalueViewSet,
+                'QueryParameterValue')
+router.register(r'QueryPriority',
+                QuerypriorityViewSet,
+                'QueryPriority')
+router.register(r'QueryRequestLimit',
+                QueryrequestlimitViewSet,
+                'QueryRequestLimit')
+router.register(r'QueryResponse',
+                QueryresponseViewSet,
+                'QueryResponse')
+router.register(r'QueryStatusCode',
+                QuerystatuscodeViewSet,
+                'QueryStatusCode')
+router.register(r'Race',
+                RaceViewSet,
+                'Race')
+router.register(r'RelationalOperator',
+                RelationaloperatorViewSet,
+                'RelationalOperator')
+router.register(r'RelationshipConjunction',
+                RelationshipconjunctionViewSet,
+                'RelationshipConjunction')
+router.register(r'ReligiousAffiliation',
+                ReligiousaffiliationViewSet,
+                'ReligiousAffiliation')
+router.register(r'ResponseLevel',
+                ResponselevelViewSet,
+                'ResponseLevel')
+router.register(r'ResponseModality',
+                ResponsemodalityViewSet,
+                'ResponseModality')
+router.register(r'ResponseMode',
+                ResponsemodeViewSet,
+                'ResponseMode')
+router.register(r'RoleClass',
+                RoleclassViewSet,
+                'RoleClass')
+router.register(r'RoleCode',
+                RolecodeViewSet,
+                'RoleCode')
+router.register(r'RoleLinkStatus',
+                RolelinkstatusViewSet,
+                'RoleLinkStatus')
+router.register(r'RoleLinkType',
+                RolelinktypeViewSet,
+                'RoleLinkType')
+router.register(r'RoleStatus',
+                RolestatusViewSet,
+                'RoleStatus')
+router.register(r'RouteOfAdministration',
+                RouteofadministrationViewSet,
+                'RouteOfAdministration')
+router.register(r'Sequencing',
+                SequencingViewSet,
+                'Sequencing')
+router.register(r'SetOperator',
+                SetoperatorViewSet,
+                'SetOperator')
+router.register(r'SpecimenType',
+                SpecimentypeViewSet,
+                'SpecimenType')
+router.register(r'SubstitutionCondition',
+                SubstitutionconditionViewSet,
+                'SubstitutionCondition')
+router.register(r'TableCellHorizontalAlign',
+                TablecellhorizontalalignViewSet,
+                'TableCellHorizontalAlign')
+router.register(r'TableCellScope',
+                TablecellscopeViewSet,
+                'TableCellScope')
+router.register(r'TableCellVerticalAlign',
+                TablecellverticalalignViewSet,
+                'TableCellVerticalAlign')
+router.register(r'TableFrame',
+                TableframeViewSet,
+                'TableFrame')
+router.register(r'TableRules',
+                TablerulesViewSet,
+                'TableRules')
+router.register(r'TargetAwareness',
+                TargetawarenessViewSet,
+                'TargetAwareness')
+router.register(r'TelecommunicationCapabilities',
+                TelecommunicationcapabilitiesViewSet,
+                'TelecommunicationCapabilities')
+router.register(r'TimingEvent',
+                TimingeventViewSet,
+                'TimingEvent')
+router.register(r'TransmissionRelationshipTypeCode',
+                TransmissionrelationshiptypecodeViewSet,
+                'TransmissionRelationshipTypeCode')
+router.register(r'TribalEntityUS',
+                TribalentityusViewSet,
+                'TribalEntityUS')
+router.register(r'VaccineManufacturer',
+                VaccinemanufacturerViewSet,
+                'VaccineManufacturer')
+router.register(r'hl7Realm',
+                Hl7realmViewSet,
+                'hl7Realm')
+router.register(r'hl7V3Conformance',
+                Hl7v3conformanceViewSet,
+                'hl7V3Conformance')
+router.register(r'orderableDrugForm',
+                OrderabledrugformViewSet,
+                'orderableDrugForm')
+router.register(r'substanceAdminSubstitution',
+                SubstanceadminsubstitutionViewSet,
+                'substanceAdminSubstitution')
+
+urlpatterns = router.urls

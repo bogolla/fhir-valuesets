@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.SubscriptionStatus",
+        "records": [
+            {
+                "code": "requested",
+                "definition": "The client has requested the subscription, and the server has not yet set it up.",
+                "display": "Requested",
+                "id": "b1f38882-0a72-49b9-84b3-e8b8adb5cbd9"
+            },
+            {
+                "code": "active",
+                "definition": "The subscription is active.",
+                "display": "Active",
+                "id": "d2fd209a-d782-49a7-935e-54c818c96e39"
+            },
+            {
+                "code": "error",
+                "definition": "The server has an error executing the notification.",
+                "display": "Error",
+                "id": "207eed57-578b-498e-b8eb-e89c6cc9315f"
+            },
+            {
+                "code": "off",
+                "definition": "Too many errors have occurred or the subscription has expired.",
+                "display": "Off",
+                "id": "50c7d6cf-dde4-41d2-b0ea-35596bf1bca4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

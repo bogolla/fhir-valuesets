@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.AccountStatus",
+        "records": [
+            {
+                "code": "active",
+                "definition": "This account is active and may be used.",
+                "display": "Active",
+                "id": "2fab266c-47b1-4925-b4d0-875163cf9e8b"
+            },
+            {
+                "code": "inactive",
+                "definition": "This account is inactive and should not be used to track financial information.",
+                "display": "Inactive",
+                "id": "cd7f29f8-146d-482e-bc50-3ba3d9f69fde"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

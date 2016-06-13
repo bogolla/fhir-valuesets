@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.AllergyIntoleranceCategory",
+        "records": [
+            {
+                "code": "food",
+                "definition": "Any substance consumed to provide nutritional support for the body.",
+                "display": "Food",
+                "id": "9ac4ed52-079c-41d4-9469-e57629f00320"
+            },
+            {
+                "code": "medication",
+                "definition": "Substances administered to achieve a physiological effect.",
+                "display": "Medication",
+                "id": "cd0cdafe-b278-4c22-abc4-5b298417017d"
+            },
+            {
+                "code": "environment",
+                "definition": "Substances that are encountered in the environment.",
+                "display": "Environment",
+                "id": "6b632286-4f05-46fc-9424-6ba0686df0fa"
+            },
+            {
+                "code": "other",
+                "definition": "Other substances that are not covered by any other category.",
+                "display": "Other",
+                "id": "45488f51-9730-480e-87be-8f6c1bfa4811"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

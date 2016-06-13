@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.GoalCategory",
+        "records": [
+            {
+                "code": "dietary",
+                "definition": "Goals related to the consumption of food and/or beverages.",
+                "display": "dietary",
+                "id": "435395ed-56d1-470b-bb49-afbf2240c9b8"
+            },
+            {
+                "code": "safety",
+                "definition": "Goals related to the personal protection of the subject.",
+                "display": "safety",
+                "id": "bf586315-97ee-4901-b4d4-4c008f5334a5"
+            },
+            {
+                "code": "behavioral",
+                "definition": "Goals related to the manner in which the subject acts.",
+                "display": "behavioral",
+                "id": "6db2490a-68e6-4d42-9659-a80bdd77a8ce"
+            },
+            {
+                "code": "nursing",
+                "definition": "Goals related to the practice of nursing or established by nurses.",
+                "display": "nursing",
+                "id": "9e54d83b-712e-45cb-b480-3189f91e391b"
+            },
+            {
+                "code": "physiotherapy",
+                "definition": "Goals related to the mobility and motor capability of the subject.",
+                "display": "physiotherapy",
+                "id": "5c73c157-a3d1-4f23-bd5a-92fc7361f5dc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.QuantityComparator",
+        "records": [
+            {
+                "code": "<",
+                "definition": "The actual value is less than the given value.",
+                "display": "Less than",
+                "id": "2a02d03f-789b-4b91-b4c3-83d5e3f7be3b"
+            },
+            {
+                "code": "<=",
+                "definition": "The actual value is less than or equal to the given value.",
+                "display": "Less or Equal to",
+                "id": "ef0baaa9-80d5-40f3-ae1a-294af5222370"
+            },
+            {
+                "code": ">=",
+                "definition": "The actual value is greater than or equal to the given value.",
+                "display": "Greater or Equal to",
+                "id": "bcf13738-f4bb-4251-9f64-1cfae1b9cbea"
+            },
+            {
+                "code": ">",
+                "definition": "The actual value is greater than the given value.",
+                "display": "Greater than",
+                "id": "33546efa-3abc-4346-a64c-c3c75838f919"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

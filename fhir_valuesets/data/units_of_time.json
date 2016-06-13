@@ -1,0 +1,52 @@
+[
+  {
+    "model": "valuesets.UnitsOfTime",
+    "unique_fields": [
+        "id"
+    ],
+    "records": [
+      {
+            "id": "5493018d-e74b-41f6-80d3-b9e70c159afd",
+            "code": "s",
+            "display": "s",
+            "definition": "second"
+        },
+        {
+            "id": "f28771f6-252f-43ba-aae8-1904934f070a",
+            "code": "min",
+            "display": "min",
+            "definition": "minute"
+        },
+        {
+            "id": "5dcd972d-a968-45ad-8aeb-170e77be5162",
+            "code": "h",
+            "display": "h",
+            "definition": "hour"
+        },
+        {
+            "id": "aa3e5dff-d739-4966-acdd-a4c70c56d954",
+            "code": "d",
+            "display": "d",
+            "definition": "day"
+        },
+        {
+            "id": "5d8780d4-f7c4-4287-9a96-4a8561b54327",
+            "code": "wk",
+            "display": "wk",
+            "definition": "week"
+        },
+        {
+            "id": "3749a8c4-8a4b-44ba-bd08-fd614a9870ad",
+            "code": "mo",
+            "display": "mo",
+            "definition": "month"
+        },
+        {
+            "id": "c46715fb-1f30-4b65-a03a-c813fc2a4c88",
+            "code": "a",
+            "display": "year",
+            "definition": "year"
+        }
+    ]
+  }
+]

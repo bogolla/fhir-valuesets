@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Actinvoiceelementmodifier",
+        "records": [
+            {
+                "code": "EFORM",
+                "definition": "Electronic form with supporting information to follow.",
+                "display": "Electronic Form To Follow",
+                "id": "82092227-2f1c-4056-98ca-9e7476a6f81b"
+            },
+            {
+                "code": "FAX",
+                "definition": "Fax with supporting information to follow.",
+                "display": "Fax To Follow",
+                "id": "6f6fb054-ca23-4898-8408-654c7d5d688f"
+            },
+            {
+                "code": "LINV",
+                "definition": "Represents the last invoice from the perspective of the provider.",
+                "display": "Last Invoice",
+                "id": "087abc19-3b95-42bf-906b-0801750d67ea"
+            },
+            {
+                "code": "PAPER",
+                "definition": "Paper documentation (or other physical format) with supporting information to follow.",
+                "display": "Paper Documentation To Follow",
+                "id": "9c6be44b-c9a7-4341-9adb-63b441972ecb"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

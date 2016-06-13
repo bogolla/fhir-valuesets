@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.RemittanceOutcome",
+        "records": [
+            {
+                "code": "complete",
+                "definition": "The processing has completed without errors",
+                "display": "Processing Complete",
+                "id": "83dc12af-78f2-43f0-9a9f-c1b1811651a4"
+            },
+            {
+                "code": "error",
+                "definition": "One or more erros have been detected in the Claim",
+                "display": "Error",
+                "id": "56a74068-8aad-408d-be00-84cf5a699909"
+            },
+            {
+                "code": "partial",
+                "definition": "No errors have been detected in the Claim and some of the adjudication has been performed.",
+                "display": "Partial Processing",
+                "id": "5f5d7bf6-0a03-4c89-ae3f-f57a2aa49255"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

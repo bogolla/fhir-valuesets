@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ActionGroupingBehavior",
+        "records": [
+            {
+                "code": "visual-group",
+                "definition": "Any group marked with this behavior should be displayed as a visual group to the end user",
+                "display": "Visual Group",
+                "id": "c475d0b2-d6bc-4f1a-b682-999b00fb2cc2"
+            },
+            {
+                "code": "logical-group",
+                "definition": "A group with this behavior logically groups its sub-elements, and may be shown as a visual group to the end user, but it is not required to do so",
+                "display": "Logical Group",
+                "id": "f40a0d72-fcfa-4acc-a788-8c28f4c67526"
+            },
+            {
+                "code": "sentence-group",
+                "definition": "A group of related alternative actions is a sentence group if the target referenced by the action is the same in all the actions and each action simply constitutes a different variation on how to specify the details for the target. For example, two actions that could be in a SentenceGroup are \"aspirin, 500 mg, 2 times per day\" and \"aspirin, 300 mg, 3 times per day\". In both cases, aspirin is the target referenced by the action, and the two actions represent different options for how aspirin might be ordered for the patient. Note that a SentenceGroup would almost always have an associated selection behavior of \"AtMostOne\", unless it's a required action, in which case, it would be \"ExactlyOne\"",
+                "display": "Sentence Group",
+                "id": "511f434f-ad7d-4da1-9d19-7be14c0da9b8"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

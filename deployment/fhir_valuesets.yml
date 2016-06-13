@@ -1,0 +1,33 @@
+---
+- hosts: all
+  vars:
+    deploy_user: deploy
+    deploy_group: deploy
+    pg_host: localhost
+    pg_port: 5432
+    pg_login_user: fhir_valuesets_user
+    pg_login_password: fhir-val-secrete-1b3
+    debug: "false"
+    deploy_user_home: /home/{{deploy_user}}
+    log_dir: "/var/log/fhir_valuesets"
+    static_dir: "{{valuesets_install_dir}}/static"
+    django_manage: "{{ valuesets_venv_dir }}/bin/valuesets_manage"
+
+  name: Deploy FHIR Valuesets Server
+
+  tags: [ "fhir_valuesets_server" ]
+  pre_tasks:
+    - name: create deploy user
+      user: name="{{deploy_user}}" groups=sudo state=present
+      sudo: yes
+
+  roles:
+    - {
+      role: valuesets_server,
+      become: yes,
+      become_method: sudo,
+      server_name: "{{valuesets_domain_name}}",
+      valuesets_port: 5000,
+      become_user: "{{deploy_user}}",
+      tags: ["fhir_valuesets"]
+      }

@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ActionSelectionBehavior",
+        "records": [
+            {
+                "code": "any",
+                "definition": "Any number of the actions in the group may be chosen, from zero to all",
+                "display": "Any",
+                "id": "c571911b-23bc-49c0-8d03-946159f7a1b2"
+            },
+            {
+                "code": "all",
+                "definition": "All the actions in the group must be selected as a single unit",
+                "display": "All",
+                "id": "59bd496f-1bff-42e2-801c-aaf7c46efc38"
+            },
+            {
+                "code": "all-or-none",
+                "definition": "All the actions in the group are meant to be chosen as a single unit: either all must be selected by the end user, or none may be selected",
+                "display": "All Or None",
+                "id": "2e382727-7504-4219-a89e-7a3bb6cf8b66"
+            },
+            {
+                "code": "exactly-one",
+                "definition": "The end user must choose one and only one of the selectable actions in the group. The user may not choose none of the actions in the group",
+                "display": "Exactly One",
+                "id": "36b5ba7d-98fb-4eb6-b82e-0fd15e51bb48"
+            },
+            {
+                "code": "at-most-one",
+                "definition": "The end user may choose zero or at most one of the actions in the group",
+                "display": "At Most One",
+                "id": "ab530291-2505-4901-a204-88df42ef182a"
+            },
+            {
+                "code": "one-or-more",
+                "definition": "The end user must choose a minimum of one, and as many additional as desired",
+                "display": "One Or More",
+                "id": "0b57032e-727c-4ac3-8e17-a746517065d2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ChoiceListOrientation",
+        "records": [
+            {
+                "code": "horizontal",
+                "definition": "List choices along the horizontal axis",
+                "display": "Horizontal",
+                "id": "379705fc-e22e-4b77-9270-caf0994d680e"
+            },
+            {
+                "code": "vertical",
+                "definition": "List choices down the vertical axis",
+                "display": "Vertical",
+                "id": "70eee2b3-2b60-4c3f-ae7e-dc135253ee9a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ProcedureProgressStatusCodes",
+        "records": [
+            {
+                "code": "a",
+                "definition": "A patient is in the Operating Room.",
+                "display": "In Operating Room",
+                "id": "2a7cb6a3-3c10-40e9-b035-40e3a2d12a3c"
+            },
+            {
+                "code": "b",
+                "definition": "The patient is prepared for a procedure.",
+                "display": "Prepared",
+                "id": "a3fec210-924b-45b5-b022-49ef73d56d19"
+            },
+            {
+                "code": "c",
+                "definition": "The patient is under anesthesia.",
+                "display": "Anesthesia induced",
+                "id": "418f4ce4-ad4d-4cc4-adfa-49a045f270ad"
+            },
+            {
+                "code": "d",
+                "definition": null,
+                "display": "Opened (skin)",
+                "id": "c6b93d4f-af10-4c3a-a7e4-c83879ae9c85"
+            },
+            {
+                "code": "e",
+                "definition": null,
+                "display": "Closed (skin)",
+                "id": "c59aac9a-7614-4b4a-8920-0f83c83e5c2d"
+            },
+            {
+                "code": "f",
+                "definition": "The patient is in the recovery room.",
+                "display": "In Recovery Room",
+                "id": "91cf7174-9b9c-4559-a5ec-e2b8e4d6bd08"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

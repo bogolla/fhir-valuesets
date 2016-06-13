@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.FlagStatus",
+        "records": [
+            {
+                "code": "active",
+                "definition": "A current flag that should be displayed to a user. A system may use the category to determine which roles should view the flag.",
+                "display": "Active",
+                "id": "57a4c1b9-fabe-4e15-b252-e530420ed0c8"
+            },
+            {
+                "code": "inactive",
+                "definition": "The flag does not need to be displayed any more.",
+                "display": "Inactive",
+                "id": "779599f3-47f4-4693-8b64-9b15d656614e"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The flag was added in error, and should no longer be displayed.",
+                "display": "Entered in Error",
+                "id": "289b4523-edef-4940-a174-46fd785375d4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

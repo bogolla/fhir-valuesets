@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ContactentityType",
+        "records": [
+            {
+                "code": "BILL",
+                "definition": "Contact details for information regarding to billing/general finance enquiries.",
+                "display": "Billing",
+                "id": "c91239c0-6710-4f1b-96b9-72fde223a83d"
+            },
+            {
+                "code": "ADMIN",
+                "definition": "Contact details for administrative enquiries.",
+                "display": "Administrative",
+                "id": "a14b87ab-f104-4b1d-a405-0576fe361d83"
+            },
+            {
+                "code": "HR",
+                "definition": "Contact details for issues related to Human Resources, such as staff matters, OH&S etc.",
+                "display": "Human Resource",
+                "id": "52518221-f912-491e-9cdf-7c723a426c84"
+            },
+            {
+                "code": "PAYOR",
+                "definition": "Contact details for dealing with issues related to insurance claims/adjudication/payment.",
+                "display": "Payor",
+                "id": "8188e0ee-84fa-4d9f-ba2a-7cc9e63aa808"
+            },
+            {
+                "code": "PATINF",
+                "definition": "Generic information contact for patients.",
+                "display": "Patient",
+                "id": "19632fc1-e1dc-4bf3-8143-3620f76cdd42"
+            },
+            {
+                "code": "PRESS",
+                "definition": "Dedicated contact point for matters relating to press enquiries.",
+                "display": "Press",
+                "id": "dbf2afeb-8163-420e-abd6-a275fc1821d4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

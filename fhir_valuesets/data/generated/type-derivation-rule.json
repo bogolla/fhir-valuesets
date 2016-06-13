@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.TypeDerivationRule",
+        "records": [
+            {
+                "code": "specialization",
+                "definition": "This definition defines a new type that adds additional elements to the base type",
+                "display": "Specialization",
+                "id": "e579224d-bbef-4003-81da-e31a6afacced"
+            },
+            {
+                "code": "constraint",
+                "definition": "This definition adds additional rules to an existing concrete type",
+                "display": "Constraint",
+                "id": "558d9092-6728-4328-8377-09c09495ee83"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

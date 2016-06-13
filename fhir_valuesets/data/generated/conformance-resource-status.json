@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ConformanceResourceStatus",
+        "records": [
+            {
+                "code": "draft",
+                "definition": "This resource is still under development.",
+                "display": "Draft",
+                "id": "78c6f945-0b29-4fc0-a3f5-732c4b66fcbe"
+            },
+            {
+                "code": "active",
+                "definition": "This resource is ready for normal use.",
+                "display": "Active",
+                "id": "cd7122cb-b150-4c37-aeef-07a0b04e5dfc"
+            },
+            {
+                "code": "retired",
+                "definition": "This resource has been withdrawn or superseded and should no longer be used.",
+                "display": "Retired",
+                "id": "4c6fa21a-1632-4fae-ab7b-526bafe58df6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

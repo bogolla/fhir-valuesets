@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.DiagnosticOrderPriority",
+        "records": [
+            {
+                "code": "routine",
+                "definition": "The order has a normal priority .",
+                "display": "Routine",
+                "id": "458dad3b-9ae6-4196-a718-3306e13ff4d9"
+            },
+            {
+                "code": "urgent",
+                "definition": "The order should be urgently.",
+                "display": "Urgent",
+                "id": "4bd458d3-ca4d-4799-8015-3b03972fbd0f"
+            },
+            {
+                "code": "stat",
+                "definition": "The order is time-critical.",
+                "display": "Stat",
+                "id": "533c78da-3920-41d1-9db9-b1f5d40e0612"
+            },
+            {
+                "code": "asap",
+                "definition": "The order should be acted on as soon as possible.",
+                "display": "ASAP",
+                "id": "3a9f546c-3477-4ea7-bdfe-6be807706f71"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

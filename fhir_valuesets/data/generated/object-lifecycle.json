@@ -1,0 +1,101 @@
+[
+    {
+        "model": "valuesets.ObjectLifecycle",
+        "records": [
+            {
+                "code": "1",
+                "definition": "Origination, Creation",
+                "display": "Origination, Creation",
+                "id": "7700e3a5-3fb9-4763-9b7c-ed0c39691b95"
+            },
+            {
+                "code": "2",
+                "definition": "Import / Copy",
+                "display": "Import / Copy",
+                "id": "6b8cf20f-f03f-4989-a011-a6e45dcc2540"
+            },
+            {
+                "code": "3",
+                "definition": "Amendment",
+                "display": "Amendment",
+                "id": "652c2c99-d2f1-41e8-8f6c-22f37fd3efda"
+            },
+            {
+                "code": "4",
+                "definition": "Verification",
+                "display": "Verification",
+                "id": "fbe4629f-eaa9-4111-9f76-7de426242e2b"
+            },
+            {
+                "code": "5",
+                "definition": "Translation",
+                "display": "Translation",
+                "id": "7efe8e9b-5adc-467a-bee9-07127fcfa71d"
+            },
+            {
+                "code": "6",
+                "definition": "Access / Use",
+                "display": "Access / Use",
+                "id": "c049b657-2427-41a0-b7db-ecfad08f34af"
+            },
+            {
+                "code": "7",
+                "definition": "De-identification",
+                "display": "De-identification",
+                "id": "2a5d352d-6a40-4aba-a48f-b9bf61361b0e"
+            },
+            {
+                "code": "8",
+                "definition": "Aggregation, summarization, derivation",
+                "display": "Aggregation, summarization, derivation",
+                "id": "3ddae02f-ea2f-4621-ade5-d72f884f878c"
+            },
+            {
+                "code": "9",
+                "definition": "Report",
+                "display": "Report",
+                "id": "bf5985e9-f2a7-4afa-bc99-fe059e28c453"
+            },
+            {
+                "code": "10",
+                "definition": "Export",
+                "display": "Export",
+                "id": "8bdb2916-8df7-4f16-9433-b4bbb9a0fe2c"
+            },
+            {
+                "code": "11",
+                "definition": "Disclosure",
+                "display": "Disclosure",
+                "id": "d2ac7a85-5efd-4f86-b777-aa257f6f02ab"
+            },
+            {
+                "code": "12",
+                "definition": "Receipt of disclosure",
+                "display": "Receipt of disclosure",
+                "id": "bcbea59f-338a-4a2f-9e09-35f791997e34"
+            },
+            {
+                "code": "13",
+                "definition": "Archiving",
+                "display": "Archiving",
+                "id": "0bcdbf36-a739-4088-9fa0-939a47cdaa26"
+            },
+            {
+                "code": "14",
+                "definition": "Logical deletion",
+                "display": "Logical deletion",
+                "id": "29ec7075-259d-44be-a62d-a8f989b45723"
+            },
+            {
+                "code": "15",
+                "definition": "Permanent erasure / Physical destruction",
+                "display": "Permanent erasure / Physical destruction",
+                "id": "a5d38f53-449f-48b5-94d6-a35b0000d778"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

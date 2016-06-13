@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ConditionState",
+        "records": [
+            {
+                "code": "active",
+                "definition": "The condition is active.",
+                "display": "Active",
+                "id": "890f4734-5776-4886-a687-f2dda151c218"
+            },
+            {
+                "code": "inactive",
+                "definition": "The condition inactive but not resolved.",
+                "display": "Inactive",
+                "id": "d4d258ea-0bdc-4496-a42b-87e341b9233b"
+            },
+            {
+                "code": "resolved",
+                "definition": "The condition is resolved.",
+                "display": "Resolved",
+                "id": "23b8a884-9f72-4794-a0ed-d88ba298e814"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

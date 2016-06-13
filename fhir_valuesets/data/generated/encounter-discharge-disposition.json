@@ -1,0 +1,71 @@
+[
+    {
+        "model": "valuesets.EncounterDischargeDisposition",
+        "records": [
+            {
+                "code": "home",
+                "definition": null,
+                "display": "Home",
+                "id": "5e276958-4a43-494a-b5c1-a559e6b2f4e0"
+            },
+            {
+                "code": "other-hcf",
+                "definition": null,
+                "display": "Other healthcare facility",
+                "id": "d5904473-29e8-4897-9fcc-371143387a23"
+            },
+            {
+                "code": "hosp",
+                "definition": null,
+                "display": "Hospice",
+                "id": "0acab13f-2353-4bcb-b5a8-496bf3ac3e8c"
+            },
+            {
+                "code": "long",
+                "definition": null,
+                "display": "Long-term care",
+                "id": "18854338-4125-48a3-a87a-e0707f05efb2"
+            },
+            {
+                "code": "aadvice",
+                "definition": null,
+                "display": "Left against advice",
+                "id": "d5f6b28d-9f36-400c-aee0-238b3512f2f3"
+            },
+            {
+                "code": "exp",
+                "definition": null,
+                "display": "Expired",
+                "id": "75edafa5-3374-4031-822a-27f6ada1dbd0"
+            },
+            {
+                "code": "psy",
+                "definition": null,
+                "display": "Psychiatric hospital",
+                "id": "b1a49c96-2eec-4b07-bec7-6c3e99a2844c"
+            },
+            {
+                "code": "rehab",
+                "definition": null,
+                "display": "Rehabilitation",
+                "id": "fd790499-1397-4277-ba81-79893a738874"
+            },
+            {
+                "code": "snf",
+                "definition": null,
+                "display": "Skilled nursing facility",
+                "id": "5984ba84-de6d-4f3c-b620-4634faa5a6c7"
+            },
+            {
+                "code": "oth",
+                "definition": null,
+                "display": "Other",
+                "id": "e2468239-c1e9-4027-9e58-262b94a9ef67"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Telecommunicationcapabilities",
+        "records": [
+            {
+                "code": "data",
+                "definition": "Description: This device can receive data calls (i.e. modem).",
+                "display": "data",
+                "id": "c2c04e55-d8fa-4b28-ab51-13145147c8e1"
+            },
+            {
+                "code": "fax",
+                "definition": "Description: This device can receive faxes.",
+                "display": "fax",
+                "id": "dd39781e-68f9-41bb-82a1-e217aaba00ed"
+            },
+            {
+                "code": "sms",
+                "definition": "Description: This device can receive SMS messages.",
+                "display": "sms",
+                "id": "a8ce22fd-17be-4343-acf3-87ad454de864"
+            },
+            {
+                "code": "tty",
+                "definition": "Description: This device is a text telephone.",
+                "display": "text",
+                "id": "da1fd17c-644c-4364-bfc6-83166a35ed86"
+            },
+            {
+                "code": "voice",
+                "definition": "Description: This device can receive voice calls (i.e. talking to another person, or a recording device, or a voice activated computer).",
+                "display": "voice",
+                "id": "1ac16b7b-b0b4-4fde-8e28-79f711ca155c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Payeetype",
+        "records": [
+            {
+                "code": "subscriber",
+                "definition": "The subscriber (policy holder) will be reimbursed.",
+                "display": "Subscriber",
+                "id": "edde988d-2210-4764-95d6-b442a12650d6"
+            },
+            {
+                "code": "provider",
+                "definition": "Any benefit payable will be paid to the provider (Assignment of Benefit).",
+                "display": "Provider",
+                "id": "12a7b212-e2f8-4dcd-ba95-7841dc67ffd4"
+            },
+            {
+                "code": "other",
+                "definition": "Any benefit payable will be paid to a third party such as a guarrantor.",
+                "display": "Provider",
+                "id": "05d0700d-cd93-4a87-931f-db1c1d5f8784"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

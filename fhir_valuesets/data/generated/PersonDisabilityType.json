@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Persondisabilitytype",
+        "records": [
+            {
+                "code": "1",
+                "definition": "Vision impaired",
+                "display": "Vision impaired",
+                "id": "64a08413-5da1-4205-bf27-bd884e65790f"
+            },
+            {
+                "code": "2",
+                "definition": "Hearing impaired",
+                "display": "Hearing impaired",
+                "id": "d752999b-2c87-4b04-93d1-0b8e195e9be4"
+            },
+            {
+                "code": "3",
+                "definition": "Speech impaired",
+                "display": "Speech impaired",
+                "id": "db417d78-ecaa-4199-bb38-2847fc051651"
+            },
+            {
+                "code": "4",
+                "definition": "Mentally impaired",
+                "display": "Mentally impaired",
+                "id": "1386841d-b777-45dd-85c8-2f6569e092a8"
+            },
+            {
+                "code": "5",
+                "definition": "Mobility impaired",
+                "display": "Mobility impaired",
+                "id": "c23e4285-1fac-407e-9bac-6b964499b65b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

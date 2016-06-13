@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.BenefitType",
+        "records": [
+            {
+                "code": "deductable",
+                "definition": "Cost to be incurred before benefits are applied",
+                "display": "Deductable",
+                "id": "f17ac856-6416-476d-bf7c-8bdd39a8bf32"
+            },
+            {
+                "code": "visit",
+                "definition": "Service visit",
+                "display": "Visit",
+                "id": "94500f7a-a6ca-45da-bc90-735669663edc"
+            },
+            {
+                "code": "copay",
+                "definition": "Copayment per service",
+                "display": "Copayment per service",
+                "id": "139391cb-326e-498b-94de-250993cec726"
+            },
+            {
+                "code": "vision-exam",
+                "definition": "Vision Exam",
+                "display": "Vision Exam",
+                "id": "b7c66b94-064c-4602-a9c0-898f6a4e27f0"
+            },
+            {
+                "code": "vision-glasses",
+                "definition": "Frames and lenses",
+                "display": "Vision Glasses",
+                "id": "c0450e2e-10ee-4c8e-a214-25b31efe9d49"
+            },
+            {
+                "code": "vision-contacts",
+                "definition": "Contact Lenses",
+                "display": "Vision Contacts Coverage",
+                "id": "c276da3d-eb41-424a-b072-c0c070cb1338"
+            },
+            {
+                "code": "medical-primarycare",
+                "definition": "Medical Primary Health Coverage",
+                "display": "Medical Primary Health Coverage",
+                "id": "4947616c-d77c-4f85-94d1-bf84434eaac2"
+            },
+            {
+                "code": "pharmacy-dispense",
+                "definition": "Pharmacy Dispense Coverage",
+                "display": "Pharmacy Dispense Coverage",
+                "id": "4fb7afc4-edcb-4416-a937-b93cfedc181b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

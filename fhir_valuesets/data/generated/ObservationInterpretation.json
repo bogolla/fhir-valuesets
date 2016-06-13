@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.Observationinterpretation",
+        "records": [
+            {
+                "code": "_GeneticObservationInterpretation",
+                "definition": "Codes that specify interpretation of genetic analysis, such as \"positive\", \"negative\", \"carrier\", \"responsive\", etc.",
+                "display": "GeneticObservationInterpretation",
+                "id": "2847783b-3576-48bd-b4ab-8e647390fbdc"
+            },
+            {
+                "code": "_ObservationInterpretationChange",
+                "definition": "Interpretations of change of quantity and/or severity. At most one of B or W and one of U or D allowed.",
+                "display": "ObservationInterpretationChange",
+                "id": "a5af5e13-9ece-49f5-89d4-ae571cb21275"
+            },
+            {
+                "code": "_ObservationInterpretationExceptions",
+                "definition": "Technical exceptions resulting in the inability to provide an interpretation. At most one allowed. Does not imply normality or severity.",
+                "display": "ObservationInterpretationExceptions",
+                "id": "7833fb80-fe35-4e8e-a69d-39130984cc80"
+            },
+            {
+                "code": "_ObservationInterpretationNormality",
+                "definition": "Interpretation of normality or degree of abnormality (including critical or \"alert\" level). Concepts in this category are mutually exclusive, i.e., at most one is allowed.",
+                "display": "ObservationInterpretationNormality",
+                "id": "382db042-84d5-4da7-8605-bacaadd9b442"
+            },
+            {
+                "code": "_ObservationInterpretationSusceptibility",
+                "definition": "Interpretations of anti-microbial susceptibility testing results (microbiology). At most one allowed.",
+                "display": "ObservationInterpretationSusceptibility",
+                "id": "059a6418-ce86-4986-8309-6e85b2520405"
+            },
+            {
+                "code": "EX",
+                "definition": "The observation/test result is interpreted as being outside the inclusion range for a particular protocol within which the result is being reported.\n\r\n\n                        Example: A positive result on a Hepatitis screening test.\n                           Open Issue: EX, HX, LX: These three concepts do not seem to meet a clear need in the vocabulary, and their use in observation interpretation appears likely to be covered by other existing concepts (e.g., A, H, L).  The only apparent significant difference is their reference to use in protocols for exclusion of study subjects.\nThese concepts/codes were proposed by RCRIM for use in the CTLaboratory message.  They were submitted and approved in the November 2005 Harmonization cycle in proposal \"030103C_VOCAB_RCRIM_l_quade_RCRIM Obs Interp_20051028154455\".  However, this proposal was not fully implemented in the vocabulary.  The proposal recommended creation of the x_ClinicalResearchExclusion domain in ObservationInterpretation with a value set including those three concepts/codes, but there is no subdomain of that name or equivalent with a binding to either of the value sets that contain these concepts/codes.\nMembers of the OO WG have recently attempted to contact members of RCRIM regarding these concepts, both by email and at the recent WGM in Atlanta, without response.  It is felt by OO that the best course of action to take at this time is to add this comprehensive Open Issue rather than deprecate these three concepts at this time, until further discussion is held.",
+                "display": "outside threshold",
+                "id": "73c8cbc6-d021-432d-9031-8826df65461f"
+            },
+            {
+                "code": "ObservationInterpretationDetection",
+                "definition": "Interpretations of the presence or absence of a component / analyte or organism in a test or of a sign in a clinical observation. In keeping with laboratory data processing practice, these concepts provide a categorical interpretation of the \"meaning\" of the quantitative value for the same observation.",
+                "display": "ObservationInterpretationDetection",
+                "id": "9124747a-be2b-468c-aec1-6bc38de45bd6"
+            },
+            {
+                "code": "ObservationInterpretationExpectation",
+                "definition": "Interpretation of the observed result taking into account additional information (contraindicators) about the patient's situation. Concepts in this category are mutually exclusive, i.e., at most one is allowed.",
+                "display": "ObservationInterpretationExpectation",
+                "id": "3dd5b04d-c67c-4030-af7a-a6f48eb45792"
+            },
+            {
+                "code": "ReactivityObservationInterpretation",
+                "definition": "Interpretations of the presence and level of reactivity of the specified component / analyte with the reagent in the performed laboratory test.",
+                "display": "ReactivityObservationInterpretation",
+                "id": "73d25ed0-c705-4707-9825-b72a658c1e33"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

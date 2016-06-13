@@ -1,0 +1,6 @@
+exclude fabfile.py
+include README.rst
+include CHANGELOG.rst
+include tox.ini
+include
+include .coveragerc

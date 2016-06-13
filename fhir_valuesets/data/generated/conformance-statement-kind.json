@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ConformanceStatementKind",
+        "records": [
+            {
+                "code": "instance",
+                "definition": "The Conformance instance represents the present capabilities of a specific system instance.  This is the kind returned by OPTIONS for a FHIR server end-point.",
+                "display": "Instance",
+                "id": "b297ebec-e0a6-4f67-8859-793c7b4585d3"
+            },
+            {
+                "code": "capability",
+                "definition": "The Conformance instance represents the capabilities of a system or piece of software, independent of a particular installation.",
+                "display": "Capability",
+                "id": "43cf5cb4-3a31-4dbc-bc54-b96870b08999"
+            },
+            {
+                "code": "requirements",
+                "definition": "The Conformance instance represents a set of requirements for other systems to meet; e.g. as part of an implementation guide or 'request for proposal'.",
+                "display": "Requirements",
+                "id": "1d33722e-3ead-4d43-8a6d-468724175421"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

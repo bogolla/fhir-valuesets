@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.Adjudication",
+        "records": [
+            {
+                "code": "total",
+                "definition": "Total submitted",
+                "display": "Total",
+                "id": "e0a47966-aac8-4c32-96b1-6de2d4dc5926"
+            },
+            {
+                "code": "copay",
+                "definition": "Patient Co-Payment",
+                "display": "CoPay",
+                "id": "d41ff069-3b5b-4716-aea6-8f41a9e50bb1"
+            },
+            {
+                "code": "eligible",
+                "definition": "Amount of the change which is considered for adjudication",
+                "display": "Eligible Amount",
+                "id": "d9b5fb4e-41c6-4619-926a-9f48e16e3b79"
+            },
+            {
+                "code": "deductible",
+                "definition": "Amount deducted from the eligible amount prior to adjudication",
+                "display": "Deductable",
+                "id": "6b37065e-e118-43bd-ab8c-0443da5cc008"
+            },
+            {
+                "code": "eligpercent",
+                "definition": "Eligible Percentage",
+                "display": "Eligible %",
+                "id": "261d3bda-66d9-47fd-95cb-c97f94cde977"
+            },
+            {
+                "code": "tax",
+                "definition": "Emergency Department",
+                "display": "Emergency Department",
+                "id": "a0f262c5-91ca-4609-8872-3d0461871232"
+            },
+            {
+                "code": "benefit",
+                "definition": "Amount payable under the coverage",
+                "display": "Benefit Amount",
+                "id": "0abac9ac-c102-4217-8ff4-65c42ba9b866"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

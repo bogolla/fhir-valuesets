@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.NetworkType",
+        "records": [
+            {
+                "code": "1",
+                "definition": "The machine name, including DNS name.",
+                "display": "Machine Name",
+                "id": "3d6d6d43-bad7-4483-b376-f8981cdd4a08"
+            },
+            {
+                "code": "2",
+                "definition": "The assigned Internet Protocol (IP) address.",
+                "display": "IP Address",
+                "id": "8877f2b5-81f4-47c9-8e85-eeb9574d037f"
+            },
+            {
+                "code": "3",
+                "definition": "The assigned telephone number.",
+                "display": "Telephone Number",
+                "id": "106e5b8f-4625-4ca1-a769-9159282d1744"
+            },
+            {
+                "code": "4",
+                "definition": "The assigned email address.",
+                "display": "Email address",
+                "id": "bcc5a904-0034-4ffe-b431-12a53232ba63"
+            },
+            {
+                "code": "5",
+                "definition": "URI (User directory, HTTP-PUT, ftp, etc.).",
+                "display": "URI",
+                "id": "cda50e72-c7f7-4577-8b31-091f9d792b8d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

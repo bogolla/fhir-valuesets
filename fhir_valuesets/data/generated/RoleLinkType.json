@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Rolelinktype",
+        "records": [
+            {
+                "code": "REL",
+                "definition": "An action taken with respect to a subject Entity by a regulatory or authoritative body with supervisory capacity over that entity. The action is taken in response to behavior by the subject Entity that body finds to be undesirable.\r\n\n                        Suspension, license restrictions, monetary fine, letter of reprimand, mandated training, mandated supervision, etc.Examples:",
+                "display": "related",
+                "id": "b682c099-62ed-4fde-b2b2-4928c5858540"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

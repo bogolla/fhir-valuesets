@@ -1,0 +1,77 @@
+[
+    {
+        "model": "valuesets.OrganizationType",
+        "records": [
+            {
+                "code": "prov",
+                "definition": "An organization that provides healthcare services.",
+                "display": "Healthcare Provider",
+                "id": "482e5546-baba-4812-ac84-b58f138c1c59"
+            },
+            {
+                "code": "dept",
+                "definition": "A department or ward within a hospital (Generally is not applicable to top level organizations)",
+                "display": "Hospital Department",
+                "id": "1b5dc5f8-05da-424c-8418-d2ac379c06bc"
+            },
+            {
+                "code": "team",
+                "definition": "An organizational team is usually a grouping of practitioners that perform a specific function within an organization (which could be a top level organization, or a department).",
+                "display": "Organizational team",
+                "id": "02084ce2-266d-4fa2-8de3-4bff89d513e3"
+            },
+            {
+                "code": "govt",
+                "definition": "A political body, often used when including organization records for government bodies such as a Federal Government, State or Local Government.",
+                "display": "Government",
+                "id": "83ef796c-557a-40e3-9b84-9e5884b3186d"
+            },
+            {
+                "code": "ins",
+                "definition": "A company that provides insurance to its subscribers that may include healthcare related policies.",
+                "display": "Insurance Company",
+                "id": "be34ef81-6de2-4ad1-ac07-b3693d6d8a76"
+            },
+            {
+                "code": "edu",
+                "definition": "An educational institution that provides education or research facilities.",
+                "display": "Educational Institute",
+                "id": "6b1e82b5-041b-418b-8a60-ad46338afe86"
+            },
+            {
+                "code": "reli",
+                "definition": "An organization that is identified as a part of a religious institution.",
+                "display": "Religious Institution",
+                "id": "05e492f1-1d05-427e-9780-db4b5bd53238"
+            },
+            {
+                "code": "crs",
+                "definition": "An organization that is identified as a Pharmaceutical/Clinical Research Sponsor.",
+                "display": "Clinical Research Sponsor",
+                "id": "c29440be-9feb-4388-9a51-b0b6e5ad9649"
+            },
+            {
+                "code": "cg",
+                "definition": "An un-incorporated community group.",
+                "display": "Community Group",
+                "id": "41b77e9a-b4b9-43b7-b7ab-ca270ed3f61f"
+            },
+            {
+                "code": "bus",
+                "definition": "An organization that is a registered business or corporation but not identified by other types.",
+                "display": "Non-Healthcare Business or Corporation",
+                "id": "9f3e0924-eded-4c2c-838e-264c28a4904c"
+            },
+            {
+                "code": "other",
+                "definition": "Other type of organization not already specified.",
+                "display": "Other",
+                "id": "de8afdce-0680-4e9b-af74-c80062e738c9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

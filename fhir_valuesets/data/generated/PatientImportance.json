@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.Patientimportance",
+        "records": [
+            {
+                "code": "BM",
+                "definition": "Board member of health care organization",
+                "display": "Board Member",
+                "id": "5a0c0a08-e1dd-4869-b5f1-dd94adf86728"
+            },
+            {
+                "code": "DFM",
+                "definition": "Family member of staff physician",
+                "display": "Physician Family Member",
+                "id": "7060e767-3243-4487-8109-25626ece3971"
+            },
+            {
+                "code": "DR",
+                "definition": "Member of the health care organization physician staff",
+                "display": "Staff Physician",
+                "id": "75353d16-bebd-4585-92f9-d517f246a9b9"
+            },
+            {
+                "code": "FD",
+                "definition": "Financial donor to the health care organization",
+                "display": "Financial Donor",
+                "id": "b7521def-1f61-468f-8cb3-04b9a2735c0a"
+            },
+            {
+                "code": "FOR",
+                "definition": "Foreign citizen dignitary of interest to the health care organization",
+                "display": "Foreign Dignitary",
+                "id": "591db48d-ac0d-4d48-b38e-15c26fb56bfc"
+            },
+            {
+                "code": "GOVT",
+                "definition": "Government dignitary of interest to the organization",
+                "display": "Government Dignitary",
+                "id": "8d8c5e43-6f13-492e-a9df-1830aa370636"
+            },
+            {
+                "code": "SFM",
+                "definition": "Family member of staff member",
+                "display": "Staff Family Member",
+                "id": "d63add57-81d6-4017-8392-7447eb0258f5"
+            },
+            {
+                "code": "STF",
+                "definition": "Staff member of the health care organization",
+                "display": "Staff Member",
+                "id": "b6f86011-cc4c-4043-8a6c-8afc4661834a"
+            },
+            {
+                "code": "VIP",
+                "definition": "Very important person of interest to the health care organization",
+                "display": "Very Important Person",
+                "id": "b675d165-bf6c-4282-930a-6e4ea85b9be0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

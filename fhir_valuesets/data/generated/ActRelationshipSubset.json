@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Actrelationshipsubset",
+        "records": [
+            {
+                "code": "_ParticipationSubset",
+                "definition": "Used to indicate that the participation is a filtered subset of the total participations of the same type owned by the Act. \r\n\n                        Used when there is a need to limit the participations to the first, the last, the next or some other filtered subset.",
+                "display": "ParticipationSubset",
+                "id": "d943c4cf-ff85-4156-9714-8eb5b7679823"
+            },
+            {
+                "code": "ActRelationshipExpectedSubset",
+                "definition": "ActRelationshipExpectedSubset",
+                "display": "ActRelationshipExpectedSubset",
+                "id": "55c8bcfc-fe83-4cc9-a63b-182cc8dfec31"
+            },
+            {
+                "code": "ActRelationshipPastSubset",
+                "definition": "ActRelationshipPastSubset",
+                "display": "ActRelationshipPastSubset",
+                "id": "35a527d7-7921-4cec-b037-d1d526a7eede"
+            },
+            {
+                "code": "MAX",
+                "definition": "The occurrence whose value attribute is greater than all other occurrences at the time the instance is created.",
+                "display": "maximum",
+                "id": "c6e04e6f-51e1-4f52-bd6e-a56431745150"
+            },
+            {
+                "code": "MIN",
+                "definition": "The occurrence whose value attribute is less than all other occurrences at the time the instance is created.",
+                "display": "minimum",
+                "id": "98e54c8d-5be2-4a0e-bb48-131c79fb061c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

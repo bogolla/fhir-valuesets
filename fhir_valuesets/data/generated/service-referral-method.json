@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ServiceReferralMethod",
+        "records": [
+            {
+                "code": "fax",
+                "definition": "Referrals may be accepted by fax.",
+                "display": "Fax",
+                "id": "c7eceb5c-55fb-47f9-b607-bcffd78290ac"
+            },
+            {
+                "code": "phone",
+                "definition": "Referrals may be accepted over the phone from a practitioner.",
+                "display": "Phone",
+                "id": "0c0c7c5c-794e-490e-a1c7-81fa5e0b4ad6"
+            },
+            {
+                "code": "elec",
+                "definition": "Referrals may be accepted via a secure messaging system. To determine the types of secure messaging systems supported, refer to the identifiers collection. Callers will need to understand the specific identifier system used to know that they are able to transmit messages.",
+                "display": "Secure Messaging",
+                "id": "6bbed2ad-363f-43b6-8116-9812216f22d6"
+            },
+            {
+                "code": "semail",
+                "definition": "Referrals may be accepted via a secure email. To send please enrypt with the services public key.",
+                "display": "Secure Email",
+                "id": "525824d5-0a9f-48c3-ba84-a770ac4c1d64"
+            },
+            {
+                "code": "mail",
+                "definition": "Referrals may be accepted via regular postage (or hand delivered).",
+                "display": "Mail",
+                "id": "dc948ba6-a654-413d-bd1d-695c1921ed6d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

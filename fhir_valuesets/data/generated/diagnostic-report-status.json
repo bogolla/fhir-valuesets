@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.DiagnosticReportStatus",
+        "records": [
+            {
+                "code": "registered",
+                "definition": "The existence of the report is registered, but there is nothing yet available.",
+                "display": "Registered",
+                "id": "29be01aa-91a3-4027-96fa-51b312d9d0e4"
+            },
+            {
+                "code": "partial",
+                "definition": "This is a partial (e.g. initial, interim or preliminary) report: data in the report may be incomplete or unverified.",
+                "display": "Partial",
+                "id": "5f76cf49-5cb1-47cc-aa50-7214f8fe699c"
+            },
+            {
+                "code": "final",
+                "definition": "The report is complete and verified by an authorized person.",
+                "display": "Final",
+                "id": "1b79f10c-e842-4b58-98f2-def5b6c99fd0"
+            },
+            {
+                "code": "corrected",
+                "definition": "The report has been modified subsequent to being Final, and is complete and verified by an authorized person",
+                "display": "Corrected",
+                "id": "ffaccaa3-72e4-421f-a4cc-c8f6baea4aae"
+            },
+            {
+                "code": "appended",
+                "definition": "The report has been modified subsequent to being Final, and is complete and verified by an authorized person. New content has been added, but existing content hasn't changed.",
+                "display": "Appended",
+                "id": "f93fdb42-1116-4be8-adcf-d5761aafce96"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The report is unavailable because the measurement was not started or not completed (also sometimes called \"aborted\").",
+                "display": "Cancelled",
+                "id": "e4477420-2cf7-4e60-b04b-4143d1042668"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The report has been withdrawn following a previous final release.",
+                "display": "Entered in Error",
+                "id": "3399d6fd-783f-4ebc-809f-189bd2527aa9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

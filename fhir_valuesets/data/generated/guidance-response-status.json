@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.GuidanceResponseStatus",
+        "records": [
+            {
+                "code": "success",
+                "definition": "The request was processed successfully",
+                "display": "Success",
+                "id": "2a64e7f8-6de1-435d-bc5b-245a4fa23f59"
+            },
+            {
+                "code": "data-requested",
+                "definition": "The request was processed successfully, but more data may result in a more complete evaluation",
+                "display": "Data Requested",
+                "id": "0361e69b-18c7-4150-8c1f-cb4d0aa49f68"
+            },
+            {
+                "code": "data-required",
+                "definition": "The request was processed, but more data is required to complete the evaluation",
+                "display": "Data Required",
+                "id": "435f8ba0-8dd5-4469-8ed8-c0754a4ff59d"
+            },
+            {
+                "code": "in-progress",
+                "definition": "The request is currently being processed",
+                "display": "In Progress",
+                "id": "0508ffe3-3000-46cf-8a3a-7050080d0f35"
+            },
+            {
+                "code": "failure",
+                "definition": "The request was not processed successfully",
+                "display": "Failure",
+                "id": "c593a4e8-fd21-4c2e-b5e3-c045a591a214"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

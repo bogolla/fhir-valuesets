@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ReferenceVersionRules",
+        "records": [
+            {
+                "code": "either",
+                "definition": "The reference may be either version independent or version specific",
+                "display": "Either Specific or independent",
+                "id": "04c60e23-3f01-47d8-bcf4-2e1ba8e6a2e8"
+            },
+            {
+                "code": "independent",
+                "definition": "The reference must be version independent",
+                "display": "Version independent",
+                "id": "1bdcbcbf-3b38-4d54-973a-977f70d0b925"
+            },
+            {
+                "code": "specific",
+                "definition": "The reference must be version specific",
+                "display": "Version Specific",
+                "id": "0ec1ea97-9051-47c4-a2e7-d2aadeefe1ac"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

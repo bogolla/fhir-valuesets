@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ContentMode",
+        "records": [
+            {
+                "code": "not-present",
+                "definition": "None of the concepts defined by the code system are included in the code system resource",
+                "display": "Not Present",
+                "id": "769c94b8-5fcb-4113-aac9-ade73d40cdd1"
+            },
+            {
+                "code": "examplar",
+                "definition": "A few representative concepts are included in the code system resource",
+                "display": "Examplar",
+                "id": "42354eef-11bc-428e-a3e7-93999e73c24a"
+            },
+            {
+                "code": "fragment",
+                "definition": "A subset of the code system concepts are included in the code system resource",
+                "display": "Fragment",
+                "id": "20816870-c425-4e92-a52c-a6bd3ff723c0"
+            },
+            {
+                "code": "complete",
+                "definition": "All the concepts defined by the code system are included in the code system resource",
+                "display": "Complete",
+                "id": "2d2e12df-293e-4675-ab39-fa45e608b1f5"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

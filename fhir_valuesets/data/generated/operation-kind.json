@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.OperationKind",
+        "records": [
+            {
+                "code": "operation",
+                "definition": "This operation is invoked as an operation.",
+                "display": "Operation",
+                "id": "277ce019-c99c-4529-9bb2-12186fc4924f"
+            },
+            {
+                "code": "query",
+                "definition": "This operation is a named query, invoked using the search mechanism.",
+                "display": "Query",
+                "id": "eacf19c5-0f12-4a5f-bcb6-18c079e1baba"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

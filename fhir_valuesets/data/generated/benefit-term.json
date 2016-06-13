@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.BenefitTerm",
+        "records": [
+            {
+                "code": "annual",
+                "definition": "Annual, renewing on the anniversary",
+                "display": "Annual",
+                "id": "642bf34c-0278-46ce-b1b7-781434234faa"
+            },
+            {
+                "code": "lifetime",
+                "definition": "For the total term, lifetime, of the policy or coverage",
+                "display": "Lifetime",
+                "id": "215211ef-e2e7-4bac-b619-4f93cf24663b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

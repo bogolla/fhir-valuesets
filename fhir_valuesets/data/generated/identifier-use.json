@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.IdentifierUse",
+        "records": [
+            {
+                "code": "usual",
+                "definition": "The identifier recommended for display and use in real-world interactions.",
+                "display": "Usual",
+                "id": "b5c71d6b-0a2a-4003-a6f4-6cc489b34aa7"
+            },
+            {
+                "code": "official",
+                "definition": "The identifier considered to be most trusted for the identification of this item.",
+                "display": "Official",
+                "id": "129dccfe-594e-4226-9542-4775bc093773"
+            },
+            {
+                "code": "temp",
+                "definition": "A temporary identifier.",
+                "display": "Temp",
+                "id": "24be6399-408f-4bc0-b899-b09418c28fc7"
+            },
+            {
+                "code": "secondary",
+                "definition": "An identifier that was assigned in secondary use - it serves to identify the object in a relative context, but cannot be consistently assigned to the same object again in a different context.",
+                "display": "Secondary",
+                "id": "be0c3cba-29fd-4e89-9cf4-26c658e99328"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

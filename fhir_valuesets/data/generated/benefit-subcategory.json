@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.BenefitSubcategory",
+        "records": [
+            {
+                "code": "oral-basic",
+                "definition": "Dental Basic Coverage - exams, fillings, xrays, cleaning, minor procedures",
+                "display": "Dental: Basic Coverage",
+                "id": "aa213a3a-5ef6-46f4-abcb-097999913ee3"
+            },
+            {
+                "code": "oral-major",
+                "definition": "Dental Major Coverage - crowns, bridge, major procedures",
+                "display": "Dental: Major Coverage",
+                "id": "3e106af2-ad1d-4009-8ea8-e77d4677be00"
+            },
+            {
+                "code": "oral-ortho",
+                "definition": "Dental Orthodontic Coverage - braces, adjustments, ortho exams, related procedures",
+                "display": "Dental: Orthodontic Coverage",
+                "id": "fbbb29be-7375-4896-b904-9ae51df37dfe"
+            },
+            {
+                "code": "vision-exam",
+                "definition": "Vision Exam",
+                "display": "Vision Exam",
+                "id": "520242a2-672d-455c-9da6-8022f73be295"
+            },
+            {
+                "code": "vision-glasses",
+                "definition": "Frames and lenses",
+                "display": "Vision Glasses",
+                "id": "a68d31fc-12bf-4620-af16-7a35b9055b0a"
+            },
+            {
+                "code": "vision-contacts",
+                "definition": "Contact Lenses",
+                "display": "Vision Contacts Coverage",
+                "id": "380d56f5-995a-4557-be26-421bef513132"
+            },
+            {
+                "code": "medical-primarycare",
+                "definition": "Medical Primary Health Coverage",
+                "display": "Medical Primary Health Coverage",
+                "id": "7379d8fe-bbe0-4a10-8a0c-19e574afae24"
+            },
+            {
+                "code": "pharmacy-dispense",
+                "definition": "Pharmacy Dispense Coverage",
+                "display": "Pharmacy Dispense Coverage",
+                "id": "ac5f3fc8-e345-4dee-8fd7-9b78a0c1988f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

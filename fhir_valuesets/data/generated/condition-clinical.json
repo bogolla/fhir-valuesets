@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ConditionClinical",
+        "records": [
+            {
+                "code": "active",
+                "definition": "The subject is currently experiencing the symptoms of the condition.",
+                "display": "Active",
+                "id": "09abd16f-014d-4eb0-a6d3-b5501e6b0cc1"
+            },
+            {
+                "code": "relapse",
+                "definition": "The subject is re-experiencing the symptoms of the condition after a period of remission or presumed resolution.",
+                "display": "Relapse",
+                "id": "208592a3-29e8-4128-9adf-38c1b5c974a9"
+            },
+            {
+                "code": "remission",
+                "definition": "The subject is no longer experiencing the symptoms of the condition, but there is a risk of the symptoms returning.",
+                "display": "Remission",
+                "id": "603fa450-90c5-4ce2-babe-fc5e72985dd0"
+            },
+            {
+                "code": "resolved",
+                "definition": "The subject is no longer experiencing the symptoms of the condition and there is no perceived risk of the symptoms returning.",
+                "display": "Resolved",
+                "id": "b66a3818-6fca-4ee0-8419-3b756d1647d1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

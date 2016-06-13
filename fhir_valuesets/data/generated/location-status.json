@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.LocationStatus",
+        "records": [
+            {
+                "code": "active",
+                "definition": "The location is operational.",
+                "display": "Active",
+                "id": "385eb4c9-2a8e-4abd-b347-45114fe5d22c"
+            },
+            {
+                "code": "suspended",
+                "definition": "The location is temporarily closed.",
+                "display": "Suspended",
+                "id": "9acaf8bf-de99-45c0-b3e9-435914876563"
+            },
+            {
+                "code": "inactive",
+                "definition": "The location is no longer used.",
+                "display": "Inactive",
+                "id": "11edbe9f-54a6-400e-852d-2a2d3b410f48"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

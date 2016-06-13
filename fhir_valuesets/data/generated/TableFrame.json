@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.Tableframe",
+        "records": [
+            {
+                "code": "above",
+                "definition": "above",
+                "display": "above",
+                "id": "79e46336-a2de-40c0-b39a-da5c67b1ae6d"
+            },
+            {
+                "code": "below",
+                "definition": "below",
+                "display": "below",
+                "id": "7787d097-3564-4387-bca2-186b318298a2"
+            },
+            {
+                "code": "border",
+                "definition": "border",
+                "display": "border",
+                "id": "beb2feff-b14f-4721-8f1d-dc309122f007"
+            },
+            {
+                "code": "box",
+                "definition": "box",
+                "display": "box",
+                "id": "0924baf2-3b26-420f-99cf-fdb514a61751"
+            },
+            {
+                "code": "hsides",
+                "definition": "hsides",
+                "display": "hsides",
+                "id": "f91b1ec8-9410-45e4-860e-9b78828c941e"
+            },
+            {
+                "code": "lhs",
+                "definition": "lhs",
+                "display": "lhs",
+                "id": "91532abc-5f76-4448-b4d5-44e5cf0dd69a"
+            },
+            {
+                "code": "rhs",
+                "definition": "rhs",
+                "display": "rhs",
+                "id": "8fe8bd7e-c9b6-4c11-9c0e-e5d95866cf74"
+            },
+            {
+                "code": "void",
+                "definition": "void",
+                "display": "void",
+                "id": "62810870-c7c3-4a3e-833d-1954cf307a3e"
+            },
+            {
+                "code": "vsides",
+                "definition": "vsides",
+                "display": "vsides",
+                "id": "f9bfd40e-e82f-4364-8a69-da5eb8f7f30d"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

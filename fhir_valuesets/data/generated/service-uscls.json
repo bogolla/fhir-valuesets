@@ -1,0 +1,125 @@
+[
+    {
+        "model": "valuesets.ServiceUscls",
+        "records": [
+            {
+                "code": "1101",
+                "definition": "Exam, comp, primary",
+                "display": "Exam, comp, primary",
+                "id": "88574e4d-9f5c-48c5-99ff-7fd565045896"
+            },
+            {
+                "code": "1102",
+                "definition": "Exam, comp, mixed",
+                "display": "Exam, comp, mixed",
+                "id": "41d2ea55-ceff-4b32-afab-27915c056df3"
+            },
+            {
+                "code": "1103",
+                "definition": "Exam, comp, permanent",
+                "display": "Exam, comp, permanent",
+                "id": "1a4e344b-c75a-4b6b-86c2-ef5c466e2f55"
+            },
+            {
+                "code": "1201",
+                "definition": "Exam, recall",
+                "display": "Exam, recall",
+                "id": "77178552-cb7b-4b65-af45-78c20dcef7a4"
+            },
+            {
+                "code": "1205",
+                "definition": "Exam, emergency",
+                "display": "Exam, emergency",
+                "id": "1c4d249f-abf9-47dc-b3aa-f797c23c8ec2"
+            },
+            {
+                "code": "2101",
+                "definition": "Radiograph, series (12)",
+                "display": "Radiograph, series (12)",
+                "id": "69796809-c0f9-4d8e-8502-d57077dfd058"
+            },
+            {
+                "code": "2102",
+                "definition": "Radiograph, series (16)",
+                "display": "Radiograph, series (16)",
+                "id": "0747ab5b-4f0e-42b6-9b17-1ed2eaf0f352"
+            },
+            {
+                "code": "2141",
+                "definition": "Radiograph, bytewing",
+                "display": "Radiograph, bytewing",
+                "id": "39f36a70-bf21-438d-943a-3bbaca9e4cdb"
+            },
+            {
+                "code": "2601",
+                "definition": "Radiograph, panoramic",
+                "display": "Radiograph, panoramic",
+                "id": "d800c664-f733-49da-83d3-ce10978fcf4c"
+            },
+            {
+                "code": "11101",
+                "definition": "Polishing, 1 unit",
+                "display": "Polishing, 1 unit",
+                "id": "5b3f344d-d666-480d-af0a-25f78fb21542"
+            },
+            {
+                "code": "11102",
+                "definition": "Polishing, 2 unit",
+                "display": "Polishing, 2 unit",
+                "id": "761f6ffa-fb67-4b62-ab71-659424955e5c"
+            },
+            {
+                "code": "11103",
+                "definition": "Polishing, 3 unit",
+                "display": "Polishing, 3 unit",
+                "id": "b669607f-96a3-4ffa-8dd7-6e198c0ee341"
+            },
+            {
+                "code": "11104",
+                "definition": "Polishing, 4 unit",
+                "display": "Polishing, 4 unit",
+                "id": "b8b73a4f-1839-4ba5-8826-1119ac19ec22"
+            },
+            {
+                "code": "21211",
+                "definition": "Amalgam, 1 surface",
+                "display": "Amalgam, 1 surface",
+                "id": "028b35cd-3353-482a-a5e7-1a30bbc2be61"
+            },
+            {
+                "code": "21212",
+                "definition": "Amalgam, 2 surface",
+                "display": "Amalgam, 2 surface",
+                "id": "a47ba11f-647c-492d-a87d-de03506d252c"
+            },
+            {
+                "code": "27211",
+                "definition": "Crown, PFM",
+                "display": "Crown, PFM",
+                "id": "1e8cd8fd-281b-4ff4-8c62-1f8de5c3c5f1"
+            },
+            {
+                "code": "99111",
+                "definition": "Lab, commercial",
+                "display": "Lab, commercial",
+                "id": "bc9cc515-b4f3-4329-81aa-8fe58ccda5a0"
+            },
+            {
+                "code": "99333",
+                "definition": "Lab, in office",
+                "display": "Lab, in office",
+                "id": "10343b04-6796-44c5-916a-d319387cf731"
+            },
+            {
+                "code": "99555",
+                "definition": "Expense",
+                "display": "Expense",
+                "id": "059ded72-79ae-4c04-87c9-522aa9ff8a80"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

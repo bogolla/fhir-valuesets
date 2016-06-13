@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ObservationParamcode",
+        "records": [
+            {
+                "code": "average",
+                "definition": "The [mean](https://en.wikipedia.org/wiki/Arithmetic_mean)of N measurements over the stated period",
+                "display": "Average",
+                "id": "8ce4e613-fcfb-47cc-a3f2-342f986df615"
+            },
+            {
+                "code": "max",
+                "definition": "The [maximum](https://en.wikipedia.org/wiki/Maximal_element) value of N measurements over the stated period",
+                "display": "Maximum",
+                "id": "8620b86c-159e-4e23-aac5-6a68b7494a33"
+            },
+            {
+                "code": "min",
+                "definition": "The [minimum](https://en.wikipedia.org/wiki/Minimal_element) value of N measurements over the stated period",
+                "display": "Minimum",
+                "id": "4e811c37-1b9e-49c3-b7b7-70c9a57935e7"
+            },
+            {
+                "code": "count",
+                "definition": "The [number] of measurements over the stated period",
+                "display": "Count",
+                "id": "ec6c8595-38e1-48a9-8d45-eb76a27e9be7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Genderstatus",
+        "records": [
+            {
+                "code": "I",
+                "definition": "Reproductively intact",
+                "display": "Intact",
+                "id": "ead262aa-3c5c-40c9-87cc-07f1b971535e"
+            },
+            {
+                "code": "N",
+                "definition": "Reproductively neutered",
+                "display": "Neutered",
+                "id": "c5f9107a-26c8-48f4-a7ee-a30c157d9390"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

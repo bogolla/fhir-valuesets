@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.CarePlanStatus",
+        "records": [
+            {
+                "code": "proposed",
+                "definition": "The plan has been suggested but no commitment to it has yet been made.",
+                "display": "Proposed",
+                "id": "6bf9d88a-2f35-48c3-954b-5e0ff5546e45"
+            },
+            {
+                "code": "draft",
+                "definition": "The plan is in development or awaiting use but is not yet intended to be acted upon.",
+                "display": "Pending",
+                "id": "a81708b1-4b4b-4f4c-8ab1-49c2deca484c"
+            },
+            {
+                "code": "active",
+                "definition": "The plan is intended to be followed and used as part of patient care.",
+                "display": "Active",
+                "id": "9506912b-5368-4b51-8188-91f3bc70b6bd"
+            },
+            {
+                "code": "completed",
+                "definition": "The plan is no longer in use and is not expected to be followed or used in patient care.",
+                "display": "Completed",
+                "id": "0295c8bf-e305-4692-ab03-5f236bd3367e"
+            },
+            {
+                "code": "cancelled",
+                "definition": "The plan has been terminated prior to reaching completion (though it may have been replaced by a new plan).",
+                "display": "Cancelled",
+                "id": "6cc99c6d-7f16-4254-851d-2d947fa0ccd0"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.ProvenanceEntityRole",
+        "records": [
+            {
+                "code": "derivation",
+                "definition": "A transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a preexisting entity.",
+                "display": "Derivation",
+                "id": "fa1e902b-8a3f-4b88-88f7-071c8f715f56"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

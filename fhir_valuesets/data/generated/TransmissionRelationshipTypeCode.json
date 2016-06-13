@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Transmissionrelationshiptypecode",
+        "records": [
+            {
+                "code": "SEQL",
+                "definition": "Description:A transmission relationship indicating that the source transmission follows the target transmission.",
+                "display": "sequence",
+                "id": "d5f290f9-fecf-4c49-893f-80180b222566"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

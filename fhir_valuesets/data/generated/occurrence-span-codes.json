@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.OccurrenceSpanCodes",
+        "records": [
+            {
+                "code": "1001",
+                "definition": "Occurrance Span 1001 description.",
+                "display": "Occurrance Span 1001",
+                "id": "9aa2cee5-bf4b-4bdb-9b54-0a815b446b8a"
+            },
+            {
+                "code": "1002",
+                "definition": "Occurrance Span 1002 description.",
+                "display": "Occurrance Span 1002",
+                "id": "eb6f60c9-0167-49f5-8476-0ad794908ac7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

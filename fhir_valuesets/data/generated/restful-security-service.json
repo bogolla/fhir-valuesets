@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.RestfulSecurityService",
+        "records": [
+            {
+                "code": "OAuth",
+                "definition": "Oauth (unspecified version see oauth.net).",
+                "display": "OAuth",
+                "id": "8213e3e1-7ec8-4769-b13b-7624f2741823"
+            },
+            {
+                "code": "SMART-on-FHIR",
+                "definition": "OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org/).",
+                "display": "SMART-on-FHIR",
+                "id": "6517394e-0d89-4d3c-9e6e-a5a7b1fb19d4"
+            },
+            {
+                "code": "NTLM",
+                "definition": "Microsoft NTLM Authentication.",
+                "display": "NTLM",
+                "id": "66d17d2c-6122-4f57-b83b-525429ec82a2"
+            },
+            {
+                "code": "Basic",
+                "definition": "Basic authentication defined in HTTP specification.",
+                "display": "Basic",
+                "id": "33ccd4e6-f5bb-46d6-b6f3-b11f2d3f5fd0"
+            },
+            {
+                "code": "Kerberos",
+                "definition": "see http://www.ietf.org/rfc/rfc4120.txt.",
+                "display": "Kerberos",
+                "id": "d078e0b5-814a-4239-8527-1942dca0813a"
+            },
+            {
+                "code": "Certificates",
+                "definition": "SSL where client must have a certificate registered with the server.",
+                "display": "Certificates",
+                "id": "9b37c8b2-d297-4a70-8302-a320e607ed81"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

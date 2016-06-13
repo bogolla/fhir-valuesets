@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ValueCodes",
+        "records": [
+            {
+                "code": "1001",
+                "definition": "Value 1001 description.",
+                "display": "Value 1001",
+                "id": "45018c2d-4f76-41a2-bd87-3c0935bc28fc"
+            },
+            {
+                "code": "1002",
+                "definition": "Value 1002 description.",
+                "display": "Value 1002",
+                "id": "da56b7bf-d31d-4b54-89dd-5dd0d6cec3e9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "model": "valuesets.BasicResourceType",
+        "records": [
+            {
+                "code": "consent",
+                "definition": "An assertion of permission for an activity or set of activities to occur, possibly subject to particular limitations; e.g. surgical consent, information disclosure consent, etc.",
+                "display": "Consent",
+                "id": "ce8f293e-9456-4b1f-9766-8899877ec546"
+            },
+            {
+                "code": "referral",
+                "definition": "A request that care of a particular type be provided to a patient.  Could involve the transfer of care, a consult, etc.",
+                "display": "Referral",
+                "id": "a0f11b03-4380-4051-80f0-ea210fd7c1f9"
+            },
+            {
+                "code": "advevent",
+                "definition": "An undesired reaction caused by exposure to some agent (e.g. a medication, immunization, food, or environmental agent).",
+                "display": "Adverse Event",
+                "id": "041b2271-a307-4ca5-b90b-dd0d836ee290"
+            },
+            {
+                "code": "aptmtreq",
+                "definition": "A request that a time be scheduled for a type of service for a specified patient, potentially subject to other constraints",
+                "display": "Appointment Request",
+                "id": "74b5dcc8-de8d-404d-9fe6-a0ddfb6c60c8"
+            },
+            {
+                "code": "transfer",
+                "definition": "The transition of a patient or set of material from one location to another",
+                "display": "Transfer",
+                "id": "78ded271-22e8-4e1e-ace0-de5d06f16071"
+            },
+            {
+                "code": "diet",
+                "definition": "The specification of a set of food and/or other nutritional material to be delivered to a patient.",
+                "display": "Diet",
+                "id": "c7087f20-f960-4d6d-a6ff-4f687b6edd37"
+            },
+            {
+                "code": "adminact",
+                "definition": "An occurrence of a non-care-related event in the healthcare domain, such as approvals, reviews, etc.",
+                "display": "Administrative Activity",
+                "id": "e2fb4144-cd0b-44fb-87d6-5351eafacc12"
+            },
+            {
+                "code": "exposure",
+                "definition": "Record of a situation where a subject was exposed to a substance.  Usually of interest to public health.",
+                "display": "Exposure",
+                "id": "0046e095-65d1-4fda-bc4c-f35e43663ab6"
+            },
+            {
+                "code": "investigation",
+                "definition": "A formalized inquiry into the circumstances surrounding a particular unplanned event or potential event for the purposes of identifying possible causes and contributing factors for the event",
+                "display": "Investigation",
+                "id": "ef03cf3d-bce2-4b57-b1dc-7aae96b7d456"
+            },
+            {
+                "code": "account",
+                "definition": "A financial instrument used to track costs, charges or other amounts.",
+                "display": "Account",
+                "id": "acbff031-9c41-427f-8273-b6d4fca4b22f"
+            },
+            {
+                "code": "invoice",
+                "definition": "A request for payment for goods and/or services.  Includes the idea of a healthcare insurance claim.",
+                "display": "Invoice",
+                "id": "c6dd9f28-3d49-4eae-a0b3-91c013613548"
+            },
+            {
+                "code": "adjudicat",
+                "definition": "The determination of what will be paid against a particular invoice based on coverage, plan rules, etc.",
+                "display": "Invoice Adjudication",
+                "id": "ca08f604-f1b4-4e82-8f86-2f6f1f554b7a"
+            },
+            {
+                "code": "predetreq",
+                "definition": "A request for a pre-determination of the cost that would be paid under an insurance plan for a hypothetical claim for goods or services",
+                "display": "Pre-determination Request",
+                "id": "518b7fe4-b1cc-406d-a189-0f5d5a042709"
+            },
+            {
+                "code": "predetermine",
+                "definition": "An adjudication of what would be paid under an insurance plan for a hypothetical claim for goods or services",
+                "display": "Predetermination",
+                "id": "3582bfb5-78a8-477f-876e-7a7326dad82f"
+            },
+            {
+                "code": "study",
+                "definition": "An investigation to determine information about a particular therapy or product",
+                "display": "Study",
+                "id": "6a713615-3b9e-42b2-8f9c-75c048472607"
+            },
+            {
+                "code": "protocol",
+                "definition": "A set of (possibly conditional) steps to be taken to achieve some aim.  Includes study protocols, treatment protocols, emergency protocols, etc.",
+                "display": "Protocol",
+                "id": "b2b76864-576d-40b6-9e53-34eba02b4f7a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

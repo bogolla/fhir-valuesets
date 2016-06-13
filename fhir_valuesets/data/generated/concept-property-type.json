@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ConceptPropertyType",
+        "records": [
+            {
+                "code": "code",
+                "definition": "The property value is a code that identifies a concept defined in the code system",
+                "display": "code (internal reference)",
+                "id": "7423aeb2-d1b3-4f8f-8b9c-08d7da5411e5"
+            },
+            {
+                "code": "Coding",
+                "definition": "The property  value is a code defined in an external code system. This may be used for translations, but is not the intent",
+                "display": "Coding (external reference)",
+                "id": "676317d2-95b1-4db2-ad88-7b02a2b63832"
+            },
+            {
+                "code": "string",
+                "definition": "The property value is a string",
+                "display": "string",
+                "id": "9049d17f-2b2d-4512-88ce-5469ba61d2b4"
+            },
+            {
+                "code": "integer",
+                "definition": "The property value is a string (often used to assign ranking values to concepts for supporting score assessments)",
+                "display": "integer",
+                "id": "ebc255d8-85e0-4e52-9c26-cdcf663d24ac"
+            },
+            {
+                "code": "boolean",
+                "definition": "The property value is a boolean true | false",
+                "display": "boolean",
+                "id": "f0fb7ef1-3b1f-4a40-b15a-c6b1b4c7438c"
+            },
+            {
+                "code": "dateTime",
+                "definition": "The property is a date or a date + time",
+                "display": "dateTime",
+                "id": "b82d4434-7a35-4396-b386-9620dc105590"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

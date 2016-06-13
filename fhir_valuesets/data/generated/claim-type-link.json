@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.ClaimTypeLink",
+        "records": [
+            {
+                "code": "institutional",
+                "definition": "A claim for Institution based, typically in-patient, goods and services.",
+                "display": "Institutional",
+                "id": "a73b97c5-9b14-482b-996d-e2ce2ce3316d"
+            },
+            {
+                "code": "oral",
+                "definition": "A claim for Oral Health (Dentist, Denturist, Hygienist) goods and services.",
+                "display": "Oral Health",
+                "id": "ef67a250-38b2-4aa0-a766-19618b7ca18b"
+            },
+            {
+                "code": "pharmacy",
+                "definition": "A claim for Pharmacy based goods and services.",
+                "display": "Pharmacy",
+                "id": "43926532-6822-447c-962f-39fd65e07e32"
+            },
+            {
+                "code": "professional",
+                "definition": "A claim for Professional, typically out-patient, goods and services.",
+                "display": "Professional",
+                "id": "6bb70f14-d294-48e4-ab7c-9ed0bcb82a24"
+            },
+            {
+                "code": "vision",
+                "definition": "A claim for Vision (Opthamologist, Optometrist and Optician) goods and services.",
+                "display": "Vision",
+                "id": "d08e5c19-9e96-47f7-a858-f2209c1d1deb"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

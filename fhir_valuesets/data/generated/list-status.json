@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ListStatus",
+        "records": [
+            {
+                "code": "current",
+                "definition": "The list is considered to be an active part of the patient's record.",
+                "display": "Current",
+                "id": "58125498-7e4a-4d8a-a435-3c2294b8d0cb"
+            },
+            {
+                "code": "retired",
+                "definition": "The list is \"old\" and should no longer be considered accurate or relevant.",
+                "display": "Retired",
+                "id": "57f3e815-5b7d-42e1-9792-4ed3c98ce1b2"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The list was never accurate.  It is retained for medico-legal purposes only.",
+                "display": "Entered In Error",
+                "id": "f63eff4e-0ccd-4288-80eb-ccd68c31e050"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.VisionEyeCodes",
+        "records": [
+            {
+                "code": "right",
+                "definition": "Right Eye",
+                "display": "Right Eye",
+                "id": "4ece3521-fd3e-4082-ac95-6477a1e35a06"
+            },
+            {
+                "code": "left",
+                "definition": "Left Eye",
+                "display": "Left Eye",
+                "id": "f675fec6-d0a8-4634-ba80-9a445d8aaf4b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

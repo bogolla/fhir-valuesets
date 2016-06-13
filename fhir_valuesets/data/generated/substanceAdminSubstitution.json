@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Substanceadminsubstitution",
+        "records": [
+            {
+                "code": "_ActSubstanceAdminSubstitutionCode",
+                "definition": "Description: Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects.",
+                "display": "ActSubstanceAdminSubstitutionCode",
+                "id": "ca0d4870-4c41-429b-b150-d1df48142176"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

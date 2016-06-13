@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.MeasureType",
+        "records": [
+            {
+                "code": "process",
+                "definition": "The measure is a process measure",
+                "display": "Process",
+                "id": "ed2d5899-cfda-4712-a1fc-c23725cd5f18"
+            },
+            {
+                "code": "outcome",
+                "definition": "The measure is an outcome measure",
+                "display": "Outcome",
+                "id": "73b2bed1-4192-42bd-ae10-5543c9a5ddfa"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

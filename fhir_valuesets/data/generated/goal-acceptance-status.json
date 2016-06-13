@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.GoalAcceptanceStatus",
+        "records": [
+            {
+                "code": "agree",
+                "definition": "Stakeholder supports pursuit of the goal",
+                "display": "Agree",
+                "id": "3e8260be-922a-462f-9416-24e9f5980a4c"
+            },
+            {
+                "code": "disagree",
+                "definition": "Stakeholder is not in support of the pursuit of the goal",
+                "display": "Disagree",
+                "id": "6a2eeaf3-d46e-49c7-ba13-a2d122bc1aa8"
+            },
+            {
+                "code": "pending",
+                "definition": "Stakeholder has not yet made a decision on whether they support the goal",
+                "display": "Pending",
+                "id": "67e904b3-2f9e-4d73-adae-89bdec6b2637"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

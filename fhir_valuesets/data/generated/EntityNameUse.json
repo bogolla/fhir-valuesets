@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.Entitynameuse",
+        "records": [
+            {
+                "code": "_NameRepresentationUse",
+                "definition": "Identifies the different representations of a name.  The representation may affect how the name is used.  (E.g. use of Ideographic for formal communications.)",
+                "display": "NameRepresentationUse",
+                "id": "64b77ec0-a6ab-4749-b995-f327b1fc037b"
+            },
+            {
+                "code": "ASGN",
+                "definition": "A name assigned to a person. Reasons some organizations assign alternate names may include not knowing the person's name, or to maintain anonymity. Some, but not necessarily all, of the name types that people call \"alias\" may fit into this category.",
+                "display": "assigned",
+                "id": "b3affb8f-a894-4054-8401-ad9df3eed935"
+            },
+            {
+                "code": "C",
+                "definition": "As recorded on a license, record, certificate, etc. (only if different from legal name)",
+                "display": "License",
+                "id": "0089b998-b4fc-4e44-89d9-bf6efdfd4a34"
+            },
+            {
+                "code": "I",
+                "definition": "e.g. Chief Red Cloud",
+                "display": "Indigenous/Tribal",
+                "id": "0d04ec29-b7f8-4a38-ab10-11187b9394c3"
+            },
+            {
+                "code": "L",
+                "definition": "Known as/conventional/the one you use",
+                "display": "Legal",
+                "id": "56093f78-3259-4aac-9367-b0810d1ee39e"
+            },
+            {
+                "code": "P",
+                "definition": "A self asserted name that the person is using or has used.",
+                "display": "pseudonym",
+                "id": "71e22a5f-0e51-4f95-9256-9bff45b623d9"
+            },
+            {
+                "code": "R",
+                "definition": "e.g. Sister Mary Francis, Brother John",
+                "display": "Religious",
+                "id": "ddd86211-e9fc-4937-a3df-6f8e27edfc97"
+            },
+            {
+                "code": "SRCH",
+                "definition": "A name intended for use in searching or matching.",
+                "display": "search",
+                "id": "ff6f4142-4253-4b27-ab26-b086ad6e24da"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

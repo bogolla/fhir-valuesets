@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Tablecellscope",
+        "records": [
+            {
+                "code": "col",
+                "definition": "col",
+                "display": "col",
+                "id": "2aa7f032-dfbc-4fd3-8744-bea934901bae"
+            },
+            {
+                "code": "colgroup",
+                "definition": "colgroup",
+                "display": "colgroup",
+                "id": "5e4b9cda-155e-4bfc-9770-feb5fc348769"
+            },
+            {
+                "code": "row",
+                "definition": "row",
+                "display": "row",
+                "id": "fca3258d-2858-4369-ab0c-c74f3f3827f9"
+            },
+            {
+                "code": "rowgroup",
+                "definition": "rowgroup",
+                "display": "rowgroup",
+                "id": "c35f3bcf-8737-46a3-b4d9-e913e8576aba"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

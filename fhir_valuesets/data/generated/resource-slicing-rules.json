@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ResourceSlicingRules",
+        "records": [
+            {
+                "code": "closed",
+                "definition": "No additional content is allowed other than that described by the slices in this profile.",
+                "display": "Closed",
+                "id": "53d3bc33-b953-4d21-868e-d25a3b8b7323"
+            },
+            {
+                "code": "open",
+                "definition": "Additional content is allowed anywhere in the list.",
+                "display": "Open",
+                "id": "8ca73b64-c78e-498f-bfb4-cf53480d8209"
+            },
+            {
+                "code": "openAtEnd",
+                "definition": "Additional content is allowed, but only at the end of the list. Note that using this requires that the slices be ordered, which makes it hard to share uses. This should only be done where absolutely required.",
+                "display": "Open at End",
+                "id": "d9b3d25f-da53-4ed2-8425-6a082f5a65eb"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

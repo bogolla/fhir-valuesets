@@ -1,0 +1,59 @@
+[
+    {
+        "model": "valuesets.DigitalMediaSubtype",
+        "records": [
+            {
+                "code": "diagram",
+                "definition": "A diagram. Often used in diagnostic reports",
+                "display": "Diagram",
+                "id": "e298b341-beb0-4502-bd05-534c66ea1d57"
+            },
+            {
+                "code": "fax",
+                "definition": "A digital record of a fax document",
+                "display": "Fax",
+                "id": "3d360c6f-b226-4849-9a5c-acd1da6c0617"
+            },
+            {
+                "code": "scan",
+                "definition": "A digital scan of a document. This is reserved for when there is not enough metadata to create a document reference",
+                "display": "Scanned Document",
+                "id": "cd1aa9b6-c4fa-4c85-aa16-50ac06ef0fde"
+            },
+            {
+                "code": "retina",
+                "definition": "A retinal image used for identification purposes",
+                "display": "Retina scan",
+                "id": "1bb0c878-6448-40f8-b6c0-9a515bad25f8"
+            },
+            {
+                "code": "fingerprint",
+                "definition": "A finger print scan used for identification purposes",
+                "display": "Fingerprint",
+                "id": "e56e18f7-c635-4d7b-b103-285b1174297d"
+            },
+            {
+                "code": "iris",
+                "definition": "An iris scan used for identification purposes",
+                "display": "Iris",
+                "id": "c111f1c4-980d-422e-8e76-5e9035d87555"
+            },
+            {
+                "code": "palm",
+                "definition": "A palm scan used for identification purposes",
+                "display": "Palm",
+                "id": "bd672b6c-484b-4fcc-bd81-30e6e78302b2"
+            },
+            {
+                "code": "face",
+                "definition": "A face scan used for identification purposes",
+                "display": "Face",
+                "id": "0a535fb1-a07c-4b89-a736-b04ba8824505"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

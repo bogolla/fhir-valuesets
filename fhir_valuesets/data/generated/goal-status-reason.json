@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.GoalStatusReason",
+        "records": [
+            {
+                "code": "surgery",
+                "definition": "Goal suspended or ended because of a surgical procedure.",
+                "display": "surgery",
+                "id": "d97af143-16b4-4885-8132-35a0a864910c"
+            },
+            {
+                "code": "life-event",
+                "definition": "Goal suspended or ended because of a significant life event (marital change, bereavement, etc.).",
+                "display": "life event",
+                "id": "119c8302-9519-4d80-b655-6d4c5c5b14c1"
+            },
+            {
+                "code": "replaced",
+                "definition": "Goal has been superseded by a new goal.",
+                "display": "replaced",
+                "id": "a2e3b12f-def1-4041-a953-d14336e89d18"
+            },
+            {
+                "code": "patient-request",
+                "definition": "Patient wishes the goal to be set aside, at least temporarily.",
+                "display": "patient request",
+                "id": "51e298cf-93f9-45f4-ae7b-320872696fc3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

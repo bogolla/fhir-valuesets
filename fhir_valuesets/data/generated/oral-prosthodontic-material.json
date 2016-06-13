@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.OralProsthodonticMaterial",
+        "records": [
+            {
+                "code": "1",
+                "definition": "Fixed Bridge",
+                "display": "Fixed Bridge",
+                "id": "0f455a25-bae1-4a97-a5fc-fcc741bd461b"
+            },
+            {
+                "code": "2",
+                "definition": "Maryland Bridge",
+                "display": "Maryland Bridge",
+                "id": "6a17f5e8-7391-4e7b-ba9d-4fc6888c1eb3"
+            },
+            {
+                "code": "3",
+                "definition": "Denture Acrylic",
+                "display": "Denture Acrylic",
+                "id": "a61f3d51-7680-4207-bbf0-6a30cae8960d"
+            },
+            {
+                "code": "4",
+                "definition": "Denture Chrome Cobalt",
+                "display": "Denture Chrome Cobalt",
+                "id": "7d5c7a0c-3fc1-4a56-a073-701783b8cd2c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

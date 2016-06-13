@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Participationmode",
+        "records": [
+            {
+                "code": "ELECTRONIC",
+                "definition": "Participation by non-human-languaged based electronic signal",
+                "display": "electronic data",
+                "id": "fb3ad698-4ef0-4273-971b-9711630c771d"
+            },
+            {
+                "code": "PHYSICAL",
+                "definition": "Participation by direct action where subject and actor are in the same location. (The participation involves more than communication.)",
+                "display": "physical presence",
+                "id": "5a25953a-6c9f-4ec0-8a95-f0923a24648c"
+            },
+            {
+                "code": "REMOTE",
+                "definition": "Participation by direct action where subject and actor are in separate locations, and the actions of the actor are transmitted by electronic or mechanical means. (The participation involves more than communication.)",
+                "display": "remote presence",
+                "id": "be8483dd-2ae8-41a0-9102-a786628e6484"
+            },
+            {
+                "code": "VERBAL",
+                "definition": "Participation by voice communication",
+                "display": "verbal",
+                "id": "54c7151f-93d3-437a-9fd7-2b86d56b7e1a"
+            },
+            {
+                "code": "WRITTEN",
+                "definition": "Participation by human language recorded on a physical material",
+                "display": "written",
+                "id": "5e752ca0-9d2e-414d-b5a5-d56f94f5f100"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

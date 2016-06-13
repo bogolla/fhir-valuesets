@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.CdsRuleActionType",
+        "records": [
+            {
+                "code": "create",
+                "definition": "The action is to create a new resource",
+                "display": "Create",
+                "id": "6514b0fd-e4cb-41fc-bcc7-0a7cd8f6a341"
+            },
+            {
+                "code": "update",
+                "definition": "The action is to update an existing resource",
+                "display": "Update",
+                "id": "51e7404a-dede-471f-8509-058d5681b388"
+            },
+            {
+                "code": "remove",
+                "definition": "The action is to remove an existing resource",
+                "display": "Remove",
+                "id": "2ae1a3a7-fe38-4643-9843-3553002e48b4"
+            },
+            {
+                "code": "fire-event",
+                "definition": "The action is to fire a specific event",
+                "display": "Fire Event",
+                "id": "b4b64a4c-97a2-4d15-8d16-6add8c92c0b2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

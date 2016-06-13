@@ -1,0 +1,83 @@
+[
+    {
+        "model": "valuesets.MapTransform",
+        "records": [
+            {
+                "code": "create",
+                "definition": "create(type : string) - type is passed through to the application on the standard API, and must be known by it",
+                "display": "create",
+                "id": "d2572323-70bc-4fe2-ad7f-0581c58c33ac"
+            },
+            {
+                "code": "copy",
+                "definition": "copy(source)",
+                "display": "copy",
+                "id": "2829dd0d-369a-4f56-bd70-77c87d7f23e0"
+            },
+            {
+                "code": "truncate",
+                "definition": "truncate(source, length) - source must be stringy type",
+                "display": "truncate",
+                "id": "fbf4d55a-ed54-487a-bc0f-27dfd8e165e6"
+            },
+            {
+                "code": "escape",
+                "definition": "escape(source, fmt1, fmt2) - change source from one kind of escaping to another (plain, java, xml, json). note that this is for when the string itself is escaped",
+                "display": "escape",
+                "id": "fa5a14eb-b048-42a4-832a-8129606a79af"
+            },
+            {
+                "code": "cast",
+                "definition": "cast(source, type?) - case source from one type to another. target type can be left as implicit if there is one and only one target type known",
+                "display": "cast",
+                "id": "03aefd33-efae-45f2-b444-04c7b26e00d0"
+            },
+            {
+                "code": "append",
+                "definition": "append(source...) - source is element or string",
+                "display": "append",
+                "id": "f4d495c6-7275-4895-a4f3-b31ae0e9f2c2"
+            },
+            {
+                "code": "translate",
+                "definition": "translate(source, uri_of_map) - use the translate operation",
+                "display": "translate",
+                "id": "fea077d0-cfde-4453-8476-a1ad8fefa1b1"
+            },
+            {
+                "code": "reference",
+                "definition": "reference(source : object) - return a string that references the provided tree properly",
+                "display": "reference",
+                "id": "73c9afa8-898e-49e1-ab69-156245617f1f"
+            },
+            {
+                "code": "dateOp",
+                "definition": "something",
+                "display": "dateOp",
+                "id": "885cbee3-273e-4d30-b8f7-77e872cfc369"
+            },
+            {
+                "code": "uuid",
+                "definition": "something",
+                "display": "uuid",
+                "id": "de0811d8-db87-4772-8010-28055433cf88"
+            },
+            {
+                "code": "pointer",
+                "definition": "something",
+                "display": "pointer",
+                "id": "b44448e7-7c3d-482d-9e3e-aa327e2d4b63"
+            },
+            {
+                "code": "evaluate",
+                "definition": "something",
+                "display": "evaluate",
+                "id": "6124ed73-4a02-4880-8048-c22233f509e6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

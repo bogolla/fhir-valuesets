@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Localmarkupignore",
+        "records": [
+            {
+                "code": "all",
+                "definition": "all",
+                "display": "all",
+                "id": "88fbecf4-63c7-43ef-9197-f089d4c5a819"
+            },
+            {
+                "code": "markup",
+                "definition": "markup",
+                "display": "markup",
+                "id": "35f19779-141e-47e6-a3f9-91fc212b70a7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

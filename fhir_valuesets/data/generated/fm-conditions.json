@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.FmConditions",
+        "records": [
+            {
+                "code": "123987",
+                "definition": "Headache",
+                "display": "Headache",
+                "id": "f3ed640c-8a2f-460c-a947-bcb74f11629c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ExtensionContext",
+        "records": [
+            {
+                "code": "resource",
+                "definition": "The context is all elements matching a particular resource element path.",
+                "display": "Resource",
+                "id": "5346de3a-2001-4d53-a20b-3bb0dc25382a"
+            },
+            {
+                "code": "datatype",
+                "definition": "The context is all nodes matching a particular data type element path (root or repeating element) or all elements referencing a particular primitive data type (expressed as the datatype name).",
+                "display": "Datatype",
+                "id": "df1c4301-0aae-463a-a332-ba412b29cf16"
+            },
+            {
+                "code": "extension",
+                "definition": "The context is a particular extension from a particular profile, a uri that identifies the extension definition.",
+                "display": "Extension",
+                "id": "6ca2a8a3-36bc-42bb-81b1-d83a31d3b4bd"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

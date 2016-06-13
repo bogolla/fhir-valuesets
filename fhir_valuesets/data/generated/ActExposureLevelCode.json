@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Actexposurelevelcode",
+        "records": [
+            {
+                "code": "_ActExposureLevelCode",
+                "definition": "A qualitative measure of the degree of exposure to the causative agent.  This includes concepts such as \"low\", \"medium\" and \"high\".  This quantifies how the quantity that was available to be administered to the target differs from typical or background levels of the substance.",
+                "display": "ActExposureLevelCode",
+                "id": "49a3783e-62de-4983-bd6f-51c3b8b46d10"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

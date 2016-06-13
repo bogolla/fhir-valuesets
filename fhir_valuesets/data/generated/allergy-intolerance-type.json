@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.AllergyIntoleranceType",
+        "records": [
+            {
+                "code": "allergy",
+                "definition": "A propensity for hypersensitivity reaction(s) to a substance.  These reactions are most typically type I hypersensitivity, plus other \"allergy-like\" reactions, including pseudoallergy.",
+                "display": "Allergy",
+                "id": "f3e91195-f96e-4465-83a0-2604d45f1138"
+            },
+            {
+                "code": "intolerance",
+                "definition": "A propensity for adverse reactions to a substance that is not judged to be allergic or \"allergy-like\".  These reactions are typically (but not necessarily) non-immune.  They are to some degree idiosyncratic and/or individually specific (i.e. are not a reaction that is expected to occur with most or all patients given similar circumstances).",
+                "display": "Intolerance",
+                "id": "c604ff64-2284-45d4-928c-39dd02c46398"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

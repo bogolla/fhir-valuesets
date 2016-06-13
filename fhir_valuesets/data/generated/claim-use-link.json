@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ClaimUseLink",
+        "records": [
+            {
+                "code": "complete",
+                "definition": "The treatment is complete and this represents a Claim for the services.",
+                "display": "Complete",
+                "id": "ddcf3105-9670-492b-b620-83bb92c7e51c"
+            },
+            {
+                "code": "proposed",
+                "definition": "The treatment is proposed and this represents a Pre-authorization for the services.",
+                "display": "Proposed",
+                "id": "f41fe72f-c85d-44cf-a931-8fb624c926ab"
+            },
+            {
+                "code": "exploratory",
+                "definition": "The treatment is proposed and this represents a Pre-determination for the services.",
+                "display": "Exploratory",
+                "id": "22b8117a-a8e0-44ac-9a9d-fb3aa41efe35"
+            },
+            {
+                "code": "other",
+                "definition": "A locally defined or otherwise resolved status.",
+                "display": "Other",
+                "id": "325224e4-8559-41f1-9752-c46c620394ef"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

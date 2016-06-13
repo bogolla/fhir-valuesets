@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Encounteradmissionsource",
+        "records": [
+            {
+                "code": "E",
+                "definition": "emergency",
+                "display": "emergency",
+                "id": "3958ebd5-6ce6-4243-9bc2-005f54889caa"
+            },
+            {
+                "code": "LD",
+                "definition": "labor and delivery",
+                "display": "labor and delivery",
+                "id": "43c66c93-774c-4c98-b790-4f44f6046dc5"
+            },
+            {
+                "code": "NB",
+                "definition": "newborn",
+                "display": "newborn",
+                "id": "5e6c3aa5-0fbb-4a26-9bbd-62988877b6a6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

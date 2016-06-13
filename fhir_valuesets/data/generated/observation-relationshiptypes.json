@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ObservationRelationshiptypes",
+        "records": [
+            {
+                "code": "has-member",
+                "definition": "This observation is a group observation (e.g. a battery, a panel of tests, a set of vital sign measurements) that includes the target as a member of the group.",
+                "display": "Has Member",
+                "id": "cbcf95a7-233b-4e23-9f16-e21166b0fddb"
+            },
+            {
+                "code": "derived-from",
+                "definition": "The target resource (Observation or QuestionnaireResponse) is part of the information from which this observation value is derived. (e.g. calculated anion gap, Apgar score)  NOTE:  \"derived-from\" is only logical choice when referencing QuestionnaireResponse.",
+                "display": "Derived From",
+                "id": "ed972bd0-3df2-4cda-b618-6e4156374a4b"
+            },
+            {
+                "code": "sequel-to",
+                "definition": "This observation follows the target observation (e.g. timed tests such as Glucose Tolerance Test).",
+                "display": "Sequel To",
+                "id": "87b09025-78a5-4b2e-b2a3-daa3cf3c1d12"
+            },
+            {
+                "code": "replaces",
+                "definition": "This observation replaces a previous observation (i.e. a revised value). The target observation is now obsolete.",
+                "display": "Replaces",
+                "id": "362a4251-5fe6-45cb-8d7d-ddfbfd55c2a1"
+            },
+            {
+                "code": "qualified-by",
+                "definition": "The value of the target observation qualifies (refines) the semantics of the source observation (e.g. a lipemia measure target from a plasma measure).",
+                "display": "Qualified By",
+                "id": "3e818f88-b553-478b-9fe5-c87493f53e07"
+            },
+            {
+                "code": "interfered-by",
+                "definition": "The value of the target observation interferes (degrades quality, or prevents valid observation) with the semantics of the source observation (e.g. a hemolysis measure target from a plasma potassium measure which has no value).",
+                "display": "Interfered By",
+                "id": "36451b38-6c8e-487c-a60c-d348fbddd1f7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

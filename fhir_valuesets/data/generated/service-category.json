@@ -1,0 +1,239 @@
+[
+    {
+        "model": "valuesets.ServiceCategory",
+        "records": [
+            {
+                "code": "1",
+                "definition": "Adoption",
+                "display": "Adoption",
+                "id": "3e3b1a81-f1af-4e2a-800f-bb0d72f4f82a"
+            },
+            {
+                "code": "2",
+                "definition": "Aged Care",
+                "display": "Aged Care",
+                "id": "b4114229-e156-42bd-ad37-fd2d362cabf6"
+            },
+            {
+                "code": "34",
+                "definition": "Allied Health",
+                "display": "Allied Health",
+                "id": "38bdf3ed-946d-4fb4-9e0f-c8d8af00db92"
+            },
+            {
+                "code": "3",
+                "definition": "Alternative & Complementary Therapies",
+                "display": "Alternative/Complementary Therapies",
+                "id": "9f8105ff-5fb4-40f0-b5e4-0e8e68cfacce"
+            },
+            {
+                "code": "4",
+                "definition": "Child Care and/or Kindergarten",
+                "display": "Child Care /Kindergarten",
+                "id": "9343b3f9-5e5b-44ea-8e69-c150116b1e2e"
+            },
+            {
+                "code": "5",
+                "definition": "Child Development",
+                "display": "Child Development",
+                "id": "17f9c798-ae37-42f7-b7b7-2bdad479ceb0"
+            },
+            {
+                "code": "6",
+                "definition": "Child Protection & Family Services",
+                "display": "Child Protection & Family Services",
+                "id": "84509c05-b09b-4bdb-94da-e6ea5f2d61b8"
+            },
+            {
+                "code": "7",
+                "definition": "Community Health Care",
+                "display": "Community Health Care",
+                "id": "4776b234-f5cb-4edb-8058-cd6489a25908"
+            },
+            {
+                "code": "8",
+                "definition": "Counselling",
+                "display": "Counselling",
+                "id": "0126b36b-4bfa-45a9-80ce-8a4b44930fab"
+            },
+            {
+                "code": "36",
+                "definition": "Crisis Line (GPAH use only)",
+                "display": "Crisis Line (GPAH use only)",
+                "id": "fa655e43-3c0a-41a1-b7c7-7a98938b8cd2"
+            },
+            {
+                "code": "9",
+                "definition": "Death Services",
+                "display": "Death Services",
+                "id": "9a2b905f-9a75-4ab6-bc0c-b8377533d933"
+            },
+            {
+                "code": "10",
+                "definition": "Dental",
+                "display": "Dental",
+                "id": "863faa03-e5f6-4772-b81d-66db88700006"
+            },
+            {
+                "code": "11",
+                "definition": "Disability Support",
+                "display": "Disability Support",
+                "id": "410bb10f-5768-4927-88ad-081150a65cf1"
+            },
+            {
+                "code": "12",
+                "definition": "Drug/Alcohol",
+                "display": "Drug/Alcohol",
+                "id": "8255fb7f-52de-4a7a-a757-55b8423491c2"
+            },
+            {
+                "code": "13",
+                "definition": "Education & Learning",
+                "display": "Education & Learning",
+                "id": "9e2a06bc-2df0-464b-90c6-38e9490f9df4"
+            },
+            {
+                "code": "14",
+                "definition": "Emergency Department",
+                "display": "Emergency Department",
+                "id": "8a46ef06-5191-4c58-b22f-2276a4f30c23"
+            },
+            {
+                "code": "15",
+                "definition": "Employment",
+                "display": "Employment",
+                "id": "466ce4eb-7a3d-49b6-8bbb-a64805d72930"
+            },
+            {
+                "code": "16",
+                "definition": "Financial & Material aid",
+                "display": "Financial & Material Aid",
+                "id": "602f2f9c-036f-4a4a-a82f-c14b1ffc2c5a"
+            },
+            {
+                "code": "17",
+                "definition": "General Practice/GP (doctor)",
+                "display": "General Practice",
+                "id": "92f6cc0d-b72f-4de0-a654-ebc69f6bb0c5"
+            },
+            {
+                "code": "35",
+                "definition": "Hospital",
+                "display": "Hospital",
+                "id": "983acb11-eab0-4904-9c4d-3c7b98e50005"
+            },
+            {
+                "code": "18",
+                "definition": "Housing/Homelessness",
+                "display": "Housing/Homelessness",
+                "id": "f251b4cb-7a70-48c9-902e-d7ee4fbd2ca5"
+            },
+            {
+                "code": "19",
+                "definition": "Interpreting",
+                "display": "Interpreting",
+                "id": "645cded4-691d-4b85-8d46-07851b08c25a"
+            },
+            {
+                "code": "20",
+                "definition": "Justice",
+                "display": "Justice",
+                "id": "799e2a2d-16a4-4d50-bfe1-200b347dfeef"
+            },
+            {
+                "code": "21",
+                "definition": "Legal",
+                "display": "Legal",
+                "id": "e8a81c43-cd7e-4a57-91fe-c703ad5a3844"
+            },
+            {
+                "code": "22",
+                "definition": "Mental Health",
+                "display": "Mental Health",
+                "id": "b210c0ef-a772-4f4d-8f65-d3a4f7143aaf"
+            },
+            {
+                "code": "38",
+                "definition": "NDIA",
+                "display": "NDIA",
+                "id": "966b6232-1d02-42d5-b294-c566ac6c914b"
+            },
+            {
+                "code": "23",
+                "definition": "Physical Activity & Recreation",
+                "display": "Physical Activity & Recreation",
+                "id": "7b1dc1e7-4e76-4808-bdcd-cdc708325788"
+            },
+            {
+                "code": "24",
+                "definition": "Regulation",
+                "display": "Regulation",
+                "id": "d24357ae-50d3-4e39-9864-48b0f58a53f5"
+            },
+            {
+                "code": "25",
+                "definition": "Respite/Carer Support",
+                "display": "Respite/Carer Support",
+                "id": "9c7fddb3-9a08-4f39-9af6-b323ba80d3b0"
+            },
+            {
+                "code": "26",
+                "definition": "Specialist Clinical Pathology - requires referral",
+                "display": "Specialist Clinical Pathology",
+                "id": "d464fc4d-87d2-4c89-a020-3e5e95451695"
+            },
+            {
+                "code": "27",
+                "definition": "Specialist Medical - requires referral",
+                "display": "Specialist Medical",
+                "id": "ba67d1b5-fbe7-4a58-9de5-24df9cf93b90"
+            },
+            {
+                "code": "28",
+                "definition": "Specialist Obstetrics & Gynaecology - requires referral",
+                "display": "Specialist Obstetrics & Gynaecology",
+                "id": "9ae64351-145f-4b59-88c6-24fef4386b99"
+            },
+            {
+                "code": "29",
+                "definition": "Specialist Paediatric - requires referral",
+                "display": "Specialist Paediatric",
+                "id": "ab3b9ab8-d031-4e6c-b39e-6b5a937a74f5"
+            },
+            {
+                "code": "30",
+                "definition": "Specialist Radiology/Imaging - requires referral",
+                "display": "Specialist Radiology/Imaging",
+                "id": "21e1ba21-62b6-4d0b-908e-b2d3d889e6af"
+            },
+            {
+                "code": "31",
+                "definition": "Specialist Surgical - requires referral",
+                "display": "Specialist Surgical",
+                "id": "f584d0eb-68a7-46b9-8e8d-38c75e22a104"
+            },
+            {
+                "code": "32",
+                "definition": "Support group/s",
+                "display": "Support Group/s",
+                "id": "3a7eb34b-31de-40e5-907f-bab8a9f87b20"
+            },
+            {
+                "code": "37",
+                "definition": "Test Message (HSD admin use only)",
+                "display": "Test Message (HSD admin)",
+                "id": "60787692-9197-413b-9efc-874d22acf41b"
+            },
+            {
+                "code": "33",
+                "definition": "Transport",
+                "display": "Transport",
+                "id": "49e55af5-170e-4b7b-8610-f566c9d570df"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

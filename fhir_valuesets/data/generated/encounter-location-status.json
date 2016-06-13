@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.EncounterLocationStatus",
+        "records": [
+            {
+                "code": "planned",
+                "definition": "The patient is planned to be moved to this location at some point in the future.",
+                "display": "Planned",
+                "id": "c696802f-a2cc-4c85-824b-91fa34a53834"
+            },
+            {
+                "code": "active",
+                "definition": "The patient is currently at this location, or was between the period specified.\n\nA system may update these records when the patient leaves the location to either reserved, or completed",
+                "display": "Active",
+                "id": "cb1f155e-4337-4e82-b4b3-7fcc7f8ba257"
+            },
+            {
+                "code": "reserved",
+                "definition": "This location is held empty for this patient.",
+                "display": "Reserved",
+                "id": "2a13609a-d661-45cb-82a4-6e326c572485"
+            },
+            {
+                "code": "completed",
+                "definition": "The patient was at this location during the period specified.\n\nNot to be used when the patient is currently at the location",
+                "display": "Completed",
+                "id": "e8868cfd-43c0-4cb1-a0f5-9b4b92645f53"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

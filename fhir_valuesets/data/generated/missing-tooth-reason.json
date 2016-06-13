@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.MissingToothReason",
+        "records": [
+            {
+                "code": "e",
+                "definition": "Extraction",
+                "display": "E",
+                "id": "95e06ced-93b7-490e-a544-a8b82eae0b96"
+            },
+            {
+                "code": "c",
+                "definition": "Congenital",
+                "display": "C",
+                "id": "f7a5864f-a357-4ad4-983d-218bb7b2ec9f"
+            },
+            {
+                "code": "u",
+                "definition": "Unknown",
+                "display": "U",
+                "id": "88032cf5-9537-450c-9f9b-f841e16d8597"
+            },
+            {
+                "code": "o",
+                "definition": "Other",
+                "display": "O",
+                "id": "c821a945-61db-411d-ada9-064a21223590"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

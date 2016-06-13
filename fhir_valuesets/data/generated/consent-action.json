@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ConsentAction",
+        "records": [
+            {
+                "code": "read",
+                "definition": "Read the data (e.g. read and search resources)",
+                "display": "Read",
+                "id": "ee964fae-2b18-44f6-96ea-b20059f6ad12"
+            },
+            {
+                "code": "write",
+                "definition": "Update the data (e.g. create and update resources)",
+                "display": "Write",
+                "id": "b5763b41-dd74-4226-becd-e9692827b161"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

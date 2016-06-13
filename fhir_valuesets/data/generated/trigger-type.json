@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.TriggerType",
+        "records": [
+            {
+                "code": "named-event",
+                "definition": "The trigger occurs in response to a specific named event",
+                "display": "Named Event",
+                "id": "4d372773-81ce-4c29-b9e3-cb884a6e6a6e"
+            },
+            {
+                "code": "periodic",
+                "definition": "The trigger occurs at a specific time or periodically as described by a timing or schedule",
+                "display": "Periodic",
+                "id": "2558c02d-9610-4e25-b14f-245b3bf916c1"
+            },
+            {
+                "code": "data-added",
+                "definition": "The trigger occurs whenever data of a particular type is added",
+                "display": "Data Added",
+                "id": "d14503c9-c9ad-442f-b122-ebada05f62ec"
+            },
+            {
+                "code": "data-modified",
+                "definition": "The trigger occurs whenever data of a particular type is modified",
+                "display": "Data Modified",
+                "id": "4bfc8bc7-488d-462d-82e4-7ff5527c5880"
+            },
+            {
+                "code": "data-removed",
+                "definition": "The trigger occurs whenever data of a particular type is removed",
+                "display": "Data Removed",
+                "id": "78295435-d703-4040-b192-35506296b51b"
+            },
+            {
+                "code": "data-accessed",
+                "definition": "The trigger occurs whenever data of a particular type is accessed",
+                "display": "Data Accessed",
+                "id": "7e04160b-dc84-4d0c-9612-16d784879583"
+            },
+            {
+                "code": "data-access-ended",
+                "definition": "The trigger occurs whenever access to data of a particular type is completed",
+                "display": "Data Access Ended",
+                "id": "69dcaacc-62b7-4a04-9a02-55235bac52d7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Messagewaitingpriority",
+        "records": [
+            {
+                "code": "H",
+                "definition": "High priority messages are available",
+                "display": "High",
+                "id": "d10b4795-aa88-482c-9659-9e9b1047ab37"
+            },
+            {
+                "code": "L",
+                "definition": "Low priority messages are available",
+                "display": "Low",
+                "id": "37e1b9c0-ddf7-4bf0-b1fe-412eab486fcd"
+            },
+            {
+                "code": "M",
+                "definition": "Medium priority messages are available",
+                "display": "Medium",
+                "id": "a94b387c-c927-4ed4-b88a-712d22c94b12"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ServicePlace",
+        "records": [
+            {
+                "code": "emergency",
+                "definition": "Emergency Department",
+                "display": "Emergency Department",
+                "id": "f266d9d4-7cde-45bb-bc28-3bfc579bfcd5"
+            },
+            {
+                "code": "clinic",
+                "definition": "Clinic",
+                "display": "Clinic",
+                "id": "265e2ab8-cef6-4e9e-8b26-9c8957af17f8"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

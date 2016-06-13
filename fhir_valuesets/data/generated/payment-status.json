@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.PaymentStatus",
+        "records": [
+            {
+                "code": "paid",
+                "definition": null,
+                "display": null,
+                "id": "ffad40df-6285-4e68-afff-1bef43c275c4"
+            },
+            {
+                "code": "cleared",
+                "definition": null,
+                "display": null,
+                "id": "a241e321-5317-4d0e-803a-d9a4ac317e91"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.TaskPerformerType",
+        "records": [
+            {
+                "code": "requester",
+                "definition": "A workflow participant that requests services.",
+                "display": "Requester",
+                "id": "08166faa-bb0e-47bc-bbc9-aef6e6af2b64"
+            },
+            {
+                "code": "dispatcher",
+                "definition": "A workflow participant that dispatches services (assigns another task to a participant).",
+                "display": "Dispatcher",
+                "id": "41982286-2a5c-4312-b7b7-7bc7c00b8940"
+            },
+            {
+                "code": "performer",
+                "definition": "A workflow participant that performs services.",
+                "display": "Performer",
+                "id": "97d60a5e-2ad8-412a-a8e2-c3cd169ca0d2"
+            },
+            {
+                "code": "monitor",
+                "definition": "A workflow participant that monitors task activity.",
+                "display": "Monitor",
+                "id": "1097fb21-036e-414a-aa81-411704a698bb"
+            },
+            {
+                "code": "manager",
+                "definition": "A workflow participant that manages task activity.",
+                "display": "Manager",
+                "id": "a8e2217f-9706-47dd-b013-c678150d53a6"
+            },
+            {
+                "code": "acquirer",
+                "definition": "A workflow participant that acquires resources (specimens, images, etc) necessary to perform the task.",
+                "display": "Acquirer",
+                "id": "effde6a8-46ce-4551-a8f0-3ad09c507bcb"
+            },
+            {
+                "code": "reviewer",
+                "definition": "A workflow participant that reviews task inputs or outputs.",
+                "display": "Reviewer",
+                "id": "fc584b1e-3a41-42ba-96de-2c527954dc13"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ListMode",
+        "records": [
+            {
+                "code": "working",
+                "definition": "This list is the master list, maintained in an ongoing fashion with regular updates as the real world list it is tracking changes",
+                "display": "Working List",
+                "id": "5e1b3a6f-2a27-4c34-878f-8bc1b0130a58"
+            },
+            {
+                "code": "snapshot",
+                "definition": "This list was prepared as a snapshot. It should not be assumed to be current",
+                "display": "Snapshot List",
+                "id": "db881b5b-2248-4334-bdab-52f075eae57d"
+            },
+            {
+                "code": "changes",
+                "definition": "A list that indicates where changes have been made or recommended",
+                "display": "Change List",
+                "id": "3ac18428-a9c3-4424-a2b2-ee1118c8cb64"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

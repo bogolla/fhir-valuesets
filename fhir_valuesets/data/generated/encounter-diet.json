@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.EncounterDiet",
+        "records": [
+            {
+                "code": "vegetarian",
+                "definition": "Food without meat, poultry or seafood.",
+                "display": "Vegetarian",
+                "id": "c41cec8d-b6c2-4503-a265-d3755ddb4f1a"
+            },
+            {
+                "code": "dairy-free",
+                "definition": "Excludes dairy products.",
+                "display": "Dairy Free",
+                "id": "a20d5aaa-faf6-46f7-8d8a-1dea54bbfbf7"
+            },
+            {
+                "code": "nut-free",
+                "definition": "Excludes ingredients containing nuts.",
+                "display": "Nut Free",
+                "id": "33726f9c-9450-4131-9f45-776960b016a7"
+            },
+            {
+                "code": "gluten-free",
+                "definition": "Excludes ingredients containing gluten.",
+                "display": "Gluten Free",
+                "id": "5e177283-b553-4c72-9262-9b34c6229e68"
+            },
+            {
+                "code": "vegan",
+                "definition": "Food without meat, poultry, seafood, eggs, dairy products and other animal-derived substances.",
+                "display": "Vegan",
+                "id": "202dcd55-af6a-4f7f-abdf-fc13f7404359"
+            },
+            {
+                "code": "halal",
+                "definition": "Foods that conform to Islamic law.",
+                "display": "Halal",
+                "id": "d1a650c9-31a4-4250-82f1-12cde4197657"
+            },
+            {
+                "code": "kosher",
+                "definition": "Foods that conform to Jewish dietary law.",
+                "display": "Kosher",
+                "id": "29bda335-fb2d-495f-95d6-d238156ca4de"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

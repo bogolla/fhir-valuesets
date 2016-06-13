@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Targetawareness",
+        "records": [
+            {
+                "code": "D",
+                "definition": "Target person has been informed about the issue but currently denies it.",
+                "display": "denying",
+                "id": "214c6de0-e894-4b9e-b881-568ecd08c7b2"
+            },
+            {
+                "code": "F",
+                "definition": "Target person is fully aware of the issue.",
+                "display": "full awareness",
+                "id": "d82433a4-730a-4205-b0d7-86e2a53b3d4a"
+            },
+            {
+                "code": "I",
+                "definition": "Target person is not capable of comprehending the issue.",
+                "display": "incapable",
+                "id": "db592580-4a5e-4267-a8ac-e5a059ac696a"
+            },
+            {
+                "code": "M",
+                "definition": "Target person is marginally aware of the issue.",
+                "display": "marginal",
+                "id": "5eea6848-6494-4c53-8873-98fef73bc0a0"
+            },
+            {
+                "code": "P",
+                "definition": "Target person is partially aware of the issue.",
+                "display": "partial",
+                "id": "39020116-4443-4e7f-b8fa-522eca81466c"
+            },
+            {
+                "code": "U",
+                "definition": "Target person has not yet been informed of the issue.",
+                "display": "uninformed",
+                "id": "eea3e109-ea41-447b-a6d3-068fd007522a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.DetectedissueSeverity",
+        "records": [
+            {
+                "code": "high",
+                "definition": "Indicates the issue may be life-threatening or has the potential to cause permanent injury.",
+                "display": "High",
+                "id": "3aa0c107-19c1-4c01-89f9-3f6292e3f7e7"
+            },
+            {
+                "code": "moderate",
+                "definition": "Indicates the issue may result in noticeable adverse consequences but is unlikely to be life-threatening or cause permanent injury.",
+                "display": "Moderate",
+                "id": "2962f939-5020-4d76-b797-b0c6603a279d"
+            },
+            {
+                "code": "low",
+                "definition": "Indicates the issue may result in some adverse consequences but is unlikely to substantially affect the situation of the subject.",
+                "display": "Low",
+                "id": "4ffcd240-4120-42bd-9923-527c38f812bf"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

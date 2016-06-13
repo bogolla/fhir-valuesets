@@ -1,0 +1,77 @@
+[
+    {
+        "model": "valuesets.MeasurementPrinciple",
+        "records": [
+            {
+                "code": "other",
+                "definition": "Measurement principle isn't in the list.",
+                "display": "MSP Other",
+                "id": "9a0afff7-da33-4cc1-a015-2c7f29d3095c"
+            },
+            {
+                "code": "chemical",
+                "definition": "Measurement is done using the chemical principle.",
+                "display": "MSP Chemical",
+                "id": "8908bdb3-6519-432c-a428-f7761091c02a"
+            },
+            {
+                "code": "electrical",
+                "definition": "Measurement is done using the electrical principle.",
+                "display": "MSP Electrical",
+                "id": "94b3fdfe-b266-43f3-be29-4fb78b4e9256"
+            },
+            {
+                "code": "impedance",
+                "definition": "Measurement is done using the impedance principle.",
+                "display": "MSP Impedance",
+                "id": "d352d6b3-86da-479d-993e-960c0e08a9ac"
+            },
+            {
+                "code": "nuclear",
+                "definition": "Measurement is done using the nuclear principle.",
+                "display": "MSP Nuclear",
+                "id": "0b253b91-7ad7-498b-a3e4-9779a5298a7c"
+            },
+            {
+                "code": "optical",
+                "definition": "Measurement is done using the optical principle.",
+                "display": "MSP Optical",
+                "id": "435c4143-31ba-4bf1-b92e-e3a42f90b991"
+            },
+            {
+                "code": "thermal",
+                "definition": "Measurement is done using the thermal principle.",
+                "display": "MSP Thermal",
+                "id": "f5a8979e-bbd1-4c6b-af55-70f12d3cb5fd"
+            },
+            {
+                "code": "biological",
+                "definition": "Measurement is done using the biological principle.",
+                "display": "MSP Biological",
+                "id": "bfdb8d8a-2dd3-4b5d-b3ec-b1a8cb4b0789"
+            },
+            {
+                "code": "mechanical",
+                "definition": "Measurement is done using the mechanical principle.",
+                "display": "MSP Mechanical",
+                "id": "1d061b56-f978-4fa9-a7d6-b212deb3cf77"
+            },
+            {
+                "code": "acoustical",
+                "definition": "Measurement is done using the acoustical principle.",
+                "display": "MSP Acoustical",
+                "id": "55023292-49a3-47ee-9470-7539f9a1cde5"
+            },
+            {
+                "code": "manual",
+                "definition": "Measurement is done using the manual principle.",
+                "display": "MSP Manual",
+                "id": "5594b397-2051-4a91-9fef-52452eaeacda"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

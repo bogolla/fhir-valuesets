@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Languageabilityproficiency",
+        "records": [
+            {
+                "code": "E",
+                "definition": "Excellent",
+                "display": "Excellent",
+                "id": "1fe252b1-3047-4969-b198-f81723827c37"
+            },
+            {
+                "code": "F",
+                "definition": "Fair",
+                "display": "Fair",
+                "id": "481ea585-ab96-46f5-a0d4-6c1b8c4111c2"
+            },
+            {
+                "code": "G",
+                "definition": "Good",
+                "display": "Good",
+                "id": "011e5bd3-b758-414f-9f0e-e369221101b5"
+            },
+            {
+                "code": "P",
+                "definition": "Poor",
+                "display": "Poor",
+                "id": "0531ba5d-6d4b-41b4-b7c2-ff750d228711"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

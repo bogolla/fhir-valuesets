@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Ruleset",
+        "records": [
+            {
+                "code": "x12-4010",
+                "definition": null,
+                "display": null,
+                "id": "14058421-d94b-4d33-8a0c-e15bcb3ed4ab"
+            },
+            {
+                "code": "x12-5010",
+                "definition": null,
+                "display": null,
+                "id": "f22ff3da-660c-434a-8455-5c833b508994"
+            },
+            {
+                "code": "x12-7010",
+                "definition": null,
+                "display": null,
+                "id": "96199afa-8230-46e0-b7fe-4fc3aa2f13e3"
+            },
+            {
+                "code": "cdanet-v2",
+                "definition": null,
+                "display": null,
+                "id": "4abcaa1f-038e-48fd-af5e-9e6203cae435"
+            },
+            {
+                "code": "cdanet-v4",
+                "definition": null,
+                "display": null,
+                "id": "37488e92-771d-4da7-a298-c1284edbc5e3"
+            },
+            {
+                "code": "cpha-3",
+                "definition": null,
+                "display": null,
+                "id": "05867c93-1487-4bd1-b1c5-f0f747bcb5b4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

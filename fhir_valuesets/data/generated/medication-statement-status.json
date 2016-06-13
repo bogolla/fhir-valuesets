@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.MedicationStatementStatus",
+        "records": [
+            {
+                "code": "active",
+                "definition": "The medication is still being taken.",
+                "display": "Active",
+                "id": "29adebb4-9769-46c9-ad96-3ea7fa7ba311"
+            },
+            {
+                "code": "completed",
+                "definition": "The medication is no longer being taken.",
+                "display": "Completed",
+                "id": "7e9be34c-6194-428b-8381-c0ba36aa57ed"
+            },
+            {
+                "code": "entered-in-error",
+                "definition": "The statement was entered in error.",
+                "display": "Entered in Error",
+                "id": "2a1d1d70-993d-4ec3-a333-e36f6266a7b3"
+            },
+            {
+                "code": "intended",
+                "definition": "The medication may be taken at some time in the future.",
+                "display": "Intended",
+                "id": "865bc6d9-04be-4257-9e6c-722f6b3e9799"
+            },
+            {
+                "code": "stopped",
+                "definition": "Actions implied by the statement have been permanently halted, before all of them occurred.",
+                "display": "Stopped",
+                "id": "db48263d-9001-4d30-a7d3-54e096c336bc"
+            },
+            {
+                "code": "on-hold",
+                "definition": "Actions implied by the statement have been temporarily halted, but are expected to continue later. May also be called \"suspended\".",
+                "display": "On Hold",
+                "id": "ed5906ba-7918-4fdf-9664-49f03b2eb950"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

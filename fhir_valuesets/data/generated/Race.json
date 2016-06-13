@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Race",
+        "records": [
+            {
+                "code": "1002-5",
+                "definition": "American Indian or Alaska Native",
+                "display": "American Indian or Alaska Native",
+                "id": "be48d62f-d79e-4970-be4a-3c6725399028"
+            },
+            {
+                "code": "2028-9",
+                "definition": "Asian",
+                "display": "Asian",
+                "id": "634944f8-1f81-4294-a1b5-55fc3b34ab55"
+            },
+            {
+                "code": "2054-5",
+                "definition": "Black or African American",
+                "display": "Black or African American",
+                "id": "e4a33447-b016-4670-9ae7-25bd6c051c49"
+            },
+            {
+                "code": "2076-8",
+                "definition": "Native Hawaiian or Other Pacific Islander",
+                "display": "Native Hawaiian or Other Pacific Islander",
+                "id": "19918135-7745-472d-8012-e82d943b479e"
+            },
+            {
+                "code": "2106-3",
+                "definition": "White",
+                "display": "White",
+                "id": "c496c55a-4764-47f2-ba44-426169bf2062"
+            },
+            {
+                "code": "2131-1",
+                "definition": "Note that this term remains in the table for completeness, even though within HL7, the notion of Other code is deprecated.",
+                "display": "Other Race",
+                "id": "758d5575-d9de-4916-9c47-ec47e2d48bcc"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Livingarrangement",
+        "records": [
+            {
+                "code": "HL",
+                "definition": "Definition: Living arrangements lacking a permanent residence.",
+                "display": "homeless",
+                "id": "e62c8420-aebf-4e4d-ae70-7541bcb055de"
+            },
+            {
+                "code": "I",
+                "definition": "Institution",
+                "display": "Institution",
+                "id": "21178b3b-e120-4bf7-b652-c6dc75001d51"
+            },
+            {
+                "code": "PR",
+                "definition": "Definition:  A living arrangement within a private residence for single family.",
+                "display": "private residence",
+                "id": "74cb991c-0576-4849-ae07-4ee40d0340a4"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

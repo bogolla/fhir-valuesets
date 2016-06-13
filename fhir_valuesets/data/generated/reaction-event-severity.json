@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ReactionEventSeverity",
+        "records": [
+            {
+                "code": "mild",
+                "definition": "Causes mild physiological effects.",
+                "display": "Mild",
+                "id": "ae398ba6-83d9-4e8e-a18c-76d961703b8a"
+            },
+            {
+                "code": "moderate",
+                "definition": "Causes moderate physiological effects.",
+                "display": "Moderate",
+                "id": "e29646b3-c8eb-4951-a080-61290dd3c301"
+            },
+            {
+                "code": "severe",
+                "definition": "Causes severe physiological effects.",
+                "display": "Severe",
+                "id": "84f556d4-1da2-4cb6-b129-f5c820aba373"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Sequencing",
+        "records": [
+            {
+                "code": "A",
+                "definition": "Ascending sequence order.",
+                "display": "Ascending",
+                "id": "f73cae43-d0f6-4998-b1b6-4fca4cf5589f"
+            },
+            {
+                "code": "D",
+                "definition": "Descending sequence order.",
+                "display": "Descending",
+                "id": "92aa1c12-4c69-42b2-a20a-799aa30c5c71"
+            },
+            {
+                "code": "N",
+                "definition": "No enforced sequence order.",
+                "display": "None",
+                "id": "25636685-75fb-48f5-8897-16f090afd8e7"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Tablecellhorizontalalign",
+        "records": [
+            {
+                "code": "center",
+                "definition": "center",
+                "display": "center",
+                "id": "c94360ba-3e30-4fe9-a09d-b67c71ddea9d"
+            },
+            {
+                "code": "char",
+                "definition": "char",
+                "display": "char",
+                "id": "b2a03f3e-4036-4118-9308-aac4de0b8578"
+            },
+            {
+                "code": "justify",
+                "definition": "justify",
+                "display": "justify",
+                "id": "0d1b4c1e-9fe2-4b4f-b74a-1bfcd4af44da"
+            },
+            {
+                "code": "left",
+                "definition": "left",
+                "display": "left",
+                "id": "424fa9be-9f89-43c7-a8b4-9fc9a9b4118c"
+            },
+            {
+                "code": "right",
+                "definition": "right",
+                "display": "right",
+                "id": "7711b29c-a799-4267-8bf1-5f7b5bc7c9f3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

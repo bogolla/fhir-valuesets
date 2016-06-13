@@ -1,0 +1,101 @@
+[
+    {
+        "model": "valuesets.Htmllinktype",
+        "records": [
+            {
+                "code": "alternate",
+                "definition": "Designates substitute versions for the document in which the link occurs. When used together with the lang attribute, it implies a translated version of the document. When used together with the media attribute, it implies a version designed for a different medium (or media).",
+                "display": "alternate",
+                "id": "fb225aff-5496-412e-988b-c01e42f3196d"
+            },
+            {
+                "code": "appendix",
+                "definition": "Refers to a document serving as an appendix in a collection of documents.",
+                "display": "appendix",
+                "id": "97f450e5-ebe1-4fd5-8b6a-22827e14d126"
+            },
+            {
+                "code": "bookmark",
+                "definition": "Refers to a bookmark. A bookmark is a link to a key entry point within an extended document. The title attribute may be used, for example, to label the bookmark. Note that several bookmarks may be defined in each document.",
+                "display": "bookmark",
+                "id": "c7fb5d7d-c504-4bd6-aa40-54098b9c4750"
+            },
+            {
+                "code": "chapter",
+                "definition": "Refers to a document serving as a chapter in a collection of documents.",
+                "display": "chapter",
+                "id": "baac7bd4-0406-436f-9b79-16d8f82c69d7"
+            },
+            {
+                "code": "contents",
+                "definition": "Refers to a document serving as a table of contents. Some user agents also support the synonym ToC (from \"Table of Contents\").",
+                "display": "contents",
+                "id": "b9a13c86-d5b6-4db9-bbff-24a6d54aa6bd"
+            },
+            {
+                "code": "copyright",
+                "definition": "Refers to a copyright statement for the current document.",
+                "display": "copyright",
+                "id": "c02caf81-d9c2-4c1f-a5d5-349f0180edab"
+            },
+            {
+                "code": "glossary",
+                "definition": "Refers to a document providing a glossary of terms that pertain to the current document.",
+                "display": "glossary",
+                "id": "6740fe31-205a-4f8b-8c56-bea5b68bf1c0"
+            },
+            {
+                "code": "help",
+                "definition": "Refers to a document offering help (more information, links to other sources of information, etc.).",
+                "display": "help",
+                "id": "fc38aa18-0775-43b0-84f9-33a5dbbe75d8"
+            },
+            {
+                "code": "index",
+                "definition": "Refers to a document providing an index for the current document.",
+                "display": "index",
+                "id": "a6efa096-b46f-482e-a656-f7e52b824a17"
+            },
+            {
+                "code": "next",
+                "definition": "Refers to the next document in a linear sequence of documents. User agents may choose to preload the \"next\" document, to reduce the perceived load time.",
+                "display": "next",
+                "id": "aa56161a-2227-4e78-abdb-d5c94e5e58a8"
+            },
+            {
+                "code": "prev",
+                "definition": "Refers to the previous document in an ordered series of documents. Some user agents also support the synonym \"Previous\".",
+                "display": "prev",
+                "id": "e2a77807-1e8b-4407-85f0-4f137772fdea"
+            },
+            {
+                "code": "section",
+                "definition": "Refers to a document serving as a section in a collection of documents.",
+                "display": "section",
+                "id": "efd7e6e5-c6d4-498f-81ef-fcbebaa77d99"
+            },
+            {
+                "code": "start",
+                "definition": "Refers to the first document in a collection of documents. This link type tells search engines which document is considered by the author to be the starting point of the collection.",
+                "display": "start",
+                "id": "530d3625-e01c-4aa8-b5a5-afa05894fc36"
+            },
+            {
+                "code": "stylesheet",
+                "definition": "Refers to an external style sheet. See the section on external style sheets for details. This is used together with the link type \"Alternate\" for user-selectable alternate style sheets.",
+                "display": "stylesheet",
+                "id": "4bc9dbb7-2a3e-47bc-b1f0-8ae747245dbe"
+            },
+            {
+                "code": "subsection",
+                "definition": "Refers to a document serving as a subsection in a collection of documents.",
+                "display": "subsection",
+                "id": "d28e9f46-8947-4297-9745-bd02b661ab72"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.ExDiagnosisrelatedgroup",
+        "records": [
+            {
+                "code": "100",
+                "definition": "Normal Vaginal Delivery.",
+                "display": "Normal Vaginal Delivery",
+                "id": "13e1917a-e510-4b14-b387-996e96eeba55"
+            },
+            {
+                "code": "101",
+                "definition": "Appendectomy without rupture or other complications.",
+                "display": "Appendectomy - uncomplicated",
+                "id": "3d05df6a-2dc3-41fb-884e-b33c3036484d"
+            },
+            {
+                "code": "300",
+                "definition": "Emergency department treatment of a tooth abcess.",
+                "display": "Tooth abcess",
+                "id": "40bb735e-956f-44b0-ab81-0123432ff03e"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

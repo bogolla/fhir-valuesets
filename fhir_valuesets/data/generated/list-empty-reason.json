@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.ListEmptyReason",
+        "records": [
+            {
+                "code": "nilknown",
+                "definition": "Clinical judgment that there are no known items for this list after reasonable investigation. Note that this a positive statement by a clinical user, and not a default position asserted by a computer system in the lack of other information. Example uses:  * For allergies: the patient or patient's agent/guardian has asserted that he/she is not aware of any allergies (NKA - nil known allergies)  * For medications: the patient or patient's agent/guardian has asserted that the patient is known to be taking no medications  * For diagnoses, problems and procedures: the patient or patient's agent/guardian has asserted that there is no known event to record.",
+                "display": "Nil Known",
+                "id": "1720f724-c7ad-4740-9f45-737dc827c4b4"
+            },
+            {
+                "code": "notasked",
+                "definition": "The investigation to find out whether there are items for this list has not occurred.",
+                "display": "Not Asked",
+                "id": "cea75e5c-1413-47fa-a449-7a4c1522840b"
+            },
+            {
+                "code": "withheld",
+                "definition": "The content of the list was not provided due to privacy or confidentiality concerns. Note that it should not be assumed that this means that the particular information in question was withheld due to its contents - it can also be a policy decision.",
+                "display": "Information Withheld",
+                "id": "1636d6bc-028c-418f-b3b2-96545bc93090"
+            },
+            {
+                "code": "unavailable",
+                "definition": "Information to populate this list cannot be obtained; e.g. unconscious patient.",
+                "display": "Unavailable",
+                "id": "9d5b6b15-5e3d-4ea4-9148-3a2bb01dc611"
+            },
+            {
+                "code": "notstarted",
+                "definition": "The work to populate this list has not yet begun.",
+                "display": "Not Started",
+                "id": "c2a69927-af96-492d-af13-6369fc7c03ac"
+            },
+            {
+                "code": "closed",
+                "definition": "This list has now closed or has ceased to be relevant or useful.",
+                "display": "Closed",
+                "id": "b77e08ed-b743-430c-8586-723805cc0e62"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

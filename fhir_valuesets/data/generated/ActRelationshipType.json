@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Actrelationshiptype",
+        "records": [
+            {
+                "code": "ART",
+                "definition": "Description: A directed association between a source Act and a target Act.\r\n\n                        \n                           Usage Note: This code should never be transmitted in an instance as the value of ActRelationship.typeCode (attribute)",
+                "display": "act relationship type",
+                "id": "e9faa3ee-d064-4c6d-887a-32fc6a119e50"
+            },
+            {
+                "code": "CURE",
+                "definition": "curative indication",
+                "display": "curative indication",
+                "id": "61de03a9-3452-4a6e-ad76-cd13c2570b28"
+            },
+            {
+                "code": "CURE.ADJ",
+                "definition": "adjunct curative indication",
+                "display": "adjunct curative indication",
+                "id": "5c97b842-6c28-4649-89b8-a11a1498a712"
+            },
+            {
+                "code": "MTGT.ADJ",
+                "definition": "adjunct mitigation",
+                "display": "adjunct mitigation",
+                "id": "39d19be9-6339-4014-a0fd-777e592235f7"
+            },
+            {
+                "code": "RACT",
+                "definition": "RACT",
+                "display": "RACT",
+                "id": "2e867ebe-d12d-4ae6-9791-5fde667f06f7"
+            },
+            {
+                "code": "SUGG",
+                "definition": "SUGG",
+                "display": "SUGG",
+                "id": "3e7aa5dd-d329-491f-bccd-e3f62702ac55"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

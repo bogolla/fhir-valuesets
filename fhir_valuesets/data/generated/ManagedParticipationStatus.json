@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Managedparticipationstatus",
+        "records": [
+            {
+                "code": "normal",
+                "definition": "The 'typical' state. Excludes \"nullified\" which represents the termination state of a participation instance that was created in error.",
+                "display": "normal",
+                "id": "433873da-efe5-4c23-9fda-2d327d7182b1"
+            },
+            {
+                "code": "nullified",
+                "definition": "The state representing the termination of a Participation instance that was created in error.",
+                "display": "nullified",
+                "id": "823a64ce-8682-44f0-babb-f4052782d28a"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

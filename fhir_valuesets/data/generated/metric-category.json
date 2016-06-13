@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.MetricCategory",
+        "records": [
+            {
+                "code": "measurement",
+                "definition": "DeviceObservations generated for this DeviceMetric are measured.",
+                "display": "Measurement",
+                "id": "eec0c806-5698-449f-be6c-ce158585f085"
+            },
+            {
+                "code": "setting",
+                "definition": "DeviceObservations generated for this DeviceMetric is a setting that will influence the behavior of the Device.",
+                "display": "Setting",
+                "id": "03cfa328-594b-4a73-9bf1-4f426c29b24a"
+            },
+            {
+                "code": "calculation",
+                "definition": "DeviceObservations generated for this DeviceMetric are calculated.",
+                "display": "Calculation",
+                "id": "12d1818b-04ec-49aa-ae7a-34c5cd2b72d0"
+            },
+            {
+                "code": "unspecified",
+                "definition": "The category of this DeviceMetric is unspecified.",
+                "display": "Unspecified",
+                "id": "b25905f6-e271-4199-8b22-eff074c64626"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

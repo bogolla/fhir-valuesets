@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.ProcedureRelationshipType",
+        "records": [
+            {
+                "code": "caused-by",
+                "definition": "This procedure had to be performed because of the related one.",
+                "display": "Caused By",
+                "id": "6b6a3118-b545-4cf2-a4d1-02d624db8c4a"
+            },
+            {
+                "code": "because-of",
+                "definition": "This procedure caused the related one to be performed.",
+                "display": "Because Of",
+                "id": "9bf4e5cf-a57e-4de1-b4aa-437c5d057c84"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

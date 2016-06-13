@@ -1,0 +1,65 @@
+[
+    {
+        "model": "valuesets.Entityrisk",
+        "records": [
+            {
+                "code": "AGG",
+                "definition": "A danger that can be associated with certain living subjects, including humans.",
+                "display": "aggressive",
+                "id": "4449633b-7868-4248-85fd-2622a0eeac6d"
+            },
+            {
+                "code": "BIO",
+                "definition": "The dangers associated with normal biological materials. I.e. potential risk of unknown infections.  Routine biological materials from living subjects.",
+                "display": "Biological",
+                "id": "656d094a-baf8-492f-bee2-e9d6eecde577"
+            },
+            {
+                "code": "COR",
+                "definition": "Material is corrosive and may cause severe injury to skin, mucous membranes and eyes. Avoid any unprotected contact.",
+                "display": "Corrosive",
+                "id": "b2e7d992-ee0e-4891-a818-53472f393da7"
+            },
+            {
+                "code": "ESC",
+                "definition": "The entity is at risk for escaping from containment or control.",
+                "display": "Escape Risk",
+                "id": "1a67814b-46c5-4b95-abd4-f609623dbf51"
+            },
+            {
+                "code": "IFL",
+                "definition": "Material is highly inflammable and in certain mixtures (with air) may lead to explosions.  Keep away from fire, sparks and excessive heat.",
+                "display": "inflammable",
+                "id": "14b12d15-07e5-46dd-a01d-b637ddc9143d"
+            },
+            {
+                "code": "INF",
+                "definition": "Material known to be infectious with human pathogenic microorganisms.  Those who handle this material must take precautions for their protection.",
+                "display": "infectious",
+                "id": "6e823958-a57e-4a8d-af31-7520b1099cb0"
+            },
+            {
+                "code": "INJ",
+                "definition": "Material is solid and sharp (e.g., cannulas).  Dispose in hard container.",
+                "display": "injury hazard",
+                "id": "6feb507b-ef6b-4e0b-ad7b-74a9bbe38be0"
+            },
+            {
+                "code": "POI",
+                "definition": "Material is poisonous to humans and/or animals.  Special care must be taken to avoid incorporation, even of small amounts.",
+                "display": "poison",
+                "id": "f7637b9f-e8d3-4585-8884-bd36f0e23232"
+            },
+            {
+                "code": "RAD",
+                "definition": "Material is a source for ionizing radiation and must be handled with special care to avoid injury of those who handle it and to avoid environmental hazards.",
+                "display": "radioactive",
+                "id": "6bc65fef-45ff-4473-878f-8fa6b2efaae9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

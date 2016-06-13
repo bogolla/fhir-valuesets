@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.PaymentType",
+        "records": [
+            {
+                "code": "payment",
+                "definition": null,
+                "display": null,
+                "id": "41f215c4-9da9-4422-a0e3-58e2052331f0"
+            },
+            {
+                "code": "adjustment",
+                "definition": null,
+                "display": null,
+                "id": "6fc25078-af7f-413d-b7ed-3abd605c267c"
+            },
+            {
+                "code": "advance",
+                "definition": null,
+                "display": null,
+                "id": "ef556d0b-b056-434d-a9dd-84354bcea073"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

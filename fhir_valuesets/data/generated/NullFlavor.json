@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Nullflavor",
+        "records": [
+            {
+                "code": "NI",
+                "definition": "Description:The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value.",
+                "display": "NoInformation",
+                "id": "aec411fc-e37f-49e7-a5e8-e6abe507d242"
+            },
+            {
+                "code": "NP",
+                "definition": "Value is not present in a message.  This is only defined in messages, never in application data!  All values not present in the message must be replaced by the applicable default, or no-information (NI) as the default of all defaults.",
+                "display": "not present",
+                "id": "38a4abee-a42b-41a3-84e7-ca959622cdba"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

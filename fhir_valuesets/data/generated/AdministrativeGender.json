@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.Administrativegender",
+        "records": [
+            {
+                "code": "F",
+                "definition": "Female",
+                "display": "Female",
+                "id": "62da1cfa-55f5-424c-a2d2-3834cabc2f64"
+            },
+            {
+                "code": "M",
+                "definition": "Male",
+                "display": "Male",
+                "id": "d1d82c18-3768-4ad8-b3a5-94ed97e0367b"
+            },
+            {
+                "code": "UN",
+                "definition": "The gender of a person could not be uniquely defined as male or female, such as hermaphrodite.",
+                "display": "Undifferentiated",
+                "id": "ad70d8e7-a199-4130-b773-25a7efc3894b"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

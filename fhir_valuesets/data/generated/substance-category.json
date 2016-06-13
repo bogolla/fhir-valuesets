@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.SubstanceCategory",
+        "records": [
+            {
+                "code": "allergen",
+                "definition": "A substance that causes an allergic reaction.",
+                "display": "Allergen",
+                "id": "7df3c857-6204-4729-a611-f8b19c2a067e"
+            },
+            {
+                "code": "biological",
+                "definition": "A substance that is produced by or extracted from a biological source.",
+                "display": "Biological Substance",
+                "id": "544f2012-119e-4ebf-9128-2371573b1991"
+            },
+            {
+                "code": "body",
+                "definition": "A substance that comes directly from a human or an animal (e.g. blood, urine, feces, tears, etc.).",
+                "display": "Body Substance",
+                "id": "08e20f88-cec2-4c36-b73a-ecb26c86f0e6"
+            },
+            {
+                "code": "chemical",
+                "definition": "Any organic or inorganic substance of a particular molecular identity, including -- (i) any combination of such substances occurring in whole or in part as a result of a chemical reaction or occurring in nature and (ii) any element or uncombined radical (http://www.epa.gov/opptintr/import-export/pubs/importguide.pdf).",
+                "display": "Chemical",
+                "id": "22c53ec8-d1df-4956-adc8-8815285101b2"
+            },
+            {
+                "code": "food",
+                "definition": "A food, dietary ingredient, or dietary supplement for human or animal.",
+                "display": "Dietary Substance",
+                "id": "c6527796-a1ba-49d3-804f-5eda573dca19"
+            },
+            {
+                "code": "drug",
+                "definition": "A substance intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease in man or other animals (Federal Food Drug and Cosmetic Act).",
+                "display": "Drug or Medicament",
+                "id": "5631928c-12d5-44d6-8e5a-e571e4fd072e"
+            },
+            {
+                "code": "material",
+                "definition": "A finished product which is not normally ingested, absorbed or injected (e.g. steel, iron, wood, plastic and paper).",
+                "display": "Material",
+                "id": "724ebfaf-f69f-4b05-ab17-7227ac24b9d1"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

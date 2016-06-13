@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.IssueType",
+        "records": [
+            {
+                "code": "invalid",
+                "definition": "Content invalid against the specification or a profile.",
+                "display": "Invalid Content",
+                "id": "cbb689f9-170b-4624-b4ed-3dd2459418ad"
+            },
+            {
+                "code": "security",
+                "definition": "An authentication/authorization/permissions issue of some kind.",
+                "display": "Security Problem",
+                "id": "eef3dc15-89d6-442d-88c7-c279b942a17f"
+            },
+            {
+                "code": "processing",
+                "definition": "Processing issues. These are expected to be final e.g. there is no point resubmitting the same content unchanged.",
+                "display": "Processing Failure",
+                "id": "0f1e15d5-6894-48e4-8c13-486a551c8407"
+            },
+            {
+                "code": "transient",
+                "definition": "Transient processing issues. The system receiving the error may be able to resubmit the same content once an underlying issue is resolved.",
+                "display": "Transient Issue",
+                "id": "3766cbd5-72a4-4555-a680-c10e7c0d120e"
+            },
+            {
+                "code": "informational",
+                "definition": "A message unrelated to the processing success of the completed operation (examples of the latter include things like reminders of password expiry, system maintenance times, etc.).",
+                "display": "Informational Note",
+                "id": "9445bcec-8ede-4b5a-af43-bbc8308d8e93"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "model": "valuesets.Roleclass",
+        "records": [
+            {
+                "code": "ROL",
+                "definition": "Corresponds to the Role class",
+                "display": "role",
+                "id": "b00331da-af58-4432-b568-1c7775f6ad27"
+            },
+            {
+                "code": "CHILD",
+                "definition": "The player of the role is a child of the scoping entity, in a generic sense.",
+                "display": "child",
+                "id": "416b69df-cf77-43a8-8e21-60b2f9d37146"
+            },
+            {
+                "code": "CRED",
+                "definition": "A role played by an entity that receives credentials from the scoping entity.",
+                "display": "credentialed entity",
+                "id": "2c690e39-0fec-4006-80b2-9fb108705ebe"
+            },
+            {
+                "code": "NURPRAC",
+                "definition": "nurse practitioner",
+                "display": "nurse practitioner",
+                "id": "36728970-c0aa-4fcf-892b-796186b5100f"
+            },
+            {
+                "code": "NURS",
+                "definition": "nurse",
+                "display": "nurse",
+                "id": "f8ef277f-c6a9-4a10-847c-88d452ae6a58"
+            },
+            {
+                "code": "PA",
+                "definition": "physician assistant",
+                "display": "physician assistant",
+                "id": "e95d4e15-4501-4951-b384-70e19d31ea47"
+            },
+            {
+                "code": "PHYS",
+                "definition": "physician",
+                "display": "physician",
+                "id": "65c144ba-c7bb-4e0b-859a-ca3e06937f1f"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

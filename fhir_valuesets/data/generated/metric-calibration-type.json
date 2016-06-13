@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.MetricCalibrationType",
+        "records": [
+            {
+                "code": "unspecified",
+                "definition": "TODO",
+                "display": "Unspecified",
+                "id": "0e81ba33-5edf-4adc-896e-4579d67482c6"
+            },
+            {
+                "code": "offset",
+                "definition": "TODO",
+                "display": "Offset",
+                "id": "a3c3f6ae-2396-4a5d-9fa3-00ddfaf46070"
+            },
+            {
+                "code": "gain",
+                "definition": "TODO",
+                "display": "Gain",
+                "id": "0d91a5f1-041c-4a67-920e-07c28c8a8fea"
+            },
+            {
+                "code": "two-point",
+                "definition": "TODO",
+                "display": "Two Point",
+                "id": "c066432d-2ba1-48b9-8aaf-a029e8cf9c34"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

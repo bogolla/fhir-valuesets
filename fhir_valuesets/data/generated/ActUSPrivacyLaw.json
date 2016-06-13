@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Actusprivacylaw",
+        "records": [
+            {
+                "code": "_ActUSPrivacyLaw",
+                "definition": "Definition: A jurisdictional mandate in the U.S. relating to privacy.\r\n\n                        \n                           Usage Note: ActPrivacyLaw codes may be associated with an Act or a Role to indicate the legal provision to which the assignment of an Act.confidentialityCode or Role.confidentialtyCode complies.  May be used to further specify rationale for assignment of other ActPrivacyPolicy codes in the US realm, e.g., ETH and 42CFRPart2 can be differentiated from ETH and Title38Part1.",
+                "display": "ActUSPrivacyLaw",
+                "id": "febb698f-eabc-4285-a7ca-c26a2fc0a8d3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

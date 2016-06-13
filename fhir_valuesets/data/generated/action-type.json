@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.ActionType",
+        "records": [
+            {
+                "code": "create",
+                "definition": "The action is to create a new resource",
+                "display": "Create",
+                "id": "433993ef-d290-442f-9b8f-eb6250714f67"
+            },
+            {
+                "code": "update",
+                "definition": "The action is to update an existing resource",
+                "display": "Update",
+                "id": "d6256122-5f2d-4c6f-bafa-6136ee2457ed"
+            },
+            {
+                "code": "remove",
+                "definition": "The action is to remove an existing resource",
+                "display": "Remove",
+                "id": "ec45e120-fdf1-41ea-8c16-cad881ec02ae"
+            },
+            {
+                "code": "fire-event",
+                "definition": "The action is to fire a specific event",
+                "display": "Fire Event",
+                "id": "5da27a63-15f1-495b-a136-04928058ba77"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

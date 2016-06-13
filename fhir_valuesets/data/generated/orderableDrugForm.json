@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Orderabledrugform",
+        "records": [
+            {
+                "code": "_AdministrableDrugForm",
+                "definition": "AdministrableDrugForm",
+                "display": "AdministrableDrugForm",
+                "id": "73328570-32aa-43c8-ae41-472762bf6e02"
+            },
+            {
+                "code": "_DispensableDrugForm",
+                "definition": "DispensableDrugForm",
+                "display": "DispensableDrugForm",
+                "id": "f46cdaa7-5807-4e5e-9cff-db0d08b5e216"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

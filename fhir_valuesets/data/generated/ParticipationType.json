@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Participationtype",
+        "records": [
+            {
+                "code": "PART",
+                "definition": "Indicates that the target of the participation is involved in some manner in the act, but does not qualify how.",
+                "display": "Participation",
+                "id": "3ee79088-48e4-4f4e-b6f7-6471a5088fe6"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

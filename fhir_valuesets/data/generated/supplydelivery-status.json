@@ -1,0 +1,29 @@
+[
+    {
+        "model": "valuesets.SupplydeliveryStatus",
+        "records": [
+            {
+                "code": "in-progress",
+                "definition": "Supply has been requested, but not delivered.",
+                "display": "In Progress",
+                "id": "2a6aafa2-d5ef-421d-baca-d3cd8ee8c4c4"
+            },
+            {
+                "code": "completed",
+                "definition": "Supply has been delivered (\"completed\").",
+                "display": "Delivered",
+                "id": "5e0e3bbf-3dfe-4dfa-a5c8-97031ab1052b"
+            },
+            {
+                "code": "abandoned",
+                "definition": "Dispensing was not completed.",
+                "display": "Abandoned",
+                "id": "49329788-3afc-4c95-a01d-5d4e145ff57c"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

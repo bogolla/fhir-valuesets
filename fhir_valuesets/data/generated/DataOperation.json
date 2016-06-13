@@ -1,0 +1,17 @@
+[
+    {
+        "model": "valuesets.Dataoperation",
+        "records": [
+            {
+                "code": "OPERATE",
+                "definition": "Description:Act on an object or objects.",
+                "display": "operate",
+                "id": "f7940caf-6b62-425c-af3e-a3b1a8b3b349"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

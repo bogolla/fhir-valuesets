@@ -1,0 +1,41 @@
+[
+    {
+        "model": "valuesets.Loinc530345Answerlist",
+        "records": [
+            {
+                "code": "LA6703-8",
+                "definition": "Heteroplasmic",
+                "display": "Heteroplasmic",
+                "id": "8d776a59-dea3-4301-938c-3792cbbaaeb2"
+            },
+            {
+                "code": "LA6704-6",
+                "definition": "Homoplasmic",
+                "display": "Homoplasmic",
+                "id": "5af70eb5-5b14-40ab-be9b-97229dbc3f16"
+            },
+            {
+                "code": "LA6705-3",
+                "definition": "Homozygous",
+                "display": "Homozygous",
+                "id": "22a00ebf-ecb2-4616-9ab4-0be024048493"
+            },
+            {
+                "code": "LA6706-1",
+                "definition": "Heterozygous",
+                "display": "Heterozygous",
+                "id": "4828cf85-24b7-4fe4-93c6-4f33698a572a"
+            },
+            {
+                "code": "LA6707-9",
+                "definition": "Hemizygous",
+                "display": "Hemizygous",
+                "id": "e1a2f8c8-a1a7-48b3-ad65-1c610aceacf9"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

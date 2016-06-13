@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.SupplydeliveryType",
+        "records": [
+            {
+                "code": "medication",
+                "definition": "Supply is a kind of medication.",
+                "display": "Medication",
+                "id": "b85ad08f-536a-44f7-93b6-463eaba2d977"
+            },
+            {
+                "code": "device",
+                "definition": "What is supplied (or requested) is a device.",
+                "display": "Device",
+                "id": "d77db9c7-d0dd-4fd4-9833-b5ab2f877138"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.IdentityAssurancelevel",
+        "records": [
+            {
+                "code": "level1",
+                "definition": "Little or no confidence in the asserted identity's accuracy.",
+                "display": "Level 1",
+                "id": "a958e4fc-d915-4f06-a02f-b7c8fd0a7ee1"
+            },
+            {
+                "code": "level2",
+                "definition": "Some confidence in the asserted identity's accuracy.",
+                "display": "Level 2",
+                "id": "f604f332-1e78-42dd-a2bb-5fdf5f6b6ea7"
+            },
+            {
+                "code": "level3",
+                "definition": "High confidence in the asserted identity's accuracy.",
+                "display": "Level 3",
+                "id": "bd17f6e4-c57d-4c02-95c7-f4dfa18ec95d"
+            },
+            {
+                "code": "level4",
+                "definition": "Very high confidence in the asserted identity's accuracy.",
+                "display": "Level 4",
+                "id": "ab389422-ed1f-4b11-8be3-627153a031ae"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

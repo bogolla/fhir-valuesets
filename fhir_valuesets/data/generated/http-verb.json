@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.HttpVerb",
+        "records": [
+            {
+                "code": "GET",
+                "definition": "HTTP GET",
+                "display": "GET",
+                "id": "e0a5f395-7e04-41bc-b8d6-2d39c5d8ea5e"
+            },
+            {
+                "code": "POST",
+                "definition": "HTTP POST",
+                "display": "POST",
+                "id": "b8aa0e0c-fb4f-49dc-ab2c-31ca731f5159"
+            },
+            {
+                "code": "PUT",
+                "definition": "HTTP PUT",
+                "display": "PUT",
+                "id": "4e9c741d-f572-477d-94f0-536d6e7fe163"
+            },
+            {
+                "code": "DELETE",
+                "definition": "HTTP DELETE",
+                "display": "DELETE",
+                "id": "05c66086-e9d8-41f9-957d-b160f2125c00"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

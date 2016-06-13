@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.Hl7realm",
+        "records": [
+            {
+                "code": "BindingRealms",
+                "definition": "Description: Concepts that can be used as Binding Realms when creating Binding Statements.  These codes are permitted to appear in the InfrastructureRoot.realmCode attribute.",
+                "display": "binding realms",
+                "id": "4e9a5920-310f-4cd0-bb88-2ce84e4e370d"
+            },
+            {
+                "code": "NamespaceRealms",
+                "definition": "Description: Codes that can be used in the \"realm\" portion of HL7 v3 artifact identifiers.",
+                "display": "namespace realms",
+                "id": "d319f73b-d2fb-454d-85e0-806f1b00accb"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

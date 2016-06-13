@@ -1,0 +1,47 @@
+[
+    {
+        "model": "valuesets.Acknowledgementtype",
+        "records": [
+            {
+                "code": "AA",
+                "definition": "Receiving application successfully processed message.",
+                "display": "Application Acknowledgement Accept",
+                "id": "6a7fb6d2-9a74-416c-8a1d-aa206c51fcbd"
+            },
+            {
+                "code": "AE",
+                "definition": "Receiving application found error in processing message.  Sending error response with additional error detail information.",
+                "display": "Application Acknowledgement Error",
+                "id": "39eb0d33-c1cb-4157-92b0-ea6889744292"
+            },
+            {
+                "code": "AR",
+                "definition": "Receiving application failed to process message for reason unrelated to content or format.  Original message sender must decide on whether to automatically send message again.",
+                "display": "Application Acknowledgement Reject",
+                "id": "de7ee223-d34d-4c4d-b3ff-1abf9b9fb8e7"
+            },
+            {
+                "code": "CA",
+                "definition": "Receiving message handling service accepts responsibility for passing message onto receiving application.",
+                "display": "Accept Acknowledgement Commit Accept",
+                "id": "24ba13a7-bd89-4b45-af9d-9f8b45ec85f5"
+            },
+            {
+                "code": "CE",
+                "definition": "Receiving message handling service cannot accept message for any other reason (e.g. message sequence number, etc.).",
+                "display": "Accept Acknowledgement Commit Error",
+                "id": "b524734c-99b0-443d-9371-6a63503c295a"
+            },
+            {
+                "code": "CR",
+                "definition": "Receiving message handling service rejects message if interaction identifier, version or processing mode is incompatible with known receiving application role information.",
+                "display": "Accept Acknowledgement Commit Reject",
+                "id": "f7c147b8-2255-4098-8e48-ac083b65a193"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

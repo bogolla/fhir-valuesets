@@ -1,0 +1,35 @@
+[
+    {
+        "model": "valuesets.Slotstatus",
+        "records": [
+            {
+                "code": "busy",
+                "definition": "Indicates that the time interval is busy because one  or more events have been scheduled for that interval.",
+                "display": "Busy",
+                "id": "cec3aea0-190f-4256-9eb6-a285353b1789"
+            },
+            {
+                "code": "free",
+                "definition": "Indicates that the time interval is free for scheduling.",
+                "display": "Free",
+                "id": "ecd320c7-215d-44d3-8f9a-4c38838cb10b"
+            },
+            {
+                "code": "busy-unavailable",
+                "definition": "Indicates that the time interval is busy and that the interval can not be scheduled.",
+                "display": "Busy (Unavailable)",
+                "id": "3886d7a8-9bba-452e-8b2d-178320390a70"
+            },
+            {
+                "code": "busy-tentative",
+                "definition": "Indicates that the time interval is busy because one or more events have been tentatively scheduled for that interval.",
+                "display": "Busy (Tentative)",
+                "id": "c0c256a2-3570-4492-b065-673cb8d396c3"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]

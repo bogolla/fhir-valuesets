@@ -1,0 +1,23 @@
+[
+    {
+        "model": "valuesets.VisionProduct",
+        "records": [
+            {
+                "code": "lens",
+                "definition": null,
+                "display": null,
+                "id": "a0331888-5662-484b-bd5e-8af149f7c5d6"
+            },
+            {
+                "code": "contact",
+                "definition": null,
+                "display": null,
+                "id": "af825f35-1216-4887-8b87-fe869f94e4b2"
+            }
+        ],
+        "unique_fields": [
+            "id",
+            "code"
+        ]
+    }
+]
