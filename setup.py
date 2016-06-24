@@ -34,7 +34,7 @@ setup(
     install_requires=[
         'dj-database-url==0.4.0',
         'ipython==4.2.0',
-        'Django~=1.10a1',
+        'Django~=1.10b1',
         'django-filter==0.13.0',
         'djangorestframework~=3.3.3',
         'psycopg2==2.6.1',

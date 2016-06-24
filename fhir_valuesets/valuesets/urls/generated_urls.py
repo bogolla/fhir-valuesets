@@ -5,1423 +5,1423 @@ router = routers.SimpleRouter()
 
 router.register(r'example',
                 ExampleViewSet,
-                'example')
+                'Example')
 router.register(r'surface',
                 SurfaceViewSet,
-                'surface')
+                'Surface')
 router.register(r'LOINC_48002_0_answerlist',
                 Loinc480020AnswerlistViewSet,
-                'LOINC_48002_0_answerlist')
+                'Loinc480020Answerlist')
 router.register(r'LOINC_48019_4_answerlist',
                 Loinc480194AnswerlistViewSet,
-                'LOINC_48019_4_answerlist')
+                'Loinc480194Answerlist')
 router.register(r'LOINC_53034_5_answerlist',
                 Loinc530345AnswerlistViewSet,
-                'LOINC_53034_5_answerlist')
+                'Loinc530345Answerlist')
 router.register(r'abstract_types',
                 AbstractTypesViewSet,
-                'abstract_types')
+                'AbstractTypes')
 router.register(r'account_status',
                 AccountStatusViewSet,
-                'account_status')
+                'AccountStatus')
 router.register(r'action_behavior_type',
                 ActionBehaviorTypeViewSet,
-                'action_behavior_type')
+                'ActionBehaviorType')
 router.register(r'action_cardinality_behavior',
                 ActionCardinalityBehaviorViewSet,
-                'action_cardinality_behavior')
+                'ActionCardinalityBehavior')
 router.register(r'action_grouping_behavior',
                 ActionGroupingBehaviorViewSet,
-                'action_grouping_behavior')
+                'ActionGroupingBehavior')
 router.register(r'action_participant_type',
                 ActionParticipantTypeViewSet,
-                'action_participant_type')
+                'ActionParticipantType')
 router.register(r'action_precheck_behavior',
                 ActionPrecheckBehaviorViewSet,
-                'action_precheck_behavior')
+                'ActionPrecheckBehavior')
 router.register(r'action_relationship_anchor',
                 ActionRelationshipAnchorViewSet,
-                'action_relationship_anchor')
+                'ActionRelationshipAnchor')
 router.register(r'action_relationship_type',
                 ActionRelationshipTypeViewSet,
-                'action_relationship_type')
+                'ActionRelationshipType')
 router.register(r'action_required_behavior',
                 ActionRequiredBehaviorViewSet,
-                'action_required_behavior')
+                'ActionRequiredBehavior')
 router.register(r'action_selection_behavior',
                 ActionSelectionBehaviorViewSet,
-                'action_selection_behavior')
+                'ActionSelectionBehavior')
 router.register(r'action_type',
                 ActionTypeViewSet,
-                'action_type')
+                'ActionType')
 router.register(r'actionlist',
                 ActionlistViewSet,
-                'actionlist')
+                'Actionlist')
 router.register(r'activity_definition_category',
                 ActivityDefinitionCategoryViewSet,
-                'activity_definition_category')
+                'ActivityDefinitionCategory')
 router.register(r'activity_participant_type',
                 ActivityParticipantTypeViewSet,
-                'activity_participant_type')
+                'ActivityParticipantType')
 router.register(r'additionalmaterials',
                 AdditionalmaterialsViewSet,
-                'additionalmaterials')
+                'Additionalmaterials')
 router.register(r'address_type',
                 AddressTypeViewSet,
-                'address_type')
+                'AddressType')
 router.register(r'address_use',
                 AddressUseViewSet,
-                'address_use')
+                'AddressUse')
 router.register(r'adjudication',
                 AdjudicationViewSet,
-                'adjudication')
+                'Adjudication')
 router.register(r'adjudication_error',
                 AdjudicationErrorViewSet,
-                'adjudication_error')
+                'AdjudicationError')
 router.register(r'adjudication_reason',
                 AdjudicationReasonViewSet,
-                'adjudication_reason')
+                'AdjudicationReason')
 router.register(r'administrative_gender',
                 AdministrativeGenderViewSet,
-                'administrative_gender')
+                'AdministrativeGender')
 router.register(r'encounter_admit_source',
                 EncounterAdmitSourceViewSet,
-                'encounter_admit_source')
+                'EncounterAdmitSource')
 router.register(r'allergy_intolerance_category',
                 AllergyIntoleranceCategoryViewSet,
-                'allergy_intolerance_category')
+                'AllergyIntoleranceCategory')
 router.register(r'allergy_intolerance_criticality',
                 AllergyIntoleranceCriticalityViewSet,
-                'allergy_intolerance_criticality')
+                'AllergyIntoleranceCriticality')
 router.register(r'allergy_intolerance_status',
                 AllergyIntoleranceStatusViewSet,
-                'allergy_intolerance_status')
+                'AllergyIntoleranceStatus')
 router.register(r'allergy_intolerance_type',
                 AllergyIntoleranceTypeViewSet,
-                'allergy_intolerance_type')
+                'AllergyIntoleranceType')
 router.register(r'animal_breeds',
                 AnimalBreedsViewSet,
-                'animal_breeds')
+                'AnimalBreeds')
 router.register(r'animal_genderstatus',
                 AnimalGenderstatusViewSet,
-                'animal_genderstatus')
+                'AnimalGenderstatus')
 router.register(r'animal_species',
                 AnimalSpeciesViewSet,
-                'animal_species')
+                'AnimalSpecies')
 router.register(r'appointmentstatus',
                 AppointmentstatusViewSet,
-                'appointmentstatus')
+                'Appointmentstatus')
 router.register(r'assert_direction_codes',
                 AssertDirectionCodesViewSet,
-                'assert_direction_codes')
+                'AssertDirectionCodes')
 router.register(r'assert_operator_codes',
                 AssertOperatorCodesViewSet,
-                'assert_operator_codes')
+                'AssertOperatorCodes')
 router.register(r'assert_response_code_types',
                 AssertResponseCodeTypesViewSet,
-                'assert_response_code_types')
+                'AssertResponseCodeTypes')
 router.register(r'audit_event_action',
                 AuditEventActionViewSet,
-                'audit_event_action')
+                'AuditEventAction')
 router.register(r'audit_event_outcome',
                 AuditEventOutcomeViewSet,
-                'audit_event_outcome')
+                'AuditEventOutcome')
 router.register(r'audit_event_type',
                 AuditEventTypeViewSet,
-                'audit_event_type')
+                'AuditEventType')
 router.register(r'basic_resource_type',
                 BasicResourceTypeViewSet,
-                'basic_resource_type')
+                'BasicResourceType')
 router.register(r'benefit_category',
                 BenefitCategoryViewSet,
-                'benefit_category')
+                'BenefitCategory')
 router.register(r'benefit_network',
                 BenefitNetworkViewSet,
-                'benefit_network')
+                'BenefitNetwork')
 router.register(r'benefit_subcategory',
                 BenefitSubcategoryViewSet,
-                'benefit_subcategory')
+                'BenefitSubcategory')
 router.register(r'benefit_term',
                 BenefitTermViewSet,
-                'benefit_term')
+                'BenefitTerm')
 router.register(r'benefit_type',
                 BenefitTypeViewSet,
-                'benefit_type')
+                'BenefitType')
 router.register(r'benefit_unit',
                 BenefitUnitViewSet,
-                'benefit_unit')
+                'BenefitUnit')
 router.register(r'binding_strength',
                 BindingStrengthViewSet,
-                'binding_strength')
+                'BindingStrength')
 router.register(r'bundle_type',
                 BundleTypeViewSet,
-                'bundle_type')
+                'BundleType')
 router.register(r'cardinality_behavior',
                 CardinalityBehaviorViewSet,
-                'cardinality_behavior')
+                'CardinalityBehavior')
 router.register(r'care_plan_activity_category',
                 CarePlanActivityCategoryViewSet,
-                'care_plan_activity_category')
+                'CarePlanActivityCategory')
 router.register(r'care_plan_activity_status',
                 CarePlanActivityStatusViewSet,
-                'care_plan_activity_status')
+                'CarePlanActivityStatus')
 router.register(r'care_plan_relationship',
                 CarePlanRelationshipViewSet,
-                'care_plan_relationship')
+                'CarePlanRelationship')
 router.register(r'care_plan_status',
                 CarePlanStatusViewSet,
-                'care_plan_status')
+                'CarePlanStatus')
 router.register(r'cds_rule_action_type',
                 CdsRuleActionTypeViewSet,
-                'cds_rule_action_type')
+                'CdsRuleActionType')
 router.register(r'cds_rule_participant',
                 CdsRuleParticipantViewSet,
-                'cds_rule_participant')
+                'CdsRuleParticipant')
 router.register(r'cds_rule_trigger_type',
                 CdsRuleTriggerTypeViewSet,
-                'cds_rule_trigger_type')
+                'CdsRuleTriggerType')
 router.register(r'choice_list_orientation',
                 ChoiceListOrientationViewSet,
-                'choice_list_orientation')
+                'ChoiceListOrientation')
 router.register(r'chromosome_human',
                 ChromosomeHumanViewSet,
-                'chromosome_human')
+                'ChromosomeHuman')
 router.register(r'claim_exception',
                 ClaimExceptionViewSet,
-                'claim_exception')
+                'ClaimException')
 router.register(r'claim_type_link',
                 ClaimTypeLinkViewSet,
-                'claim_type_link')
+                'ClaimTypeLink')
 router.register(r'claim_type_link2',
                 ClaimTypeLink2ViewSet,
-                'claim_type_link2')
+                'ClaimTypeLink2')
 router.register(r'claim_use_link',
                 ClaimUseLinkViewSet,
-                'claim_use_link')
+                'ClaimUseLink')
 router.register(r'claim_careteamrole',
                 ClaimCareteamroleViewSet,
-                'claim_careteamrole')
+                'ClaimCareteamrole')
 router.register(r'claim_informationcategory',
                 ClaimInformationcategoryViewSet,
-                'claim_informationcategory')
+                'ClaimInformationcategory')
 router.register(r'classification_or_context',
                 ClassificationOrContextViewSet,
-                'classification_or_context')
+                'ClassificationOrContext')
 router.register(r'clinical_impression_status',
                 ClinicalImpressionStatusViewSet,
-                'clinical_impression_status')
+                'ClinicalImpressionStatus')
 router.register(r'content_mode',
                 ContentModeViewSet,
-                'content_mode')
+                'ContentMode')
 router.register(r'communication_request_status',
                 CommunicationRequestStatusViewSet,
-                'communication_request_status')
+                'CommunicationRequestStatus')
 router.register(r'communication_status',
                 CommunicationStatusViewSet,
-                'communication_status')
+                'CommunicationStatus')
 router.register(r'compartment_type',
                 CompartmentTypeViewSet,
-                'compartment_type')
+                'CompartmentType')
 router.register(r'composition_attestation_mode',
                 CompositionAttestationModeViewSet,
-                'composition_attestation_mode')
+                'CompositionAttestationMode')
 router.register(r'composition_status',
                 CompositionStatusViewSet,
-                'composition_status')
+                'CompositionStatus')
 router.register(r'concept_map_equivalence',
                 ConceptMapEquivalenceViewSet,
-                'concept_map_equivalence')
+                'ConceptMapEquivalence')
 router.register(r'concept_properties',
                 ConceptPropertiesViewSet,
-                'concept_properties')
+                'ConceptProperties')
 router.register(r'concept_property_type',
                 ConceptPropertyTypeViewSet,
-                'concept_property_type')
+                'ConceptPropertyType')
 router.register(r'condition_category',
                 ConditionCategoryViewSet,
-                'condition_category')
+                'ConditionCategory')
 router.register(r'condition_clinical',
                 ConditionClinicalViewSet,
-                'condition_clinical')
+                'ConditionClinical')
 router.register(r'condition_state',
                 ConditionStateViewSet,
-                'condition_state')
+                'ConditionState')
 router.register(r'condition_ver_status',
                 ConditionVerStatusViewSet,
-                'condition_ver_status')
+                'ConditionVerStatus')
 router.register(r'conditional_delete_status',
                 ConditionalDeleteStatusViewSet,
-                'conditional_delete_status')
+                'ConditionalDeleteStatus')
 router.register(r'conformance_expectation',
                 ConformanceExpectationViewSet,
-                'conformance_expectation')
+                'ConformanceExpectation')
 router.register(r'conformance_resource_status',
                 ConformanceResourceStatusViewSet,
-                'conformance_resource_status')
+                'ConformanceResourceStatus')
 router.register(r'conformance_statement_kind',
                 ConformanceStatementKindViewSet,
-                'conformance_statement_kind')
+                'ConformanceStatementKind')
 router.register(r'consent_data_meaning',
                 ConsentDataMeaningViewSet,
-                'consent_data_meaning')
+                'ConsentDataMeaning')
 router.register(r'consent_except_type',
                 ConsentExceptTypeViewSet,
-                'consent_except_type')
+                'ConsentExceptType')
 router.register(r'consent_status',
                 ConsentStatusViewSet,
-                'consent_status')
+                'ConsentStatus')
 router.register(r'consent_action',
                 ConsentActionViewSet,
-                'consent_action')
+                'ConsentAction')
 router.register(r'consent_category',
                 ConsentCategoryViewSet,
-                'consent_category')
+                'ConsentCategory')
 router.register(r'constraint_severity',
                 ConstraintSeverityViewSet,
-                'constraint_severity')
+                'ConstraintSeverity')
 router.register(r'contact_point_system',
                 ContactPointSystemViewSet,
-                'contact_point_system')
+                'ContactPointSystem')
 router.register(r'contact_point_use',
                 ContactPointUseViewSet,
-                'contact_point_use')
+                'ContactPointUse')
 router.register(r'contactentity_type',
                 ContactentityTypeViewSet,
-                'contactentity_type')
+                'ContactentityType')
 router.register(r'content_type',
                 ContentTypeViewSet,
-                'content_type')
+                'ContentType')
 router.register(r'contract_subtype',
                 ContractSubtypeViewSet,
-                'contract_subtype')
+                'ContractSubtype')
 router.register(r'contract_term_subtype',
                 ContractTermSubtypeViewSet,
-                'contract_term_subtype')
+                'ContractTermSubtype')
 router.register(r'contract_term_type',
                 ContractTermTypeViewSet,
-                'contract_term_type')
+                'ContractTermType')
 router.register(r'contract_type',
                 ContractTypeViewSet,
-                'contract_type')
+                'ContractType')
 router.register(r'copy_number_event',
                 CopyNumberEventViewSet,
-                'copy_number_event')
+                'CopyNumberEvent')
 router.register(r'coverage_exception',
                 CoverageExceptionViewSet,
-                'coverage_exception')
+                'CoverageException')
 router.register(r'dWebType',
                 DwebtypeViewSet,
-                'dWebType')
+                'Dwebtype')
 router.register(r'data_absent_reason',
                 DataAbsentReasonViewSet,
-                'data_absent_reason')
+                'DataAbsentReason')
 router.register(r'data_types',
                 DataTypesViewSet,
-                'data_types')
+                'DataTypes')
 router.register(r'dataelement_stringency',
                 DataelementStringencyViewSet,
-                'dataelement_stringency')
+                'DataelementStringency')
 router.register(r'days_of_week',
                 DaysOfWeekViewSet,
-                'days_of_week')
+                'DaysOfWeek')
 router.register(r'detectedissue_severity',
                 DetectedissueSeverityViewSet,
-                'detectedissue_severity')
+                'DetectedissueSeverity')
 router.register(r'device_action',
                 DeviceActionViewSet,
-                'device_action')
+                'DeviceAction')
 router.register(r'device_use_request_priority',
                 DeviceUseRequestPriorityViewSet,
-                'device_use_request_priority')
+                'DeviceUseRequestPriority')
 router.register(r'device_use_request_status',
                 DeviceUseRequestStatusViewSet,
-                'device_use_request_status')
+                'DeviceUseRequestStatus')
 router.register(r'devicestatus',
                 DevicestatusViewSet,
-                'devicestatus')
+                'Devicestatus')
 router.register(r'diagnostic_order_priority',
                 DiagnosticOrderPriorityViewSet,
-                'diagnostic_order_priority')
+                'DiagnosticOrderPriority')
 router.register(r'diagnostic_order_status',
                 DiagnosticOrderStatusViewSet,
-                'diagnostic_order_status')
+                'DiagnosticOrderStatus')
 router.register(r'diagnostic_report_status',
                 DiagnosticReportStatusViewSet,
-                'diagnostic_report_status')
+                'DiagnosticReportStatus')
 router.register(r'encounter_diet',
                 EncounterDietViewSet,
-                'encounter_diet')
+                'EncounterDiet')
 router.register(r'digital_media_type',
                 DigitalMediaTypeViewSet,
-                'digital_media_type')
+                'DigitalMediaType')
 router.register(r'encounter_discharge_disposition',
                 EncounterDischargeDispositionViewSet,
-                'encounter_discharge_disposition')
+                'EncounterDischargeDisposition')
 router.register(r'document_mode',
                 DocumentModeViewSet,
-                'document_mode')
+                'DocumentMode')
 router.register(r'document_reference_status',
                 DocumentReferenceStatusViewSet,
-                'document_reference_status')
+                'DocumentReferenceStatus')
 router.register(r'document_relationship_type',
                 DocumentRelationshipTypeViewSet,
-                'document_relationship_type')
+                'DocumentRelationshipType')
 router.register(r'encounter_location_status',
                 EncounterLocationStatusViewSet,
-                'encounter_location_status')
+                'EncounterLocationStatus')
 router.register(r'encounter_priority',
                 EncounterPriorityViewSet,
-                'encounter_priority')
+                'EncounterPriority')
 router.register(r'encounter_special_arrangements',
                 EncounterSpecialArrangementsViewSet,
-                'encounter_special_arrangements')
+                'EncounterSpecialArrangements')
 router.register(r'encounter_state',
                 EncounterStateViewSet,
-                'encounter_state')
+                'EncounterState')
 router.register(r'encounter_type',
                 EncounterTypeViewSet,
-                'encounter_type')
+                'EncounterType')
 router.register(r'endpoint_status',
                 EndpointStatusViewSet,
-                'endpoint_status')
+                'EndpointStatus')
 router.register(r'entformula_additive',
                 EntformulaAdditiveViewSet,
-                'entformula_additive')
+                'EntformulaAdditive')
 router.register(r'episode_of_care_status',
                 EpisodeOfCareStatusViewSet,
-                'episode_of_care_status')
+                'EpisodeOfCareStatus')
 router.register(r'service_uscls',
                 ServiceUsclsViewSet,
-                'service_uscls')
+                'ServiceUscls')
 router.register(r'fm_itemtype',
                 FmItemtypeViewSet,
-                'fm_itemtype')
+                'FmItemtype')
 router.register(r'occurrence_codes',
                 OccurrenceCodesViewSet,
-                'occurrence_codes')
+                'OccurrenceCodes')
 router.register(r'occurrence_span_codes',
                 OccurrenceSpanCodesViewSet,
-                'occurrence_span_codes')
+                'OccurrenceSpanCodes')
 router.register(r'claim_subtype',
                 ClaimSubtypeViewSet,
-                'claim_subtype')
+                'ClaimSubtype')
 router.register(r'value_codes',
                 ValueCodesViewSet,
-                'value_codes')
+                'ValueCodes')
 router.register(r'ex_diagnosisrelatedgroup',
                 ExDiagnosisrelatedgroupViewSet,
-                'ex_diagnosisrelatedgroup')
+                'ExDiagnosisrelatedgroup')
 router.register(r'ex_diagnosistype',
                 ExDiagnosistypeViewSet,
-                'ex_diagnosistype')
+                'ExDiagnosistype')
 router.register(r'teeth',
                 TeethViewSet,
-                'teeth')
+                'Teeth')
 router.register(r'ex_onsettype',
                 ExOnsettypeViewSet,
-                'ex_onsettype')
+                'ExOnsettype')
 router.register(r'oral_prosthodontic_material',
                 OralProsthodonticMaterialViewSet,
-                'oral_prosthodontic_material')
+                'OralProsthodonticMaterial')
 router.register(r'ex_paymenttype',
                 ExPaymenttypeViewSet,
-                'ex_paymenttype')
+                'ExPaymenttype')
 router.register(r'service_pharmacy',
                 ServicePharmacyViewSet,
-                'service_pharmacy')
+                'ServicePharmacy')
 router.register(r'ex_program_code',
                 ExProgramCodeViewSet,
-                'ex_program_code')
+                'ExProgramCode')
 router.register(r'provider_qualification',
                 ProviderQualificationViewSet,
-                'provider_qualification')
+                'ProviderQualification')
 router.register(r'related_claim_relationship',
                 RelatedClaimRelationshipViewSet,
-                'related_claim_relationship')
+                'RelatedClaimRelationship')
 router.register(r'service_modifiers',
                 ServiceModifiersViewSet,
-                'service_modifiers')
+                'ServiceModifiers')
 router.register(r'service_place',
                 ServicePlaceViewSet,
-                'service_place')
+                'ServicePlace')
 router.register(r'service_product',
                 ServiceProductViewSet,
-                'service_product')
+                'ServiceProduct')
 router.register(r'tooth',
                 ToothViewSet,
-                'tooth')
+                'Tooth')
 router.register(r'udi',
                 UdiViewSet,
-                'udi')
+                'Udi')
 router.register(r'vision_product',
                 VisionProductViewSet,
-                'vision_product')
+                'VisionProduct')
 router.register(r'extension_context',
                 ExtensionContextViewSet,
-                'extension_context')
+                'ExtensionContext')
 router.register(r'filter_operator',
                 FilterOperatorViewSet,
-                'filter_operator')
+                'FilterOperator')
 router.register(r'flag_category',
                 FlagCategoryViewSet,
-                'flag_category')
+                'FlagCategory')
 router.register(r'flag_priority',
                 FlagPriorityViewSet,
-                'flag_priority')
+                'FlagPriority')
 router.register(r'flag_status',
                 FlagStatusViewSet,
-                'flag_status')
+                'FlagStatus')
 router.register(r'fm_conditions',
                 FmConditionsViewSet,
-                'fm_conditions')
+                'FmConditions')
 router.register(r'forms',
                 FormsViewSet,
-                'forms')
+                'Forms')
 router.register(r'fundsreserve',
                 FundsreserveViewSet,
-                'fundsreserve')
+                'Fundsreserve')
 router.register(r'goal_acceptance_status',
                 GoalAcceptanceStatusViewSet,
-                'goal_acceptance_status')
+                'GoalAcceptanceStatus')
 router.register(r'goal_category',
                 GoalCategoryViewSet,
-                'goal_category')
+                'GoalCategory')
 router.register(r'goal_priority',
                 GoalPriorityViewSet,
-                'goal_priority')
+                'GoalPriority')
 router.register(r'goal_relationship_type',
                 GoalRelationshipTypeViewSet,
-                'goal_relationship_type')
+                'GoalRelationshipType')
 router.register(r'goal_status',
                 GoalStatusViewSet,
-                'goal_status')
+                'GoalStatus')
 router.register(r'goal_status_reason',
                 GoalStatusReasonViewSet,
-                'goal_status_reason')
+                'GoalStatusReason')
 router.register(r'group_type',
                 GroupTypeViewSet,
-                'group_type')
+                'GroupType')
 router.register(r'grouping_behavior',
                 GroupingBehaviorViewSet,
-                'grouping_behavior')
+                'GroupingBehavior')
 router.register(r'guidance_response_status',
                 GuidanceResponseStatusViewSet,
-                'guidance_response_status')
+                'GuidanceResponseStatus')
 router.register(r'guide_dependency_type',
                 GuideDependencyTypeViewSet,
-                'guide_dependency_type')
+                'GuideDependencyType')
 router.register(r'guide_page_kind',
                 GuidePageKindViewSet,
-                'guide_page_kind')
+                'GuidePageKind')
 router.register(r'history_status',
                 HistoryStatusViewSet,
-                'history_status')
+                'HistoryStatus')
 router.register(r'http_verb',
                 HttpVerbViewSet,
-                'http_verb')
+                'HttpVerb')
 router.register(r'identifier_type',
                 IdentifierTypeViewSet,
-                'identifier_type')
+                'IdentifierType')
 router.register(r'identifier_use',
                 IdentifierUseViewSet,
-                'identifier_use')
+                'IdentifierUse')
 router.register(r'identity_assuranceLevel',
                 IdentityAssurancelevelViewSet,
-                'identity_assuranceLevel')
+                'IdentityAssurancelevel')
 router.register(r'immunization_recommendation_date_criterion',
                 ImmunizationRecommendationDateCriterionViewSet,
-                'immunization_recommendation_date_criterion')
+                'ImmunizationRecommendationDateCriterion')
 router.register(r'immunization_recommendation_status',
                 ImmunizationRecommendationStatusViewSet,
-                'immunization_recommendation_status')
+                'ImmunizationRecommendationStatus')
 router.register(r'intervention',
                 InterventionViewSet,
-                'intervention')
+                'Intervention')
 router.register(r'issue_severity',
                 IssueSeverityViewSet,
-                'issue_severity')
+                'IssueSeverity')
 router.register(r'issue_type',
                 IssueTypeViewSet,
-                'issue_type')
+                'IssueType')
 router.register(r'item_type',
                 ItemTypeViewSet,
-                'item_type')
+                'ItemType')
 router.register(r'link_type',
                 LinkTypeViewSet,
-                'link_type')
+                'LinkType')
 router.register(r'linkage_type',
                 LinkageTypeViewSet,
-                'linkage_type')
+                'LinkageType')
 router.register(r'list_empty_reason',
                 ListEmptyReasonViewSet,
-                'list_empty_reason')
+                'ListEmptyReason')
 router.register(r'list_example_codes',
                 ListExampleCodesViewSet,
-                'list_example_codes')
+                'ListExampleCodes')
 router.register(r'list_mode',
                 ListModeViewSet,
-                'list_mode')
+                'ListMode')
 router.register(r'list_order',
                 ListOrderViewSet,
-                'list_order')
+                'ListOrder')
 router.register(r'list_status',
                 ListStatusViewSet,
-                'list_status')
+                'ListStatus')
 router.register(r'location_mode',
                 LocationModeViewSet,
-                'location_mode')
+                'LocationMode')
 router.register(r'location_physical_type',
                 LocationPhysicalTypeViewSet,
-                'location_physical_type')
+                'LocationPhysicalType')
 router.register(r'location_status',
                 LocationStatusViewSet,
-                'location_status')
+                'LocationStatus')
 router.register(r'map_context_type',
                 MapContextTypeViewSet,
-                'map_context_type')
+                'MapContextType')
 router.register(r'map_input_mode',
                 MapInputModeViewSet,
-                'map_input_mode')
+                'MapInputMode')
 router.register(r'map_list_mode',
                 MapListModeViewSet,
-                'map_list_mode')
+                'MapListMode')
 router.register(r'map_model_mode',
                 MapModelModeViewSet,
-                'map_model_mode')
+                'MapModelMode')
 router.register(r'map_transform',
                 MapTransformViewSet,
-                'map_transform')
+                'MapTransform')
 router.register(r'marital_status',
                 MaritalStatusViewSet,
-                'marital_status')
+                'MaritalStatus')
 router.register(r'match_grade',
                 MatchGradeViewSet,
-                'match_grade')
+                'MatchGrade')
 router.register(r'measure_data_usage',
                 MeasureDataUsageViewSet,
-                'measure_data_usage')
+                'MeasureDataUsage')
 router.register(r'measure_population',
                 MeasurePopulationViewSet,
-                'measure_population')
+                'MeasurePopulation')
 router.register(r'measure_report_status',
                 MeasureReportStatusViewSet,
-                'measure_report_status')
+                'MeasureReportStatus')
 router.register(r'measure_report_type',
                 MeasureReportTypeViewSet,
-                'measure_report_type')
+                'MeasureReportType')
 router.register(r'measure_scoring',
                 MeasureScoringViewSet,
-                'measure_scoring')
+                'MeasureScoring')
 router.register(r'measure_type',
                 MeasureTypeViewSet,
-                'measure_type')
+                'MeasureType')
 router.register(r'measurement_principle',
                 MeasurementPrincipleViewSet,
-                'measurement_principle')
+                'MeasurementPrinciple')
 router.register(r'digital_media_subtype',
                 DigitalMediaSubtypeViewSet,
-                'digital_media_subtype')
+                'DigitalMediaSubtype')
 router.register(r'medication_admin_status',
                 MedicationAdminStatusViewSet,
-                'medication_admin_status')
+                'MedicationAdminStatus')
 router.register(r'medication_dispense_status',
                 MedicationDispenseStatusViewSet,
-                'medication_dispense_status')
+                'MedicationDispenseStatus')
 router.register(r'medication_order_status',
                 MedicationOrderStatusViewSet,
-                'medication_order_status')
+                'MedicationOrderStatus')
 router.register(r'medication_statement_status',
                 MedicationStatementStatusViewSet,
-                'medication_statement_status')
+                'MedicationStatementStatus')
 router.register(r'message_conformance_event_mode',
                 MessageConformanceEventModeViewSet,
-                'message_conformance_event_mode')
+                'MessageConformanceEventMode')
 router.register(r'message_events',
                 MessageEventsViewSet,
-                'message_events')
+                'MessageEvents')
 router.register(r'message_reason_encounter',
                 MessageReasonEncounterViewSet,
-                'message_reason_encounter')
+                'MessageReasonEncounter')
 router.register(r'message_significance_category',
                 MessageSignificanceCategoryViewSet,
-                'message_significance_category')
+                'MessageSignificanceCategory')
 router.register(r'message_transport',
                 MessageTransportViewSet,
-                'message_transport')
+                'MessageTransport')
 router.register(r'metric_calibration_state',
                 MetricCalibrationStateViewSet,
-                'metric_calibration_state')
+                'MetricCalibrationState')
 router.register(r'metric_calibration_type',
                 MetricCalibrationTypeViewSet,
-                'metric_calibration_type')
+                'MetricCalibrationType')
 router.register(r'metric_category',
                 MetricCategoryViewSet,
-                'metric_category')
+                'MetricCategory')
 router.register(r'metric_color',
                 MetricColorViewSet,
-                'metric_color')
+                'MetricColor')
 router.register(r'metric_operational_status',
                 MetricOperationalStatusViewSet,
-                'metric_operational_status')
+                'MetricOperationalStatus')
 router.register(r'missing_tooth_reason',
                 MissingToothReasonViewSet,
-                'missing_tooth_reason')
+                'MissingToothReason')
 router.register(r'claim_modifiers',
                 ClaimModifiersViewSet,
-                'claim_modifiers')
+                'ClaimModifiers')
 router.register(r'module_metadata_contributor',
                 ModuleMetadataContributorViewSet,
-                'module_metadata_contributor')
+                'ModuleMetadataContributor')
 router.register(r'module_metadata_focus_type',
                 ModuleMetadataFocusTypeViewSet,
-                'module_metadata_focus_type')
+                'ModuleMetadataFocusType')
 router.register(r'module_metadata_resource_type',
                 ModuleMetadataResourceTypeViewSet,
-                'module_metadata_resource_type')
+                'ModuleMetadataResourceType')
 router.register(r'module_metadata_status',
                 ModuleMetadataStatusViewSet,
-                'module_metadata_status')
+                'ModuleMetadataStatus')
 router.register(r'module_metadata_type',
                 ModuleMetadataTypeViewSet,
-                'module_metadata_type')
+                'ModuleMetadataType')
 router.register(r'name_use',
                 NameUseViewSet,
-                'name_use')
+                'NameUse')
 router.register(r'namingsystem_identifier_type',
                 NamingsystemIdentifierTypeViewSet,
-                'namingsystem_identifier_type')
+                'NamingsystemIdentifierType')
 router.register(r'namingsystem_type',
                 NamingsystemTypeViewSet,
-                'namingsystem_type')
+                'NamingsystemType')
 router.register(r'narrative_status',
                 NarrativeStatusViewSet,
-                'narrative_status')
+                'NarrativeStatus')
 router.register(r'network_type',
                 NetworkTypeViewSet,
-                'network_type')
+                'NetworkType')
 router.register(r'note_type',
                 NoteTypeViewSet,
-                'note_type')
+                'NoteType')
 router.register(r'nutrition_order_status',
                 NutritionOrderStatusViewSet,
-                'nutrition_order_status')
+                'NutritionOrderStatus')
 router.register(r'object_lifecycle',
                 ObjectLifecycleViewSet,
-                'object_lifecycle')
+                'ObjectLifecycle')
 router.register(r'object_role',
                 ObjectRoleViewSet,
-                'object_role')
+                'ObjectRole')
 router.register(r'object_type',
                 ObjectTypeViewSet,
-                'object_type')
+                'ObjectType')
 router.register(r'observation_category',
                 ObservationCategoryViewSet,
-                'observation_category')
+                'ObservationCategory')
 router.register(r'observation_paramcode',
                 ObservationParamcodeViewSet,
-                'observation_paramcode')
+                'ObservationParamcode')
 router.register(r'observation_relationshiptypes',
                 ObservationRelationshiptypesViewSet,
-                'observation_relationshiptypes')
+                'ObservationRelationshiptypes')
 router.register(r'observation_status',
                 ObservationStatusViewSet,
-                'observation_status')
+                'ObservationStatus')
 router.register(r'operation_kind',
                 OperationKindViewSet,
-                'operation_kind')
+                'OperationKind')
 router.register(r'operation_outcome',
                 OperationOutcomeViewSet,
-                'operation_outcome')
+                'OperationOutcome')
 router.register(r'operation_parameter_use',
                 OperationParameterUseViewSet,
-                'operation_parameter_use')
+                'OperationParameterUse')
 router.register(r'order_set_item_type',
                 OrderSetItemTypeViewSet,
-                'order_set_item_type')
+                'OrderSetItemType')
 router.register(r'order_set_participant',
                 OrderSetParticipantViewSet,
-                'order_set_participant')
+                'OrderSetParticipant')
 router.register(r'order_status',
                 OrderStatusViewSet,
-                'order_status')
+                'OrderStatus')
 router.register(r'organization_type',
                 OrganizationTypeViewSet,
-                'organization_type')
+                'OrganizationType')
 router.register(r'encounter_participant_type',
                 EncounterParticipantTypeViewSet,
-                'encounter_participant_type')
+                'EncounterParticipantType')
 router.register(r'participantrequired',
                 ParticipantrequiredViewSet,
-                'participantrequired')
+                'Participantrequired')
 router.register(r'participationstatus',
                 ParticipationstatusViewSet,
-                'participationstatus')
+                'Participationstatus')
 router.register(r'patient_contact_relationship',
                 PatientContactRelationshipViewSet,
-                'patient_contact_relationship')
+                'PatientContactRelationship')
 router.register(r'patient_mpi_match',
                 PatientMpiMatchViewSet,
-                'patient_mpi_match')
+                'PatientMpiMatch')
 router.register(r'payeetype',
                 PayeetypeViewSet,
-                'payeetype')
+                'Payeetype')
 router.register(r'payment_adjustment_reason',
                 PaymentAdjustmentReasonViewSet,
-                'payment_adjustment_reason')
+                'PaymentAdjustmentReason')
 router.register(r'payment_type',
                 PaymentTypeViewSet,
-                'payment_type')
+                'PaymentType')
 router.register(r'payment_status',
                 PaymentStatusViewSet,
-                'payment_status')
+                'PaymentStatus')
 router.register(r'planaction_behavior_type',
                 PlanactionBehaviorTypeViewSet,
-                'planaction_behavior_type')
+                'PlanactionBehaviorType')
 router.register(r'planaction_relationship_anchor',
                 PlanactionRelationshipAnchorViewSet,
-                'planaction_relationship_anchor')
+                'PlanactionRelationshipAnchor')
 router.register(r'planaction_relationship_type',
                 PlanactionRelationshipTypeViewSet,
-                'planaction_relationship_type')
+                'PlanactionRelationshipType')
 router.register(r'planaction_type',
                 PlanactionTypeViewSet,
-                'planaction_type')
+                'PlanactionType')
 router.register(r'practitioner_role',
                 PractitionerRoleViewSet,
-                'practitioner_role')
+                'PractitionerRole')
 router.register(r'practitioner_specialty',
                 PractitionerSpecialtyViewSet,
-                'practitioner_specialty')
+                'PractitionerSpecialty')
 router.register(r'precheck_behavior',
                 PrecheckBehaviorViewSet,
-                'precheck_behavior')
+                'PrecheckBehavior')
 router.register(r'procedure_progress_status_codes',
                 ProcedureProgressStatusCodesViewSet,
-                'procedure_progress_status_codes')
+                'ProcedureProgressStatusCodes')
 router.register(r'procedure_relationship_type',
                 ProcedureRelationshipTypeViewSet,
-                'procedure_relationship_type')
+                'ProcedureRelationshipType')
 router.register(r'procedure_request_priority',
                 ProcedureRequestPriorityViewSet,
-                'procedure_request_priority')
+                'ProcedureRequestPriority')
 router.register(r'procedure_request_status',
                 ProcedureRequestStatusViewSet,
-                'procedure_request_status')
+                'ProcedureRequestStatus')
 router.register(r'procedure_status',
                 ProcedureStatusViewSet,
-                'procedure_status')
+                'ProcedureStatus')
 router.register(r'process_outcome',
                 ProcessOutcomeViewSet,
-                'process_outcome')
+                'ProcessOutcome')
 router.register(r'process_priority',
                 ProcessPriorityViewSet,
-                'process_priority')
+                'ProcessPriority')
 router.register(r'property_representation',
                 PropertyRepresentationViewSet,
-                'property_representation')
+                'PropertyRepresentation')
 router.register(r'protocol_activity_category',
                 ProtocolActivityCategoryViewSet,
-                'protocol_activity_category')
+                'ProtocolActivityCategory')
 router.register(r'protocol_status',
                 ProtocolStatusViewSet,
-                'protocol_status')
+                'ProtocolStatus')
 router.register(r'protocol_type',
                 ProtocolTypeViewSet,
-                'protocol_type')
+                'ProtocolType')
 router.register(r'provenance_entity_role',
                 ProvenanceEntityRoleViewSet,
-                'provenance_entity_role')
+                'ProvenanceEntityRole')
 router.register(r'provenance_agent_role',
                 ProvenanceAgentRoleViewSet,
-                'provenance_agent_role')
+                'ProvenanceAgentRole')
 router.register(r'provenance_agent_type',
                 ProvenanceAgentTypeViewSet,
-                'provenance_agent_type')
+                'ProvenanceAgentType')
 router.register(r'quantity_comparator',
                 QuantityComparatorViewSet,
-                'quantity_comparator')
+                'QuantityComparator')
 router.register(r'question_max_occurs',
                 QuestionMaxOccursViewSet,
-                'question_max_occurs')
+                'QuestionMaxOccurs')
 router.register(r'questionnaire_answers_status',
                 QuestionnaireAnswersStatusViewSet,
-                'questionnaire_answers_status')
+                'QuestionnaireAnswersStatus')
 router.register(r'questionnaire_display_category',
                 QuestionnaireDisplayCategoryViewSet,
-                'questionnaire_display_category')
+                'QuestionnaireDisplayCategory')
 router.register(r'questionnaire_item_control',
                 QuestionnaireItemControlViewSet,
-                'questionnaire_item_control')
+                'QuestionnaireItemControl')
 router.register(r'questionnaire_status',
                 QuestionnaireStatusViewSet,
-                'questionnaire_status')
+                'QuestionnaireStatus')
 router.register(r'reaction_event_certainty',
                 ReactionEventCertaintyViewSet,
-                'reaction_event_certainty')
+                'ReactionEventCertainty')
 router.register(r'reaction_event_severity',
                 ReactionEventSeverityViewSet,
-                'reaction_event_severity')
+                'ReactionEventSeverity')
 router.register(r'reason_medication_given_codes',
                 ReasonMedicationGivenCodesViewSet,
-                'reason_medication_given_codes')
+                'ReasonMedicationGivenCodes')
 router.register(r'reason_medication_not_given_codes',
                 ReasonMedicationNotGivenCodesViewSet,
-                'reason_medication_not_given_codes')
+                'ReasonMedicationNotGivenCodes')
 router.register(r'reference_version_rules',
                 ReferenceVersionRulesViewSet,
-                'reference_version_rules')
+                'ReferenceVersionRules')
 router.register(r'referencerange_meaning',
                 ReferencerangeMeaningViewSet,
-                'referencerange_meaning')
+                'ReferencerangeMeaning')
 router.register(r'referralcategory',
                 ReferralcategoryViewSet,
-                'referralcategory')
+                'Referralcategory')
 router.register(r'referralstatus',
                 ReferralstatusViewSet,
-                'referralstatus')
+                'Referralstatus')
 router.register(r'relationship',
                 RelationshipViewSet,
-                'relationship')
+                'Relationship')
 router.register(r'remittance_outcome',
                 RemittanceOutcomeViewSet,
-                'remittance_outcome')
+                'RemittanceOutcome')
 router.register(r'required_behavior',
                 RequiredBehaviorViewSet,
-                'required_behavior')
+                'RequiredBehavior')
 router.register(r'resource_aggregation_mode',
                 ResourceAggregationModeViewSet,
-                'resource_aggregation_mode')
+                'ResourceAggregationMode')
 router.register(r'resource_slicing_rules',
                 ResourceSlicingRulesViewSet,
-                'resource_slicing_rules')
+                'ResourceSlicingRules')
 router.register(r'resource_type_link',
                 ResourceTypeLinkViewSet,
-                'resource_type_link')
+                'ResourceTypeLink')
 router.register(r'resource_types',
                 ResourceTypesViewSet,
-                'resource_types')
+                'ResourceTypes')
 router.register(r'resource_validation_mode',
                 ResourceValidationModeViewSet,
-                'resource_validation_mode')
+                'ResourceValidationMode')
 router.register(r'response_code',
                 ResponseCodeViewSet,
-                'response_code')
+                'ResponseCode')
 router.register(r'restful_conformance_mode',
                 RestfulConformanceModeViewSet,
-                'restful_conformance_mode')
+                'RestfulConformanceMode')
 router.register(r'restful_interaction',
                 RestfulInteractionViewSet,
-                'restful_interaction')
+                'RestfulInteraction')
 router.register(r'restful_security_service',
                 RestfulSecurityServiceViewSet,
-                'restful_security_service')
+                'RestfulSecurityService')
 router.register(r'risk_probability',
                 RiskProbabilityViewSet,
-                'risk_probability')
+                'RiskProbability')
 router.register(r'ruleset',
                 RulesetViewSet,
-                'ruleset')
+                'Ruleset')
 router.register(r'search_entry_mode',
                 SearchEntryModeViewSet,
-                'search_entry_mode')
+                'SearchEntryMode')
 router.register(r'search_modifier_code',
                 SearchModifierCodeViewSet,
-                'search_modifier_code')
+                'SearchModifierCode')
 router.register(r'search_param_type',
                 SearchParamTypeViewSet,
-                'search_param_type')
+                'SearchParamType')
 router.register(r'search_xpath_usage',
                 SearchXpathUsageViewSet,
-                'search_xpath_usage')
+                'SearchXpathUsage')
 router.register(r'audit_source_type',
                 AuditSourceTypeViewSet,
-                'audit_source_type')
+                'AuditSourceType')
 router.register(r'selection_behavior',
                 SelectionBehaviorViewSet,
-                'selection_behavior')
+                'SelectionBehavior')
 router.register(r'sequence_type',
                 SequenceTypeViewSet,
-                'sequence_type')
+                'SequenceType')
 router.register(r'service_category',
                 ServiceCategoryViewSet,
-                'service_category')
+                'ServiceCategory')
 router.register(r'service_provision_conditions',
                 ServiceProvisionConditionsViewSet,
-                'service_provision_conditions')
+                'ServiceProvisionConditions')
 router.register(r'service_referral_method',
                 ServiceReferralMethodViewSet,
-                'service_referral_method')
+                'ServiceReferralMethod')
 router.register(r'service_type',
                 ServiceTypeViewSet,
-                'service_type')
+                'ServiceType')
 router.register(r'icd_10_procedures',
                 Icd10ProceduresViewSet,
-                'icd_10_procedures')
+                'Icd10Procedures')
 router.register(r'slotstatus',
                 SlotstatusViewSet,
-                'slotstatus')
+                'Slotstatus')
 router.register(r'special_values',
                 SpecialValuesViewSet,
-                'special_values')
+                'SpecialValues')
 router.register(r'specimen_status',
                 SpecimenStatusViewSet,
-                'specimen_status')
+                'SpecimenStatus')
 router.register(r'structure_definition_kind',
                 StructureDefinitionKindViewSet,
-                'structure_definition_kind')
+                'StructureDefinitionKind')
 router.register(r'subscription_channel_type',
                 SubscriptionChannelTypeViewSet,
-                'subscription_channel_type')
+                'SubscriptionChannelType')
 router.register(r'subscription_status',
                 SubscriptionStatusViewSet,
-                'subscription_status')
+                'SubscriptionStatus')
 router.register(r'subscription_tag',
                 SubscriptionTagViewSet,
-                'subscription_tag')
+                'SubscriptionTag')
 router.register(r'substance_category',
                 SubstanceCategoryViewSet,
-                'substance_category')
+                'SubstanceCategory')
 router.register(r'supplydelivery_type',
                 SupplydeliveryTypeViewSet,
-                'supplydelivery_type')
+                'SupplydeliveryType')
 router.register(r'supplyrequest_kind',
                 SupplyrequestKindViewSet,
-                'supplyrequest_kind')
+                'SupplyrequestKind')
 router.register(r'supplydelivery_status',
                 SupplydeliveryStatusViewSet,
-                'supplydelivery_status')
+                'SupplydeliveryStatus')
 router.register(r'supplyrequest_reason',
                 SupplyrequestReasonViewSet,
-                'supplyrequest_reason')
+                'SupplyrequestReason')
 router.register(r'supplyrequest_status',
                 SupplyrequestStatusViewSet,
-                'supplyrequest_status')
+                'SupplyrequestStatus')
 router.register(r'task_performer_type',
                 TaskPerformerTypeViewSet,
-                'task_performer_type')
+                'TaskPerformerType')
 router.register(r'task_priority',
                 TaskPriorityViewSet,
-                'task_priority')
+                'TaskPriority')
 router.register(r'task_stage',
                 TaskStageViewSet,
-                'task_stage')
+                'TaskStage')
 router.register(r'task_status',
                 TaskStatusViewSet,
-                'task_status')
+                'TaskStatus')
 router.register(r'testscript_operation_codes',
                 TestscriptOperationCodesViewSet,
-                'testscript_operation_codes')
+                'TestscriptOperationCodes')
 router.register(r'testscript_profile_destination_types',
                 TestscriptProfileDestinationTypesViewSet,
-                'testscript_profile_destination_types')
+                'TestscriptProfileDestinationTypes')
 router.register(r'testscript_profile_origin_types',
                 TestscriptProfileOriginTypesViewSet,
-                'testscript_profile_origin_types')
+                'TestscriptProfileOriginTypes')
 router.register(r'transaction_mode',
                 TransactionModeViewSet,
-                'transaction_mode')
+                'TransactionMode')
 router.register(r'trigger_type',
                 TriggerTypeViewSet,
-                'trigger_type')
+                'TriggerType')
 router.register(r'type_derivation_rule',
                 TypeDerivationRuleViewSet,
-                'type_derivation_rule')
+                'TypeDerivationRule')
 router.register(r'unknown_content_code',
                 UnknownContentCodeViewSet,
-                'unknown_content_code')
+                'UnknownContentCode')
 router.register(r'vaccination_protocol_dose_status',
                 VaccinationProtocolDoseStatusViewSet,
-                'vaccination_protocol_dose_status')
+                'VaccinationProtocolDoseStatus')
 router.register(r'vaccination_protocol_dose_status_reason',
                 VaccinationProtocolDoseStatusReasonViewSet,
-                'vaccination_protocol_dose_status_reason')
+                'VaccinationProtocolDoseStatusReason')
 router.register(r'variant_state',
                 VariantStateViewSet,
-                'variant_state')
+                'VariantState')
 router.register(r'versioning_policy',
                 VersioningPolicyViewSet,
-                'versioning_policy')
+                'VersioningPolicy')
 router.register(r'vision_base_codes',
                 VisionBaseCodesViewSet,
-                'vision_base_codes')
+                'VisionBaseCodes')
 router.register(r'vision_eye_codes',
                 VisionEyeCodesViewSet,
-                'vision_eye_codes')
+                'VisionEyeCodes')
 router.register(r'xds_relationship_type',
                 XdsRelationshipTypeViewSet,
-                'xds_relationship_type')
+                'XdsRelationshipType')
 
 router.register(r'AcknowledgementCondition',
                 AcknowledgementconditionViewSet,
-                'AcknowledgementCondition')
+                'Acknowledgementcondition')
 router.register(r'AcknowledgementDetailCode',
                 AcknowledgementdetailcodeViewSet,
-                'AcknowledgementDetailCode')
+                'Acknowledgementdetailcode')
 router.register(r'AcknowledgementDetailType',
                 AcknowledgementdetailtypeViewSet,
-                'AcknowledgementDetailType')
+                'Acknowledgementdetailtype')
 router.register(r'AcknowledgementType',
                 AcknowledgementtypeViewSet,
-                'AcknowledgementType')
+                'Acknowledgementtype')
 router.register(r'ActClass',
                 ActclassViewSet,
-                'ActClass')
+                'Actclass')
 router.register(r'ActCode',
                 ActcodeViewSet,
-                'ActCode')
+                'Actcode')
 router.register(r'ActExposureLevelCode',
                 ActexposurelevelcodeViewSet,
-                'ActExposureLevelCode')
+                'Actexposurelevelcode')
 router.register(r'ActInvoiceElementModifier',
                 ActinvoiceelementmodifierViewSet,
-                'ActInvoiceElementModifier')
+                'Actinvoiceelementmodifier')
 router.register(r'ActMood',
                 ActmoodViewSet,
-                'ActMood')
+                'Actmood')
 router.register(r'ActPriority',
                 ActpriorityViewSet,
-                'ActPriority')
+                'Actpriority')
 router.register(r'ActReason',
                 ActreasonViewSet,
-                'ActReason')
+                'Actreason')
 router.register(r'ActRelationshipCheckpoint',
                 ActrelationshipcheckpointViewSet,
-                'ActRelationshipCheckpoint')
+                'Actrelationshipcheckpoint')
 router.register(r'ActRelationshipJoin',
                 ActrelationshipjoinViewSet,
-                'ActRelationshipJoin')
+                'Actrelationshipjoin')
 router.register(r'ActRelationshipSplit',
                 ActrelationshipsplitViewSet,
-                'ActRelationshipSplit')
+                'Actrelationshipsplit')
 router.register(r'ActRelationshipSubset',
                 ActrelationshipsubsetViewSet,
-                'ActRelationshipSubset')
+                'Actrelationshipsubset')
 router.register(r'ActRelationshipType',
                 ActrelationshiptypeViewSet,
-                'ActRelationshipType')
+                'Actrelationshiptype')
 router.register(r'ActSite',
                 ActsiteViewSet,
-                'ActSite')
+                'Actsite')
 router.register(r'ActStatus',
                 ActstatusViewSet,
-                'ActStatus')
+                'Actstatus')
 router.register(r'ActUSPrivacyLaw',
                 ActusprivacylawViewSet,
-                'ActUSPrivacyLaw')
+                'Actusprivacylaw')
 router.register(r'ActUncertainty',
                 ActuncertaintyViewSet,
-                'ActUncertainty')
+                'Actuncertainty')
 router.register(r'AddressPartType',
                 AddressparttypeViewSet,
-                'AddressPartType')
+                'Addressparttype')
 router.register(r'AmericanIndianAlaskaNativeLanguages',
                 AmericanindianalaskanativelanguagesViewSet,
-                'AmericanIndianAlaskaNativeLanguages')
+                'Americanindianalaskanativelanguages')
 router.register(r'Calendar',
                 CalendarViewSet,
                 'Calendar')
 router.register(r'CalendarCycle',
                 CalendarcycleViewSet,
-                'CalendarCycle')
+                'Calendarcycle')
 router.register(r'CalendarType',
                 CalendartypeViewSet,
-                'CalendarType')
+                'Calendartype')
 router.register(r'Charset',
                 CharsetViewSet,
                 'Charset')
 router.register(r'CodingRationale',
                 CodingrationaleViewSet,
-                'CodingRationale')
+                'Codingrationale')
 router.register(r'CommunicationFunctionType',
                 CommunicationfunctiontypeViewSet,
-                'CommunicationFunctionType')
+                'Communicationfunctiontype')
 router.register(r'CompressionAlgorithm',
                 CompressionalgorithmViewSet,
-                'CompressionAlgorithm')
+                'Compressionalgorithm')
 router.register(r'Confidentiality',
                 ConfidentialityViewSet,
                 'Confidentiality')
 router.register(r'ContainerCap',
                 ContainercapViewSet,
-                'ContainerCap')
+                'Containercap')
 router.register(r'ContainerSeparator',
                 ContainerseparatorViewSet,
-                'ContainerSeparator')
+                'Containerseparator')
 router.register(r'ContentProcessingMode',
                 ContentprocessingmodeViewSet,
-                'ContentProcessingMode')
+                'Contentprocessingmode')
 router.register(r'ContextControl',
                 ContextcontrolViewSet,
-                'ContextControl')
+                'Contextcontrol')
 router.register(r'DataOperation',
                 DataoperationViewSet,
-                'DataOperation')
+                'Dataoperation')
 router.register(r'DeviceAlertLevel',
                 DevicealertlevelViewSet,
-                'DeviceAlertLevel')
+                'Devicealertlevel')
 router.register(r'DocumentCompletion',
                 DocumentcompletionViewSet,
-                'DocumentCompletion')
+                'Documentcompletion')
 router.register(r'DocumentStorage',
                 DocumentstorageViewSet,
-                'DocumentStorage')
+                'Documentstorage')
 router.register(r'EducationLevel',
                 EducationlevelViewSet,
-                'EducationLevel')
+                'Educationlevel')
 router.register(r'EmployeeJobClass',
                 EmployeejobclassViewSet,
-                'EmployeeJobClass')
+                'Employeejobclass')
 router.register(r'EncounterAdmissionSource',
                 EncounteradmissionsourceViewSet,
-                'EncounterAdmissionSource')
+                'Encounteradmissionsource')
 router.register(r'EncounterSpecialCourtesy',
                 EncounterspecialcourtesyViewSet,
-                'EncounterSpecialCourtesy')
+                'Encounterspecialcourtesy')
 router.register(r'EntityClass',
                 EntityclassViewSet,
-                'EntityClass')
+                'Entityclass')
 router.register(r'EntityCode',
                 EntitycodeViewSet,
-                'EntityCode')
+                'Entitycode')
 router.register(r'EntityDeterminer',
                 EntitydeterminerViewSet,
-                'EntityDeterminer')
+                'Entitydeterminer')
 router.register(r'EntityHandling',
                 EntityhandlingViewSet,
-                'EntityHandling')
+                'Entityhandling')
 router.register(r'EntityNamePartQualifier',
                 EntitynamepartqualifierViewSet,
-                'EntityNamePartQualifier')
+                'Entitynamepartqualifier')
 router.register(r'EntityNamePartQualifierR2',
                 Entitynamepartqualifierr2ViewSet,
-                'EntityNamePartQualifierR2')
+                'Entitynamepartqualifierr2')
 router.register(r'EntityNamePartType',
                 EntitynameparttypeViewSet,
-                'EntityNamePartType')
+                'Entitynameparttype')
 router.register(r'EntityNamePartTypeR2',
                 Entitynameparttyper2ViewSet,
-                'EntityNamePartTypeR2')
+                'Entitynameparttyper2')
 router.register(r'EntityNameUse',
                 EntitynameuseViewSet,
-                'EntityNameUse')
+                'Entitynameuse')
 router.register(r'EntityNameUseR2',
                 Entitynameuser2ViewSet,
-                'EntityNameUseR2')
+                'Entitynameuser2')
 router.register(r'EntityRisk',
                 EntityriskViewSet,
-                'EntityRisk')
+                'Entityrisk')
 router.register(r'EntityStatus',
                 EntitystatusViewSet,
-                'EntityStatus')
+                'Entitystatus')
 router.register(r'EquipmentAlertLevel',
                 EquipmentalertlevelViewSet,
-                'EquipmentAlertLevel')
+                'Equipmentalertlevel')
 router.register(r'Ethnicity',
                 EthnicityViewSet,
                 'Ethnicity')
 router.register(r'ExposureMode',
                 ExposuremodeViewSet,
-                'ExposureMode')
+                'Exposuremode')
 router.register(r'GTSAbbreviation',
                 GtsabbreviationViewSet,
-                'GTSAbbreviation')
+                'Gtsabbreviation')
 router.register(r'GenderStatus',
                 GenderstatusViewSet,
-                'GenderStatus')
+                'Genderstatus')
 router.register(r'HL7UpdateMode',
                 Hl7updatemodeViewSet,
-                'HL7UpdateMode')
+                'Hl7updatemode')
 router.register(r'HtmlLinkType',
                 HtmllinktypeViewSet,
-                'HtmlLinkType')
+                'Htmllinktype')
 router.register(r'IdentifierReliability',
                 IdentifierreliabilityViewSet,
-                'IdentifierReliability')
+                'Identifierreliability')
 router.register(r'IdentifierScope',
                 IdentifierscopeViewSet,
-                'IdentifierScope')
+                'Identifierscope')
 router.register(r'IntegrityCheckAlgorithm',
                 IntegritycheckalgorithmViewSet,
-                'IntegrityCheckAlgorithm')
+                'Integritycheckalgorithm')
 router.register(r'LanguageAbilityMode',
                 LanguageabilitymodeViewSet,
-                'LanguageAbilityMode')
+                'Languageabilitymode')
 router.register(r'LanguageAbilityProficiency',
                 LanguageabilityproficiencyViewSet,
-                'LanguageAbilityProficiency')
+                'Languageabilityproficiency')
 router.register(r'LivingArrangement',
                 LivingarrangementViewSet,
-                'LivingArrangement')
+                'Livingarrangement')
 router.register(r'LocalMarkupIgnore',
                 LocalmarkupignoreViewSet,
-                'LocalMarkupIgnore')
+                'Localmarkupignore')
 router.register(r'LocalRemoteControlState',
                 LocalremotecontrolstateViewSet,
-                'LocalRemoteControlState')
+                'Localremotecontrolstate')
 router.register(r'ManagedParticipationStatus',
                 ManagedparticipationstatusViewSet,
-                'ManagedParticipationStatus')
+                'Managedparticipationstatus')
 router.register(r'MapRelationship',
                 MaprelationshipViewSet,
-                'MapRelationship')
+                'Maprelationship')
 router.register(r'MessageWaitingPriority',
                 MessagewaitingpriorityViewSet,
-                'MessageWaitingPriority')
+                'Messagewaitingpriority')
 router.register(r'ModifyIndicator',
                 ModifyindicatorViewSet,
-                'ModifyIndicator')
+                'Modifyindicator')
 router.register(r'NullFlavor',
                 NullflavorViewSet,
-                'NullFlavor')
+                'Nullflavor')
 router.register(r'ObservationInterpretation',
                 ObservationinterpretationViewSet,
-                'ObservationInterpretation')
+                'Observationinterpretation')
 router.register(r'ObservationMethod',
                 ObservationmethodViewSet,
-                'ObservationMethod')
+                'Observationmethod')
 router.register(r'ObservationValue',
                 ObservationvalueViewSet,
-                'ObservationValue')
+                'Observationvalue')
 router.register(r'ParticipationFunction',
                 ParticipationfunctionViewSet,
-                'ParticipationFunction')
+                'Participationfunction')
 router.register(r'ParticipationMode',
                 ParticipationmodeViewSet,
-                'ParticipationMode')
+                'Participationmode')
 router.register(r'ParticipationSignature',
                 ParticipationsignatureViewSet,
-                'ParticipationSignature')
+                'Participationsignature')
 router.register(r'ParticipationType',
                 ParticipationtypeViewSet,
-                'ParticipationType')
+                'Participationtype')
 router.register(r'PatientImportance',
                 PatientimportanceViewSet,
-                'PatientImportance')
+                'Patientimportance')
 router.register(r'PaymentTerms',
                 PaymenttermsViewSet,
-                'PaymentTerms')
+                'Paymentterms')
 router.register(r'PersonDisabilityType',
                 PersondisabilitytypeViewSet,
-                'PersonDisabilityType')
+                'Persondisabilitytype')
 router.register(r'ProbabilityDistributionType',
                 ProbabilitydistributiontypeViewSet,
-                'ProbabilityDistributionType')
+                'Probabilitydistributiontype')
 router.register(r'ProcessingID',
                 ProcessingidViewSet,
-                'ProcessingID')
+                'Processingid')
 router.register(r'ProcessingMode',
                 ProcessingmodeViewSet,
-                'ProcessingMode')
+                'Processingmode')
 router.register(r'QueryParameterValue',
                 QueryparametervalueViewSet,
-                'QueryParameterValue')
+                'Queryparametervalue')
 router.register(r'QueryPriority',
                 QuerypriorityViewSet,
-                'QueryPriority')
+                'Querypriority')
 router.register(r'QueryRequestLimit',
                 QueryrequestlimitViewSet,
-                'QueryRequestLimit')
+                'Queryrequestlimit')
 router.register(r'QueryResponse',
                 QueryresponseViewSet,
-                'QueryResponse')
+                'Queryresponse')
 router.register(r'QueryStatusCode',
                 QuerystatuscodeViewSet,
-                'QueryStatusCode')
+                'Querystatuscode')
 router.register(r'Race',
                 RaceViewSet,
                 'Race')
 router.register(r'RelationalOperator',
                 RelationaloperatorViewSet,
-                'RelationalOperator')
+                'Relationaloperator')
 router.register(r'RelationshipConjunction',
                 RelationshipconjunctionViewSet,
-                'RelationshipConjunction')
+                'Relationshipconjunction')
 router.register(r'ReligiousAffiliation',
                 ReligiousaffiliationViewSet,
-                'ReligiousAffiliation')
+                'Religiousaffiliation')
 router.register(r'ResponseLevel',
                 ResponselevelViewSet,
-                'ResponseLevel')
+                'Responselevel')
 router.register(r'ResponseModality',
                 ResponsemodalityViewSet,
-                'ResponseModality')
+                'Responsemodality')
 router.register(r'ResponseMode',
                 ResponsemodeViewSet,
-                'ResponseMode')
+                'Responsemode')
 router.register(r'RoleClass',
                 RoleclassViewSet,
-                'RoleClass')
+                'Roleclass')
 router.register(r'RoleCode',
                 RolecodeViewSet,
-                'RoleCode')
+                'Rolecode')
 router.register(r'RoleLinkStatus',
                 RolelinkstatusViewSet,
-                'RoleLinkStatus')
+                'Rolelinkstatus')
 router.register(r'RoleLinkType',
                 RolelinktypeViewSet,
-                'RoleLinkType')
+                'Rolelinktype')
 router.register(r'RoleStatus',
                 RolestatusViewSet,
-                'RoleStatus')
+                'Rolestatus')
 router.register(r'RouteOfAdministration',
                 RouteofadministrationViewSet,
-                'RouteOfAdministration')
+                'Routeofadministration')
 router.register(r'Sequencing',
                 SequencingViewSet,
                 'Sequencing')
 router.register(r'SetOperator',
                 SetoperatorViewSet,
-                'SetOperator')
+                'Setoperator')
 router.register(r'SpecimenType',
                 SpecimentypeViewSet,
-                'SpecimenType')
+                'Specimentype')
 router.register(r'SubstitutionCondition',
                 SubstitutionconditionViewSet,
-                'SubstitutionCondition')
+                'Substitutioncondition')
 router.register(r'TableCellHorizontalAlign',
                 TablecellhorizontalalignViewSet,
-                'TableCellHorizontalAlign')
+                'Tablecellhorizontalalign')
 router.register(r'TableCellScope',
                 TablecellscopeViewSet,
-                'TableCellScope')
+                'Tablecellscope')
 router.register(r'TableCellVerticalAlign',
                 TablecellverticalalignViewSet,
-                'TableCellVerticalAlign')
+                'Tablecellverticalalign')
 router.register(r'TableFrame',
                 TableframeViewSet,
-                'TableFrame')
+                'Tableframe')
 router.register(r'TableRules',
                 TablerulesViewSet,
-                'TableRules')
+                'Tablerules')
 router.register(r'TargetAwareness',
                 TargetawarenessViewSet,
-                'TargetAwareness')
+                'Targetawareness')
 router.register(r'TelecommunicationCapabilities',
                 TelecommunicationcapabilitiesViewSet,
-                'TelecommunicationCapabilities')
+                'Telecommunicationcapabilities')
 router.register(r'TimingEvent',
                 TimingeventViewSet,
-                'TimingEvent')
+                'Timingevent')
 router.register(r'TransmissionRelationshipTypeCode',
                 TransmissionrelationshiptypecodeViewSet,
-                'TransmissionRelationshipTypeCode')
+                'Transmissionrelationshiptypecode')
 router.register(r'TribalEntityUS',
                 TribalentityusViewSet,
-                'TribalEntityUS')
+                'Tribalentityus')
 router.register(r'VaccineManufacturer',
                 VaccinemanufacturerViewSet,
-                'VaccineManufacturer')
+                'Vaccinemanufacturer')
 router.register(r'hl7Realm',
                 Hl7realmViewSet,
-                'hl7Realm')
+                'Hl7realm')
 router.register(r'hl7V3Conformance',
                 Hl7v3conformanceViewSet,
-                'hl7V3Conformance')
+                'Hl7v3conformance')
 router.register(r'orderableDrugForm',
                 OrderabledrugformViewSet,
-                'orderableDrugForm')
+                'Orderabledrugform')
 router.register(r'substanceAdminSubstitution',
                 SubstanceadminsubstitutionViewSet,
-                'substanceAdminSubstitution')
+                'Substanceadminsubstitution')
 
 urlpatterns = router.urls

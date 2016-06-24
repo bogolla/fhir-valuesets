@@ -4,3 +4,4 @@ include CHANGELOG.rst
 include tox.ini
 include
 include .coveragerc
+graft fhir_valuesets/data

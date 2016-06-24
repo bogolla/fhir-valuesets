@@ -24,7 +24,7 @@ def setup(*args, **kwargs):
     with lcd(BASE_DIR):
         local('{} psql -c "DROP DATABASE IF EXISTS sil_valuesets"'.format(
             sudoer))
-        local('{} psql -c  "CREATE DATABASE sile_valuesets"'.format(sudoer))
+        local('{} psql -c  "CREATE DATABASE sil_valuesets"'.format(sudoer))
         local('python manage.py migrate')
 
 
