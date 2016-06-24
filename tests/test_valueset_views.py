@@ -3,6 +3,7 @@ from django.core.urlresolvers import reverse
 from rest_framework.test import APITestCase
 from model_mommy import mommy
 
+from rest_framework.test import APIClient
 from fhir_valuesets.valuesets.models import (
     TimingAbbreviation,
     EventTiming,
@@ -10,6 +11,12 @@ from fhir_valuesets.valuesets.models import (
     SignatureType,
     AgeUnits
 )
+
+
+def test_api_root():
+    client = APIClient()
+    response = client.get('/', format='json')
+    assert response.status_code == 200
 
 
 class BaseViewsTest(object):
